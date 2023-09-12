@@ -1,0 +1,11 @@
+{
+    "cSpell.words": [
+        "deepface",
+        "gdown",
+        "imwrite",
+        "retinaface",
+        "thuongtv",
+        "yolov"
+    ],
+    "python.formatting.provider": "black"
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RTSP Camera Stream</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+        <script type="text/javascript" charset="utf-8">
+            var socket = io.connect(
+                'http://' + document.domain + ':' + location.port
+            )
+            var image = document.getElementById('video')
+
+            socket.on('video_frame', function (data) {
+                console.log('data', data)
+
+                // Convert the data to a Blob
+                var blob = new Blob([data], { type: 'image/jpeg' })
+                console.log('blob', blob)
+
+                // Create an object URL for the Blob
+                var imageUrl = URL.createObjectURL(blob)
+                console.log('imageUrl', imageUrl)
+
+                // Update the image source
+                image.src = imageUrl
+                console.log('image.src', image.src)
+
+                // Release the object URL when done to prevent memory leaks
+                URL.revokeObjectURL(imageUrl)
+            })
+        </script>
+    </head>
+    <body>
+        <h1>RTSP Camera Stream</h1>
+        <img id="video" width="640" height="480" />
+    </body>
+</html>
