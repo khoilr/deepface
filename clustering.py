@@ -37,7 +37,7 @@ def verify_image_pair(pair):
         img2_path=os.path.join("images/faces", image_2),
         align=True,
         enforce_detection=False,
-        detector_backend="retinaface",
+        detector_backend="opencv",
         distance_metric="euclidean_l2",
         model_name="ArcFace",
     )

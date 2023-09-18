@@ -29,10 +29,7 @@ graph TD
         AD[Get frame from queue] --> AE[Detect faces]
         AE --> J{Detected?}
         J -->|Yes| L[Save frame to image]
-        L --> M[Extend face image]
-        M --> AB[Resize to 112 x 112]
-        AB --> N[Save extended face image]
-        N --> P[Append to DataFrame]
+        L --> P[Append to DataFrame]
         P --> Q[Save DataFrame into CSV]
         Q --> AF{All faces <br> processed?}
         AF --> |No| L

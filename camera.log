@@ -1,959 +1,443 @@
-2023-09-08 04:36:12.502 | INFO     | __main__:create_directories:120 - 'images/frames' directory already exists.
-2023-09-08 04:36:12.504 | INFO     | __main__:create_directories:120 - 'images/faces' directory already exists.
-2023-09-08 04:36:12.505 | INFO     | __main__:create_directories:120 - 'images/processing' directory already exists.
-2023-09-08 04:36:19.291 | INFO     | __main__:main:165 - Connected to the camera.
-2023-09-08 04:45:31.846 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694148331.jpg
-2023-09-08 04:45:31.914 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694148331.jpg
-2023-09-08 04:45:31.919 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694148331.jpg, Face File Name: images/faces/1694148331.jpg, Facial Area: (459, 193, 251, 310), Confidence: 0.9993708729743958
-2023-09-08 04:45:32.640 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694148332.jpg
-2023-09-08 04:45:32.701 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694148332.jpg
-2023-09-08 04:45:32.795 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694148332.jpg, Face File Name: images/faces/1694148332.jpg, Facial Area: (102, 28, 164, 192), Confidence: 0.9983714818954468
-2023-09-08 04:49:24.735 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694148564.jpg
-2023-09-08 04:49:24.747 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694148564.jpg
-2023-09-08 04:49:24.760 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694148564.jpg, Face File Name: images/faces/1694148564.jpg, Facial Area: (900, 416, 57, 67), Confidence: 0.9968898892402649
-2023-09-08 04:59:25.853 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694149165.jpg
-2023-09-08 04:59:25.857 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694149165.jpg
-2023-09-08 04:59:25.923 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694149165.jpg, Face File Name: images/faces/1694149165.jpg, Facial Area: (902, 415, 56, 62), Confidence: 0.9979164600372314
-2023-09-08 04:59:28.053 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694149167.jpg
-2023-09-08 04:59:28.067 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694149168.jpg
-2023-09-08 04:59:28.104 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694149167.jpg, Face File Name: images/faces/1694149168.jpg, Facial Area: (853, 371, 77, 87), Confidence: 0.9964728355407715
-2023-09-08 05:00:26.059 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 05:00:26.060 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 05:00:26.060 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 05:00:26.061 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 05:00:26.061 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 05:00:26.062 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 05:00:26.062 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 05:00:26.092 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 05:00:26.093 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 05:00:26.093 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 05:00:26.109 | ERROR    | __main__:main:189 - Read frame failures reached 10. Restarting the camera...
-2023-09-08 05:09:47.717 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694149787.jpg
-2023-09-08 05:09:47.734 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694149787.jpg
-2023-09-08 05:09:47.880 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694149787.jpg, Face File Name: images/faces/1694149787.jpg, Facial Area: (479, 232, 206, 269), Confidence: 0.9992716312408447
-2023-09-08 05:09:49.380 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694149789.jpg
-2023-09-08 05:09:49.429 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694149789.jpg
-2023-09-08 05:09:49.434 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694149789.jpg, Face File Name: images/faces/1694149789.jpg, Facial Area: (491, 254, 196, 252), Confidence: 0.9994763731956482
-2023-09-08 05:10:03.762 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694149803.jpg
-2023-09-08 05:10:03.788 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694149803.jpg
-2023-09-08 05:10:03.798 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694149803.jpg, Face File Name: images/faces/1694149803.jpg, Facial Area: (486, 241, 198, 239), Confidence: 0.9996727705001831
-2023-09-08 05:10:04.217 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694149804.jpg
-2023-09-08 05:10:04.225 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694149804.jpg
-2023-09-08 05:10:04.234 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694149804.jpg, Face File Name: images/faces/1694149804.jpg, Facial Area: (506, 243, 194, 253), Confidence: 0.9992383718490601
-2023-09-08 05:11:57.263 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694149917.jpg
-2023-09-08 05:11:57.321 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694149917.jpg
-2023-09-08 05:11:57.390 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694149917.jpg, Face File Name: images/faces/1694149917.jpg, Facial Area: (713, 332, 83, 111), Confidence: 0.942477822303772
-2023-09-08 05:12:11.651 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694149931.jpg
-2023-09-08 05:12:11.685 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694149931.jpg
-2023-09-08 05:12:11.727 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694149931.jpg, Face File Name: images/faces/1694149931.jpg, Facial Area: (554, 286, 141, 170), Confidence: 0.9996837377548218
-2023-09-08 05:12:12.019 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694149931.jpg
-2023-09-08 05:12:12.049 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694149932.jpg
-2023-09-08 05:12:12.063 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694149931.jpg, Face File Name: images/faces/1694149932.jpg, Facial Area: (835, 384, 83, 93), Confidence: 0.9986314177513123
-2023-09-08 05:14:00.269 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150040.jpg
-2023-09-08 05:14:00.276 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150040.jpg
-2023-09-08 05:14:00.288 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150040.jpg, Face File Name: images/faces/1694150040.jpg, Facial Area: (842, 364, 72, 78), Confidence: 0.9993318915367126
-2023-09-08 05:16:10.092 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150169.jpg
-2023-09-08 05:16:10.114 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150170.jpg
-2023-09-08 05:16:10.118 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150169.jpg, Face File Name: images/faces/1694150170.jpg, Facial Area: (792, 452, 107, 126), Confidence: 0.9969579577445984
-2023-09-08 05:16:12.480 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150172.jpg
-2023-09-08 05:16:12.521 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150172.jpg
-2023-09-08 05:16:12.532 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150172.jpg, Face File Name: images/faces/1694150172.jpg, Facial Area: (871, 459, 74, 86), Confidence: 0.9959141612052917
-2023-09-08 05:16:23.096 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150183.jpg
-2023-09-08 05:16:23.099 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150183.jpg
-2023-09-08 05:16:23.103 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150183.jpg, Face File Name: images/faces/1694150183.jpg, Facial Area: (832, 451, 72, 82), Confidence: 0.9887850880622864
-2023-09-08 05:16:35.204 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150195.jpg
-2023-09-08 05:16:35.246 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150195.jpg
-2023-09-08 05:16:35.289 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150195.jpg, Face File Name: images/faces/1694150195.jpg, Facial Area: (869, 457, 67, 75), Confidence: 0.9863066077232361
-2023-09-08 05:16:36.453 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150196.jpg
-2023-09-08 05:16:36.456 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150196.jpg
-2023-09-08 05:16:36.459 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150196.jpg, Face File Name: images/faces/1694150196.jpg, Facial Area: (866, 458, 66, 72), Confidence: 0.9608891010284424
-2023-09-08 05:16:49.096 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150208.jpg
-2023-09-08 05:16:49.104 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150209.jpg
-2023-09-08 05:16:49.108 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150208.jpg, Face File Name: images/faces/1694150209.jpg, Facial Area: (878, 456, 65, 70), Confidence: 0.9916740655899048
-2023-09-08 05:16:49.996 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150209.jpg
-2023-09-08 05:16:49.998 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150209.jpg
-2023-09-08 05:16:50.022 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150209.jpg, Face File Name: images/faces/1694150209.jpg, Facial Area: (850, 454, 67, 72), Confidence: 0.994113564491272
-2023-09-08 05:17:11.783 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150231.jpg
-2023-09-08 05:17:11.791 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150231.jpg
-2023-09-08 05:17:11.796 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150231.jpg, Face File Name: images/faces/1694150231.jpg, Facial Area: (870, 424, 57, 62), Confidence: 0.904296875
-2023-09-08 05:17:18.567 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150238.jpg
-2023-09-08 05:17:18.590 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150238.jpg
-2023-09-08 05:17:18.605 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150238.jpg, Face File Name: images/faces/1694150238.jpg, Facial Area: (828, 384, 71, 78), Confidence: 0.9953300952911377
-2023-09-08 05:17:18.614 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150238.jpg
-2023-09-08 05:17:18.616 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150238.jpg
-2023-09-08 05:17:18.666 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150238.jpg, Face File Name: images/faces/1694150238.jpg, Facial Area: (896, 482, 61, 66), Confidence: 0.9904013872146606
-2023-09-08 05:17:18.857 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150238.jpg
-2023-09-08 05:17:18.859 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150238.jpg
-2023-09-08 05:17:18.863 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150238.jpg, Face File Name: images/faces/1694150238.jpg, Facial Area: (907, 404, 66, 68), Confidence: 0.9672427773475647
-2023-09-08 05:17:19.509 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150239.jpg
-2023-09-08 05:17:19.599 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150239.jpg
-2023-09-08 05:17:19.616 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150239.jpg, Face File Name: images/faces/1694150239.jpg, Facial Area: (901, 396, 67, 72), Confidence: 0.9962888360023499
-2023-09-08 05:17:19.818 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150239.jpg
-2023-09-08 05:17:19.825 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150239.jpg
-2023-09-08 05:17:19.830 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150239.jpg, Face File Name: images/faces/1694150239.jpg, Facial Area: (884, 483, 65, 70), Confidence: 0.9940189719200134
-2023-09-08 05:17:19.962 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150239.jpg
-2023-09-08 05:17:19.965 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150239.jpg
-2023-09-08 05:17:19.969 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150239.jpg, Face File Name: images/faces/1694150239.jpg, Facial Area: (916, 486, 60, 70), Confidence: 0.9844586849212646
-2023-09-08 05:17:22.539 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150242.jpg
-2023-09-08 05:17:22.585 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150242.jpg
-2023-09-08 05:17:22.589 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150242.jpg, Face File Name: images/faces/1694150242.jpg, Facial Area: (837, 384, 71, 78), Confidence: 0.9916691184043884
-2023-09-08 05:17:24.046 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150243.jpg
-2023-09-08 05:17:24.114 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150244.jpg
-2023-09-08 05:17:24.127 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150243.jpg, Face File Name: images/faces/1694150244.jpg, Facial Area: (858, 453, 73, 86), Confidence: 0.9951812028884888
-2023-09-08 05:17:26.690 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150246.jpg
-2023-09-08 05:17:26.693 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150246.jpg
-2023-09-08 05:17:26.717 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150246.jpg, Face File Name: images/faces/1694150246.jpg, Facial Area: (887, 455, 64, 76), Confidence: 0.9665018320083618
-2023-09-08 05:17:31.033 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150250.jpg
-2023-09-08 05:17:31.036 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150251.jpg
-2023-09-08 05:17:31.043 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150250.jpg, Face File Name: images/faces/1694150251.jpg, Facial Area: (875, 458, 72, 84), Confidence: 0.9969828128814697
-2023-09-08 05:17:38.877 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150258.jpg
-2023-09-08 05:17:38.882 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150258.jpg
-2023-09-08 05:17:38.901 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150258.jpg, Face File Name: images/faces/1694150258.jpg, Facial Area: (873, 458, 72, 84), Confidence: 0.995710015296936
-2023-09-08 05:17:39.975 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150259.jpg
-2023-09-08 05:17:39.977 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150259.jpg
-2023-09-08 05:17:39.984 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150259.jpg, Face File Name: images/faces/1694150259.jpg, Facial Area: (872, 459, 71, 83), Confidence: 0.9974774718284607
-2023-09-08 05:17:50.839 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150270.jpg
-2023-09-08 05:17:50.843 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150270.jpg
-2023-09-08 05:17:50.866 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150270.jpg, Face File Name: images/faces/1694150270.jpg, Facial Area: (874, 458, 71, 84), Confidence: 0.9971684813499451
-2023-09-08 05:18:06.635 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150286.jpg
-2023-09-08 05:18:06.638 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150286.jpg
-2023-09-08 05:18:06.649 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150286.jpg, Face File Name: images/faces/1694150286.jpg, Facial Area: (899, 456, 63, 75), Confidence: 0.9750377535820007
-2023-09-08 05:18:16.667 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150296.jpg
-2023-09-08 05:18:16.685 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150296.jpg
-2023-09-08 05:18:16.698 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150296.jpg, Face File Name: images/faces/1694150296.jpg, Facial Area: (884, 423, 56, 64), Confidence: 0.9863819479942322
-2023-09-08 05:18:17.467 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150297.jpg
-2023-09-08 05:18:17.475 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150297.jpg
-2023-09-08 05:18:17.494 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150297.jpg, Face File Name: images/faces/1694150297.jpg, Facial Area: (883, 422, 56, 63), Confidence: 0.9862714409828186
-2023-09-08 05:18:17.834 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150297.jpg
-2023-09-08 05:18:17.836 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150297.jpg
-2023-09-08 05:18:17.840 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150297.jpg, Face File Name: images/faces/1694150297.jpg, Facial Area: (881, 422, 56, 63), Confidence: 0.9882659316062927
-2023-09-08 05:18:18.201 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150298.jpg
-2023-09-08 05:18:18.207 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150298.jpg
-2023-09-08 05:18:18.216 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150298.jpg, Face File Name: images/faces/1694150298.jpg, Facial Area: (883, 423, 55, 63), Confidence: 0.9889640808105469
-2023-09-08 05:18:21.105 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150301.jpg
-2023-09-08 05:18:21.107 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150301.jpg
-2023-09-08 05:18:21.111 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150301.jpg, Face File Name: images/faces/1694150301.jpg, Facial Area: (885, 423, 56, 63), Confidence: 0.9814357161521912
-2023-09-08 05:18:21.972 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150301.jpg
-2023-09-08 05:18:21.974 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150301.jpg
-2023-09-08 05:18:21.984 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150301.jpg, Face File Name: images/faces/1694150301.jpg, Facial Area: (883, 423, 56, 63), Confidence: 0.9912376403808594
-2023-09-08 05:18:22.159 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150302.jpg
-2023-09-08 05:18:22.161 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150302.jpg
-2023-09-08 05:18:22.179 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150302.jpg, Face File Name: images/faces/1694150302.jpg, Facial Area: (882, 423, 57, 63), Confidence: 0.9924803972244263
-2023-09-08 05:18:22.893 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150302.jpg
-2023-09-08 05:18:22.897 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150302.jpg
-2023-09-08 05:18:22.919 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150302.jpg, Face File Name: images/faces/1694150302.jpg, Facial Area: (885, 424, 56, 62), Confidence: 0.9863725900650024
-2023-09-08 05:18:23.116 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150303.jpg
-2023-09-08 05:18:23.119 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150303.jpg
-2023-09-08 05:18:23.123 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150303.jpg, Face File Name: images/faces/1694150303.jpg, Facial Area: (862, 425, 57, 63), Confidence: 0.9796702861785889
-2023-09-08 05:18:23.444 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150303.jpg
-2023-09-08 05:18:23.446 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150303.jpg
-2023-09-08 05:18:23.456 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150303.jpg, Face File Name: images/faces/1694150303.jpg, Facial Area: (861, 424, 57, 62), Confidence: 0.9789296388626099
-2023-09-08 05:18:24.231 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150304.jpg
-2023-09-08 05:18:24.234 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150304.jpg
-2023-09-08 05:18:24.244 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150304.jpg, Face File Name: images/faces/1694150304.jpg, Facial Area: (861, 423, 56, 64), Confidence: 0.973552942276001
-2023-09-08 05:18:26.004 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150305.jpg
-2023-09-08 05:18:26.007 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150306.jpg
-2023-09-08 05:18:26.011 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150305.jpg, Face File Name: images/faces/1694150306.jpg, Facial Area: (858, 423, 56, 63), Confidence: 0.9428831934928894
-2023-09-08 05:18:26.218 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150306.jpg
-2023-09-08 05:18:26.237 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150306.jpg
-2023-09-08 05:18:26.242 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150306.jpg, Face File Name: images/faces/1694150306.jpg, Facial Area: (860, 424, 57, 63), Confidence: 0.9820017218589783
-2023-09-08 05:18:27.235 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694150307.jpg
-2023-09-08 05:18:27.237 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694150307.jpg
-2023-09-08 05:18:27.242 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694150307.jpg, Face File Name: images/faces/1694150307.jpg, Facial Area: (860, 425, 58, 64), Confidence: 0.9599893093109131
-2023-09-08 05:18:27.701 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 05:18:27.974 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 05:18:28.194 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 05:18:28.459 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 05:18:28.684 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 05:18:28.906 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 05:18:29.131 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 05:18:29.356 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 05:18:29.586 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 05:18:29.814 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 05:18:29.815 | ERROR    | __main__:main:192 - Capture open failures reached 10. Exiting the program...
-2023-09-08 05:45:07.907 | INFO     | __main__:create_directories:120 - 'images/frames' directory already exists.
-2023-09-08 05:45:07.908 | INFO     | __main__:create_directories:120 - 'images/faces' directory already exists.
-2023-09-08 05:45:07.909 | INFO     | __main__:create_directories:120 - 'images/processing' directory already exists.
-2023-09-08 05:45:37.936 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 05:46:08.028 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 05:46:38.122 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 05:46:59.114 | INFO     | __main__:create_directories:120 - 'images/frames' directory already exists.
-2023-09-08 05:46:59.115 | INFO     | __main__:create_directories:120 - 'images/faces' directory already exists.
-2023-09-08 05:46:59.116 | INFO     | __main__:create_directories:120 - 'images/processing' directory already exists.
-2023-09-08 05:48:19.790 | INFO     | __main__:create_directories:120 - 'images/frames' directory already exists.
-2023-09-08 05:48:19.791 | INFO     | __main__:create_directories:120 - 'images/faces' directory already exists.
-2023-09-08 05:48:19.792 | INFO     | __main__:create_directories:120 - 'images/processing' directory already exists.
-2023-09-08 05:48:22.256 | INFO     | __main__:main:165 - Connected to the camera.
-2023-09-08 05:49:54.316 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 05:49:54.588 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 05:49:54.633 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 05:49:54.755 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 05:49:54.794 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 05:49:54.932 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 05:49:55.005 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 05:49:55.050 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 05:49:55.140 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 05:49:55.189 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 05:49:55.195 | ERROR    | __main__:main:189 - Read frame failures reached 10. Restarting the camera...
-2023-09-08 05:56:58.886 | INFO     | __main__:main:165 - Connected to the camera.
-2023-09-08 05:57:53.153 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:00:05.139 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:00:05.212 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:02:40.020 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:02:40.139 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:02:40.145 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:02:40.148 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:02:40.215 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:02:40.294 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:02:40.295 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:02:40.296 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:02:40.409 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:02:40.459 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:02:40.460 | ERROR    | __main__:main:189 - Read frame failures reached 10. Restarting the camera...
-2023-09-08 06:13:12.185 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 06:13:42.209 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 06:14:12.261 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 06:14:42.338 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 06:14:45.123 | INFO     | __main__:main:165 - Connected to the camera.
-2023-09-08 06:17:07.563 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:17:07.564 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:21:42.906 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694154102.jpg
-2023-09-08 06:21:42.909 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694154102.jpg
-2023-09-08 06:21:43.004 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694154102.jpg, Face File Name: images/faces/1694154102.jpg, Facial Area: (910, 376, 65, 71), Confidence: 0.9962324500083923
-2023-09-08 06:21:47.550 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694154107.jpg
-2023-09-08 06:21:47.656 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694154107.jpg
-2023-09-08 06:21:47.663 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694154107.jpg, Face File Name: images/faces/1694154107.jpg, Facial Area: (864, 355, 74, 80), Confidence: 0.9993196129798889
-2023-09-08 06:25:05.801 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:25:05.803 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:26:31.968 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:26:31.983 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:28:51.479 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:31:08.037 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:31:08.088 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:31:08.161 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:33:16.423 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:33:16.427 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:34:52.278 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:39:27.276 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:43:11.463 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:43:11.473 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:45:00.287 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:45:00.290 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:45:17.842 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694155517.jpg
-2023-09-08 06:45:17.856 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694155517.jpg
-2023-09-08 06:45:17.884 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694155517.jpg, Face File Name: images/faces/1694155517.jpg, Facial Area: (558, 230, 97, 133), Confidence: 0.9752960801124573
-2023-09-08 06:45:20.921 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694155520.jpg
-2023-09-08 06:45:20.924 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694155520.jpg
-2023-09-08 06:45:20.968 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694155520.jpg, Face File Name: images/faces/1694155520.jpg, Facial Area: (916, 365, 59, 73), Confidence: 0.9028281569480896
-2023-09-08 06:46:01.619 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:47:51.951 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:47:51.997 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:48:07.884 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694155687.jpg
-2023-09-08 06:48:07.908 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694155687.jpg
-2023-09-08 06:48:08.071 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694155687.jpg, Face File Name: images/faces/1694155687.jpg, Facial Area: (861, 362, 74, 83), Confidence: 0.9987122416496277
-2023-09-08 06:48:15.916 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694155695.jpg
-2023-09-08 06:48:15.919 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694155695.jpg
-2023-09-08 06:48:15.966 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694155695.jpg, Face File Name: images/faces/1694155695.jpg, Facial Area: (759, 314, 88, 100), Confidence: 0.9887697696685791
-2023-09-08 06:48:24.904 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694155704.jpg
-2023-09-08 06:48:24.913 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694155704.jpg
-2023-09-08 06:48:24.963 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694155704.jpg, Face File Name: images/faces/1694155704.jpg, Facial Area: (712, 243, 112, 134), Confidence: 0.9988611936569214
-2023-09-08 06:48:27.420 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694155707.jpg
-2023-09-08 06:48:27.422 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694155707.jpg
-2023-09-08 06:48:27.448 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694155707.jpg, Face File Name: images/faces/1694155707.jpg, Facial Area: (561, 154, 141, 171), Confidence: 0.999546468257904
-2023-09-08 06:49:08.040 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694155747.jpg
-2023-09-08 06:49:08.059 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694155748.jpg
-2023-09-08 06:49:08.065 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694155747.jpg, Face File Name: images/faces/1694155748.jpg, Facial Area: (219, 158, 119, 165), Confidence: 0.9988616704940796
-2023-09-08 06:49:10.891 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694155750.jpg
-2023-09-08 06:49:10.893 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694155750.jpg
-2023-09-08 06:49:10.901 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694155750.jpg, Face File Name: images/faces/1694155750.jpg, Facial Area: (613, 225, 105, 156), Confidence: 0.9787175059318542
-2023-09-08 06:50:11.709 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:50:11.722 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:51:23.041 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:51:42.544 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694155902.jpg
-2023-09-08 06:51:42.568 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694155902.jpg
-2023-09-08 06:51:42.574 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694155902.jpg, Face File Name: images/faces/1694155902.jpg, Facial Area: (900, 396, 62, 68), Confidence: 0.9957315921783447
-2023-09-08 06:51:47.319 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694155907.jpg
-2023-09-08 06:51:47.347 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694155907.jpg
-2023-09-08 06:51:47.379 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694155907.jpg, Face File Name: images/faces/1694155907.jpg, Facial Area: (893, 367, 73, 81), Confidence: 0.9995151162147522
-2023-09-08 06:51:48.092 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694155907.jpg
-2023-09-08 06:51:48.094 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694155908.jpg
-2023-09-08 06:51:48.110 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694155907.jpg, Face File Name: images/faces/1694155908.jpg, Facial Area: (910, 387, 65, 70), Confidence: 0.9910827279090881
-2023-09-08 06:51:49.268 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694155909.jpg
-2023-09-08 06:51:49.270 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694155909.jpg
-2023-09-08 06:51:49.274 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694155909.jpg, Face File Name: images/faces/1694155909.jpg, Facial Area: (854, 298, 102, 115), Confidence: 0.9987871646881104
-2023-09-08 06:51:54.441 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694155914.jpg
-2023-09-08 06:51:54.444 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694155914.jpg
-2023-09-08 06:51:54.454 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694155914.jpg, Face File Name: images/faces/1694155914.jpg, Facial Area: (858, 345, 83, 94), Confidence: 0.9991763234138489
-2023-09-08 06:51:56.808 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694155916.jpg
-2023-09-08 06:51:56.821 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694155916.jpg
-2023-09-08 06:51:56.856 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694155916.jpg, Face File Name: images/faces/1694155916.jpg, Facial Area: (941, 275, 110, 124), Confidence: 0.9986685514450073
-2023-09-08 06:52:05.361 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694155925.jpg
-2023-09-08 06:52:05.394 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694155925.jpg
-2023-09-08 06:52:05.399 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694155925.jpg, Face File Name: images/faces/1694155925.jpg, Facial Area: (685, 262, 120, 134), Confidence: 0.9994086027145386
-2023-09-08 06:52:06.717 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694155926.jpg
-2023-09-08 06:52:06.738 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694155926.jpg
-2023-09-08 06:52:06.751 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694155926.jpg, Face File Name: images/faces/1694155926.jpg, Facial Area: (346, 179, 139, 171), Confidence: 0.9997372627258301
-2023-09-08 06:52:50.608 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694155970.jpg
-2023-09-08 06:52:50.622 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694155970.jpg
-2023-09-08 06:52:50.634 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694155970.jpg, Face File Name: images/faces/1694155970.jpg, Facial Area: (560, 0, 161, 220), Confidence: 0.9994248151779175
-2023-09-08 06:52:52.605 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694155972.jpg
-2023-09-08 06:52:52.630 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694155972.jpg
-2023-09-08 06:52:52.638 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694155972.jpg, Face File Name: images/faces/1694155972.jpg, Facial Area: (159, 7, 177, 226), Confidence: 0.999245285987854
-2023-09-08 06:53:35.945 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:53:36.024 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:53:36.026 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:56:35.458 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:57:26.689 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694156246.jpg
-2023-09-08 06:57:26.697 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694156246.jpg
-2023-09-08 06:57:26.707 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694156246.jpg, Face File Name: images/faces/1694156246.jpg, Facial Area: (0, 214, 141, 173), Confidence: 0.9995092749595642
-2023-09-08 06:57:41.522 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694156261.jpg
-2023-09-08 06:57:41.532 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694156261.jpg
-2023-09-08 06:57:41.538 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694156261.jpg, Face File Name: images/faces/1694156261.jpg, Facial Area: (905, 393, 62, 74), Confidence: 0.9330723285675049
-2023-09-08 06:57:44.391 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:57:44.400 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 06:59:56.313 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 07:02:13.851 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694156533.jpg
-2023-09-08 07:02:13.853 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694156533.jpg
-2023-09-08 07:02:13.862 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694156533.jpg, Face File Name: images/faces/1694156533.jpg, Facial Area: (892, 423, 56, 60), Confidence: 0.991709291934967
-2023-09-08 07:03:29.287 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694156609.jpg
-2023-09-08 07:03:29.301 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694156609.jpg
-2023-09-08 07:03:29.314 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694156609.jpg, Face File Name: images/faces/1694156609.jpg, Facial Area: (895, 403, 64, 75), Confidence: 0.9581663012504578
-2023-09-08 07:03:34.418 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694156614.jpg
-2023-09-08 07:03:34.439 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694156614.jpg
-2023-09-08 07:03:34.447 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694156614.jpg, Face File Name: images/faces/1694156614.jpg, Facial Area: (820, 380, 83, 90), Confidence: 0.9986727237701416
-2023-09-08 07:03:35.503 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694156615.jpg
-2023-09-08 07:03:35.505 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694156615.jpg
-2023-09-08 07:03:35.510 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694156615.jpg, Face File Name: images/faces/1694156615.jpg, Facial Area: (663, 328, 119, 129), Confidence: 0.9995548129081726
-2023-09-08 07:03:36.058 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694156615.jpg
-2023-09-08 07:03:36.061 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694156616.jpg
-2023-09-08 07:03:36.065 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694156615.jpg, Face File Name: images/faces/1694156616.jpg, Facial Area: (461, 196, 159, 197), Confidence: 0.9986562132835388
-2023-09-08 07:03:36.353 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694156616.jpg
-2023-09-08 07:03:36.356 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694156616.jpg
-2023-09-08 07:03:36.360 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694156616.jpg, Face File Name: images/faces/1694156616.jpg, Facial Area: (837, 367, 100, 102), Confidence: 0.9972326755523682
-2023-09-08 07:05:35.564 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 07:05:35.649 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 07:06:16.173 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694156776.jpg
-2023-09-08 07:06:16.175 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694156776.jpg
-2023-09-08 07:06:16.180 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694156776.jpg, Face File Name: images/faces/1694156776.jpg, Facial Area: (0, 252, 102, 144), Confidence: 0.9716407060623169
-2023-09-08 07:06:35.377 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694156795.jpg
-2023-09-08 07:06:35.379 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694156795.jpg
-2023-09-08 07:06:35.379 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694156795.jpg
-2023-09-08 07:06:35.388 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694156795.jpg, Face File Name: images/faces/1694156795.jpg, Facial Area: (903, 390, 65, 75), Confidence: 0.9915549159049988
-2023-09-08 07:06:35.389 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694156795.jpg
-2023-09-08 07:06:35.408 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694156795.jpg, Face File Name: images/faces/1694156795.jpg, Facial Area: (852, 361, 78, 87), Confidence: 0.9949864149093628
-2023-09-08 07:06:37.721 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694156797.jpg
-2023-09-08 07:06:37.723 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694156797.jpg
-2023-09-08 07:06:37.727 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694156797.jpg, Face File Name: images/faces/1694156797.jpg, Facial Area: (792, 335, 91, 101), Confidence: 0.9990026354789734
-2023-09-08 07:08:41.579 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 07:08:41.581 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 07:08:41.582 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 07:08:41.582 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 07:08:41.583 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 07:08:41.584 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 07:08:41.584 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 07:08:41.586 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 07:08:41.588 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 07:08:41.591 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 07:08:41.607 | ERROR    | __main__:main:189 - Read frame failures reached 10. Restarting the camera...
-2023-09-08 07:09:03.003 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694156942.jpg
-2023-09-08 07:09:03.006 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694156943.jpg
-2023-09-08 07:09:03.011 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694156942.jpg, Face File Name: images/faces/1694156943.jpg, Facial Area: (895, 427, 57, 60), Confidence: 0.9952870607376099
-2023-09-08 07:09:54.777 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694156994.jpg
-2023-09-08 07:09:54.781 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694156994.jpg
-2023-09-08 07:09:54.785 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694156994.jpg, Face File Name: images/faces/1694156994.jpg, Facial Area: (210, 110, 105, 164), Confidence: 0.9966329336166382
-2023-09-08 07:10:07.036 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157006.jpg
-2023-09-08 07:10:07.038 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157007.jpg
-2023-09-08 07:10:07.041 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157006.jpg, Face File Name: images/faces/1694157007.jpg, Facial Area: (910, 381, 61, 75), Confidence: 0.9509040117263794
-2023-09-08 07:10:43.359 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157043.jpg
-2023-09-08 07:10:43.363 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157043.jpg
-2023-09-08 07:10:43.367 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157043.jpg, Face File Name: images/faces/1694157043.jpg, Facial Area: (94, 222, 117, 155), Confidence: 0.9725732207298279
-2023-09-08 07:11:38.271 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157098.jpg
-2023-09-08 07:11:38.273 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157098.jpg
-2023-09-08 07:11:38.281 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157098.jpg, Face File Name: images/faces/1694157098.jpg, Facial Area: (864, 408, 56, 62), Confidence: 0.9104602932929993
-2023-09-08 07:11:40.733 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157100.jpg
-2023-09-08 07:11:40.870 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157100.jpg
-2023-09-08 07:11:40.878 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157100.jpg, Face File Name: images/faces/1694157100.jpg, Facial Area: (896, 405, 60, 63), Confidence: 0.9985644817352295
-2023-09-08 07:11:41.154 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157101.jpg
-2023-09-08 07:11:41.156 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157101.jpg
-2023-09-08 07:11:41.161 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157101.jpg, Face File Name: images/faces/1694157101.jpg, Facial Area: (913, 399, 61, 65), Confidence: 0.9972992539405823
-2023-09-08 07:11:41.219 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157101.jpg
-2023-09-08 07:11:41.222 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157101.jpg
-2023-09-08 07:11:41.226 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157101.jpg, Face File Name: images/faces/1694157101.jpg, Facial Area: (899, 394, 64, 67), Confidence: 0.998736560344696
-2023-09-08 07:11:43.566 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157103.jpg
-2023-09-08 07:11:43.574 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157103.jpg
-2023-09-08 07:11:43.584 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157103.jpg, Face File Name: images/faces/1694157103.jpg, Facial Area: (890, 386, 66, 71), Confidence: 0.9988238215446472
-2023-09-08 07:11:46.931 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157106.jpg
-2023-09-08 07:11:46.958 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157106.jpg
-2023-09-08 07:11:46.967 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157106.jpg, Face File Name: images/faces/1694157106.jpg, Facial Area: (823, 378, 70, 72), Confidence: 0.9969190955162048
-2023-09-08 07:11:54.508 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157114.jpg
-2023-09-08 07:11:54.511 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157114.jpg
-2023-09-08 07:11:54.549 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157114.jpg, Face File Name: images/faces/1694157114.jpg, Facial Area: (822, 367, 72, 79), Confidence: 0.9988793134689331
-2023-09-08 07:11:58.188 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157118.jpg
-2023-09-08 07:11:58.191 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157118.jpg
-2023-09-08 07:11:58.195 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157118.jpg, Face File Name: images/faces/1694157118.jpg, Facial Area: (789, 352, 75, 81), Confidence: 0.9990302920341492
-2023-09-08 07:11:59.325 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157119.jpg
-2023-09-08 07:11:59.344 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157119.jpg
-2023-09-08 07:11:59.348 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157119.jpg, Face File Name: images/faces/1694157119.jpg, Facial Area: (768, 334, 83, 90), Confidence: 0.9933084845542908
-2023-09-08 07:12:02.645 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157122.jpg
-2023-09-08 07:12:02.647 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157122.jpg
-2023-09-08 07:12:02.652 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157122.jpg, Face File Name: images/faces/1694157122.jpg, Facial Area: (804, 310, 94, 103), Confidence: 0.9978450536727905
-2023-09-08 07:12:03.966 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157123.jpg
-2023-09-08 07:12:03.974 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157123.jpg
-2023-09-08 07:12:03.978 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157123.jpg, Face File Name: images/faces/1694157123.jpg, Facial Area: (653, 279, 113, 133), Confidence: 0.9946292042732239
-2023-09-08 07:16:51.361 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157411.jpg
-2023-09-08 07:16:51.374 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157411.jpg
-2023-09-08 07:16:51.388 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157411.jpg, Face File Name: images/faces/1694157411.jpg, Facial Area: (887, 413, 59, 65), Confidence: 0.9971563220024109
-2023-09-08 07:17:00.229 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157420.jpg
-2023-09-08 07:17:00.238 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157420.jpg
-2023-09-08 07:17:00.248 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157420.jpg, Face File Name: images/faces/1694157420.jpg, Facial Area: (827, 340, 86, 98), Confidence: 0.9980464577674866
-2023-09-08 07:17:00.603 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157420.jpg
-2023-09-08 07:17:00.605 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157420.jpg
-2023-09-08 07:17:00.618 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157420.jpg, Face File Name: images/faces/1694157420.jpg, Facial Area: (893, 372, 74, 85), Confidence: 0.997419536113739
-2023-09-08 07:17:01.466 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157421.jpg
-2023-09-08 07:17:01.468 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157421.jpg
-2023-09-08 07:17:01.473 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157421.jpg, Face File Name: images/faces/1694157421.jpg, Facial Area: (701, 292, 102, 119), Confidence: 0.9957410097122192
-2023-09-08 07:17:14.910 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157434.jpg
-2023-09-08 07:17:14.912 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157434.jpg
-2023-09-08 07:17:14.928 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157434.jpg, Face File Name: images/faces/1694157434.jpg, Facial Area: (160, 116, 131, 185), Confidence: 0.9985896348953247
-2023-09-08 07:17:15.857 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157435.jpg
-2023-09-08 07:17:15.876 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157435.jpg
-2023-09-08 07:17:15.883 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157435.jpg, Face File Name: images/faces/1694157435.jpg, Facial Area: (474, 434, 135, 183), Confidence: 0.9965293407440186
-2023-09-08 07:17:20.458 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157440.jpg
-2023-09-08 07:17:20.465 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157440.jpg
-2023-09-08 07:17:20.475 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157440.jpg, Face File Name: images/faces/1694157440.jpg, Facial Area: (715, 442, 124, 153), Confidence: 0.9954231381416321
-2023-09-08 07:20:27.772 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157627.jpg
-2023-09-08 07:20:27.774 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157627.jpg
-2023-09-08 07:20:27.809 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157627.jpg, Face File Name: images/faces/1694157627.jpg, Facial Area: (889, 426, 57, 60), Confidence: 0.996177077293396
-2023-09-08 07:20:33.950 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157633.jpg
-2023-09-08 07:20:33.951 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157633.jpg
-2023-09-08 07:20:33.971 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157633.jpg, Face File Name: images/faces/1694157633.jpg, Facial Area: (638, 411, 64, 65), Confidence: 0.9933212995529175
-2023-09-08 07:20:34.030 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157633.jpg
-2023-09-08 07:20:34.032 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157634.jpg
-2023-09-08 07:20:34.036 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157633.jpg, Face File Name: images/faces/1694157634.jpg, Facial Area: (657, 482, 58, 64), Confidence: 0.946429431438446
-2023-09-08 07:20:34.070 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157633.jpg
-2023-09-08 07:20:34.106 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157634.jpg
-2023-09-08 07:20:34.116 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157633.jpg, Face File Name: images/faces/1694157634.jpg, Facial Area: (778, 416, 66, 67), Confidence: 0.9445793628692627
-2023-09-08 07:24:35.581 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157875.jpg
-2023-09-08 07:24:35.584 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157875.jpg
-2023-09-08 07:24:35.588 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157875.jpg, Face File Name: images/faces/1694157875.jpg, Facial Area: (632, 378, 77, 80), Confidence: 0.9982555508613586
-2023-09-08 07:24:39.553 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157879.jpg
-2023-09-08 07:24:39.561 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157879.jpg
-2023-09-08 07:24:39.570 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157879.jpg, Face File Name: images/faces/1694157879.jpg, Facial Area: (720, 363, 85, 92), Confidence: 0.996749997138977
-2023-09-08 07:24:39.703 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157879.jpg
-2023-09-08 07:24:39.706 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157879.jpg
-2023-09-08 07:24:39.715 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157879.jpg, Face File Name: images/faces/1694157879.jpg, Facial Area: (784, 502, 69, 82), Confidence: 0.9578526616096497
-2023-09-08 07:24:44.972 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157884.jpg
-2023-09-08 07:24:44.985 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157884.jpg
-2023-09-08 07:24:45.002 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157884.jpg, Face File Name: images/faces/1694157884.jpg, Facial Area: (755, 320, 100, 103), Confidence: 0.9952169060707092
-2023-09-08 07:24:45.572 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157885.jpg
-2023-09-08 07:24:45.574 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157885.jpg
-2023-09-08 07:24:45.576 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694157885.jpg
-2023-09-08 07:24:45.581 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694157885.jpg
-2023-09-08 07:24:45.588 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157885.jpg, Face File Name: images/faces/1694157885.jpg, Facial Area: (328, 181, 143, 188), Confidence: 0.9987629652023315
-2023-09-08 07:24:45.592 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694157885.jpg, Face File Name: images/faces/1694157885.jpg, Facial Area: (616, 279, 114, 118), Confidence: 0.998564600944519
-2023-09-08 07:56:31.500 | INFO     | __main__:main:165 - Connected to the camera.
-2023-09-08 07:57:04.376 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 07:57:04.409 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:01:40.198 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:01:40.200 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:01:40.292 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:01:40.293 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:01:40.359 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:01:40.371 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:01:40.435 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:01:40.454 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:01:40.527 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:01:40.528 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:01:40.534 | ERROR    | __main__:main:189 - Read frame failures reached 10. Restarting the camera...
-2023-09-08 08:08:36.166 | INFO     | __main__:main:165 - Connected to the camera.
-2023-09-08 08:09:29.975 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694160569.jpg
-2023-09-08 08:09:29.991 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694160569.jpg
-2023-09-08 08:09:30.025 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694160569.jpg, Face File Name: images/faces/1694160569.jpg, Facial Area: (844, 360, 77, 87), Confidence: 0.9978641271591187
-2023-09-08 08:09:56.475 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:09:56.476 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:10:43.043 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694160642.jpg
-2023-09-08 08:10:43.046 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694160643.jpg
-2023-09-08 08:10:43.121 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694160642.jpg, Face File Name: images/faces/1694160643.jpg, Facial Area: (894, 383, 70, 78), Confidence: 0.9000673294067383
-2023-09-08 08:13:31.903 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:13:31.950 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:14:58.061 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:19:34.131 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:19:34.133 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:21:18.422 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:21:18.485 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:23:31.941 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:23:31.993 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:24:41.138 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:24:41.224 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:26:37.932 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:26:58.309 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:26:58.402 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:28:17.504 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:28:17.573 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:36:28.282 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:38:34.527 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:38:34.604 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:38:34.681 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:38:34.683 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:38:34.689 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:38:34.751 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:38:34.867 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:38:34.934 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:38:34.935 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:38:34.937 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 08:38:34.938 | ERROR    | __main__:main:189 - Read frame failures reached 10. Restarting the camera...
-2023-09-08 08:58:17.822 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694163497.jpg
-2023-09-08 08:58:17.830 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694163497.jpg
-2023-09-08 08:58:17.953 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694163497.jpg, Face File Name: images/faces/1694163497.jpg, Facial Area: (824, 404, 61, 69), Confidence: 0.9835548400878906
-2023-09-08 08:58:36.685 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694163516.jpg
-2023-09-08 08:58:36.687 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694163516.jpg
-2023-09-08 08:58:36.705 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694163516.jpg, Face File Name: images/faces/1694163516.jpg, Facial Area: (881, 412, 59, 63), Confidence: 0.9964369535446167
-2023-09-08 08:58:38.552 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694163518.jpg
-2023-09-08 08:58:38.568 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694163518.jpg
-2023-09-08 08:58:38.605 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694163518.jpg, Face File Name: images/faces/1694163518.jpg, Facial Area: (879, 404, 65, 70), Confidence: 0.9989170432090759
-2023-09-08 08:58:39.019 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694163518.jpg
-2023-09-08 08:58:39.022 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694163519.jpg
-2023-09-08 08:58:39.025 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694163518.jpg, Face File Name: images/faces/1694163519.jpg, Facial Area: (908, 405, 61, 65), Confidence: 0.9980134963989258
-2023-09-08 08:58:39.609 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694163519.jpg
-2023-09-08 08:58:39.611 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694163519.jpg
-2023-09-08 08:58:39.616 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694163519.jpg, Face File Name: images/faces/1694163519.jpg, Facial Area: (834, 391, 68, 72), Confidence: 0.9976047873497009
-2023-09-08 08:58:46.652 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694163526.jpg
-2023-09-08 08:58:46.670 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694163526.jpg
-2023-09-08 08:58:46.675 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694163526.jpg, Face File Name: images/faces/1694163526.jpg, Facial Area: (656, 387, 64, 73), Confidence: 0.994636058807373
-2023-09-08 08:58:47.758 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694163527.jpg
-2023-09-08 08:58:47.760 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694163527.jpg
-2023-09-08 08:58:47.763 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694163527.jpg, Face File Name: images/faces/1694163527.jpg, Facial Area: (558, 253, 129, 150), Confidence: 0.9991296529769897
-2023-09-08 08:58:55.081 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694163535.jpg
-2023-09-08 08:58:55.083 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694163535.jpg
-2023-09-08 08:58:55.087 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694163535.jpg, Face File Name: images/faces/1694163535.jpg, Facial Area: (215, 114, 160, 202), Confidence: 0.9445652961730957
-2023-09-08 09:05:43.659 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694163943.jpg
-2023-09-08 09:05:43.662 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694163943.jpg
-2023-09-08 09:05:43.789 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694163943.jpg, Face File Name: images/faces/1694163943.jpg, Facial Area: (427, 143, 100, 148), Confidence: 0.952850341796875
-2023-09-08 09:08:55.690 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694164135.jpg
-2023-09-08 09:08:55.694 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694164135.jpg
-2023-09-08 09:08:55.806 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694164135.jpg, Face File Name: images/faces/1694164135.jpg, Facial Area: (866, 376, 78, 83), Confidence: 0.9987695217132568
-2023-09-08 09:08:57.183 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694164136.jpg
-2023-09-08 09:08:57.195 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694164137.jpg
-2023-09-08 09:08:57.205 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694164136.jpg, Face File Name: images/faces/1694164137.jpg, Facial Area: (751, 335, 102, 116), Confidence: 0.9971612095832825
-2023-09-08 09:13:00.982 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694164380.jpg
-2023-09-08 09:13:00.985 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694164380.jpg
-2023-09-08 09:13:01.157 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694164380.jpg, Face File Name: images/faces/1694164380.jpg, Facial Area: (887, 419, 55, 61), Confidence: 0.9906902313232422
-2023-09-08 09:24:37.628 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 09:24:41.919 | INFO     | __main__:main:165 - Connected to the camera.
-2023-09-08 09:26:41.296 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:26:41.308 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:26:41.377 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:26:41.388 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:26:41.456 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:26:41.457 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:28:17.563 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:28:17.565 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:28:17.637 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:28:17.712 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:28:17.713 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:28:17.797 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:28:17.799 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:28:17.883 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:28:17.884 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:28:17.968 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:28:17.968 | ERROR    | __main__:main:189 - Read frame failures reached 10. Restarting the camera...
-2023-09-08 09:31:53.596 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694165513.jpg
-2023-09-08 09:31:53.673 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694165513.jpg
-2023-09-08 09:31:53.754 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694165513.jpg, Face File Name: images/faces/1694165513.jpg, Facial Area: (1068, 423, 58, 63), Confidence: 0.9348761439323425
-2023-09-08 09:32:25.717 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694165545.jpg
-2023-09-08 09:32:25.719 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694165545.jpg
-2023-09-08 09:32:25.731 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694165545.jpg, Face File Name: images/faces/1694165545.jpg, Facial Area: (895, 420, 56, 63), Confidence: 0.9970260262489319
-2023-09-08 09:32:46.012 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694165565.jpg
-2023-09-08 09:32:46.014 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694165566.jpg
-2023-09-08 09:32:46.024 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694165565.jpg, Face File Name: images/faces/1694165566.jpg, Facial Area: (992, 418, 57, 62), Confidence: 0.9733991622924805
-2023-09-08 09:32:47.865 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694165567.jpg
-2023-09-08 09:32:47.867 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694165567.jpg
-2023-09-08 09:32:47.871 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694165567.jpg, Face File Name: images/faces/1694165567.jpg, Facial Area: (991, 418, 58, 62), Confidence: 0.9726366400718689
-2023-09-08 09:32:49.897 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694165569.jpg
-2023-09-08 09:32:49.921 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694165569.jpg
-2023-09-08 09:32:49.942 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694165569.jpg, Face File Name: images/faces/1694165569.jpg, Facial Area: (988, 418, 58, 63), Confidence: 0.9818074703216553
-2023-09-08 09:33:22.867 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 09:33:52.927 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 09:34:23.004 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 09:34:53.007 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 09:35:23.075 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 09:35:53.118 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 09:35:55.686 | INFO     | __main__:main:165 - Connected to the camera.
-2023-09-08 09:36:16.358 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:36:16.464 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:38:49.207 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:38:49.216 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:43:03.802 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:43:03.804 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:43:03.805 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:43:03.806 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:43:07.192 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:43:07.193 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:43:07.194 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:43:07.194 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:43:07.198 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:43:07.199 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:43:07.199 | ERROR    | __main__:main:189 - Read frame failures reached 10. Restarting the camera...
-2023-09-08 09:52:18.261 | INFO     | __main__:main:165 - Connected to the camera.
-2023-09-08 09:54:09.803 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:55:57.222 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:58:30.881 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:58:30.959 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 09:58:46.430 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:00:16.294 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:00:16.358 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:01:58.892 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:01:58.932 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:05:01.796 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:09:42.406 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:12:12.606 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:12:12.607 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:13:30.010 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:13:30.021 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:13:54.864 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694168034.jpg
-2023-09-08 10:13:54.866 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694168034.jpg
-2023-09-08 10:13:54.982 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694168034.jpg, Face File Name: images/faces/1694168034.jpg, Facial Area: (297, 189, 133, 163), Confidence: 0.9997148513793945
-2023-09-08 10:13:55.535 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694168035.jpg
-2023-09-08 10:13:55.537 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694168035.jpg
-2023-09-08 10:13:55.545 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694168035.jpg, Face File Name: images/faces/1694168035.jpg, Facial Area: (614, 298, 117, 133), Confidence: 0.9996083378791809
-2023-09-08 10:14:25.083 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694168064.jpg
-2023-09-08 10:14:25.086 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694168065.jpg
-2023-09-08 10:14:25.090 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694168064.jpg, Face File Name: images/faces/1694168065.jpg, Facial Area: (605, 377, 62, 75), Confidence: 0.9668265581130981
-2023-09-08 10:15:03.417 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:15:03.431 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:16:57.161 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:16:57.193 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:18:26.330 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:18:26.334 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:29:41.895 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:29:41.971 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:32:33.127 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:36:20.308 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:36:20.323 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:37:41.290 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:37:41.369 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:37:41.376 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:37:41.469 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:37:41.481 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:37:41.570 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:37:41.571 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:37:41.573 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:37:52.457 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:37:52.517 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:38:20.058 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:38:20.095 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:41:09.261 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:43:22.623 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694169802.jpg
-2023-09-08 10:43:22.666 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694169802.jpg
-2023-09-08 10:43:22.685 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694169802.jpg, Face File Name: images/faces/1694169802.jpg, Facial Area: (0, 142, 95, 154), Confidence: 0.9877918362617493
-2023-09-08 10:48:48.164 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694170128.jpg
-2023-09-08 10:48:48.166 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694170128.jpg
-2023-09-08 10:48:48.170 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694170128.jpg, Face File Name: images/faces/1694170128.jpg, Facial Area: (911, 391, 63, 74), Confidence: 0.9930973649024963
-2023-09-08 10:48:49.547 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694170129.jpg
-2023-09-08 10:48:49.550 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694170129.jpg
-2023-09-08 10:48:49.554 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694170129.jpg, Face File Name: images/faces/1694170129.jpg, Facial Area: (863, 371, 72, 85), Confidence: 0.9972213506698608
-2023-09-08 10:48:51.307 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694170131.jpg
-2023-09-08 10:48:51.319 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694170131.jpg
-2023-09-08 10:48:51.324 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694170131.jpg, Face File Name: images/faces/1694170131.jpg, Facial Area: (820, 338, 84, 99), Confidence: 0.9973208904266357
-2023-09-08 10:48:58.030 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694170137.jpg
-2023-09-08 10:48:58.054 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694170138.jpg
-2023-09-08 10:48:58.065 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694170137.jpg, Face File Name: images/faces/1694170138.jpg, Facial Area: (738, 309, 100, 120), Confidence: 0.975806474685669
-2023-09-08 10:48:58.655 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694170138.jpg
-2023-09-08 10:48:58.676 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694170138.jpg
-2023-09-08 10:48:58.737 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694170138.jpg, Face File Name: images/faces/1694170138.jpg, Facial Area: (714, 306, 120, 126), Confidence: 0.9936411380767822
-2023-09-08 10:49:01.856 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694170141.jpg
-2023-09-08 10:49:01.901 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694170141.jpg
-2023-09-08 10:49:01.925 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694170141.jpg, Face File Name: images/faces/1694170141.jpg, Facial Area: (636, 266, 124, 154), Confidence: 0.9987351298332214
-2023-09-08 10:49:05.484 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:50:55.463 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:50:55.485 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:53:33.123 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:53:33.133 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:55:51.717 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:56:27.246 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:56:27.293 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:57:16.477 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:57:40.302 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 10:57:40.388 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 11:00:36.091 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 11:00:36.098 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 11:00:36.103 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 11:00:36.105 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 11:00:36.106 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 11:00:36.116 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 11:00:36.117 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 11:00:36.354 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 11:00:36.363 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 11:00:36.385 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 11:00:36.386 | ERROR    | __main__:main:189 - Read frame failures reached 10. Restarting the camera...
-2023-09-08 11:17:57.142 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694171876.jpg
-2023-09-08 11:17:57.383 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694171877.jpg
-2023-09-08 11:17:58.168 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694171876.jpg, Face File Name: images/faces/1694171877.jpg, Facial Area: (906, 484, 63, 69), Confidence: 0.9822121858596802
-2023-09-08 11:17:58.806 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694171878.jpg
-2023-09-08 11:17:58.820 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694171878.jpg
-2023-09-08 11:17:58.845 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694171878.jpg, Face File Name: images/faces/1694171878.jpg, Facial Area: (857, 377, 75, 82), Confidence: 0.9979645013809204
-2023-09-08 11:18:05.389 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694171885.jpg
-2023-09-08 11:18:05.424 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694171885.jpg
-2023-09-08 11:18:05.445 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694171885.jpg, Face File Name: images/faces/1694171885.jpg, Facial Area: (786, 349, 85, 98), Confidence: 0.9976685643196106
-2023-09-08 11:18:05.651 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694171885.jpg
-2023-09-08 11:18:05.679 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694171885.jpg
-2023-09-08 11:18:05.700 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694171885.jpg, Face File Name: images/faces/1694171885.jpg, Facial Area: (829, 500, 73, 81), Confidence: 0.9884362816810608
-2023-09-08 11:26:59.514 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694172419.jpg
-2023-09-08 11:26:59.539 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694172419.jpg
-2023-09-08 11:26:59.591 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694172419.jpg, Face File Name: images/faces/1694172419.jpg, Facial Area: (906, 403, 58, 65), Confidence: 0.9885662794113159
-2023-09-08 11:27:20.975 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694172440.jpg
-2023-09-08 11:27:20.979 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694172440.jpg
-2023-09-08 11:27:20.983 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694172440.jpg, Face File Name: images/faces/1694172440.jpg, Facial Area: (914, 400, 59, 67), Confidence: 0.9721797704696655
-2023-09-08 11:27:34.529 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694172454.jpg
-2023-09-08 11:27:34.550 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694172454.jpg
-2023-09-08 11:27:34.606 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694172454.jpg, Face File Name: images/faces/1694172454.jpg, Facial Area: (593, 246, 120, 140), Confidence: 0.9990043044090271
-2023-09-08 11:27:37.104 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694172457.jpg
-2023-09-08 11:27:37.105 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694172457.jpg
-2023-09-08 11:27:37.125 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694172457.jpg, Face File Name: images/faces/1694172457.jpg, Facial Area: (85, 249, 124, 119), Confidence: 0.9934221506118774
-2023-09-08 11:27:37.286 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694172457.jpg
-2023-09-08 11:27:37.288 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694172457.jpg
-2023-09-08 11:27:37.292 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694172457.jpg, Face File Name: images/faces/1694172457.jpg, Facial Area: (791, 344, 83, 96), Confidence: 0.9772408604621887
-2023-09-08 11:27:38.832 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694172458.jpg
-2023-09-08 11:27:38.902 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694172458.jpg
-2023-09-08 11:27:38.927 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694172458.jpg, Face File Name: images/faces/1694172458.jpg, Facial Area: (0, 106, 111, 152), Confidence: 0.9339413046836853
-2023-09-08 11:42:02.347 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694173322.jpg
-2023-09-08 11:42:02.380 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694173322.jpg
-2023-09-08 11:42:02.417 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694173322.jpg, Face File Name: images/faces/1694173322.jpg, Facial Area: (845, 386, 64, 68), Confidence: 0.9966310262680054
-2023-09-08 11:45:01.253 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694173501.jpg
-2023-09-08 11:45:01.289 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694173501.jpg
-2023-09-08 11:45:01.301 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694173501.jpg, Face File Name: images/faces/1694173501.jpg, Facial Area: (883, 415, 54, 63), Confidence: 0.9934683442115784
-2023-09-08 11:45:32.039 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694173531.jpg
-2023-09-08 11:45:32.041 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694173532.jpg
-2023-09-08 11:45:32.045 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694173531.jpg, Face File Name: images/faces/1694173532.jpg, Facial Area: (870, 376, 69, 82), Confidence: 0.9980168342590332
-2023-09-08 11:45:32.156 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694173532.jpg
-2023-09-08 11:45:32.159 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694173532.jpg
-2023-09-08 11:45:32.171 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694173532.jpg, Face File Name: images/faces/1694173532.jpg, Facial Area: (796, 372, 62, 75), Confidence: 0.99240642786026
-2023-09-08 11:45:46.050 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694173545.jpg
-2023-09-08 11:45:46.074 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694173546.jpg
-2023-09-08 11:45:46.091 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694173545.jpg, Face File Name: images/faces/1694173546.jpg, Facial Area: (843, 385, 68, 82), Confidence: 0.9906991720199585
-2023-09-08 11:45:51.991 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694173551.jpg
-2023-09-08 11:45:52.017 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694173552.jpg
-2023-09-08 11:45:52.029 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694173551.jpg, Face File Name: images/faces/1694173552.jpg, Facial Area: (786, 383, 64, 73), Confidence: 0.9166686534881592
-2023-09-08 11:45:53.234 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694173553.jpg
-2023-09-08 11:45:53.236 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694173553.jpg
-2023-09-08 11:45:53.275 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694173553.jpg, Face File Name: images/faces/1694173553.jpg, Facial Area: (887, 400, 56, 68), Confidence: 0.946399986743927
-2023-09-08 11:45:55.102 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694173555.jpg
-2023-09-08 11:45:55.124 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694173555.jpg
-2023-09-08 11:45:55.151 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694173555.jpg, Face File Name: images/faces/1694173555.jpg, Facial Area: (885, 402, 63, 66), Confidence: 0.9439338445663452
-2023-09-08 11:45:58.129 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694173558.jpg
-2023-09-08 11:45:58.330 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694173558.jpg
-2023-09-08 11:45:58.356 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694173558.jpg, Face File Name: images/faces/1694173558.jpg, Facial Area: (840, 408, 58, 66), Confidence: 0.9342096447944641
-2023-09-08 11:51:53.698 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694173913.jpg
-2023-09-08 11:51:53.700 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694173913.jpg
-2023-09-08 11:51:53.707 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694173913.jpg, Face File Name: images/faces/1694173913.jpg, Facial Area: (562, 426, 104, 148), Confidence: 0.9038301706314087
-2023-09-08 11:51:55.024 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694173914.jpg
-2023-09-08 11:51:55.060 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694173915.jpg
-2023-09-08 11:51:55.071 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694173914.jpg, Face File Name: images/faces/1694173915.jpg, Facial Area: (768, 451, 93, 107), Confidence: 0.9919924736022949
-2023-09-08 11:51:56.942 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694173916.jpg
-2023-09-08 11:51:57.041 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694173917.jpg
-2023-09-08 11:51:57.046 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694173916.jpg, Face File Name: images/faces/1694173917.jpg, Facial Area: (675, 428, 105, 139), Confidence: 0.997434675693512
-2023-09-08 11:51:57.150 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694173917.jpg
-2023-09-08 11:51:57.159 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694173917.jpg
-2023-09-08 11:51:57.165 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694173917.jpg, Face File Name: images/faces/1694173917.jpg, Facial Area: (815, 448, 84, 97), Confidence: 0.9982395768165588
-2023-09-08 11:52:04.443 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694173924.jpg
-2023-09-08 11:52:04.484 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694173924.jpg
-2023-09-08 11:52:04.488 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694173924.jpg, Face File Name: images/faces/1694173924.jpg, Facial Area: (886, 456, 64, 73), Confidence: 0.9951081275939941
-2023-09-08 11:52:04.536 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694173924.jpg
-2023-09-08 11:52:04.538 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694173924.jpg
-2023-09-08 11:52:04.553 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694173924.jpg, Face File Name: images/faces/1694173924.jpg, Facial Area: (1000, 428, 60, 65), Confidence: 0.9175625443458557
-2023-09-08 11:52:06.567 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694173926.jpg
-2023-09-08 11:52:06.570 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694173926.jpg
-2023-09-08 11:52:06.574 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694173926.jpg, Face File Name: images/faces/1694173926.jpg, Facial Area: (854, 456, 72, 84), Confidence: 0.9966645836830139
-2023-09-08 11:52:07.253 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694173927.jpg
-2023-09-08 11:52:07.255 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694173927.jpg
-2023-09-08 11:52:07.423 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694173927.jpg, Face File Name: images/faces/1694173927.jpg, Facial Area: (892, 451, 69, 82), Confidence: 0.9873582124710083
-2023-09-08 11:54:53.133 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694174092.jpg
-2023-09-08 11:54:53.160 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694174093.jpg
-2023-09-08 11:54:53.222 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694174092.jpg, Face File Name: images/faces/1694174093.jpg, Facial Area: (885, 397, 56, 62), Confidence: 0.9767584204673767
-2023-09-08 11:55:14.759 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694174114.jpg
-2023-09-08 11:55:14.814 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694174114.jpg
-2023-09-08 11:55:14.834 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694174114.jpg, Face File Name: images/faces/1694174114.jpg, Facial Area: (790, 398, 58, 67), Confidence: 0.9563758969306946
-2023-09-08 11:57:59.903 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694174279.jpg
-2023-09-08 11:57:59.941 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694174279.jpg
-2023-09-08 11:57:59.947 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694174279.jpg, Face File Name: images/faces/1694174279.jpg, Facial Area: (552, 276, 102, 132), Confidence: 0.9923788905143738
-2023-09-08 11:58:24.828 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694174304.jpg
-2023-09-08 11:58:24.830 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694174304.jpg
-2023-09-08 11:58:24.834 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694174304.jpg, Face File Name: images/faces/1694174304.jpg, Facial Area: (882, 422, 60, 61), Confidence: 0.9606925249099731
-2023-09-08 11:58:26.471 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694174306.jpg
-2023-09-08 11:58:26.473 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694174306.jpg
-2023-09-08 11:58:26.496 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694174306.jpg, Face File Name: images/faces/1694174306.jpg, Facial Area: (883, 421, 60, 60), Confidence: 0.9343951940536499
-2023-09-08 11:58:50.144 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694174329.jpg
-2023-09-08 11:58:50.149 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694174330.jpg
-2023-09-08 11:58:50.154 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694174329.jpg, Face File Name: images/faces/1694174330.jpg, Facial Area: (885, 415, 58, 65), Confidence: 0.9403144121170044
-2023-09-08 11:59:01.033 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694174340.jpg
-2023-09-08 11:59:01.046 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694174341.jpg
-2023-09-08 11:59:01.073 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694174340.jpg, Face File Name: images/faces/1694174341.jpg, Facial Area: (884, 416, 59, 65), Confidence: 0.9456361532211304
-2023-09-08 12:01:38.594 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694174498.jpg
-2023-09-08 12:01:38.609 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694174498.jpg
-2023-09-08 12:01:38.619 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694174498.jpg, Face File Name: images/faces/1694174498.jpg, Facial Area: (703, 392, 65, 73), Confidence: 0.9607630968093872
-2023-09-08 12:01:39.755 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694174499.jpg
-2023-09-08 12:01:39.758 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694174499.jpg
-2023-09-08 12:01:39.768 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694174499.jpg, Face File Name: images/faces/1694174499.jpg, Facial Area: (825, 454, 73, 87), Confidence: 0.9836484789848328
-2023-09-08 12:01:54.670 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694174514.jpg
-2023-09-08 12:01:54.679 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694174514.jpg
-2023-09-08 12:01:54.709 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694174514.jpg, Face File Name: images/faces/1694174514.jpg, Facial Area: (884, 461, 59, 66), Confidence: 0.9759451746940613
-2023-09-08 12:05:41.357 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694174741.jpg
-2023-09-08 12:05:41.383 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694174741.jpg
-2023-09-08 12:05:41.442 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694174741.jpg, Face File Name: images/faces/1694174741.jpg, Facial Area: (893, 397, 69, 72), Confidence: 0.9917511343955994
-2023-09-08 12:05:41.510 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694174741.jpg
-2023-09-08 12:05:41.512 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694174741.jpg
-2023-09-08 12:05:41.516 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694174741.jpg, Face File Name: images/faces/1694174741.jpg, Facial Area: (883, 486, 64, 69), Confidence: 0.9541605710983276
-2023-09-08 12:05:43.230 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694174743.jpg
-2023-09-08 12:05:43.238 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694174743.jpg
-2023-09-08 12:05:43.247 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694174743.jpg, Face File Name: images/faces/1694174743.jpg, Facial Area: (821, 369, 82, 89), Confidence: 0.9968711137771606
-2023-09-08 12:05:46.813 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694174746.jpg
-2023-09-08 12:05:46.824 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694174746.jpg
-2023-09-08 12:05:46.840 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694174746.jpg, Face File Name: images/faces/1694174746.jpg, Facial Area: (730, 306, 106, 118), Confidence: 0.9982720017433167
-2023-09-08 12:05:46.930 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694174746.jpg
-2023-09-08 12:05:46.967 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694174746.jpg
-2023-09-08 12:05:47.027 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694174746.jpg, Face File Name: images/faces/1694174746.jpg, Facial Area: (487, 272, 131, 148), Confidence: 0.9997036457061768
-2023-09-08 12:07:19.613 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694174839.jpg
-2023-09-08 12:07:19.615 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694174839.jpg
-2023-09-08 12:07:19.659 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694174839.jpg, Face File Name: images/faces/1694174839.jpg, Facial Area: (522, 277, 150, 164), Confidence: 0.9996587038040161
-2023-09-08 12:09:22.844 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694174962.jpg
-2023-09-08 12:09:22.895 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694174962.jpg
-2023-09-08 12:09:22.899 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694174962.jpg, Face File Name: images/faces/1694174962.jpg, Facial Area: (904, 405, 64, 69), Confidence: 0.9970980882644653
-2023-09-08 12:11:12.930 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694175072.jpg
-2023-09-08 12:11:12.948 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694175072.jpg
-2023-09-08 12:11:12.952 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694175072.jpg, Face File Name: images/faces/1694175072.jpg, Facial Area: (1022, 368, 74, 89), Confidence: 0.9807109832763672
-2023-09-08 12:11:15.369 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694175075.jpg
-2023-09-08 12:11:15.372 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694175075.jpg
-2023-09-08 12:11:15.421 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694175075.jpg, Face File Name: images/faces/1694175075.jpg, Facial Area: (1060, 382, 80, 98), Confidence: 0.9955722093582153
-2023-09-08 12:11:47.526 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694175107.jpg
-2023-09-08 12:11:47.547 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694175107.jpg
-2023-09-08 12:11:47.576 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694175107.jpg, Face File Name: images/faces/1694175107.jpg, Facial Area: (342, 225, 122, 145), Confidence: 0.9975754022598267
-2023-09-08 12:12:09.494 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694175129.jpg
-2023-09-08 12:12:09.496 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694175129.jpg
-2023-09-08 12:12:09.522 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694175129.jpg, Face File Name: images/faces/1694175129.jpg, Facial Area: (83, 157, 114, 165), Confidence: 0.9992097020149231
-2023-09-08 12:13:25.636 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694175205.jpg
-2023-09-08 12:13:25.657 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694175205.jpg
-2023-09-08 12:13:25.664 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694175205.jpg, Face File Name: images/faces/1694175205.jpg, Facial Area: (883, 411, 58, 62), Confidence: 0.9938617944717407
-2023-09-08 12:13:30.736 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694175210.jpg
-2023-09-08 12:13:30.746 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694175210.jpg
-2023-09-08 12:13:30.750 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694175210.jpg, Face File Name: images/faces/1694175210.jpg, Facial Area: (911, 403, 64, 68), Confidence: 0.9664166569709778
-2023-09-08 12:13:36.339 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694175216.jpg
-2023-09-08 12:13:36.341 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694175216.jpg
-2023-09-08 12:13:36.419 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694175216.jpg, Face File Name: images/faces/1694175216.jpg, Facial Area: (865, 392, 66, 70), Confidence: 0.9963096380233765
-2023-09-08 12:13:40.072 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694175220.jpg
-2023-09-08 12:13:40.104 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694175220.jpg
-2023-09-08 12:13:40.109 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694175220.jpg, Face File Name: images/faces/1694175220.jpg, Facial Area: (820, 371, 72, 80), Confidence: 0.9912042021751404
-2023-09-08 12:13:41.350 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694175221.jpg
-2023-09-08 12:13:41.352 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694175221.jpg
-2023-09-08 12:13:41.356 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694175221.jpg, Face File Name: images/faces/1694175221.jpg, Facial Area: (816, 336, 81, 91), Confidence: 0.9933057427406311
-2023-09-08 12:13:46.500 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694175226.jpg
-2023-09-08 12:13:46.520 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694175226.jpg
-2023-09-08 12:13:46.532 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694175226.jpg, Face File Name: images/faces/1694175226.jpg, Facial Area: (618, 213, 131, 147), Confidence: 0.9995833039283752
-2023-09-08 12:13:47.371 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694175227.jpg
-2023-09-08 12:13:47.394 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694175227.jpg
-2023-09-08 12:13:47.438 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694175227.jpg, Face File Name: images/faces/1694175227.jpg, Facial Area: (798, 283, 104, 113), Confidence: 0.9970303177833557
-2023-09-08 12:13:50.548 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694175230.jpg
-2023-09-08 12:13:50.555 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694175230.jpg
-2023-09-08 12:13:50.564 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694175230.jpg, Face File Name: images/faces/1694175230.jpg, Facial Area: (233, 0, 170, 223), Confidence: 0.995787501335144
-2023-09-08 12:14:47.757 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694175287.jpg
-2023-09-08 12:14:47.759 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694175287.jpg
-2023-09-08 12:14:47.772 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694175287.jpg, Face File Name: images/faces/1694175287.jpg, Facial Area: (902, 420, 60, 66), Confidence: 0.9898017048835754
-2023-09-08 12:15:20.600 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694175320.jpg
-2023-09-08 12:15:20.602 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694175320.jpg
-2023-09-08 12:15:20.618 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694175320.jpg, Face File Name: images/faces/1694175320.jpg, Facial Area: (1046, 371, 77, 90), Confidence: 0.9979128837585449
-2023-09-08 12:21:12.867 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694175672.jpg
-2023-09-08 12:21:12.887 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694175672.jpg
-2023-09-08 12:21:12.947 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694175672.jpg, Face File Name: images/faces/1694175672.jpg, Facial Area: (887, 401, 57, 62), Confidence: 0.929003119468689
-2023-09-08 12:21:33.712 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694175693.jpg
-2023-09-08 12:21:33.717 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694175693.jpg
-2023-09-08 12:21:33.742 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694175693.jpg, Face File Name: images/faces/1694175693.jpg, Facial Area: (800, 279, 96, 103), Confidence: 0.9953386783599854
-2023-09-08 12:21:35.110 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694175694.jpg
-2023-09-08 12:21:35.124 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694175695.jpg
-2023-09-08 12:21:35.128 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694175694.jpg, Face File Name: images/faces/1694175695.jpg, Facial Area: (855, 329, 75, 90), Confidence: 0.994909942150116
-2023-09-08 12:21:44.567 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694175704.jpg
-2023-09-08 12:21:44.583 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694175704.jpg
-2023-09-08 12:21:44.624 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694175704.jpg, Face File Name: images/faces/1694175704.jpg, Facial Area: (1050, 365, 77, 92), Confidence: 0.9670572280883789
-2023-09-08 12:21:47.721 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694175707.jpg
-2023-09-08 12:21:47.740 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694175707.jpg
-2023-09-08 12:21:47.744 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694175707.jpg, Face File Name: images/faces/1694175707.jpg, Facial Area: (1026, 376, 82, 91), Confidence: 0.9967623353004456
-2023-09-08 12:22:47.451 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694175767.jpg
-2023-09-08 12:22:47.472 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694175767.jpg
-2023-09-08 12:22:47.476 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694175767.jpg, Face File Name: images/faces/1694175767.jpg, Facial Area: (896, 421, 56, 61), Confidence: 0.986545205116272
-2023-09-08 12:22:49.126 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694175769.jpg
-2023-09-08 12:22:49.166 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694175769.jpg
-2023-09-08 12:22:49.176 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694175769.jpg, Face File Name: images/faces/1694175769.jpg, Facial Area: (901, 414, 59, 63), Confidence: 0.9941525459289551
-2023-09-08 12:22:54.123 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694175774.jpg
-2023-09-08 12:22:54.126 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694175774.jpg
-2023-09-08 12:22:54.143 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694175774.jpg, Face File Name: images/faces/1694175774.jpg, Facial Area: (857, 416, 61, 66), Confidence: 0.9941545128822327
-2023-09-08 12:22:56.531 | INFO     | __main__:save_image:134 - Saved image to images/frames/1694175776.jpg
-2023-09-08 12:22:56.541 | INFO     | __main__:save_image:134 - Saved image to images/faces/1694175776.jpg
-2023-09-08 12:22:56.545 | INFO     | __main__:detect_faces:97 - Face detected. Frame File Name: images/frames/1694175776.jpg, Face File Name: images/faces/1694175776.jpg, Facial Area: (745, 485, 67, 63), Confidence: 0.9977949857711792
-2023-09-08 12:28:52.676 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 12:29:22.753 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 12:29:52.792 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 12:30:22.795 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 12:30:52.834 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 12:31:22.858 | ERROR    | __main__:main:161 - Failed to connect to the camera.
-2023-09-08 12:31:25.481 | INFO     | __main__:main:165 - Connected to the camera.
-2023-09-08 12:32:33.864 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 12:35:23.562 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 12:35:23.564 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 12:47:49.803 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 12:52:10.394 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 12:55:56.003 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 12:59:41.653 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 12:59:41.669 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:00:30.855 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:00:30.910 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:01:39.751 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:01:39.753 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:02:46.448 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:02:51.541 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:07:28.379 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:10:02.969 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:10:02.977 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:12:09.184 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:12:09.186 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:16:30.493 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:16:30.607 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:17:20.412 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:18:07.925 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:18:08.096 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:18:23.306 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:18:23.395 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:20:37.044 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:20:37.137 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:24:16.183 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:24:16.199 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:24:41.586 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:34:23.773 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:35:48.836 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:35:48.838 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:37:38.815 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:37:38.903 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:37:58.350 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:37:58.351 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:38:11.162 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:38:11.244 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:38:35.595 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:41:18.748 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:42:30.719 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:43:57.218 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:44:36.334 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:46:29.647 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:46:29.663 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:49:12.359 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:50:57.127 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:53:07.955 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:56:48.020 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:56:48.058 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:57:02.131 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:57:02.154 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:57:02.158 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:57:02.166 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:57:02.182 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:57:02.210 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:57:02.284 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 13:59:03.220 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 14:07:46.801 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 14:08:00.744 | ERROR    | __main__:main:174 - Failed to capture frame.
-2023-09-08 14:08:00.775 | ERROR    | __main__:main:174 - Failed to capture frame.
+2023-09-12 07:39:19.347 | ERROR    | __main__:main:120 - Failed to connect to the camera.
+2023-09-12 07:39:49.428 | ERROR    | __main__:main:120 - Failed to connect to the camera.
+2023-09-12 07:40:19.506 | ERROR    | __main__:main:120 - Failed to connect to the camera.
+2023-09-12 07:40:49.584 | ERROR    | __main__:main:120 - Failed to connect to the camera.
+2023-09-12 07:40:51.792 | INFO     | __main__:main:124 - Connected to the camera.
+2023-09-12 07:42:25.954 | ERROR    | __main__:main:133 - Failed to capture frame.
+2023-09-12 07:42:26.695 | INFO     | __main__:save_image:94 - Saved image to images/frames/1694504546.jpg
+2023-09-12 07:42:26.897 | INFO     | __main__:save_image:94 - Saved image to images/frames/1694504546.jpg
+2023-09-12 07:42:26.903 | INFO     | __main__:save_image:94 - Saved image to images/frames/1694504546.jpg
+2023-09-12 07:42:26.920 | INFO     | __main__:save_image:94 - Saved image to images/frames/1694504546.jpg
+2023-09-12 07:42:26.925 | INFO     | __main__:save_image:94 - Saved image to images/frames/1694504546.jpg
+2023-09-12 07:42:26.996 | INFO     | __main__:save_image:94 - Saved image to images/frames/1694504546.jpg
+2023-09-12 07:42:27.003 | INFO     | __main__:save_image:94 - Saved image to images/frames/1694504546.jpg
+2023-09-12 07:42:27.725 | INFO     | __main__:save_image:94 - Saved image to images/frames/1694504547.jpg
+2023-09-12 07:42:27.883 | INFO     | __main__:save_image:94 - Saved image to images/frames/1694504547.jpg
+2023-09-12 07:42:27.890 | INFO     | __main__:save_image:94 - Saved image to images/frames/1694504547.jpg
+2023-09-12 07:42:28.029 | INFO     | __main__:save_image:94 - Saved image to images/frames/1694504547.jpg
+2023-09-12 07:42:28.057 | INFO     | __main__:save_image:94 - Saved image to images/frames/1694504548.jpg
+2023-09-12 07:42:28.090 | INFO     | __main__:save_image:94 - Saved image to images/frames/1694504548.jpg
+2023-09-12 07:42:28.150 | INFO     | __main__:save_image:94 - Saved image to images/frames/1694504548.jpg
+2023-09-12 07:46:04.570 | INFO     | __main__:main:125 - Connected to the camera.
+2023-09-12 07:47:23.219 | ERROR    | __main__:main:121 - Failed to connect to the camera.
+2023-09-12 07:47:53.297 | ERROR    | __main__:main:121 - Failed to connect to the camera.
+2023-09-12 07:48:23.376 | ERROR    | __main__:main:121 - Failed to connect to the camera.
+2023-09-12 07:48:53.454 | ERROR    | __main__:main:121 - Failed to connect to the camera.
+2023-09-12 07:48:56.265 | INFO     | __main__:main:125 - Connected to the camera.
+2023-09-12 07:51:13.284 | ERROR    | __main__:main:122 - Failed to connect to the camera.
+2023-09-12 07:51:43.297 | ERROR    | __main__:main:122 - Failed to connect to the camera.
+2023-09-12 07:51:45.127 | INFO     | __main__:main:126 - Connected to the camera.
+2023-09-12 07:51:56.600 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 07:53:30.138 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 07:53:36.283 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 07:54:35.291 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 07:57:29.159 | ERROR    | __main__:main:124 - Failed to connect to the camera.
+2023-09-12 07:57:59.234 | ERROR    | __main__:main:124 - Failed to connect to the camera.
+2023-09-12 07:58:01.109 | INFO     | __main__:main:128 - Connected to the camera.
+2023-09-12 07:59:08.080 | ERROR    | __main__:main:137 - Failed to capture frame.
+2023-09-12 07:59:08.081 | ERROR    | __main__:main:137 - Failed to capture frame.
+2023-09-12 08:02:51.123 | INFO     | __main__:main:128 - Connected to the camera.
+2023-09-12 08:03:30.612 | INFO     | __main__:main:129 - Connected to the camera.
+2023-09-12 08:04:09.963 | INFO     | __main__:main:129 - Connected to the camera.
+2023-09-12 08:04:48.776 | INFO     | __main__:main:128 - Connected to the camera.
+2023-09-12 08:06:18.681 | ERROR    | __main__:main:122 - Failed to connect to the camera.
+2023-09-12 08:06:48.772 | ERROR    | __main__:main:122 - Failed to connect to the camera.
+2023-09-12 08:07:18.849 | ERROR    | __main__:main:122 - Failed to connect to the camera.
+2023-09-12 08:07:21.812 | INFO     | __main__:main:126 - Connected to the camera.
+2023-09-12 08:08:57.890 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 08:08:57.935 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 08:10:35.119 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 08:11:06.329 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 08:13:44.711 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 08:13:44.747 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 08:15:32.713 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 08:15:32.746 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 08:15:39.078 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 08:19:44.433 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 08:21:13.389 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 08:21:13.417 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 08:26:01.507 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 08:28:03.504 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 08:32:26.700 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 08:32:26.751 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 08:32:40.950 | INFO     | __main__:save_image:95 - Saved image to images/frames/1b4d2783-45e4-49c1-96ba-3f2476e7391c.jpg
+2023-09-12 08:34:33.056 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 08:34:33.057 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 08:36:42.689 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 08:36:42.732 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 08:37:34.979 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 08:37:35.025 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 08:38:36.361 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 08:38:36.369 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 08:40:38.712 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 08:42:54.298 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 08:46:33.907 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 08:46:33.955 | ERROR    | __main__:main:135 - Failed to capture frame.
+2023-09-12 08:46:41.334 | INFO     | __main__:save_image:95 - Saved image to images/frames/d1dab6ec-78e1-4a7b-a8e1-b90b50f8af4c.jpg
+2023-09-12 08:53:28.772 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-12 08:53:58.852 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-12 08:54:38.401 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-12 08:55:08.479 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-12 08:55:38.558 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-12 08:56:08.639 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-12 08:56:38.724 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-12 08:56:40.508 | INFO     | __main__:main:121 - Connected to the camera.
+2023-09-12 08:59:43.925 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:01:07.105 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:01:13.697 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:01:13.699 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:04:08.154 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:04:08.156 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:05:57.169 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:05:57.170 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:09:50.707 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:09:50.708 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:12:11.464 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:15:43.652 | INFO     | __main__:save_image:90 - Saved image to images/frames/83029551-925a-41bc-95f7-3e6bacab59c6.jpg
+2023-09-12 09:15:43.658 | INFO     | __main__:detect_faces:72 - Face detected with confidence 6.000635059026536. Saved to images/frames/83029551-925a-41bc-95f7-3e6bacab59c6.jpg.
+2023-09-12 09:16:15.456 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:16:15.458 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:21:38.465 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:21:38.467 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:21:38.468 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:21:38.468 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:21:38.469 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:21:38.470 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:21:38.470 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:21:38.471 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:21:38.472 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:21:38.472 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:21:38.473 | ERROR    | __main__:main:146 - Read frame failures reached 10. Restarting the camera...
+2023-09-12 09:22:08.557 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-12 09:22:38.639 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-12 09:23:08.719 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-12 09:23:38.800 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-12 09:24:08.881 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-12 09:24:10.754 | INFO     | __main__:main:121 - Connected to the camera.
+2023-09-12 09:24:47.079 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:24:54.171 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:25:28.872 | INFO     | __main__:save_image:90 - Saved image to images/frames/9eb8cd6c-073f-4dcd-94d1-2548d11a54e5.jpg
+2023-09-12 09:25:28.885 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.144727042817976. Saved to images/frames/9eb8cd6c-073f-4dcd-94d1-2548d11a54e5.jpg.
+2023-09-12 09:25:30.412 | INFO     | __main__:save_image:90 - Saved image to images/frames/aa3d0a7c-509b-4ea8-858d-5ec86f94fe42.jpg
+2023-09-12 09:25:30.416 | INFO     | __main__:detect_faces:72 - Face detected with confidence 2.269510012876708. Saved to images/frames/aa3d0a7c-509b-4ea8-858d-5ec86f94fe42.jpg.
+2023-09-12 09:25:30.590 | INFO     | __main__:save_image:90 - Saved image to images/frames/ed9ed91d-4761-4182-9f08-d2736892d877.jpg
+2023-09-12 09:25:30.594 | INFO     | __main__:detect_faces:72 - Face detected with confidence 3.8788050874718465. Saved to images/frames/ed9ed91d-4761-4182-9f08-d2736892d877.jpg.
+2023-09-12 09:25:30.766 | INFO     | __main__:save_image:90 - Saved image to images/frames/837cdf90-be58-401a-bbd1-72b564855209.jpg
+2023-09-12 09:25:30.770 | INFO     | __main__:detect_faces:72 - Face detected with confidence 3.371157143090386. Saved to images/frames/837cdf90-be58-401a-bbd1-72b564855209.jpg.
+2023-09-12 09:25:30.944 | INFO     | __main__:save_image:90 - Saved image to images/frames/99c24bfb-4492-460d-811d-a1f4c73845ec.jpg
+2023-09-12 09:25:30.948 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.586154141870793. Saved to images/frames/99c24bfb-4492-460d-811d-a1f4c73845ec.jpg.
+2023-09-12 09:25:31.130 | INFO     | __main__:save_image:90 - Saved image to images/frames/c402a8b4-8300-4254-adce-a3cc073f748f.jpg
+2023-09-12 09:25:31.134 | INFO     | __main__:detect_faces:72 - Face detected with confidence 5.953980059770402. Saved to images/frames/c402a8b4-8300-4254-adce-a3cc073f748f.jpg.
+2023-09-12 09:25:31.314 | INFO     | __main__:save_image:90 - Saved image to images/frames/621870bd-c8da-4080-95c9-e7a80d9ee39e.jpg
+2023-09-12 09:25:31.319 | INFO     | __main__:detect_faces:72 - Face detected with confidence 7.7127621321124025. Saved to images/frames/621870bd-c8da-4080-95c9-e7a80d9ee39e.jpg.
+2023-09-12 09:25:31.539 | INFO     | __main__:save_image:90 - Saved image to images/frames/8f6996f6-d8ac-4b72-a44c-aa2004871109.jpg
+2023-09-12 09:25:31.544 | INFO     | __main__:detect_faces:72 - Face detected with confidence 6.442532044660766. Saved to images/frames/8f6996f6-d8ac-4b72-a44c-aa2004871109.jpg.
+2023-09-12 09:25:31.725 | INFO     | __main__:save_image:90 - Saved image to images/frames/0bb34503-4232-4856-a6d1-16eb71bd8ad3.jpg
+2023-09-12 09:25:31.729 | INFO     | __main__:detect_faces:72 - Face detected with confidence 6.134674187691417. Saved to images/frames/0bb34503-4232-4856-a6d1-16eb71bd8ad3.jpg.
+2023-09-12 09:25:31.920 | INFO     | __main__:save_image:90 - Saved image to images/frames/8db18ac6-be43-47e1-8c8b-ab77961f3cae.jpg
+2023-09-12 09:25:31.924 | INFO     | __main__:detect_faces:72 - Face detected with confidence 5.02296413219301. Saved to images/frames/8db18ac6-be43-47e1-8c8b-ab77961f3cae.jpg.
+2023-09-12 09:25:32.098 | INFO     | __main__:save_image:90 - Saved image to images/frames/42345570-bfb7-4d90-a9ef-090b12e54c26.jpg
+2023-09-12 09:25:32.103 | INFO     | __main__:detect_faces:72 - Face detected with confidence 7.233112166286446. Saved to images/frames/42345570-bfb7-4d90-a9ef-090b12e54c26.jpg.
+2023-09-12 09:25:32.278 | INFO     | __main__:save_image:90 - Saved image to images/frames/7ef14655-bdca-416d-8fbf-96ce51d2a294.jpg
+2023-09-12 09:25:32.283 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.2553251258214. Saved to images/frames/7ef14655-bdca-416d-8fbf-96ce51d2a294.jpg.
+2023-09-12 09:25:32.459 | INFO     | __main__:save_image:90 - Saved image to images/frames/089d92d0-08da-4e55-b631-90edcf4afc84.jpg
+2023-09-12 09:25:32.464 | INFO     | __main__:detect_faces:72 - Face detected with confidence 3.3732551517314278. Saved to images/frames/089d92d0-08da-4e55-b631-90edcf4afc84.jpg.
+2023-09-12 09:25:32.660 | INFO     | __main__:save_image:90 - Saved image to images/frames/2373f132-2abf-42a2-9285-fe833f8d656c.jpg
+2023-09-12 09:25:32.665 | INFO     | __main__:detect_faces:72 - Face detected with confidence 3.6738160558161326. Saved to images/frames/2373f132-2abf-42a2-9285-fe833f8d656c.jpg.
+2023-09-12 09:25:32.844 | INFO     | __main__:save_image:90 - Saved image to images/frames/41a7c9d9-d819-4054-9940-faf8b0071b6c.jpg
+2023-09-12 09:25:32.848 | INFO     | __main__:detect_faces:72 - Face detected with confidence 2.8275260637165047. Saved to images/frames/41a7c9d9-d819-4054-9940-faf8b0071b6c.jpg.
+2023-09-12 09:30:22.936 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:30:22.945 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:35:23.796 | INFO     | __main__:save_image:90 - Saved image to images/frames/83e0a6e0-f981-438c-b5d9-d4ce2a4e6678.jpg
+2023-09-12 09:35:23.810 | INFO     | __main__:detect_faces:72 - Face detected with confidence 2.4788030953495763. Saved to images/frames/83e0a6e0-f981-438c-b5d9-d4ce2a4e6678.jpg.
+2023-09-12 09:36:41.739 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:46:58.418 | INFO     | __main__:save_image:90 - Saved image to images/frames/43a4706e-8b8c-4ce2-83d1-5e00fe1dafa5.jpg
+2023-09-12 09:46:58.425 | INFO     | __main__:detect_faces:72 - Face detected with confidence 9.89823614776833. Saved to images/frames/43a4706e-8b8c-4ce2-83d1-5e00fe1dafa5.jpg.
+2023-09-12 09:46:58.632 | INFO     | __main__:save_image:90 - Saved image to images/frames/eb152320-5550-4847-a56b-d341439ba7a7.jpg
+2023-09-12 09:46:58.636 | INFO     | __main__:detect_faces:72 - Face detected with confidence 8.421787169703748. Saved to images/frames/eb152320-5550-4847-a56b-d341439ba7a7.jpg.
+2023-09-12 09:46:58.996 | INFO     | __main__:save_image:90 - Saved image to images/frames/cf2d0010-c7d2-45ef-b8fd-dacb8102f63e.jpg
+2023-09-12 09:46:59.000 | INFO     | __main__:detect_faces:72 - Face detected with confidence 7.489900139102247. Saved to images/frames/cf2d0010-c7d2-45ef-b8fd-dacb8102f63e.jpg.
+2023-09-12 09:46:59.214 | INFO     | __main__:save_image:90 - Saved image to images/frames/adeb8d99-7601-4d54-966c-dacff5f29f63.jpg
+2023-09-12 09:46:59.218 | INFO     | __main__:detect_faces:72 - Face detected with confidence 6.905807167640887. Saved to images/frames/adeb8d99-7601-4d54-966c-dacff5f29f63.jpg.
+2023-09-12 09:46:59.410 | INFO     | __main__:save_image:90 - Saved image to images/frames/828e45fc-aaeb-4fbc-b851-dcd164b56af2.jpg
+2023-09-12 09:46:59.414 | INFO     | __main__:detect_faces:72 - Face detected with confidence 7.532369115331676. Saved to images/frames/828e45fc-aaeb-4fbc-b851-dcd164b56af2.jpg.
+2023-09-12 09:46:59.936 | INFO     | __main__:save_image:90 - Saved image to images/frames/e453facb-a739-436b-aa28-e29d29f1de1b.jpg
+2023-09-12 09:46:59.939 | INFO     | __main__:detect_faces:72 - Face detected with confidence 2.6756070823175833. Saved to images/frames/e453facb-a739-436b-aa28-e29d29f1de1b.jpg.
+2023-09-12 09:47:00.578 | INFO     | __main__:save_image:90 - Saved image to images/frames/e74e76a1-abc5-4c89-af9e-a4a8236bbc68.jpg
+2023-09-12 09:47:00.582 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.93240604334278. Saved to images/frames/e74e76a1-abc5-4c89-af9e-a4a8236bbc68.jpg.
+2023-09-12 09:47:00.942 | INFO     | __main__:save_image:90 - Saved image to images/frames/67267b81-a22f-4be5-aa73-63316032e207.jpg
+2023-09-12 09:47:00.946 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.449669165245723. Saved to images/frames/67267b81-a22f-4be5-aa73-63316032e207.jpg.
+2023-09-12 09:47:01.155 | INFO     | __main__:save_image:90 - Saved image to images/frames/7b79f0fe-3887-4a3e-b603-54918021ca11.jpg
+2023-09-12 09:47:01.159 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.400380040460732. Saved to images/frames/7b79f0fe-3887-4a3e-b603-54918021ca11.jpg.
+2023-09-12 09:47:01.353 | INFO     | __main__:save_image:90 - Saved image to images/frames/50eb470e-c259-4e13-bd14-510cd25b9666.jpg
+2023-09-12 09:47:01.357 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.577669094258454. Saved to images/frames/50eb470e-c259-4e13-bd14-510cd25b9666.jpg.
+2023-09-12 09:47:01.542 | INFO     | __main__:save_image:90 - Saved image to images/frames/991b455c-9fd5-430d-a884-d63a8ef12a9d.jpg
+2023-09-12 09:47:01.546 | INFO     | __main__:detect_faces:72 - Face detected with confidence 5.385127118730452. Saved to images/frames/991b455c-9fd5-430d-a884-d63a8ef12a9d.jpg.
+2023-09-12 09:47:01.727 | INFO     | __main__:save_image:90 - Saved image to images/frames/3d939dd1-0486-48b7-9148-5cb001449fe5.jpg
+2023-09-12 09:47:01.731 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.68303518317407. Saved to images/frames/3d939dd1-0486-48b7-9148-5cb001449fe5.jpg.
+2023-09-12 09:47:01.921 | INFO     | __main__:save_image:90 - Saved image to images/frames/4c747e5c-c93b-43a8-91bb-c86644348a3a.jpg
+2023-09-12 09:47:01.925 | INFO     | __main__:detect_faces:72 - Face detected with confidence 3.590743101143744. Saved to images/frames/4c747e5c-c93b-43a8-91bb-c86644348a3a.jpg.
+2023-09-12 09:47:02.106 | INFO     | __main__:save_image:90 - Saved image to images/frames/95b974ed-7109-40b9-a156-f9972dbd966e.jpg
+2023-09-12 09:47:02.110 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.273056163627189. Saved to images/frames/95b974ed-7109-40b9-a156-f9972dbd966e.jpg.
+2023-09-12 09:47:02.289 | INFO     | __main__:save_image:90 - Saved image to images/frames/375a3a6d-ec4a-404b-a110-138fb5ef6773.jpg
+2023-09-12 09:47:02.293 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.593439053918701. Saved to images/frames/375a3a6d-ec4a-404b-a110-138fb5ef6773.jpg.
+2023-09-12 09:47:02.474 | INFO     | __main__:save_image:90 - Saved image to images/frames/bc8f1907-11c5-4e80-b7c9-9b173cc1ef84.jpg
+2023-09-12 09:47:02.478 | INFO     | __main__:detect_faces:72 - Face detected with confidence 3.8238901823642664. Saved to images/frames/bc8f1907-11c5-4e80-b7c9-9b173cc1ef84.jpg.
+2023-09-12 09:47:02.811 | INFO     | __main__:save_image:90 - Saved image to images/frames/2ea4063f-9271-4f5e-a670-248b321f82d3.jpg
+2023-09-12 09:47:02.815 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.741981175437104. Saved to images/frames/2ea4063f-9271-4f5e-a670-248b321f82d3.jpg.
+2023-09-12 09:47:03.137 | INFO     | __main__:save_image:90 - Saved image to images/frames/6901a62c-263c-4e79-a52c-b631facb7590.jpg
+2023-09-12 09:47:03.141 | INFO     | __main__:detect_faces:72 - Face detected with confidence 3.9863631880725734. Saved to images/frames/6901a62c-263c-4e79-a52c-b631facb7590.jpg.
+2023-09-12 09:47:03.591 | INFO     | __main__:save_image:90 - Saved image to images/frames/43c4f206-0eac-4a24-bbd5-478bcafb8562.jpg
+2023-09-12 09:47:03.595 | INFO     | __main__:detect_faces:72 - Face detected with confidence 5.130045180150773. Saved to images/frames/43c4f206-0eac-4a24-bbd5-478bcafb8562.jpg.
+2023-09-12 09:47:03.771 | INFO     | __main__:save_image:90 - Saved image to images/frames/95d9129c-193c-4e72-a989-400a3dd8a26c.jpg
+2023-09-12 09:47:03.775 | INFO     | __main__:detect_faces:72 - Face detected with confidence 5.538457194517832. Saved to images/frames/95d9129c-193c-4e72-a989-400a3dd8a26c.jpg.
+2023-09-12 09:47:04.803 | INFO     | __main__:save_image:90 - Saved image to images/frames/209921a5-27a8-4a0b-b95c-318eb66dd302.jpg
+2023-09-12 09:47:04.807 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.194719151535537. Saved to images/frames/209921a5-27a8-4a0b-b95c-318eb66dd302.jpg.
+2023-09-12 09:47:04.994 | INFO     | __main__:save_image:90 - Saved image to images/frames/64cc96a7-d35c-4b08-bc8c-c4f396fd23c3.jpg
+2023-09-12 09:47:04.998 | INFO     | __main__:detect_faces:72 - Face detected with confidence 3.653283071646001. Saved to images/frames/64cc96a7-d35c-4b08-bc8c-c4f396fd23c3.jpg.
+2023-09-12 09:47:05.186 | INFO     | __main__:save_image:90 - Saved image to images/frames/4d69f01a-99c8-44b7-b9e1-effac8764898.jpg
+2023-09-12 09:47:05.190 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.027483060199302. Saved to images/frames/4d69f01a-99c8-44b7-b9e1-effac8764898.jpg.
+2023-09-12 09:47:05.520 | INFO     | __main__:save_image:90 - Saved image to images/frames/c476cd75-84dd-4ad7-8751-841b20513a9b.jpg
+2023-09-12 09:47:05.524 | INFO     | __main__:detect_faces:72 - Face detected with confidence 2.5679890673491172. Saved to images/frames/c476cd75-84dd-4ad7-8751-841b20513a9b.jpg.
+2023-09-12 09:47:05.726 | INFO     | __main__:save_image:90 - Saved image to images/frames/ee5c9970-4a59-422b-91f0-3101ccbbbace.jpg
+2023-09-12 09:47:05.730 | INFO     | __main__:detect_faces:72 - Face detected with confidence 3.736143117712345. Saved to images/frames/ee5c9970-4a59-422b-91f0-3101ccbbbace.jpg.
+2023-09-12 09:47:06.070 | INFO     | __main__:save_image:90 - Saved image to images/frames/de7a5ef8-bc08-4bb3-9078-374845f60fcb.jpg
+2023-09-12 09:47:06.074 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.02659009542549. Saved to images/frames/de7a5ef8-bc08-4bb3-9078-374845f60fcb.jpg.
+2023-09-12 09:47:06.408 | INFO     | __main__:save_image:90 - Saved image to images/frames/c38946b4-0b6d-4410-9eff-912fcacac8cb.jpg
+2023-09-12 09:47:06.412 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.828394062351435. Saved to images/frames/c38946b4-0b6d-4410-9eff-912fcacac8cb.jpg.
+2023-09-12 09:47:06.612 | INFO     | __main__:save_image:90 - Saved image to images/frames/4382cd7b-fba9-412c-b64e-cf0a91e27874.jpg
+2023-09-12 09:47:06.616 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.368346055562142. Saved to images/frames/4382cd7b-fba9-412c-b64e-cf0a91e27874.jpg.
+2023-09-12 09:47:06.801 | INFO     | __main__:save_image:90 - Saved image to images/frames/664a7f53-4a29-4876-ba95-3beea8b24d50.jpg
+2023-09-12 09:47:06.805 | INFO     | __main__:detect_faces:72 - Face detected with confidence 5.257556176919024. Saved to images/frames/664a7f53-4a29-4876-ba95-3beea8b24d50.jpg.
+2023-09-12 09:47:06.997 | INFO     | __main__:save_image:90 - Saved image to images/frames/fc361abb-c961-46d3-8588-3e7c2be84f66.jpg
+2023-09-12 09:47:07.001 | INFO     | __main__:detect_faces:72 - Face detected with confidence 6.212759183894377. Saved to images/frames/fc361abb-c961-46d3-8588-3e7c2be84f66.jpg.
+2023-09-12 09:47:07.204 | INFO     | __main__:save_image:90 - Saved image to images/frames/a0f43e6a-a328-49bb-907a-667dfb5f0445.jpg
+2023-09-12 09:47:07.208 | INFO     | __main__:detect_faces:72 - Face detected with confidence 8.399918024952058. Saved to images/frames/a0f43e6a-a328-49bb-907a-667dfb5f0445.jpg.
+2023-09-12 09:47:07.400 | INFO     | __main__:save_image:90 - Saved image to images/frames/d8e86de3-6cef-4a25-9f48-50a9f71423c5.jpg
+2023-09-12 09:47:07.404 | INFO     | __main__:detect_faces:72 - Face detected with confidence 7.140486044401769. Saved to images/frames/d8e86de3-6cef-4a25-9f48-50a9f71423c5.jpg.
+2023-09-12 09:47:07.587 | INFO     | __main__:save_image:90 - Saved image to images/frames/c60b2c96-7707-460a-9d74-d458dff8a77b.jpg
+2023-09-12 09:47:07.591 | INFO     | __main__:detect_faces:72 - Face detected with confidence 7.47529811662389. Saved to images/frames/c60b2c96-7707-460a-9d74-d458dff8a77b.jpg.
+2023-09-12 09:47:07.779 | INFO     | __main__:save_image:90 - Saved image to images/frames/b55528fa-1d32-435b-9361-d34ebfbc29b0.jpg
+2023-09-12 09:47:07.783 | INFO     | __main__:detect_faces:72 - Face detected with confidence 5.560374058375601. Saved to images/frames/b55528fa-1d32-435b-9361-d34ebfbc29b0.jpg.
+2023-09-12 09:47:07.978 | INFO     | __main__:save_image:90 - Saved image to images/frames/068c94e2-53f1-407b-9c6e-e14b1cea1cee.jpg
+2023-09-12 09:47:07.982 | INFO     | __main__:detect_faces:72 - Face detected with confidence 5.030538168444764. Saved to images/frames/068c94e2-53f1-407b-9c6e-e14b1cea1cee.jpg.
+2023-09-12 09:47:08.170 | INFO     | __main__:save_image:90 - Saved image to images/frames/94478239-1199-4f0c-97ca-fe698f8b4ef5.jpg
+2023-09-12 09:47:08.174 | INFO     | __main__:detect_faces:72 - Face detected with confidence 8.437113091174979. Saved to images/frames/94478239-1199-4f0c-97ca-fe698f8b4ef5.jpg.
+2023-09-12 09:47:08.372 | INFO     | __main__:save_image:90 - Saved image to images/frames/3ffde5b6-c5de-4829-af86-fd3250fc725f.jpg
+2023-09-12 09:47:08.376 | INFO     | __main__:detect_faces:72 - Face detected with confidence 7.960896089498419. Saved to images/frames/3ffde5b6-c5de-4829-af86-fd3250fc725f.jpg.
+2023-09-12 09:47:08.557 | INFO     | __main__:save_image:90 - Saved image to images/frames/722f82a0-3868-4f04-8b66-aba8879f7e72.jpg
+2023-09-12 09:47:08.561 | INFO     | __main__:detect_faces:72 - Face detected with confidence 8.762294015788939. Saved to images/frames/722f82a0-3868-4f04-8b66-aba8879f7e72.jpg.
+2023-09-12 09:47:08.749 | INFO     | __main__:save_image:90 - Saved image to images/frames/09cf8069-3fe3-4bcf-bd5a-90032b6a269f.jpg
+2023-09-12 09:47:08.753 | INFO     | __main__:detect_faces:72 - Face detected with confidence 6.3793560693156905. Saved to images/frames/09cf8069-3fe3-4bcf-bd5a-90032b6a269f.jpg.
+2023-09-12 09:47:08.931 | INFO     | __main__:save_image:90 - Saved image to images/frames/8c47eace-f6c8-4031-b1fa-331052771ef5.jpg
+2023-09-12 09:47:08.934 | INFO     | __main__:detect_faces:72 - Face detected with confidence 5.276232060918119. Saved to images/frames/8c47eace-f6c8-4031-b1fa-331052771ef5.jpg.
+2023-09-12 09:47:09.120 | INFO     | __main__:save_image:90 - Saved image to images/frames/bd892918-3573-4c0c-abe7-3f8edf8f9fbd.jpg
+2023-09-12 09:47:09.124 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.608273020887282. Saved to images/frames/bd892918-3573-4c0c-abe7-3f8edf8f9fbd.jpg.
+2023-09-12 09:47:09.312 | INFO     | __main__:save_image:90 - Saved image to images/frames/c2a9788f-22d6-48d8-9638-84ec572ec143.jpg
+2023-09-12 09:47:09.316 | INFO     | __main__:detect_faces:72 - Face detected with confidence 5.758752147841733. Saved to images/frames/c2a9788f-22d6-48d8-9638-84ec572ec143.jpg.
+2023-09-12 09:47:09.500 | INFO     | __main__:save_image:90 - Saved image to images/frames/17e442d4-9863-4af9-8cd9-9218c1fd9e80.jpg
+2023-09-12 09:47:09.504 | INFO     | __main__:detect_faces:72 - Face detected with confidence 3.864113099349197. Saved to images/frames/17e442d4-9863-4af9-8cd9-9218c1fd9e80.jpg.
+2023-09-12 09:47:09.697 | INFO     | __main__:save_image:90 - Saved image to images/frames/d000d851-d3f6-4998-820f-5a4522e1aff2.jpg
+2023-09-12 09:47:09.701 | INFO     | __main__:detect_faces:72 - Face detected with confidence 1.7956529827206396. Saved to images/frames/d000d851-d3f6-4998-820f-5a4522e1aff2.jpg.
+2023-09-12 09:47:10.757 | INFO     | __main__:save_image:90 - Saved image to images/frames/20aeb247-bc9f-4ce8-8fa9-d16e883d33f8.jpg
+2023-09-12 09:47:10.761 | INFO     | __main__:detect_faces:72 - Face detected with confidence 3.7872521508834325. Saved to images/frames/20aeb247-bc9f-4ce8-8fa9-d16e883d33f8.jpg.
+2023-09-12 09:47:10.948 | INFO     | __main__:save_image:90 - Saved image to images/frames/133d94ed-4c5b-424f-846e-6dc4e7cc0799.jpg
+2023-09-12 09:47:10.952 | INFO     | __main__:detect_faces:72 - Face detected with confidence 6.3359650452039205. Saved to images/frames/133d94ed-4c5b-424f-846e-6dc4e7cc0799.jpg.
+2023-09-12 09:47:11.141 | INFO     | __main__:save_image:90 - Saved image to images/frames/f1f66d87-8807-4f35-bae0-35ace599a7d9.jpg
+2023-09-12 09:47:11.145 | INFO     | __main__:detect_faces:72 - Face detected with confidence 6.761801174317952. Saved to images/frames/f1f66d87-8807-4f35-bae0-35ace599a7d9.jpg.
+2023-09-12 09:47:11.341 | INFO     | __main__:save_image:90 - Saved image to images/frames/9250da5e-9adc-4645-8d12-9f6c990bcc2a.jpg
+2023-09-12 09:47:11.345 | INFO     | __main__:detect_faces:72 - Face detected with confidence 5.917154100199696. Saved to images/frames/9250da5e-9adc-4645-8d12-9f6c990bcc2a.jpg.
+2023-09-12 09:47:11.529 | INFO     | __main__:save_image:90 - Saved image to images/frames/ea56d15f-0d6d-47eb-927a-1d457600c770.jpg
+2023-09-12 09:47:11.533 | INFO     | __main__:detect_faces:72 - Face detected with confidence 7.069217168667819. Saved to images/frames/ea56d15f-0d6d-47eb-927a-1d457600c770.jpg.
+2023-09-12 09:47:11.734 | INFO     | __main__:save_image:90 - Saved image to images/frames/784fb973-5033-46f3-97e0-1791e16e14a2.jpg
+2023-09-12 09:47:11.738 | INFO     | __main__:detect_faces:72 - Face detected with confidence 3.243852089100983. Saved to images/frames/784fb973-5033-46f3-97e0-1791e16e14a2.jpg.
+2023-09-12 09:47:16.024 | INFO     | __main__:save_image:90 - Saved image to images/frames/32f9951d-2bcd-4de5-8bca-bd694686f5ad.jpg
+2023-09-12 09:47:16.028 | INFO     | __main__:detect_faces:72 - Face detected with confidence 6.176410969521385. Saved to images/frames/32f9951d-2bcd-4de5-8bca-bd694686f5ad.jpg.
+2023-09-12 09:47:16.209 | INFO     | __main__:save_image:90 - Saved image to images/frames/0cd87826-c7b5-4eed-8e41-4f24c77d6323.jpg
+2023-09-12 09:47:16.212 | INFO     | __main__:detect_faces:72 - Face detected with confidence 6.289164054032881. Saved to images/frames/0cd87826-c7b5-4eed-8e41-4f24c77d6323.jpg.
+2023-09-12 09:47:16.399 | INFO     | __main__:save_image:90 - Saved image to images/frames/222d41cf-3c5a-40bd-9bc5-14887130e641.jpg
+2023-09-12 09:47:16.403 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.481427991588134. Saved to images/frames/222d41cf-3c5a-40bd-9bc5-14887130e641.jpg.
+2023-09-12 09:48:33.705 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:50:26.440 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:50:29.499 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:50:29.500 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:50:29.501 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:50:29.501 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:50:29.502 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:50:29.503 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:50:29.503 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:50:29.504 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:50:29.505 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:50:29.505 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:50:29.506 | ERROR    | __main__:main:146 - Read frame failures reached 10. Restarting the camera...
+2023-09-12 09:50:59.588 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-12 09:51:29.665 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-12 09:51:59.742 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-12 09:52:29.819 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-12 09:52:31.665 | INFO     | __main__:main:121 - Connected to the camera.
+2023-09-12 09:54:01.811 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:55:40.480 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:56:38.825 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 09:56:47.513 | INFO     | __main__:save_image:90 - Saved image to images/frames/b3a3a2e1-7f7a-43d8-8e0c-21fcdb19ca55.jpg
+2023-09-12 09:56:47.519 | INFO     | __main__:detect_faces:72 - Face detected with confidence 6.748544102010783. Saved to images/frames/b3a3a2e1-7f7a-43d8-8e0c-21fcdb19ca55.jpg.
+2023-09-12 09:56:48.137 | INFO     | __main__:save_image:90 - Saved image to images/frames/608d92fb-bf1a-4a41-b968-ea1fda647360.jpg
+2023-09-12 09:56:48.141 | INFO     | __main__:detect_faces:72 - Face detected with confidence 8.783325069758575. Saved to images/frames/608d92fb-bf1a-4a41-b968-ea1fda647360.jpg.
+2023-09-12 09:56:48.601 | INFO     | __main__:save_image:90 - Saved image to images/frames/c78ce550-c96b-4921-92e6-27bec98c1bd0.jpg
+2023-09-12 09:56:48.605 | INFO     | __main__:detect_faces:72 - Face detected with confidence 6.367405135068111. Saved to images/frames/c78ce550-c96b-4921-92e6-27bec98c1bd0.jpg.
+2023-09-12 09:57:01.179 | INFO     | __main__:save_image:90 - Saved image to images/frames/d408fceb-fc02-4fcd-a2ca-48f77c99fda8.jpg
+2023-09-12 09:57:01.183 | INFO     | __main__:detect_faces:72 - Face detected with confidence 5.339568102674093. Saved to images/frames/d408fceb-fc02-4fcd-a2ca-48f77c99fda8.jpg.
+2023-09-12 09:57:01.376 | INFO     | __main__:save_image:90 - Saved image to images/frames/57f3d48d-7d8d-4a29-9c7d-4556442304c6.jpg
+2023-09-12 09:57:01.380 | INFO     | __main__:detect_faces:72 - Face detected with confidence 6.8875240868655965. Saved to images/frames/57f3d48d-7d8d-4a29-9c7d-4556442304c6.jpg.
+2023-09-12 09:57:01.575 | INFO     | __main__:save_image:90 - Saved image to images/frames/0e0c89d1-3cec-4ce4-9173-2630fc6958ad.jpg
+2023-09-12 09:57:01.579 | INFO     | __main__:detect_faces:72 - Face detected with confidence 3.571700091357343. Saved to images/frames/0e0c89d1-3cec-4ce4-9173-2630fc6958ad.jpg.
+2023-09-12 09:57:01.785 | INFO     | __main__:save_image:90 - Saved image to images/frames/aa066e41-e57c-4925-af09-bc2ec2505d11.jpg
+2023-09-12 09:57:01.790 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.57893709896598. Saved to images/frames/aa066e41-e57c-4925-af09-bc2ec2505d11.jpg.
+2023-09-12 09:57:01.974 | INFO     | __main__:save_image:90 - Saved image to images/frames/347f80f2-fc2b-4304-ab4b-cef980fd249b.jpg
+2023-09-12 09:57:01.978 | INFO     | __main__:detect_faces:72 - Face detected with confidence 3.173482133424841. Saved to images/frames/347f80f2-fc2b-4304-ab4b-cef980fd249b.jpg.
+2023-09-12 09:57:02.175 | INFO     | __main__:save_image:90 - Saved image to images/frames/8a619668-f2bf-4686-9c0e-689f81ed32ea.jpg
+2023-09-12 09:57:02.179 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.944519992626738. Saved to images/frames/8a619668-f2bf-4686-9c0e-689f81ed32ea.jpg.
+2023-09-12 09:57:02.368 | INFO     | __main__:save_image:90 - Saved image to images/frames/5b4e4bce-f983-4c27-a4d0-fdb8661de305.jpg
+2023-09-12 09:57:02.372 | INFO     | __main__:detect_faces:72 - Face detected with confidence 7.26534201920731. Saved to images/frames/5b4e4bce-f983-4c27-a4d0-fdb8661de305.jpg.
+2023-09-12 09:57:02.577 | INFO     | __main__:save_image:90 - Saved image to images/frames/36e69c16-86fd-4835-891b-4a70d27943d6.jpg
+2023-09-12 09:57:02.581 | INFO     | __main__:detect_faces:72 - Face detected with confidence 6.051527063304093. Saved to images/frames/36e69c16-86fd-4835-891b-4a70d27943d6.jpg.
+2023-09-12 09:57:41.148 | INFO     | __main__:save_image:90 - Saved image to images/frames/6f640b3f-7155-4d67-8f4e-2c1ce467d98d.jpg
+2023-09-12 09:57:41.155 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.674745065567549. Saved to images/frames/6f640b3f-7155-4d67-8f4e-2c1ce467d98d.jpg.
+2023-09-12 09:57:41.785 | INFO     | __main__:save_image:90 - Saved image to images/frames/d2c8e40b-f347-42e3-b506-c3409b20f476.jpg
+2023-09-12 09:57:41.789 | INFO     | __main__:detect_faces:72 - Face detected with confidence 6.500954044458922. Saved to images/frames/d2c8e40b-f347-42e3-b506-c3409b20f476.jpg.
+2023-09-12 09:57:41.978 | INFO     | __main__:save_image:90 - Saved image to images/frames/b08fb05b-75b5-4736-8c41-0ca3bfd76256.jpg
+2023-09-12 09:57:41.982 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.8887490662164055. Saved to images/frames/b08fb05b-75b5-4736-8c41-0ca3bfd76256.jpg.
+2023-09-12 09:57:42.179 | INFO     | __main__:save_image:90 - Saved image to images/frames/c0c5ddac-492a-4f62-8d5e-d4a5a7e609e0.jpg
+2023-09-12 09:57:42.183 | INFO     | __main__:detect_faces:72 - Face detected with confidence 5.880141046305653. Saved to images/frames/c0c5ddac-492a-4f62-8d5e-d4a5a7e609e0.jpg.
+2023-09-12 09:57:42.226 | INFO     | __main__:save_image:90 - Saved image to images/frames/5305a798-18b7-4a0e-89f2-62f715faa409.jpg
+2023-09-12 09:57:42.230 | INFO     | __main__:detect_faces:72 - Face detected with confidence 6.593703116697725. Saved to images/frames/5305a798-18b7-4a0e-89f2-62f715faa409.jpg.
+2023-09-12 09:57:42.436 | INFO     | __main__:save_image:90 - Saved image to images/frames/a7598242-e3c2-4b01-b374-e074a4949adb.jpg
+2023-09-12 09:57:42.440 | INFO     | __main__:detect_faces:72 - Face detected with confidence 3.7929062207695097. Saved to images/frames/a7598242-e3c2-4b01-b374-e074a4949adb.jpg.
+2023-09-12 09:57:42.476 | INFO     | __main__:save_image:90 - Saved image to images/frames/87de7446-cd2e-4158-819f-9c95906774f6.jpg
+2023-09-12 09:57:42.480 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.92515904357424. Saved to images/frames/87de7446-cd2e-4158-819f-9c95906774f6.jpg.
+2023-09-12 09:57:42.682 | INFO     | __main__:save_image:90 - Saved image to images/frames/8276b660-0042-4303-85c7-51ed4552ba11.jpg
+2023-09-12 09:57:42.686 | INFO     | __main__:detect_faces:72 - Face detected with confidence 5.9636109679122455. Saved to images/frames/8276b660-0042-4303-85c7-51ed4552ba11.jpg.
+2023-09-12 09:57:42.890 | INFO     | __main__:save_image:90 - Saved image to images/frames/fd5d6885-5ad5-46b7-a0e9-632ec39e21f2.jpg
+2023-09-12 09:57:42.893 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.797248100105207. Saved to images/frames/fd5d6885-5ad5-46b7-a0e9-632ec39e21f2.jpg.
+2023-09-12 09:58:45.632 | INFO     | __main__:save_image:90 - Saved image to images/frames/b77fe39f-ca71-452d-9763-cc0580581ae3.jpg
+2023-09-12 09:58:45.638 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.057151882967446. Saved to images/frames/b77fe39f-ca71-452d-9763-cc0580581ae3.jpg.
+2023-09-12 09:58:45.822 | INFO     | __main__:save_image:90 - Saved image to images/frames/1a0f1d02-e9da-4e2d-ad99-8f31e103cb28.jpg
+2023-09-12 09:58:45.826 | INFO     | __main__:detect_faces:72 - Face detected with confidence 5.695735021203291. Saved to images/frames/1a0f1d02-e9da-4e2d-ad99-8f31e103cb28.jpg.
+2023-09-12 09:58:46.021 | INFO     | __main__:save_image:90 - Saved image to images/frames/316681be-f96a-4cc3-bde1-6cdaa294d9a8.jpg
+2023-09-12 09:58:46.025 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.898798994428944. Saved to images/frames/316681be-f96a-4cc3-bde1-6cdaa294d9a8.jpg.
+2023-09-12 09:58:46.200 | INFO     | __main__:save_image:90 - Saved image to images/frames/2ecfa7a7-c6bd-40da-969d-b97af3eb3b5a.jpg
+2023-09-12 09:58:46.204 | INFO     | __main__:detect_faces:72 - Face detected with confidence 5.77965597709408. Saved to images/frames/2ecfa7a7-c6bd-40da-969d-b97af3eb3b5a.jpg.
+2023-09-12 09:58:46.392 | INFO     | __main__:save_image:90 - Saved image to images/frames/a35c8571-24dd-47fa-8f98-b2a55f244626.jpg
+2023-09-12 09:58:46.396 | INFO     | __main__:detect_faces:72 - Face detected with confidence 6.670977960980963. Saved to images/frames/a35c8571-24dd-47fa-8f98-b2a55f244626.jpg.
+2023-09-12 09:58:46.588 | INFO     | __main__:save_image:90 - Saved image to images/frames/b283421a-a199-49b8-a452-b5225c65cd8f.jpg
+2023-09-12 09:58:46.593 | INFO     | __main__:detect_faces:72 - Face detected with confidence 6.129092082497664. Saved to images/frames/b283421a-a199-49b8-a452-b5225c65cd8f.jpg.
+2023-09-12 09:58:46.778 | INFO     | __main__:save_image:90 - Saved image to images/frames/e9d1d67d-5045-4fbc-b281-3f5a1301d5ad.jpg
+2023-09-12 09:58:46.782 | INFO     | __main__:detect_faces:72 - Face detected with confidence 5.618579968751874. Saved to images/frames/e9d1d67d-5045-4fbc-b281-3f5a1301d5ad.jpg.
+2023-09-12 09:58:46.966 | INFO     | __main__:save_image:90 - Saved image to images/frames/0e8e72c4-39da-4d53-b118-b8202414714a.jpg
+2023-09-12 09:58:46.969 | INFO     | __main__:detect_faces:72 - Face detected with confidence 5.433103115239646. Saved to images/frames/0e8e72c4-39da-4d53-b118-b8202414714a.jpg.
+2023-09-12 09:58:47.152 | INFO     | __main__:save_image:90 - Saved image to images/frames/d9095858-3cc1-4013-92fa-2aa79f39b459.jpg
+2023-09-12 09:58:47.156 | INFO     | __main__:detect_faces:72 - Face detected with confidence 7.665287013805937. Saved to images/frames/d9095858-3cc1-4013-92fa-2aa79f39b459.jpg.
+2023-09-12 09:58:47.339 | INFO     | __main__:save_image:90 - Saved image to images/frames/41495f74-5899-4b0b-a7b3-99e5b76f4343.jpg
+2023-09-12 09:58:47.342 | INFO     | __main__:detect_faces:72 - Face detected with confidence 6.480725953762885. Saved to images/frames/41495f74-5899-4b0b-a7b3-99e5b76f4343.jpg.
+2023-09-12 09:58:47.671 | INFO     | __main__:save_image:90 - Saved image to images/frames/ecd90db7-9a44-483e-ae40-a5e4e7f9ca9f.jpg
+2023-09-12 09:58:47.675 | INFO     | __main__:detect_faces:72 - Face detected with confidence 6.0363501330139115. Saved to images/frames/ecd90db7-9a44-483e-ae40-a5e4e7f9ca9f.jpg.
+2023-09-12 09:58:47.855 | INFO     | __main__:save_image:90 - Saved image to images/frames/54af4d5c-2cfd-45c8-98d9-fd5dc83befb1.jpg
+2023-09-12 09:58:47.859 | INFO     | __main__:detect_faces:72 - Face detected with confidence 8.715304023120552. Saved to images/frames/54af4d5c-2cfd-45c8-98d9-fd5dc83befb1.jpg.
+2023-09-12 09:58:48.062 | INFO     | __main__:save_image:90 - Saved image to images/frames/d40be4cb-0c16-4ce4-89af-42d9621b3d96.jpg
+2023-09-12 09:58:48.066 | INFO     | __main__:detect_faces:72 - Face detected with confidence 9.289354078646284. Saved to images/frames/d40be4cb-0c16-4ce4-89af-42d9621b3d96.jpg.
+2023-09-12 09:58:48.254 | INFO     | __main__:save_image:90 - Saved image to images/frames/63045835-ec6c-4600-ae57-1b057fc68979.jpg
+2023-09-12 09:58:48.259 | INFO     | __main__:detect_faces:72 - Face detected with confidence 9.768893971282523. Saved to images/frames/63045835-ec6c-4600-ae57-1b057fc68979.jpg.
+2023-09-12 09:58:48.493 | INFO     | __main__:save_image:90 - Saved image to images/frames/cc403a21-0964-4c28-9e86-08b610374fcc.jpg
+2023-09-12 09:58:48.497 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.262283987773117. Saved to images/frames/cc403a21-0964-4c28-9e86-08b610374fcc.jpg.
+2023-09-12 09:58:48.695 | INFO     | __main__:save_image:90 - Saved image to images/frames/b4642dc4-44f1-4631-84d2-c103e411994a.jpg
+2023-09-12 09:58:48.699 | INFO     | __main__:detect_faces:72 - Face detected with confidence 5.22438905708259. Saved to images/frames/b4642dc4-44f1-4631-84d2-c103e411994a.jpg.
+2023-09-12 09:58:50.324 | INFO     | __main__:save_image:90 - Saved image to images/frames/8feb2e61-790c-4cf0-b2ec-1bc606e7d199.jpg
+2023-09-12 09:58:50.328 | INFO     | __main__:detect_faces:72 - Face detected with confidence 6.834130211384036. Saved to images/frames/8feb2e61-790c-4cf0-b2ec-1bc606e7d199.jpg.
+2023-09-12 09:58:50.531 | INFO     | __main__:save_image:90 - Saved image to images/frames/0c6c995f-9ebe-4d8d-a971-110433e96c3e.jpg
+2023-09-12 09:58:50.535 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.400109098525718. Saved to images/frames/0c6c995f-9ebe-4d8d-a971-110433e96c3e.jpg.
+2023-09-12 09:58:51.013 | INFO     | __main__:save_image:90 - Saved image to images/frames/e69b2be1-cc6c-49bb-b3be-72b721e57456.jpg
+2023-09-12 09:58:51.017 | INFO     | __main__:detect_faces:72 - Face detected with confidence 3.924154183943756. Saved to images/frames/e69b2be1-cc6c-49bb-b3be-72b721e57456.jpg.
+2023-09-12 09:58:52.363 | INFO     | __main__:save_image:90 - Saved image to images/frames/f2eca2f1-b7fd-4d9e-bc1b-7104c479d3ee.jpg
+2023-09-12 09:58:52.367 | INFO     | __main__:detect_faces:72 - Face detected with confidence 11.494346033839975. Saved to images/frames/f2eca2f1-b7fd-4d9e-bc1b-7104c479d3ee.jpg.
+2023-09-12 09:58:52.731 | INFO     | __main__:save_image:90 - Saved image to images/frames/c7fc28eb-168a-418a-a29b-765fd1d119f8.jpg
+2023-09-12 09:58:52.736 | INFO     | __main__:detect_faces:72 - Face detected with confidence 7.0894850583863445. Saved to images/frames/c7fc28eb-168a-418a-a29b-765fd1d119f8.jpg.
+2023-09-12 09:59:15.364 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 10:00:39.810 | INFO     | __main__:save_image:90 - Saved image to images/frames/298c7ee6-3f5e-4a6f-bd9b-3cafa10a31ca.jpg
+2023-09-12 10:00:39.816 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.7672990669379942. Saved to images/frames/298c7ee6-3f5e-4a6f-bd9b-3cafa10a31ca.jpg.
+2023-09-12 10:00:40.150 | INFO     | __main__:save_image:90 - Saved image to images/frames/baa3f777-8772-4f53-a2a1-545088dbdc19.jpg
+2023-09-12 10:00:40.155 | INFO     | __main__:detect_faces:72 - Face detected with confidence 1.9036060147336684. Saved to images/frames/baa3f777-8772-4f53-a2a1-545088dbdc19.jpg.
+2023-09-12 10:02:04.974 | INFO     | __main__:save_image:90 - Saved image to images/frames/4f491fc8-2ef7-4672-bcfc-a145f179a110.jpg
+2023-09-12 10:02:04.981 | INFO     | __main__:detect_faces:72 - Face detected with confidence 6.346474221849348. Saved to images/frames/4f491fc8-2ef7-4672-bcfc-a145f179a110.jpg.
+2023-09-12 10:02:06.178 | INFO     | __main__:save_image:90 - Saved image to images/frames/c78c15b9-51a5-4940-84f2-d10dbe867bad.jpg
+2023-09-12 10:02:06.183 | INFO     | __main__:detect_faces:72 - Face detected with confidence 5.48780303116655. Saved to images/frames/c78c15b9-51a5-4940-84f2-d10dbe867bad.jpg.
+2023-09-12 10:02:06.516 | INFO     | __main__:save_image:90 - Saved image to images/frames/99e7c651-6454-4bca-b883-075bfcc5ca60.jpg
+2023-09-12 10:02:06.519 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.230839067837223. Saved to images/frames/99e7c651-6454-4bca-b883-075bfcc5ca60.jpg.
+2023-09-12 10:02:06.711 | INFO     | __main__:save_image:90 - Saved image to images/frames/04c543c9-12da-42eb-84d8-0532458dd756.jpg
+2023-09-12 10:02:06.714 | INFO     | __main__:detect_faces:72 - Face detected with confidence 3.51226718648104. Saved to images/frames/04c543c9-12da-42eb-84d8-0532458dd756.jpg.
+2023-09-12 10:02:09.605 | INFO     | __main__:save_image:90 - Saved image to images/frames/17e0dd93-50cf-402e-912f-4abc1097a345.jpg
+2023-09-12 10:02:09.608 | INFO     | __main__:detect_faces:72 - Face detected with confidence 3.052079994988162. Saved to images/frames/17e0dd93-50cf-402e-912f-4abc1097a345.jpg.
+2023-09-12 10:02:09.803 | INFO     | __main__:save_image:90 - Saved image to images/frames/fb7ed8fb-540a-4f5c-88d3-4d8697783283.jpg
+2023-09-12 10:02:09.807 | INFO     | __main__:detect_faces:72 - Face detected with confidence 3.687525984540116. Saved to images/frames/fb7ed8fb-540a-4f5c-88d3-4d8697783283.jpg.
+2023-09-12 10:02:09.990 | INFO     | __main__:save_image:90 - Saved image to images/frames/b5102bb6-26c6-4cb0-9167-d36cc20b9976.jpg
+2023-09-12 10:02:09.994 | INFO     | __main__:detect_faces:72 - Face detected with confidence 5.722762183693703. Saved to images/frames/b5102bb6-26c6-4cb0-9167-d36cc20b9976.jpg.
+2023-09-12 10:02:10.186 | INFO     | __main__:save_image:90 - Saved image to images/frames/335e5ba4-de02-431b-956d-28098fb76615.jpg
+2023-09-12 10:02:10.190 | INFO     | __main__:detect_faces:72 - Face detected with confidence 5.78519612114178. Saved to images/frames/335e5ba4-de02-431b-956d-28098fb76615.jpg.
+2023-09-12 10:02:10.382 | INFO     | __main__:save_image:90 - Saved image to images/frames/368a1c99-42f4-4158-87f9-455868a055ef.jpg
+2023-09-12 10:02:10.385 | INFO     | __main__:detect_faces:72 - Face detected with confidence 6.374370141827967. Saved to images/frames/368a1c99-42f4-4158-87f9-455868a055ef.jpg.
+2023-09-12 10:02:10.575 | INFO     | __main__:save_image:90 - Saved image to images/frames/99b68733-b906-4e7c-99cc-7a562419802e.jpg
+2023-09-12 10:02:10.579 | INFO     | __main__:detect_faces:72 - Face detected with confidence 9.413388094224501. Saved to images/frames/99b68733-b906-4e7c-99cc-7a562419802e.jpg.
+2023-09-12 10:02:10.779 | INFO     | __main__:save_image:90 - Saved image to images/frames/5af8fbe3-652a-4cf8-b362-0a9c491bcab1.jpg
+2023-09-12 10:02:10.782 | INFO     | __main__:detect_faces:72 - Face detected with confidence 6.394585167465266. Saved to images/frames/5af8fbe3-652a-4cf8-b362-0a9c491bcab1.jpg.
+2023-09-12 10:02:10.968 | INFO     | __main__:save_image:90 - Saved image to images/frames/242aadd1-4f58-407a-a120-1af972bf98aa.jpg
+2023-09-12 10:02:10.972 | INFO     | __main__:detect_faces:72 - Face detected with confidence 3.466639229503926. Saved to images/frames/242aadd1-4f58-407a-a120-1af972bf98aa.jpg.
+2023-09-12 10:02:11.160 | INFO     | __main__:save_image:90 - Saved image to images/frames/ead5d142-ff31-46ab-8025-198d598016b0.jpg
+2023-09-12 10:02:11.164 | INFO     | __main__:detect_faces:72 - Face detected with confidence 3.24057707056636. Saved to images/frames/ead5d142-ff31-46ab-8025-198d598016b0.jpg.
+2023-09-12 10:02:11.355 | INFO     | __main__:save_image:90 - Saved image to images/frames/d0e6e671-19a8-4654-b5da-71f707abe8ea.jpg
+2023-09-12 10:02:11.359 | INFO     | __main__:detect_faces:72 - Face detected with confidence 2.1951150625827722. Saved to images/frames/d0e6e671-19a8-4654-b5da-71f707abe8ea.jpg.
+2023-09-12 10:02:12.060 | INFO     | __main__:save_image:90 - Saved image to images/frames/e847b974-e50f-4a90-8b63-24e199f9f1ae.jpg
+2023-09-12 10:02:12.064 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.19871606823289767. Saved to images/frames/e847b974-e50f-4a90-8b63-24e199f9f1ae.jpg.
+2023-09-12 10:02:12.254 | INFO     | __main__:save_image:90 - Saved image to images/frames/674e6b0d-6001-443f-b18d-bf050da48f32.jpg
+2023-09-12 10:02:12.258 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.825537023541983. Saved to images/frames/674e6b0d-6001-443f-b18d-bf050da48f32.jpg.
+2023-09-12 10:02:12.788 | INFO     | __main__:save_image:90 - Saved image to images/frames/54775682-0270-4710-8865-2944c40e678c.jpg
+2023-09-12 10:02:12.792 | INFO     | __main__:detect_faces:72 - Face detected with confidence 9.226134185562842. Saved to images/frames/54775682-0270-4710-8865-2944c40e678c.jpg.
+2023-09-12 10:02:12.988 | INFO     | __main__:save_image:90 - Saved image to images/frames/a70839db-88ce-4dfc-abc5-41e98a02b099.jpg
+2023-09-12 10:02:12.992 | INFO     | __main__:detect_faces:72 - Face detected with confidence 9.753314067784231. Saved to images/frames/a70839db-88ce-4dfc-abc5-41e98a02b099.jpg.
+2023-09-12 10:02:13.193 | INFO     | __main__:save_image:90 - Saved image to images/frames/b9acbc05-8da9-4074-9512-0b5416df3da9.jpg
+2023-09-12 10:02:13.197 | INFO     | __main__:detect_faces:72 - Face detected with confidence 8.745054096158128. Saved to images/frames/b9acbc05-8da9-4074-9512-0b5416df3da9.jpg.
+2023-09-12 10:02:13.408 | INFO     | __main__:save_image:90 - Saved image to images/frames/c6730060-544c-41a9-93bc-325681a27b6b.jpg
+2023-09-12 10:02:13.412 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.0869989803177305. Saved to images/frames/c6730060-544c-41a9-93bc-325681a27b6b.jpg.
+2023-09-12 10:02:13.612 | INFO     | __main__:save_image:90 - Saved image to images/frames/afb7431a-c6f0-4320-b1f1-525699b825a6.jpg
+2023-09-12 10:02:13.616 | INFO     | __main__:detect_faces:72 - Face detected with confidence 5.197825187700801. Saved to images/frames/afb7431a-c6f0-4320-b1f1-525699b825a6.jpg.
+2023-09-12 10:02:13.814 | INFO     | __main__:save_image:90 - Saved image to images/frames/24523f06-96ab-4edb-a7f0-ab4cd4e08086.jpg
+2023-09-12 10:02:13.817 | INFO     | __main__:detect_faces:72 - Face detected with confidence 5.354661231103819. Saved to images/frames/24523f06-96ab-4edb-a7f0-ab4cd4e08086.jpg.
+2023-09-12 10:02:14.011 | INFO     | __main__:save_image:90 - Saved image to images/frames/5b372091-e7bd-4714-8da2-0ef16d8d301c.jpg
+2023-09-12 10:02:14.015 | INFO     | __main__:detect_faces:72 - Face detected with confidence 4.727323207014706. Saved to images/frames/5b372091-e7bd-4714-8da2-0ef16d8d301c.jpg.
+2023-09-12 10:02:14.213 | INFO     | __main__:save_image:90 - Saved image to images/frames/b57d6f8f-6df6-4485-897f-17046545c6a0.jpg
+2023-09-12 10:02:14.217 | INFO     | __main__:detect_faces:72 - Face detected with confidence 5.231862110493239. Saved to images/frames/b57d6f8f-6df6-4485-897f-17046545c6a0.jpg.
+2023-09-12 10:02:14.416 | INFO     | __main__:save_image:90 - Saved image to images/frames/a76db7c8-6f80-4dee-a24c-82248488fd8a.jpg
+2023-09-12 10:02:14.420 | INFO     | __main__:detect_faces:72 - Face detected with confidence 6.9848921847878955. Saved to images/frames/a76db7c8-6f80-4dee-a24c-82248488fd8a.jpg.
+2023-09-12 10:05:07.045 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 10:05:07.046 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 10:16:59.445 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 10:18:03.534 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 10:18:03.535 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 10:19:32.790 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 10:24:14.622 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 10:24:45.770 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 10:24:45.771 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 10:33:13.298 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 10:33:13.300 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 10:33:31.703 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 10:34:17.300 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 10:36:29.134 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-12 10:38:30.998 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-18 03:35:01.480 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-18 03:35:01.554 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-18 03:35:01.631 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-18 03:35:01.711 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-18 03:35:01.790 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-18 03:35:01.871 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-18 03:35:01.947 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-18 03:35:02.025 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-18 03:35:02.104 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-18 03:35:02.176 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-18 03:35:02.177 | ERROR    | __main__:main:149 - Capture open failures reached 10. Exiting the program...
