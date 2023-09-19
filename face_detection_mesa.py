@@ -1,5 +1,6 @@
 import concurrent.futures
 import os
+import time
 
 from typing import Union
 import uuid
@@ -9,32 +10,25 @@ from loguru import logger
 from deepface import DeepFace
 
 # Constants
-LOG_FILE = "camera.log"
-CSV_FILE = "new_data.csv"
-URL = "rtsp://0.tcp.ap.ngrok.io:13067/user:1cinnovation;pwd:1cinnovation123"
-MAX_WORKERS = 16
-MAX_CAP_OPEN_FAILURES = 10
-MAX_READ_FRAME_FAILURES = 10
-FRAME_FREQUENCY = 1
+LOG_FILE: str = "camera.log"
+CSV_FILE: str = "new_data.csv"
+URL: str = "rtsp://0.tcp.ap.ngrok.io:18505/user:1cinnovation;pwd:1cinnovation123"
+MAX_WORKERS: int = 8
+MAX_CAP_OPEN_FAILURES: int = 10
+MAX_READ_FRAME_FAILURES: int = 10
+FRAME_FREQUENCY: int = 1
 
 
-# Initialize the DataFrame
-def initialize_dataframe():
-    if not os.path.exists(CSV_FILE):
-        return pd.DataFrame(columns=["Frame File Path", "Confidence", "X", "Y", "Width", "Height"])
-    else:
-        return pd.read_csv(CSV_FILE)
-
-
-df_faces: pd.DataFrame = initialize_dataframe()
+# Init the DataFrame for storing faces detected
+df_faces: pd.DataFrame = (
+    pd.read_csv(CSV_FILE)
+    if os.path.exists(CSV_FILE)
+    else pd.DataFrame(columns=["Datetime", "Frame File Path", "Confidence", "X", "Y", "Width", "Height"])
+)
 
 
 # Configure the Loguru logger
-def configure_logger():
-    logger.add(LOG_FILE, rotation="500 MB")
-
-
-configure_logger()
+logger.add(LOG_FILE, rotation="500 MB")
 
 
 # Process and save faces detected in a frame
@@ -46,13 +40,13 @@ def detect_faces(frame):
     face_objs = DeepFace.extract_faces(
         frame,
         target_size=(512, 512),
-        detector_backend="dlib",
+        detector_backend="ssd",
         enforce_detection=False,
         align=True,
     )
 
     for face in face_objs:
-        if face["confidence"] == 0:
+        if face["confidence"] == 0 or face["confidence"] == float("inf"):
             continue
 
         is_change = True
@@ -60,6 +54,7 @@ def detect_faces(frame):
         frame_path = save_image(frame=frame, dir="images/frames", logger=logger)
 
         new_row = {
+            "Datetime": pd.Timestamp.now(),
             "Frame File Path": frame_path,
             "Confidence": face["confidence"],
             "X": face["facial_area"]["x"],
@@ -136,9 +131,8 @@ def main():
                 frame_counter += 1
 
                 if frame_counter % FRAME_FREQUENCY == 0:
-                    # executor.submit(detect_faces, frame) # Concurrent
-                    cv2.imwrite(f"frame.jpg", frame)
-                    detect_faces(frame) # Sequential
+                    # executor.submit(detect_faces, frame)  # Concurrent
+                    detect_faces(frame)  # Sequential
 
                 if cv2.waitKey(1) == ord("q"):
                     break

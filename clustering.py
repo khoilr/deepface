@@ -14,6 +14,8 @@ from deepface.detectors import FaceDetector
 # Constants
 IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png")
 MAX_WORKERS = 16
+IMAGES_PATH = "images/faces"
+SAVE_IMAGE_PAIR_PATH = "images/distances"
 
 # Singletons
 face_detector = FaceDetector.build_model("retinaface")
@@ -33,11 +35,11 @@ def verify_image_pair(pair):
     image_1, image_2 = pair
 
     result = DeepFace.verify(
-        img1_path=os.path.join("images/faces", image_1),
-        img2_path=os.path.join("images/faces", image_2),
+        img1_path=os.path.join(IMAGES_PATH, image_1),
+        img2_path=os.path.join(IMAGES_PATH, image_2),
         align=True,
         enforce_detection=False,
-        detector_backend="opencv",
+        detector_backend="retinaface",
         distance_metric="euclidean_l2",
         model_name="ArcFace",
     )
@@ -116,10 +118,13 @@ def create_similarity_table(image_files, results):
     Returns:
         DataFrame: A DataFrame storing similarity values.
     """
+    # Make directory 'images/distances' if it doesn't exist
+    os.makedirs(SAVE_IMAGE_PAIR_PATH, exist_ok=True)
+
     # Clear 'images/distances' directory if it already exists
-    if os.path.exists("images/distances"):
-        for image in os.listdir("images/distances"):
-            os.remove(f"images/distances/{image}")
+    if os.path.exists(SAVE_IMAGE_PAIR_PATH):
+        for image in os.listdir(SAVE_IMAGE_PAIR_PATH):
+            os.remove(os.path.join(SAVE_IMAGE_PAIR_PATH, image))
 
     # Create a DataFrame to store similarity values
     df = pd.DataFrame(columns=image_files, index=image_files)
@@ -150,12 +155,9 @@ def draw_and_save_images(image_1_name, image_2_name, result_data, distance):
         image_2 (str): Filename of the second image.
         distance (float): Similarity distance.
     """
-    # Make directory 'images/distances' if it doesn't exist
-    os.makedirs("images/distances", exist_ok=True)
-
-    # Create a directory for the distance if it doesn't exist
-    distance = round(result_data["distance"], 1)
-    os.makedirs(f"images/distances/f{distance}", exist_ok=True)
+    # # Create a directory for the distance if it doesn't exist
+    # distance = round(result_data["distance"], 1)
+    # os.makedirs(f"images/distances/f{distance}", exist_ok=True)
 
     # # Get bbox
     # image_1_bbox = result_data["facial_areas"]["img1"]
@@ -188,7 +190,7 @@ def draw_and_save_images(image_1_name, image_2_name, result_data, distance):
     cv2.putText(image, str(distance), (int(image.shape[1] / 2), 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
 
     # Save image
-    cv2.imwrite(os.path.join(f"images/distances/f{distance}", f"{image_1_name}_{image_2_name}.jpg"), image)
+    cv2.imwrite(os.path.join("images/distances", f"{image_1_name}_{image_2_name}.jpg"), image)
 
 
 def main():
@@ -199,7 +201,7 @@ def main():
     print("\033[H\033[J")
 
     # Generate images list
-    image_files = [file for file in os.listdir("images/faces") if file.lower().endswith(IMAGE_EXTENSIONS)]
+    image_files = [file for file in os.listdir(IMAGES_PATH) if file.lower().endswith(IMAGE_EXTENSIONS)]
 
     num_files = len(image_files)
     assert num_files > 1, "Number of files must be greater than 1"
