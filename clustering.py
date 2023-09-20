@@ -37,7 +37,7 @@ def verify_image_pair(pair):
         img2_path=os.path.join("images/faces", image_2),
         align=True,
         enforce_detection=False,
-        detector_backend="opencv",
+        detector_backend="ssd",
         distance_metric="euclidean_l2",
         model_name="ArcFace",
     )
@@ -210,7 +210,7 @@ def main():
     # Verify image pairs using ThreadPoolExecutor
     results = verify_image_pairs(image_pairs)
 
-    # Save results as JSON
+    # Sar results as JSON
     save_results_as_json(results)
 
     # Create a similarity table and save it as a CSV file

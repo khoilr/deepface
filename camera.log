@@ -441,3 +441,1112 @@
 2023-09-18 03:35:02.104 | ERROR    | __main__:main:117 - Failed to connect to the camera.
 2023-09-18 03:35:02.176 | ERROR    | __main__:main:117 - Failed to connect to the camera.
 2023-09-18 03:35:02.177 | ERROR    | __main__:main:149 - Capture open failures reached 10. Exiting the program...
+2023-09-18 14:05:54.108 | INFO     | __main__:main:121 - Connected to the camera.
+2023-09-18 14:16:10.088 | INFO     | __main__:main:121 - Connected to the camera.
+2023-09-18 14:19:12.315 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-18 14:21:29.120 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-18 14:21:29.121 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-18 14:26:56.782 | INFO     | __main__:main:121 - Connected to the camera.
+2023-09-18 14:27:27.890 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-18 14:27:27.891 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-18 14:27:27.891 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-18 14:27:27.891 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-18 14:27:27.892 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-18 14:27:27.895 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-18 14:27:27.895 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-18 14:27:27.895 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-18 14:27:27.896 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-18 14:27:27.896 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-18 14:27:27.896 | ERROR    | __main__:main:147 - Read frame failures reached 10. Restarting the camera...
+2023-09-18 14:27:35.691 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-18 14:27:38.539 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-18 14:27:41.400 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-18 14:27:44.169 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-18 14:27:46.830 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-18 14:27:49.608 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-18 14:27:52.505 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-18 14:27:56.270 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-18 14:27:59.123 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-18 14:28:01.998 | ERROR    | __main__:main:117 - Failed to connect to the camera.
+2023-09-18 14:28:02.000 | ERROR    | __main__:main:150 - Capture open failures reached 10. Exiting the program...
+2023-09-18 14:31:56.827 | INFO     | __main__:main:121 - Connected to the camera.
+2023-09-18 14:32:55.862 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-18 14:36:22.866 | INFO     | __main__:main:121 - Connected to the camera.
+2023-09-18 14:36:22.937 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:23.114 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:23.164 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:23.217 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:23.267 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:23.328 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:23.384 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:23.431 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:23.487 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:23.542 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:23.604 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:23.668 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:23.746 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:23.815 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:23.873 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:23.936 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:24.017 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:24.086 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:24.141 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:24.195 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:24.275 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:24.340 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:24.398 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:24.457 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:24.535 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:24.589 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:24.648 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:24.738 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:24.821 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:24.912 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:24.992 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:25.069 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:25.140 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:25.197 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:25.254 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:25.315 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:25.367 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:25.417 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:25.481 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:25.556 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:25.657 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:25.758 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:25.844 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:25.919 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:25.975 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:26.042 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:26.133 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:26.223 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:26.285 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:26.342 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:26.397 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:26.470 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:26.528 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:26.585 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:26.643 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:26.716 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:26.775 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:26.831 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:26.885 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:26.964 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:27.019 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:27.074 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:27.130 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:27.187 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:27.255 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:27.315 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:27.370 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:27.445 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:27.505 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:27.558 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:27.618 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:27.693 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:27.769 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:27.850 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:27.945 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:28.015 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:28.083 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:28.145 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:28.205 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:28.261 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:28.315 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:28.377 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:28.432 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:28.488 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:28.546 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:28.618 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:28.673 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:28.738 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:28.795 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:28.860 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:28.919 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:28.975 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:29.027 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:29.093 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:29.158 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:29.218 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:29.284 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:29.360 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:29.423 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:29.484 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:29.543 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:29.614 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:29.673 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:29.744 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:29.804 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:29.876 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:29.938 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:29.997 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:30.056 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:30.138 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:30.198 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:30.262 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:30.322 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:30.402 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:30.473 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:30.557 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:30.632 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:30.707 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:30.777 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:30.828 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:30.899 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:30.971 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:31.029 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:31.088 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:31.165 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:31.223 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:31.278 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:31.341 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:31.414 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:31.472 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:31.529 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:31.587 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:31.681 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:31.767 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:31.825 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:31.882 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:31.948 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:32.006 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:32.073 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:32.142 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:32.202 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:32.271 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:32.327 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:32.399 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:32.457 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:32.514 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:32.574 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:32.645 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:32.704 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:32.770 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:32.826 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:32.906 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:32.967 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:33.019 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:33.076 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:33.148 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:33.206 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:33.280 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:33.356 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:33.447 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:33.534 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:33.596 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:33.651 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:33.716 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:33.782 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:33.837 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:33.909 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:33.963 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:34.016 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:34.070 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:34.130 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:34.193 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:34.248 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:34.299 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:34.378 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:34.435 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:34.492 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:34.551 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:34.617 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:34.686 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:34.753 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:34.808 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:34.889 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:34.953 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:35.010 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:35.089 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:35.186 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:35.253 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:35.307 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:35.363 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:35.439 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:35.500 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:35.562 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:35.616 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:35.688 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:35.750 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:35.822 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:35.884 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:35.951 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:36.016 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:36.099 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:36.175 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:36.247 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:36.301 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:36.364 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:36.433 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:37.140 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:37.200 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:37.264 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:37.325 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:37.409 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:37.463 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:37.519 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:37.572 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:37.644 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:37.740 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:37.809 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:37.885 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:37.956 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:38.013 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:38.069 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:38.152 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:38.401 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:38.450 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:38.502 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:38.557 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:38.643 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:38.718 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:38.772 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:38.825 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:38.885 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:38.941 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:38.992 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:39.041 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:39.093 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:39.162 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:39.212 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:39.278 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:39.371 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:39.457 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:39.573 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:39.637 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:39.687 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:39.751 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:39.825 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:39.881 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:39.939 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:39.994 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:40.069 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:40.132 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:40.197 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:40.269 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:40.361 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:40.441 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:40.515 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:40.595 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:40.654 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:40.708 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:40.769 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:40.845 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:40.912 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:40.966 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:41.017 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:41.089 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:41.152 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:41.226 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:41.310 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:41.386 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:41.442 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:41.500 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:41.577 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:41.639 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:41.704 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:41.773 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:41.874 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:41.954 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:42.022 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:42.101 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:42.176 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:42.272 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:42.367 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:42.440 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:42.512 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:42.572 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:42.634 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:42.689 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:42.753 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:42.838 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:42.904 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:42.972 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:43.028 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:43.097 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:43.159 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:43.216 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:43.280 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:43.356 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:43.412 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:43.483 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:43.540 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:43.614 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:43.674 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:43.748 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:43.804 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:46.410 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:46.476 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:46.545 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:46.601 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:46.680 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:46.746 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:46.799 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:46.858 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:46.931 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:46.997 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:47.055 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:47.113 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:47.195 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:47.272 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:47.333 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:47.389 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:47.464 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:47.526 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:47.581 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:47.641 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:47.729 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:47.794 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:47.855 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:47.914 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:47.987 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:48.047 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:48.101 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:48.159 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 14:36:48.230 | SUCCESS  | __main__:main:134 - Frame captured
+2023-09-18 15:57:08.912 | INFO     | __main__:main:121 - Connected to the camera.
+2023-09-18 15:57:41.723 | INFO     | __main__:main:121 - Connected to the camera.
+2023-09-19 10:05:59.310 | INFO     | __main__:main:121 - Connected to the camera.
+2023-09-19 10:06:23.947 | INFO     | __main__:save_image:90 - Saved image to images/frames/5f6a09ce-3f64-4965-b4ac-16d1575e72fd.jpg
+2023-09-19 10:06:23.949 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9093754887580872. Saved to images/frames/5f6a09ce-3f64-4965-b4ac-16d1575e72fd.jpg.
+2023-09-19 10:06:24.015 | INFO     | __main__:save_image:90 - Saved image to images/frames/8345ccd8-2cdf-472d-a5f1-d86ebb84d78b.jpg
+2023-09-19 10:06:24.017 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9240432381629944. Saved to images/frames/8345ccd8-2cdf-472d-a5f1-d86ebb84d78b.jpg.
+2023-09-19 10:06:24.089 | INFO     | __main__:save_image:90 - Saved image to images/frames/0e0e2798-8b70-4b6a-b0c1-2a63b898b16c.jpg
+2023-09-19 10:06:24.090 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.992151141166687. Saved to images/frames/0e0e2798-8b70-4b6a-b0c1-2a63b898b16c.jpg.
+2023-09-19 10:06:24.166 | INFO     | __main__:save_image:90 - Saved image to images/frames/e6ec9dc9-84a1-4be6-a3b6-71ab0c3ef4f3.jpg
+2023-09-19 10:06:24.169 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9760520458221436. Saved to images/frames/e6ec9dc9-84a1-4be6-a3b6-71ab0c3ef4f3.jpg.
+2023-09-19 10:06:24.267 | INFO     | __main__:save_image:90 - Saved image to images/frames/092b7c5b-5331-4c07-9890-dbf55bb3d338.jpg
+2023-09-19 10:06:24.268 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9449254870414734. Saved to images/frames/092b7c5b-5331-4c07-9890-dbf55bb3d338.jpg.
+2023-09-19 10:06:24.434 | INFO     | __main__:save_image:90 - Saved image to images/frames/185a862f-351f-4206-b2c9-32a151ebf87e.jpg
+2023-09-19 10:06:24.435 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9150174260139465. Saved to images/frames/185a862f-351f-4206-b2c9-32a151ebf87e.jpg.
+2023-09-19 10:06:24.514 | INFO     | __main__:save_image:90 - Saved image to images/frames/ed5943ca-b0bd-406d-8111-3ae178273bcf.jpg
+2023-09-19 10:06:24.516 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9435341954231262. Saved to images/frames/ed5943ca-b0bd-406d-8111-3ae178273bcf.jpg.
+2023-09-19 10:06:24.593 | INFO     | __main__:save_image:90 - Saved image to images/frames/ceebbe9f-ccba-432d-bc45-ca893356f852.jpg
+2023-09-19 10:06:24.594 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9839392900466919. Saved to images/frames/ceebbe9f-ccba-432d-bc45-ca893356f852.jpg.
+2023-09-19 10:06:24.678 | INFO     | __main__:save_image:90 - Saved image to images/frames/70389536-19d9-4b8a-8d7a-c9fa0b279c39.jpg
+2023-09-19 10:06:24.680 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9184274077415466. Saved to images/frames/70389536-19d9-4b8a-8d7a-c9fa0b279c39.jpg.
+2023-09-19 10:06:36.313 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-19 10:06:36.314 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-19 10:10:32.008 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-19 10:11:54.971 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-19 10:16:20.142 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-19 10:17:42.527 | INFO     | __main__:save_image:90 - Saved image to images/frames/47d916d6-aa67-401b-8f7c-d4cb0bf11651.jpg
+2023-09-19 10:17:42.529 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9973251819610596. Saved to images/frames/47d916d6-aa67-401b-8f7c-d4cb0bf11651.jpg.
+2023-09-19 10:17:42.665 | INFO     | __main__:save_image:90 - Saved image to images/frames/af51fd52-8b2b-4d84-9d59-ddaaa9047609.jpg
+2023-09-19 10:17:42.667 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9986332058906555. Saved to images/frames/af51fd52-8b2b-4d84-9d59-ddaaa9047609.jpg.
+2023-09-19 10:17:42.815 | INFO     | __main__:save_image:90 - Saved image to images/frames/255e1243-9e45-4769-8f9d-c55c0b009b87.jpg
+2023-09-19 10:17:42.817 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9991042017936707. Saved to images/frames/255e1243-9e45-4769-8f9d-c55c0b009b87.jpg.
+2023-09-19 10:17:42.964 | INFO     | __main__:save_image:90 - Saved image to images/frames/b2a5313e-e376-4b2c-abb5-378761b0b515.jpg
+2023-09-19 10:17:42.966 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9993822574615479. Saved to images/frames/b2a5313e-e376-4b2c-abb5-378761b0b515.jpg.
+2023-09-19 10:17:43.122 | INFO     | __main__:save_image:90 - Saved image to images/frames/b30300d1-0ac8-4258-be52-9f5307f4f48e.jpg
+2023-09-19 10:17:43.124 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9997456669807434. Saved to images/frames/b30300d1-0ac8-4258-be52-9f5307f4f48e.jpg.
+2023-09-19 10:17:43.272 | INFO     | __main__:save_image:90 - Saved image to images/frames/87e8f147-2228-4778-9833-62b356448c38.jpg
+2023-09-19 10:17:43.274 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9991735816001892. Saved to images/frames/87e8f147-2228-4778-9833-62b356448c38.jpg.
+2023-09-19 10:17:43.439 | INFO     | __main__:save_image:90 - Saved image to images/frames/71931424-7746-40c2-81b1-4cd826d30297.jpg
+2023-09-19 10:17:43.442 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9987989664077759. Saved to images/frames/71931424-7746-40c2-81b1-4cd826d30297.jpg.
+2023-09-19 10:17:43.576 | INFO     | __main__:save_image:90 - Saved image to images/frames/497e15f6-25a4-416f-98d7-317e7304d701.jpg
+2023-09-19 10:17:43.578 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9226280450820923. Saved to images/frames/497e15f6-25a4-416f-98d7-317e7304d701.jpg.
+2023-09-19 10:17:43.805 | INFO     | __main__:save_image:90 - Saved image to images/frames/a8f48fc7-2d09-40d5-8999-863ba0aa65f7.jpg
+2023-09-19 10:17:43.807 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9802542328834534. Saved to images/frames/a8f48fc7-2d09-40d5-8999-863ba0aa65f7.jpg.
+2023-09-19 10:17:43.939 | INFO     | __main__:save_image:90 - Saved image to images/frames/7983dbd4-85be-4ced-90cb-868063ce761a.jpg
+2023-09-19 10:17:43.941 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9934707880020142. Saved to images/frames/7983dbd4-85be-4ced-90cb-868063ce761a.jpg.
+2023-09-19 10:17:44.093 | INFO     | __main__:save_image:90 - Saved image to images/frames/867d3769-f5f9-4126-888b-240443822475.jpg
+2023-09-19 10:17:44.095 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9970424771308899. Saved to images/frames/867d3769-f5f9-4126-888b-240443822475.jpg.
+2023-09-19 10:17:44.225 | INFO     | __main__:save_image:90 - Saved image to images/frames/2fbae5e5-bffc-4434-9111-352497a54695.jpg
+2023-09-19 10:17:44.227 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9969191551208496. Saved to images/frames/2fbae5e5-bffc-4434-9111-352497a54695.jpg.
+2023-09-19 10:17:44.370 | INFO     | __main__:save_image:90 - Saved image to images/frames/0c05bf15-2f61-4834-aaab-74e36093a87e.jpg
+2023-09-19 10:17:44.372 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.996126115322113. Saved to images/frames/0c05bf15-2f61-4834-aaab-74e36093a87e.jpg.
+2023-09-19 10:17:44.734 | INFO     | __main__:save_image:90 - Saved image to images/frames/2dc9387a-a753-47f9-8470-98b0390ee328.jpg
+2023-09-19 10:17:44.736 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9921107888221741. Saved to images/frames/2dc9387a-a753-47f9-8470-98b0390ee328.jpg.
+2023-09-19 10:17:44.850 | INFO     | __main__:save_image:90 - Saved image to images/frames/a18fe3cb-4fd3-435d-9a26-cb34b8dd3758.jpg
+2023-09-19 10:17:44.852 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.978715181350708. Saved to images/frames/a18fe3cb-4fd3-435d-9a26-cb34b8dd3758.jpg.
+2023-09-19 10:17:46.092 | INFO     | __main__:save_image:90 - Saved image to images/frames/e49c5346-8861-48cc-b8f9-f7932db432b1.jpg
+2023-09-19 10:17:46.094 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9680979251861572. Saved to images/frames/e49c5346-8861-48cc-b8f9-f7932db432b1.jpg.
+2023-09-19 10:17:46.197 | INFO     | __main__:save_image:90 - Saved image to images/frames/caf3db67-f340-4c04-b9d4-3631dacc9e9a.jpg
+2023-09-19 10:17:46.200 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9469855427742004. Saved to images/frames/caf3db67-f340-4c04-b9d4-3631dacc9e9a.jpg.
+2023-09-19 10:17:46.203 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-19 10:17:46.204 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-19 10:17:53.157 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-19 10:17:53.158 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-19 10:18:25.776 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-19 10:18:25.776 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-19 10:20:15.386 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-19 10:22:50.665 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-19 10:22:50.666 | ERROR    | __main__:main:130 - Failed to capture frame.
+2023-09-19 10:26:55.929 | INFO     | __main__:main:124 - Connected to the camera.
+2023-09-19 10:27:00.312 | ERROR    | __main__:main:136 - Failed to capture frame.
+2023-09-19 10:27:00.312 | ERROR    | __main__:main:136 - Failed to capture frame.
+2023-09-19 10:29:20.817 | INFO     | __main__:main:124 - Connected to the camera.
+2023-09-19 10:30:38.438 | INFO     | __main__:main:124 - Connected to the camera.
+2023-09-19 10:31:08.314 | INFO     | __main__:main:124 - Connected to the camera.
+2023-09-19 10:31:56.924 | INFO     | __main__:save_image:91 - Saved image to images/frames/a7f77b72-3bb2-46a1-b283-a80d3e802cc6.jpg
+2023-09-19 10:31:56.926 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9752920866012573. Saved to images/frames/a7f77b72-3bb2-46a1-b283-a80d3e802cc6.jpg.
+2023-09-19 10:31:57.057 | INFO     | __main__:save_image:91 - Saved image to images/frames/d113e727-81ea-49f0-9101-38bde534a611.jpg
+2023-09-19 10:31:57.060 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9425262212753296. Saved to images/frames/d113e727-81ea-49f0-9101-38bde534a611.jpg.
+2023-09-19 10:31:57.312 | INFO     | __main__:save_image:91 - Saved image to images/frames/ef8f069a-a95b-46f1-8cb7-dac06e1576fc.jpg
+2023-09-19 10:31:57.315 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9703559875488281. Saved to images/frames/ef8f069a-a95b-46f1-8cb7-dac06e1576fc.jpg.
+2023-09-19 10:31:57.461 | INFO     | __main__:save_image:91 - Saved image to images/frames/9c7d0ecd-5866-49dd-ae6c-e1dc29a27dba.jpg
+2023-09-19 10:31:57.463 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9758867025375366. Saved to images/frames/9c7d0ecd-5866-49dd-ae6c-e1dc29a27dba.jpg.
+2023-09-19 10:31:57.637 | INFO     | __main__:save_image:91 - Saved image to images/frames/d0d29180-5182-4650-a1a5-22695d962fcd.jpg
+2023-09-19 10:31:57.640 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9951536655426025. Saved to images/frames/d0d29180-5182-4650-a1a5-22695d962fcd.jpg.
+2023-09-19 10:31:57.779 | INFO     | __main__:save_image:91 - Saved image to images/frames/e1caf656-f786-463c-93e0-05fce17f9647.jpg
+2023-09-19 10:31:57.782 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9298375248908997. Saved to images/frames/e1caf656-f786-463c-93e0-05fce17f9647.jpg.
+2023-09-19 10:31:57.971 | INFO     | __main__:save_image:91 - Saved image to images/frames/6cc84da7-a9de-4d69-8f40-26e4dc3f76f1.jpg
+2023-09-19 10:31:57.974 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9917238354682922. Saved to images/frames/6cc84da7-a9de-4d69-8f40-26e4dc3f76f1.jpg.
+2023-09-19 10:31:58.115 | INFO     | __main__:save_image:91 - Saved image to images/frames/e38939de-2a39-4724-bd3b-f2bcd0c3c2b4.jpg
+2023-09-19 10:31:58.117 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.966355562210083. Saved to images/frames/e38939de-2a39-4724-bd3b-f2bcd0c3c2b4.jpg.
+2023-09-19 10:31:58.282 | INFO     | __main__:save_image:91 - Saved image to images/frames/10116166-e606-4ab2-9c27-e29a1136bdca.jpg
+2023-09-19 10:31:58.285 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9924772381782532. Saved to images/frames/10116166-e606-4ab2-9c27-e29a1136bdca.jpg.
+2023-09-19 10:31:58.458 | INFO     | __main__:save_image:91 - Saved image to images/frames/1763b365-2b24-495e-b7d9-e587891164f5.jpg
+2023-09-19 10:31:58.461 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9822386503219604. Saved to images/frames/1763b365-2b24-495e-b7d9-e587891164f5.jpg.
+2023-09-19 10:31:58.637 | INFO     | __main__:save_image:91 - Saved image to images/frames/614bd6b1-421b-4c92-bfd6-1eb80d0690b0.jpg
+2023-09-19 10:31:58.639 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9158155918121338. Saved to images/frames/614bd6b1-421b-4c92-bfd6-1eb80d0690b0.jpg.
+2023-09-19 10:31:58.772 | INFO     | __main__:save_image:91 - Saved image to images/frames/2c63e782-f38b-4458-bb76-0cabbade8e0d.jpg
+2023-09-19 10:31:58.774 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9925117492675781. Saved to images/frames/2c63e782-f38b-4458-bb76-0cabbade8e0d.jpg.
+2023-09-19 10:31:58.972 | INFO     | __main__:save_image:91 - Saved image to images/frames/aa7b108b-c463-499d-be06-8856ad42b708.jpg
+2023-09-19 10:31:58.976 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9927734732627869. Saved to images/frames/aa7b108b-c463-499d-be06-8856ad42b708.jpg.
+2023-09-19 10:31:59.200 | INFO     | __main__:save_image:91 - Saved image to images/frames/e0ca52c6-317c-48bb-9026-53ec4c1ef6e7.jpg
+2023-09-19 10:31:59.204 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9824185967445374. Saved to images/frames/e0ca52c6-317c-48bb-9026-53ec4c1ef6e7.jpg.
+2023-09-19 10:31:59.388 | INFO     | __main__:save_image:91 - Saved image to images/frames/ab78805d-0cb2-4180-8bcd-305c624c470e.jpg
+2023-09-19 10:31:59.390 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9121943116188049. Saved to images/frames/ab78805d-0cb2-4180-8bcd-305c624c470e.jpg.
+2023-09-19 10:31:59.794 | INFO     | __main__:save_image:91 - Saved image to images/frames/d10c5fa7-6fc4-4f02-b115-dc96f42dace0.jpg
+2023-09-19 10:31:59.797 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.969579815864563. Saved to images/frames/d10c5fa7-6fc4-4f02-b115-dc96f42dace0.jpg.
+2023-09-19 10:31:59.956 | INFO     | __main__:save_image:91 - Saved image to images/frames/c54cdb3d-44cf-4060-8d94-772a4323175c.jpg
+2023-09-19 10:31:59.959 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9756335020065308. Saved to images/frames/c54cdb3d-44cf-4060-8d94-772a4323175c.jpg.
+2023-09-19 10:32:00.104 | INFO     | __main__:save_image:91 - Saved image to images/frames/14453ee1-9709-4da4-b442-4465db8cc8b5.jpg
+2023-09-19 10:32:00.106 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9783312082290649. Saved to images/frames/14453ee1-9709-4da4-b442-4465db8cc8b5.jpg.
+2023-09-19 10:32:00.251 | INFO     | __main__:save_image:91 - Saved image to images/frames/1eb1248c-04f3-4f57-9030-42303b5f155d.jpg
+2023-09-19 10:32:00.255 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.973520815372467. Saved to images/frames/1eb1248c-04f3-4f57-9030-42303b5f155d.jpg.
+2023-09-19 10:32:00.450 | INFO     | __main__:save_image:91 - Saved image to images/frames/220feb34-9505-4e5e-8540-e75c7176b004.jpg
+2023-09-19 10:32:00.452 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9647619724273682. Saved to images/frames/220feb34-9505-4e5e-8540-e75c7176b004.jpg.
+2023-09-19 10:32:00.578 | INFO     | __main__:save_image:91 - Saved image to images/frames/7e645ae1-76d3-48f0-8fce-cbb51479ba97.jpg
+2023-09-19 10:32:00.580 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9107414484024048. Saved to images/frames/7e645ae1-76d3-48f0-8fce-cbb51479ba97.jpg.
+2023-09-19 10:32:00.812 | INFO     | __main__:save_image:91 - Saved image to images/frames/e67c0226-df81-43f1-b8c1-d012f75304d3.jpg
+2023-09-19 10:32:00.814 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9793668389320374. Saved to images/frames/e67c0226-df81-43f1-b8c1-d012f75304d3.jpg.
+2023-09-19 10:32:00.964 | INFO     | __main__:save_image:91 - Saved image to images/frames/654000d7-75d3-4c02-844f-3710e193f8e1.jpg
+2023-09-19 10:32:00.968 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9891568422317505. Saved to images/frames/654000d7-75d3-4c02-844f-3710e193f8e1.jpg.
+2023-09-19 10:32:01.161 | INFO     | __main__:save_image:91 - Saved image to images/frames/05c3c916-faeb-422c-ac47-75aae1a35074.jpg
+2023-09-19 10:32:01.165 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9901492595672607. Saved to images/frames/05c3c916-faeb-422c-ac47-75aae1a35074.jpg.
+2023-09-19 10:32:01.312 | INFO     | __main__:save_image:91 - Saved image to images/frames/1e88912a-51f3-4bc2-8ff5-3d0d45cd6fc0.jpg
+2023-09-19 10:32:01.314 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9845408201217651. Saved to images/frames/1e88912a-51f3-4bc2-8ff5-3d0d45cd6fc0.jpg.
+2023-09-19 10:32:01.502 | INFO     | __main__:save_image:91 - Saved image to images/frames/32ccca55-2533-49c0-98d2-cf910407d9c7.jpg
+2023-09-19 10:32:01.507 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9155765771865845. Saved to images/frames/32ccca55-2533-49c0-98d2-cf910407d9c7.jpg.
+2023-09-19 10:32:02.011 | INFO     | __main__:save_image:91 - Saved image to images/frames/40c7e6f4-9f54-4244-b28d-eef7268e29d1.jpg
+2023-09-19 10:32:02.015 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.961806058883667. Saved to images/frames/40c7e6f4-9f54-4244-b28d-eef7268e29d1.jpg.
+2023-09-19 10:32:02.225 | INFO     | __main__:save_image:91 - Saved image to images/frames/927a0a91-a4b8-497e-9d8d-15347c2f1cd0.jpg
+2023-09-19 10:32:02.229 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9842948913574219. Saved to images/frames/927a0a91-a4b8-497e-9d8d-15347c2f1cd0.jpg.
+2023-09-19 10:32:02.426 | INFO     | __main__:save_image:91 - Saved image to images/frames/a394cdbe-da91-4630-bcf4-bb8bf24f6c5e.jpg
+2023-09-19 10:32:02.429 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9626004695892334. Saved to images/frames/a394cdbe-da91-4630-bcf4-bb8bf24f6c5e.jpg.
+2023-09-19 10:32:02.596 | INFO     | __main__:save_image:91 - Saved image to images/frames/44277017-1b59-40cc-9e40-f7c2bda79e19.jpg
+2023-09-19 10:32:02.599 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.933360755443573. Saved to images/frames/44277017-1b59-40cc-9e40-f7c2bda79e19.jpg.
+2023-09-19 10:32:02.797 | INFO     | __main__:save_image:91 - Saved image to images/frames/d4b5f506-7f73-438f-b033-83bbe940d6b8.jpg
+2023-09-19 10:32:02.801 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9970616698265076. Saved to images/frames/d4b5f506-7f73-438f-b033-83bbe940d6b8.jpg.
+2023-09-19 10:32:03.042 | INFO     | __main__:save_image:91 - Saved image to images/frames/b6df32a8-a8fc-4bf2-bc73-573adf5fb13a.jpg
+2023-09-19 10:32:03.045 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9745955467224121. Saved to images/frames/b6df32a8-a8fc-4bf2-bc73-573adf5fb13a.jpg.
+2023-09-19 10:32:03.251 | INFO     | __main__:save_image:91 - Saved image to images/frames/f5baa55c-c185-4978-8b61-ae7eee498872.jpg
+2023-09-19 10:32:03.255 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9942863583564758. Saved to images/frames/f5baa55c-c185-4978-8b61-ae7eee498872.jpg.
+2023-09-19 10:32:03.443 | INFO     | __main__:save_image:91 - Saved image to images/frames/4ae15a66-8c12-44af-a7e6-7175223f0bbf.jpg
+2023-09-19 10:32:03.446 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9462206959724426. Saved to images/frames/4ae15a66-8c12-44af-a7e6-7175223f0bbf.jpg.
+2023-09-19 10:32:03.608 | INFO     | __main__:save_image:91 - Saved image to images/frames/4b64cb57-2bb3-430c-a7c9-03663325e4b1.jpg
+2023-09-19 10:32:03.611 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9054326415061951. Saved to images/frames/4b64cb57-2bb3-430c-a7c9-03663325e4b1.jpg.
+2023-09-19 10:32:03.862 | INFO     | __main__:save_image:91 - Saved image to images/frames/4a6a243a-844f-4070-8cbe-c850aec2c744.jpg
+2023-09-19 10:32:03.866 | INFO     | __main__:detect_faces:72 - Face detected with confidence 0.9510373473167419. Saved to images/frames/4a6a243a-844f-4070-8cbe-c850aec2c744.jpg.
+2023-09-19 10:37:27.249 | ERROR    | __main__:main:136 - Failed to capture frame.
+2023-09-19 10:37:27.250 | ERROR    | __main__:main:136 - Failed to capture frame.
+2023-09-19 11:21:24.596 | INFO     | __main__:main:126 - Connected to the camera.
+2023-09-19 11:22:34.315 | INFO     | __main__:main:126 - Connected to the camera.
+2023-09-19 11:22:45.429 | ERROR    | __main__:main:138 - Failed to capture frame.
+2023-09-19 11:22:45.429 | ERROR    | __main__:main:138 - Failed to capture frame.
+2023-09-19 11:22:58.840 | INFO     | __main__:save_image:93 - Saved image to images/frames/2655d798-2cd5-48d8-9c58-d1be565f870e.jpg
+2023-09-19 11:22:58.842 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.9617663621902466. Saved to images/frames/2655d798-2cd5-48d8-9c58-d1be565f870e.jpg.
+2023-09-19 11:22:58.976 | INFO     | __main__:save_image:93 - Saved image to images/frames/8b663b3e-ef03-485e-b267-336d31bb24ab.jpg
+2023-09-19 11:22:58.980 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.9298843741416931. Saved to images/frames/8b663b3e-ef03-485e-b267-336d31bb24ab.jpg.
+2023-09-19 11:22:59.126 | INFO     | __main__:save_image:93 - Saved image to images/frames/687e7671-5ab5-46d9-b5c5-151c5bc56a49.jpg
+2023-09-19 11:22:59.128 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.9354287385940552. Saved to images/frames/687e7671-5ab5-46d9-b5c5-151c5bc56a49.jpg.
+2023-09-19 11:22:59.449 | INFO     | __main__:save_image:93 - Saved image to images/frames/0e25183e-98ed-42a4-9cdf-7063e31e5296.jpg
+2023-09-19 11:22:59.452 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.9798628687858582. Saved to images/frames/0e25183e-98ed-42a4-9cdf-7063e31e5296.jpg.
+2023-09-19 11:22:59.579 | INFO     | __main__:save_image:93 - Saved image to images/frames/1a384ebe-8b20-4ea8-b4b2-47bad0b9bade.jpg
+2023-09-19 11:22:59.581 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.954957902431488. Saved to images/frames/1a384ebe-8b20-4ea8-b4b2-47bad0b9bade.jpg.
+2023-09-19 11:22:59.723 | INFO     | __main__:save_image:93 - Saved image to images/frames/2efabd67-6d97-445d-bb5c-07931f9e0a15.jpg
+2023-09-19 11:22:59.726 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.9960784316062927. Saved to images/frames/2efabd67-6d97-445d-bb5c-07931f9e0a15.jpg.
+2023-09-19 11:22:59.856 | INFO     | __main__:save_image:93 - Saved image to images/frames/3d10f638-3433-4b2f-ae8d-683ab71656f6.jpg
+2023-09-19 11:22:59.859 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.954339861869812. Saved to images/frames/3d10f638-3433-4b2f-ae8d-683ab71656f6.jpg.
+2023-09-19 11:23:00.006 | INFO     | __main__:save_image:93 - Saved image to images/frames/2476ca39-a635-4faf-aac4-f34e7c57a7b3.jpg
+2023-09-19 11:23:00.008 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.9442307353019714. Saved to images/frames/2476ca39-a635-4faf-aac4-f34e7c57a7b3.jpg.
+2023-09-19 11:23:00.142 | INFO     | __main__:save_image:93 - Saved image to images/frames/0d4591ea-562a-4f8e-a1a0-fbab57e1c9e9.jpg
+2023-09-19 11:23:00.144 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.9968132376670837. Saved to images/frames/0d4591ea-562a-4f8e-a1a0-fbab57e1c9e9.jpg.
+2023-09-19 11:23:00.313 | INFO     | __main__:save_image:93 - Saved image to images/frames/5af01617-53e0-4439-9c16-e73b65510d05.jpg
+2023-09-19 11:23:00.316 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.9917696714401245. Saved to images/frames/5af01617-53e0-4439-9c16-e73b65510d05.jpg.
+2023-09-19 11:23:00.444 | INFO     | __main__:save_image:93 - Saved image to images/frames/e2a851fc-8ea2-4ad9-afa7-96358bf81c98.jpg
+2023-09-19 11:23:00.446 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.9674355983734131. Saved to images/frames/e2a851fc-8ea2-4ad9-afa7-96358bf81c98.jpg.
+2023-09-19 11:23:00.581 | INFO     | __main__:save_image:93 - Saved image to images/frames/e46e3d4b-ce30-4c72-862d-255676119e46.jpg
+2023-09-19 11:23:00.584 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.9833301901817322. Saved to images/frames/e46e3d4b-ce30-4c72-862d-255676119e46.jpg.
+2023-09-19 11:23:00.741 | INFO     | __main__:save_image:93 - Saved image to images/frames/5f3bcaaa-7618-411a-a4d9-1624a422e880.jpg
+2023-09-19 11:23:00.743 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.9901388883590698. Saved to images/frames/5f3bcaaa-7618-411a-a4d9-1624a422e880.jpg.
+2023-09-19 11:23:00.904 | INFO     | __main__:save_image:93 - Saved image to images/frames/cd341242-bcd0-4c0f-815b-19df486da7a0.jpg
+2023-09-19 11:23:00.906 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.9952837824821472. Saved to images/frames/cd341242-bcd0-4c0f-815b-19df486da7a0.jpg.
+2023-09-19 11:23:01.034 | INFO     | __main__:save_image:93 - Saved image to images/frames/2d08d250-a10a-4ae9-bff6-f2ffd882b334.jpg
+2023-09-19 11:23:01.036 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.9937604069709778. Saved to images/frames/2d08d250-a10a-4ae9-bff6-f2ffd882b334.jpg.
+2023-09-19 11:23:01.186 | INFO     | __main__:save_image:93 - Saved image to images/frames/12c47c72-5ba4-4710-b33f-9990e65d7db8.jpg
+2023-09-19 11:23:01.190 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.9756162166595459. Saved to images/frames/12c47c72-5ba4-4710-b33f-9990e65d7db8.jpg.
+2023-09-19 11:23:01.326 | INFO     | __main__:save_image:93 - Saved image to images/frames/5c0fc182-e00c-4c99-9ed0-bb4d0a80c1a2.jpg
+2023-09-19 11:23:01.329 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.9347718358039856. Saved to images/frames/5c0fc182-e00c-4c99-9ed0-bb4d0a80c1a2.jpg.
+2023-09-19 11:23:02.072 | INFO     | __main__:save_image:93 - Saved image to images/frames/eb18d19b-e985-46b4-9e37-b94a59c31310.jpg
+2023-09-19 11:23:02.074 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.9522041082382202. Saved to images/frames/eb18d19b-e985-46b4-9e37-b94a59c31310.jpg.
+2023-09-19 11:23:02.203 | INFO     | __main__:save_image:93 - Saved image to images/frames/7be269f5-54e3-4479-b459-80ab015fb988.jpg
+2023-09-19 11:23:02.205 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.9950778484344482. Saved to images/frames/7be269f5-54e3-4479-b459-80ab015fb988.jpg.
+2023-09-19 11:23:02.366 | INFO     | __main__:save_image:93 - Saved image to images/frames/c04fa8bf-7fde-4e89-b0ee-368888772668.jpg
+2023-09-19 11:23:02.369 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.9989349246025085. Saved to images/frames/c04fa8bf-7fde-4e89-b0ee-368888772668.jpg.
+2023-09-19 11:23:02.535 | INFO     | __main__:save_image:93 - Saved image to images/frames/e3f90497-e26b-4e15-b3f1-aacf5655856d.jpg
+2023-09-19 11:23:02.537 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.9990888833999634. Saved to images/frames/e3f90497-e26b-4e15-b3f1-aacf5655856d.jpg.
+2023-09-19 11:23:02.741 | INFO     | __main__:save_image:93 - Saved image to images/frames/827a5134-a2ed-498d-8939-5677c8ff6e5c.jpg
+2023-09-19 11:23:02.743 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.9991955161094666. Saved to images/frames/827a5134-a2ed-498d-8939-5677c8ff6e5c.jpg.
+2023-09-19 11:23:02.894 | INFO     | __main__:save_image:93 - Saved image to images/frames/8748e3f1-80c1-44a8-9730-5a3163f11d28.jpg
+2023-09-19 11:23:02.896 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.9986018538475037. Saved to images/frames/8748e3f1-80c1-44a8-9730-5a3163f11d28.jpg.
+2023-09-19 11:23:03.072 | INFO     | __main__:save_image:93 - Saved image to images/frames/0c154b1f-7204-48ec-8634-ae7ab0bb3f60.jpg
+2023-09-19 11:23:03.074 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.9973579049110413. Saved to images/frames/0c154b1f-7204-48ec-8634-ae7ab0bb3f60.jpg.
+2023-09-19 11:23:03.295 | INFO     | __main__:save_image:93 - Saved image to images/frames/fb604a12-1ef9-42d4-9491-aaa84e22b269.jpg
+2023-09-19 11:23:03.299 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.9997162222862244. Saved to images/frames/fb604a12-1ef9-42d4-9491-aaa84e22b269.jpg.
+2023-09-19 11:23:03.534 | INFO     | __main__:save_image:93 - Saved image to images/frames/7131d69c-80d9-4824-bc56-85d599c15021.jpg
+2023-09-19 11:23:03.537 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.9999487400054932. Saved to images/frames/7131d69c-80d9-4824-bc56-85d599c15021.jpg.
+2023-09-19 11:23:03.707 | INFO     | __main__:save_image:93 - Saved image to images/frames/f481b056-f6c4-4b22-ab70-497ba206fa43.jpg
+2023-09-19 11:23:03.710 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.9999692440032959. Saved to images/frames/f481b056-f6c4-4b22-ab70-497ba206fa43.jpg.
+2023-09-19 11:23:03.948 | INFO     | __main__:save_image:93 - Saved image to images/frames/5b878854-80ba-4fa8-bd49-159486aa268f.jpg
+2023-09-19 11:23:03.950 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.999940037727356. Saved to images/frames/5b878854-80ba-4fa8-bd49-159486aa268f.jpg.
+2023-09-19 11:23:04.102 | INFO     | __main__:save_image:93 - Saved image to images/frames/2b4bbf7b-1e32-4db0-bda6-471a64c7dcbb.jpg
+2023-09-19 11:23:04.104 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.9994223117828369. Saved to images/frames/2b4bbf7b-1e32-4db0-bda6-471a64c7dcbb.jpg.
+2023-09-19 11:23:04.266 | INFO     | __main__:save_image:93 - Saved image to images/frames/620bf04d-5f10-4b27-b74d-098d9a1da2e1.jpg
+2023-09-19 11:23:04.269 | INFO     | __main__:detect_faces:74 - Face detected with confidence 0.9963197708129883. Saved to images/frames/620bf04d-5f10-4b27-b74d-098d9a1da2e1.jpg.
+2023-09-19 11:30:51.208 | ERROR    | __main__:main:138 - Failed to capture frame.
+2023-09-19 11:30:51.209 | ERROR    | __main__:main:138 - Failed to capture frame.
+2023-09-19 11:32:09.536 | ERROR    | __main__:main:138 - Failed to capture frame.
+2023-09-19 11:32:09.537 | ERROR    | __main__:main:138 - Failed to capture frame.
+2023-09-19 11:36:02.655 | ERROR    | __main__:main:130 - Failed to connect to the camera.
+2023-09-19 11:36:05.472 | ERROR    | __main__:main:130 - Failed to connect to the camera.
+2023-09-19 11:36:08.285 | ERROR    | __main__:main:130 - Failed to connect to the camera.
+2023-09-19 11:36:11.051 | ERROR    | __main__:main:130 - Failed to connect to the camera.
+2023-09-19 11:36:20.164 | ERROR    | __main__:main:130 - Failed to connect to the camera.
+2023-09-19 11:36:23.234 | ERROR    | __main__:main:130 - Failed to connect to the camera.
+2023-09-19 11:36:26.000 | ERROR    | __main__:main:130 - Failed to connect to the camera.
+2023-09-19 11:36:28.867 | ERROR    | __main__:main:130 - Failed to connect to the camera.
+2023-09-19 11:36:31.877 | ERROR    | __main__:main:130 - Failed to connect to the camera.
+2023-09-19 11:36:34.295 | ERROR    | __main__:main:130 - Failed to connect to the camera.
+2023-09-19 11:36:37.003 | ERROR    | __main__:main:130 - Failed to connect to the camera.
+2023-09-19 11:36:58.051 | ERROR    | __main__:main:130 - Failed to connect to the camera.
+2023-09-19 11:37:19.351 | ERROR    | __main__:main:130 - Failed to connect to the camera.
+2023-09-19 11:37:21.808 | ERROR    | __main__:main:130 - Failed to connect to the camera.
+2023-09-19 11:37:21.809 | ERROR    | __main__:main:166 - Capture open failures reached 10. Exiting the program...
+2023-09-19 11:37:38.096 | INFO     | __main__:main:134 - Connected to the camera.
+2023-09-19 11:37:53.129 | INFO     | __main__:save_image:102 - Saved image to images/frames/d4d2c8bf-e612-4e71-96ee-871e3263739f.jpg
+2023-09-19 11:37:53.130 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9743632674217224. Saved to images/frames/d4d2c8bf-e612-4e71-96ee-871e3263739f.jpg.
+2023-09-19 11:37:53.366 | INFO     | __main__:save_image:102 - Saved image to images/frames/68463451-bed0-4b23-b740-04c10543603c.jpg
+2023-09-19 11:37:53.369 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9929787516593933. Saved to images/frames/68463451-bed0-4b23-b740-04c10543603c.jpg.
+2023-09-19 11:37:53.465 | INFO     | __main__:save_image:102 - Saved image to images/frames/d9f93837-3a70-4af9-936a-551d3f567546.jpg
+2023-09-19 11:37:53.467 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9880792498588562. Saved to images/frames/d9f93837-3a70-4af9-936a-551d3f567546.jpg.
+2023-09-19 11:37:58.054 | INFO     | __main__:save_image:102 - Saved image to images/frames/6daf0f58-660e-4697-bf16-da2b9aa4c45e.jpg
+2023-09-19 11:37:58.056 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9131134748458862. Saved to images/frames/6daf0f58-660e-4697-bf16-da2b9aa4c45e.jpg.
+2023-09-19 11:37:58.134 | INFO     | __main__:save_image:102 - Saved image to images/frames/90c0a938-655d-4087-9650-6d084848d7f7.jpg
+2023-09-19 11:37:58.135 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9753809571266174. Saved to images/frames/90c0a938-655d-4087-9650-6d084848d7f7.jpg.
+2023-09-19 11:37:58.207 | INFO     | __main__:save_image:102 - Saved image to images/frames/99690ae2-1143-46ec-89a9-b5f190b2b66e.jpg
+2023-09-19 11:37:58.209 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9812095761299133. Saved to images/frames/99690ae2-1143-46ec-89a9-b5f190b2b66e.jpg.
+2023-09-19 11:37:58.291 | INFO     | __main__:save_image:102 - Saved image to images/frames/8c4682b2-b931-4498-9a1f-c547611003cd.jpg
+2023-09-19 11:37:58.292 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9788838624954224. Saved to images/frames/8c4682b2-b931-4498-9a1f-c547611003cd.jpg.
+2023-09-19 11:37:58.379 | INFO     | __main__:save_image:102 - Saved image to images/frames/ac0c455a-1650-406a-ba72-07615bc312f0.jpg
+2023-09-19 11:37:58.380 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9838777780532837. Saved to images/frames/ac0c455a-1650-406a-ba72-07615bc312f0.jpg.
+2023-09-19 11:37:58.690 | INFO     | __main__:save_image:102 - Saved image to images/frames/1768e524-5d5b-4589-a62d-89ab8a40e19b.jpg
+2023-09-19 11:37:58.691 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9542049765586853. Saved to images/frames/1768e524-5d5b-4589-a62d-89ab8a40e19b.jpg.
+2023-09-19 11:37:58.773 | INFO     | __main__:save_image:102 - Saved image to images/frames/b8025e9d-75f8-46b7-b931-dae3536a8b39.jpg
+2023-09-19 11:37:58.775 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9759225845336914. Saved to images/frames/b8025e9d-75f8-46b7-b931-dae3536a8b39.jpg.
+2023-09-19 11:37:58.861 | INFO     | __main__:save_image:102 - Saved image to images/frames/0eaf68b3-7f7e-4079-aa02-68d1697a3ba5.jpg
+2023-09-19 11:37:58.862 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9920485615730286. Saved to images/frames/0eaf68b3-7f7e-4079-aa02-68d1697a3ba5.jpg.
+2023-09-19 11:37:58.957 | INFO     | __main__:save_image:102 - Saved image to images/frames/418a965b-6b75-46fb-924a-473bad4b5cfe.jpg
+2023-09-19 11:37:58.958 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9833008050918579. Saved to images/frames/418a965b-6b75-46fb-924a-473bad4b5cfe.jpg.
+2023-09-19 11:37:59.059 | INFO     | __main__:save_image:102 - Saved image to images/frames/15de1007-6d91-4a7a-80a5-f629f0d60500.jpg
+2023-09-19 11:37:59.061 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9650137424468994. Saved to images/frames/15de1007-6d91-4a7a-80a5-f629f0d60500.jpg.
+2023-09-19 11:37:59.155 | INFO     | __main__:save_image:102 - Saved image to images/frames/5ccedd2b-a3ff-44b8-92e2-4df66961debf.jpg
+2023-09-19 11:37:59.156 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9203981161117554. Saved to images/frames/5ccedd2b-a3ff-44b8-92e2-4df66961debf.jpg.
+2023-09-19 11:37:59.342 | INFO     | __main__:save_image:102 - Saved image to images/frames/fd9e696d-7f8f-41e4-afe2-d32bb8e368b7.jpg
+2023-09-19 11:37:59.343 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.91803377866745. Saved to images/frames/fd9e696d-7f8f-41e4-afe2-d32bb8e368b7.jpg.
+2023-09-19 11:37:59.474 | INFO     | __main__:save_image:102 - Saved image to images/frames/997fbc14-5f81-441d-ad33-e0211704257f.jpg
+2023-09-19 11:37:59.476 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9994373917579651. Saved to images/frames/997fbc14-5f81-441d-ad33-e0211704257f.jpg.
+2023-09-19 11:37:59.600 | INFO     | __main__:save_image:102 - Saved image to images/frames/e458a66d-a6b0-4fd5-85dd-792e4afa99e2.jpg
+2023-09-19 11:37:59.602 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9999514818191528. Saved to images/frames/e458a66d-a6b0-4fd5-85dd-792e4afa99e2.jpg.
+2023-09-19 11:37:59.735 | INFO     | __main__:save_image:102 - Saved image to images/frames/45746cfb-9166-4666-a946-733107df0bc9.jpg
+2023-09-19 11:37:59.737 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9999855756759644. Saved to images/frames/45746cfb-9166-4666-a946-733107df0bc9.jpg.
+2023-09-19 11:37:59.874 | INFO     | __main__:save_image:102 - Saved image to images/frames/08eac5ea-198f-4d7d-bac9-dce0a335e95b.jpg
+2023-09-19 11:37:59.876 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9998292922973633. Saved to images/frames/08eac5ea-198f-4d7d-bac9-dce0a335e95b.jpg.
+2023-09-19 11:38:00.021 | INFO     | __main__:save_image:102 - Saved image to images/frames/25c48bf5-5a60-43d7-ad86-4631940cd9a7.jpg
+2023-09-19 11:38:00.023 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9986054301261902. Saved to images/frames/25c48bf5-5a60-43d7-ad86-4631940cd9a7.jpg.
+2023-09-19 11:38:00.167 | INFO     | __main__:save_image:102 - Saved image to images/frames/739c01c0-2cc6-40a1-99fc-72af638500f3.jpg
+2023-09-19 11:38:00.168 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9598933458328247. Saved to images/frames/739c01c0-2cc6-40a1-99fc-72af638500f3.jpg.
+2023-09-19 11:38:00.313 | INFO     | __main__:save_image:102 - Saved image to images/frames/4237ce29-1062-4696-9a8a-429d1a082d3a.jpg
+2023-09-19 11:38:00.315 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9751806259155273. Saved to images/frames/4237ce29-1062-4696-9a8a-429d1a082d3a.jpg.
+2023-09-19 11:38:00.455 | INFO     | __main__:save_image:102 - Saved image to images/frames/2e634803-131b-4aba-83e4-3a5756f0004d.jpg
+2023-09-19 11:38:00.456 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9857989549636841. Saved to images/frames/2e634803-131b-4aba-83e4-3a5756f0004d.jpg.
+2023-09-19 11:38:00.610 | INFO     | __main__:save_image:102 - Saved image to images/frames/6458e2fa-68b6-4b2c-a950-c0087e6ab079.jpg
+2023-09-19 11:38:00.612 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9924680590629578. Saved to images/frames/6458e2fa-68b6-4b2c-a950-c0087e6ab079.jpg.
+2023-09-19 11:38:00.761 | INFO     | __main__:save_image:102 - Saved image to images/frames/ba614f53-ca0f-4e47-8603-80d2412c9e46.jpg
+2023-09-19 11:38:00.763 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.994472324848175. Saved to images/frames/ba614f53-ca0f-4e47-8603-80d2412c9e46.jpg.
+2023-09-19 11:38:00.925 | INFO     | __main__:save_image:102 - Saved image to images/frames/980b0908-a6fe-4f95-91cc-ac9ee0c9f66c.jpg
+2023-09-19 11:38:00.926 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9955019354820251. Saved to images/frames/980b0908-a6fe-4f95-91cc-ac9ee0c9f66c.jpg.
+2023-09-19 11:38:01.052 | INFO     | __main__:save_image:102 - Saved image to images/frames/8926d063-5b2d-428c-87cc-7dc4db821523.jpg
+2023-09-19 11:38:01.053 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9839297533035278. Saved to images/frames/8926d063-5b2d-428c-87cc-7dc4db821523.jpg.
+2023-09-19 11:38:01.227 | INFO     | __main__:save_image:102 - Saved image to images/frames/fbbd6c56-5424-4442-90c3-5c99dbbf21dd.jpg
+2023-09-19 11:38:01.228 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9833537340164185. Saved to images/frames/fbbd6c56-5424-4442-90c3-5c99dbbf21dd.jpg.
+2023-09-19 11:38:01.356 | INFO     | __main__:save_image:102 - Saved image to images/frames/89bc0ae2-92b1-4665-9e5f-60713918027c.jpg
+2023-09-19 11:38:01.357 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9555322527885437. Saved to images/frames/89bc0ae2-92b1-4665-9e5f-60713918027c.jpg.
+2023-09-19 11:38:01.547 | INFO     | __main__:save_image:102 - Saved image to images/frames/980683bb-8696-41de-a553-574c9597b3a2.jpg
+2023-09-19 11:38:01.549 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9130585789680481. Saved to images/frames/980683bb-8696-41de-a553-574c9597b3a2.jpg.
+2023-09-19 11:38:01.675 | INFO     | __main__:save_image:102 - Saved image to images/frames/a2a57bfb-d0a5-457b-9202-98dc4b9ecb3b.jpg
+2023-09-19 11:38:01.677 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9224022030830383. Saved to images/frames/a2a57bfb-d0a5-457b-9202-98dc4b9ecb3b.jpg.
+2023-09-19 11:38:01.842 | INFO     | __main__:save_image:102 - Saved image to images/frames/6155d3e0-aac4-4a67-9b05-e19721510c74.jpg
+2023-09-19 11:38:01.844 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.922931969165802. Saved to images/frames/6155d3e0-aac4-4a67-9b05-e19721510c74.jpg.
+2023-09-19 11:38:01.974 | INFO     | __main__:save_image:102 - Saved image to images/frames/a52e817e-8fb1-4b9d-a9ce-36eb34b7a5bc.jpg
+2023-09-19 11:38:01.975 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9189280271530151. Saved to images/frames/a52e817e-8fb1-4b9d-a9ce-36eb34b7a5bc.jpg.
+2023-09-19 11:38:46.037 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 11:38:46.038 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 11:43:00.025 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 11:43:00.026 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 11:44:34.271 | INFO     | __main__:save_image:102 - Saved image to images/frames/01efffc0-712e-4e98-9d9f-65c0f07ebfca.jpg
+2023-09-19 11:44:34.273 | INFO     | __main__:detect_faces:81 - Face detected with confidence 0.9013910889625549. Saved to images/frames/01efffc0-712e-4e98-9d9f-65c0f07ebfca.jpg.
+2023-09-19 11:50:23.657 | INFO     | __main__:main:136 - Connected to the camera.
+2023-09-19 11:51:50.804 | INFO     | __main__:main:136 - Connected to the camera.
+2023-09-19 11:52:04.538 | INFO     | __main__:save_image:104 - Saved image to images/frames/84dbe9ee-65d6-40b1-b952-4dda4537a173.jpg
+2023-09-19 11:52:04.541 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9780985116958618. Saved to images/frames/84dbe9ee-65d6-40b1-b952-4dda4537a173.jpg.
+2023-09-19 11:52:04.694 | INFO     | __main__:save_image:104 - Saved image to images/frames/e2c1304f-42c6-4fd3-bef3-d40fa07a7a40.jpg
+2023-09-19 11:52:04.703 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9975088834762573. Saved to images/frames/e2c1304f-42c6-4fd3-bef3-d40fa07a7a40.jpg.
+2023-09-19 11:52:04.879 | INFO     | __main__:save_image:104 - Saved image to images/frames/8c3c1d87-d504-4fa0-a7af-afa24d05289b.jpg
+2023-09-19 11:52:04.882 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.968661904335022. Saved to images/frames/8c3c1d87-d504-4fa0-a7af-afa24d05289b.jpg.
+2023-09-19 11:52:05.021 | INFO     | __main__:save_image:104 - Saved image to images/frames/f3f293b7-7af1-4488-ac9b-0ad163109537.jpg
+2023-09-19 11:52:05.023 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9886199235916138. Saved to images/frames/f3f293b7-7af1-4488-ac9b-0ad163109537.jpg.
+2023-09-19 11:52:05.184 | INFO     | __main__:save_image:104 - Saved image to images/frames/53806e3a-2fca-4c4b-988f-11610142f595.jpg
+2023-09-19 11:52:05.187 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9838152527809143. Saved to images/frames/53806e3a-2fca-4c4b-988f-11610142f595.jpg.
+2023-09-19 11:52:05.323 | INFO     | __main__:save_image:104 - Saved image to images/frames/abeb513c-2f00-4499-b0ca-95f27f8d671e.jpg
+2023-09-19 11:52:05.326 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9874207377433777. Saved to images/frames/abeb513c-2f00-4499-b0ca-95f27f8d671e.jpg.
+2023-09-19 11:52:06.045 | INFO     | __main__:save_image:104 - Saved image to images/frames/61571e5b-d656-4b7d-80a1-74443ce37abf.jpg
+2023-09-19 11:52:06.047 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9642056822776794. Saved to images/frames/61571e5b-d656-4b7d-80a1-74443ce37abf.jpg.
+2023-09-19 11:52:06.280 | INFO     | __main__:save_image:104 - Saved image to images/frames/cb2c2fc5-a735-4c23-8d5c-308f0f9482ce.jpg
+2023-09-19 11:52:06.283 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9877647757530212. Saved to images/frames/cb2c2fc5-a735-4c23-8d5c-308f0f9482ce.jpg.
+2023-09-19 11:52:06.409 | INFO     | __main__:save_image:104 - Saved image to images/frames/81cc91a4-1e19-4a56-92fb-b89d203e6e45.jpg
+2023-09-19 11:52:06.411 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9178321957588196. Saved to images/frames/81cc91a4-1e19-4a56-92fb-b89d203e6e45.jpg.
+2023-09-19 11:52:06.653 | INFO     | __main__:save_image:104 - Saved image to images/frames/5566c726-b6d4-476d-8e46-dd30201ab0d3.jpg
+2023-09-19 11:52:06.655 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9837036728858948. Saved to images/frames/5566c726-b6d4-476d-8e46-dd30201ab0d3.jpg.
+2023-09-19 11:52:06.817 | INFO     | __main__:save_image:104 - Saved image to images/frames/3dc7685d-6046-40f4-89a0-61065e059dbe.jpg
+2023-09-19 11:52:06.819 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9975008368492126. Saved to images/frames/3dc7685d-6046-40f4-89a0-61065e059dbe.jpg.
+2023-09-19 11:52:07.032 | INFO     | __main__:save_image:104 - Saved image to images/frames/ca7ec6ba-11a5-4141-93ce-530e61509c33.jpg
+2023-09-19 11:52:07.034 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9836797118186951. Saved to images/frames/ca7ec6ba-11a5-4141-93ce-530e61509c33.jpg.
+2023-09-19 11:52:07.184 | INFO     | __main__:save_image:104 - Saved image to images/frames/6e8003eb-616d-4998-8eb2-277565e434ea.jpg
+2023-09-19 11:52:07.186 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9111559391021729. Saved to images/frames/6e8003eb-616d-4998-8eb2-277565e434ea.jpg.
+2023-09-19 11:52:07.370 | INFO     | __main__:save_image:104 - Saved image to images/frames/1e7d6d07-f30c-4851-96d8-e24fa51b269e.jpg
+2023-09-19 11:52:07.372 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.982793927192688. Saved to images/frames/1e7d6d07-f30c-4851-96d8-e24fa51b269e.jpg.
+2023-09-19 11:52:07.549 | INFO     | __main__:save_image:104 - Saved image to images/frames/465025aa-8548-414a-8f71-765a52cfaf65.jpg
+2023-09-19 11:52:07.551 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9951920509338379. Saved to images/frames/465025aa-8548-414a-8f71-765a52cfaf65.jpg.
+2023-09-19 11:52:07.747 | INFO     | __main__:save_image:104 - Saved image to images/frames/83d890ab-6f65-4498-80ab-f42fa516579e.jpg
+2023-09-19 11:52:07.750 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.989525556564331. Saved to images/frames/83d890ab-6f65-4498-80ab-f42fa516579e.jpg.
+2023-09-19 11:52:07.888 | INFO     | __main__:save_image:104 - Saved image to images/frames/f1c69ca4-a235-4b7e-a19c-9dea336758ca.jpg
+2023-09-19 11:52:07.890 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9261707067489624. Saved to images/frames/f1c69ca4-a235-4b7e-a19c-9dea336758ca.jpg.
+2023-09-19 11:52:08.388 | INFO     | __main__:save_image:104 - Saved image to images/frames/004b45e0-d8da-4ac8-9d7d-e3d2c4c387e8.jpg
+2023-09-19 11:52:08.391 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9735355377197266. Saved to images/frames/004b45e0-d8da-4ac8-9d7d-e3d2c4c387e8.jpg.
+2023-09-19 11:52:08.555 | INFO     | __main__:save_image:104 - Saved image to images/frames/e1eafe6b-22c5-4420-8ed2-fbfab2f39039.jpg
+2023-09-19 11:52:08.557 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9806265234947205. Saved to images/frames/e1eafe6b-22c5-4420-8ed2-fbfab2f39039.jpg.
+2023-09-19 11:52:08.746 | INFO     | __main__:save_image:104 - Saved image to images/frames/319c0893-ac8a-4b3b-8aa3-0602ed6274af.jpg
+2023-09-19 11:52:08.749 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9953043460845947. Saved to images/frames/319c0893-ac8a-4b3b-8aa3-0602ed6274af.jpg.
+2023-09-19 11:52:08.903 | INFO     | __main__:save_image:104 - Saved image to images/frames/5c627a36-74bf-497a-961c-b7bea5a8088d.jpg
+2023-09-19 11:52:08.905 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9989473223686218. Saved to images/frames/5c627a36-74bf-497a-961c-b7bea5a8088d.jpg.
+2023-09-19 11:52:09.105 | INFO     | __main__:save_image:104 - Saved image to images/frames/1cd92251-7dca-4a00-a8a2-23964bc944c5.jpg
+2023-09-19 11:52:09.109 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9995587468147278. Saved to images/frames/1cd92251-7dca-4a00-a8a2-23964bc944c5.jpg.
+2023-09-19 11:52:09.372 | INFO     | __main__:save_image:104 - Saved image to images/frames/c53ee5e2-d50e-4317-9a0a-f8430bc5def5.jpg
+2023-09-19 11:52:09.375 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9994608759880066. Saved to images/frames/c53ee5e2-d50e-4317-9a0a-f8430bc5def5.jpg.
+2023-09-19 11:52:09.619 | INFO     | __main__:save_image:104 - Saved image to images/frames/928f1384-2436-4984-a5de-7656fc1cb437.jpg
+2023-09-19 11:52:09.622 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9927095174789429. Saved to images/frames/928f1384-2436-4984-a5de-7656fc1cb437.jpg.
+2023-09-19 11:52:09.851 | INFO     | __main__:save_image:104 - Saved image to images/frames/607a0c73-38cf-407d-96a3-ff5b39165434.jpg
+2023-09-19 11:52:09.854 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9902834296226501. Saved to images/frames/607a0c73-38cf-407d-96a3-ff5b39165434.jpg.
+2023-09-19 11:52:10.048 | INFO     | __main__:save_image:104 - Saved image to images/frames/6f5fd165-114c-45c5-8e8d-a5cf6e422dfc.jpg
+2023-09-19 11:52:10.050 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9773375988006592. Saved to images/frames/6f5fd165-114c-45c5-8e8d-a5cf6e422dfc.jpg.
+2023-09-19 11:52:10.235 | INFO     | __main__:save_image:104 - Saved image to images/frames/f3b2b7d1-7632-41df-8a46-e838554594cf.jpg
+2023-09-19 11:52:10.239 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9254376292228699. Saved to images/frames/f3b2b7d1-7632-41df-8a46-e838554594cf.jpg.
+2023-09-19 11:52:10.450 | INFO     | __main__:save_image:104 - Saved image to images/frames/20818cd7-acbf-4f7e-b01a-976de35546f1.jpg
+2023-09-19 11:52:10.453 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9311696887016296. Saved to images/frames/20818cd7-acbf-4f7e-b01a-976de35546f1.jpg.
+2023-09-19 11:52:10.848 | INFO     | __main__:save_image:104 - Saved image to images/frames/247a398a-834c-499e-8a1a-bf583e360e19.jpg
+2023-09-19 11:52:10.851 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9558039903640747. Saved to images/frames/247a398a-834c-499e-8a1a-bf583e360e19.jpg.
+2023-09-19 11:52:11.041 | INFO     | __main__:save_image:104 - Saved image to images/frames/826d9e99-3c3c-4a7d-95e6-f5c68448135a.jpg
+2023-09-19 11:52:11.043 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9905070066452026. Saved to images/frames/826d9e99-3c3c-4a7d-95e6-f5c68448135a.jpg.
+2023-09-19 11:52:11.250 | INFO     | __main__:save_image:104 - Saved image to images/frames/bf1930ad-3875-40be-b2eb-72548a693ad3.jpg
+2023-09-19 11:52:11.253 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9995446801185608. Saved to images/frames/bf1930ad-3875-40be-b2eb-72548a693ad3.jpg.
+2023-09-19 11:52:11.420 | INFO     | __main__:save_image:104 - Saved image to images/frames/00d3faf8-ea8c-4cda-a7f2-56fe90255e4d.jpg
+2023-09-19 11:52:11.423 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9998496770858765. Saved to images/frames/00d3faf8-ea8c-4cda-a7f2-56fe90255e4d.jpg.
+2023-09-19 11:52:11.590 | INFO     | __main__:save_image:104 - Saved image to images/frames/0b36147d-f427-4c3c-a9f4-524af14fac2e.jpg
+2023-09-19 11:52:11.592 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.999882698059082. Saved to images/frames/0b36147d-f427-4c3c-a9f4-524af14fac2e.jpg.
+2023-09-19 11:52:11.772 | INFO     | __main__:save_image:104 - Saved image to images/frames/c4b2ee75-ab4a-4299-8e75-7ae6c7cbcf65.jpg
+2023-09-19 11:52:11.775 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9999377727508545. Saved to images/frames/c4b2ee75-ab4a-4299-8e75-7ae6c7cbcf65.jpg.
+2023-09-19 11:52:12.022 | INFO     | __main__:save_image:104 - Saved image to images/frames/eab6dbc0-6969-4163-9dd7-858b68e9579c.jpg
+2023-09-19 11:52:12.025 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9990708827972412. Saved to images/frames/eab6dbc0-6969-4163-9dd7-858b68e9579c.jpg.
+2023-09-19 11:52:12.239 | INFO     | __main__:save_image:104 - Saved image to images/frames/895c290e-a18b-493e-a294-d01b9f1a7cb9.jpg
+2023-09-19 11:52:12.242 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9919276237487793. Saved to images/frames/895c290e-a18b-493e-a294-d01b9f1a7cb9.jpg.
+2023-09-19 11:52:12.416 | INFO     | __main__:save_image:104 - Saved image to images/frames/e22e9280-8248-4113-87ad-5e44d7e64c4c.jpg
+2023-09-19 11:52:12.420 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9516696333885193. Saved to images/frames/e22e9280-8248-4113-87ad-5e44d7e64c4c.jpg.
+2023-09-19 11:52:12.679 | INFO     | __main__:save_image:104 - Saved image to images/frames/478fefc8-6ef5-479a-829e-59a2bbdff6f3.jpg
+2023-09-19 11:52:12.681 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9360558986663818. Saved to images/frames/478fefc8-6ef5-479a-829e-59a2bbdff6f3.jpg.
+2023-09-19 11:52:12.837 | INFO     | __main__:save_image:104 - Saved image to images/frames/a2fdf887-0507-4b06-bbc9-8fcef687060a.jpg
+2023-09-19 11:52:12.839 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9246734380722046. Saved to images/frames/a2fdf887-0507-4b06-bbc9-8fcef687060a.jpg.
+2023-09-19 11:52:13.011 | INFO     | __main__:save_image:104 - Saved image to images/frames/74c424f3-f3fa-4651-b1b9-d983cc16b035.jpg
+2023-09-19 11:52:13.014 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9680067300796509. Saved to images/frames/74c424f3-f3fa-4651-b1b9-d983cc16b035.jpg.
+2023-09-19 11:52:13.215 | INFO     | __main__:save_image:104 - Saved image to images/frames/66d60f4e-c3cb-45c9-a396-c4a35d5aed18.jpg
+2023-09-19 11:52:13.220 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.997380793094635. Saved to images/frames/66d60f4e-c3cb-45c9-a396-c4a35d5aed18.jpg.
+2023-09-19 11:52:13.377 | INFO     | __main__:save_image:104 - Saved image to images/frames/525d0412-91cc-4283-8177-48b90d17ac86.jpg
+2023-09-19 11:52:13.380 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9978806972503662. Saved to images/frames/525d0412-91cc-4283-8177-48b90d17ac86.jpg.
+2023-09-19 11:52:13.529 | INFO     | __main__:save_image:104 - Saved image to images/frames/af766bc2-ad1f-4b98-90bc-14b0fd4c7556.jpg
+2023-09-19 11:52:13.532 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9567827582359314. Saved to images/frames/af766bc2-ad1f-4b98-90bc-14b0fd4c7556.jpg.
+2023-09-19 11:52:13.781 | INFO     | __main__:save_image:104 - Saved image to images/frames/3b3f40aa-8610-447b-8c1e-2b36d5384ae6.jpg
+2023-09-19 11:52:13.784 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9973024129867554. Saved to images/frames/3b3f40aa-8610-447b-8c1e-2b36d5384ae6.jpg.
+2023-09-19 11:52:13.951 | INFO     | __main__:save_image:104 - Saved image to images/frames/cbef3fb5-5612-42ef-872a-f6ee81cee0cc.jpg
+2023-09-19 11:52:13.954 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9957664012908936. Saved to images/frames/cbef3fb5-5612-42ef-872a-f6ee81cee0cc.jpg.
+2023-09-19 11:52:14.124 | INFO     | __main__:save_image:104 - Saved image to images/frames/9d9dc1e3-310b-40c7-9546-8111ee71581c.jpg
+2023-09-19 11:52:14.126 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9749909043312073. Saved to images/frames/9d9dc1e3-310b-40c7-9546-8111ee71581c.jpg.
+2023-09-19 11:52:14.279 | INFO     | __main__:save_image:104 - Saved image to images/frames/f2fc0fdc-d3da-4153-8f31-68b5f5f9c6b0.jpg
+2023-09-19 11:52:14.281 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9667789936065674. Saved to images/frames/f2fc0fdc-d3da-4153-8f31-68b5f5f9c6b0.jpg.
+2023-09-19 11:52:14.417 | INFO     | __main__:save_image:104 - Saved image to images/frames/eccb4299-d610-4e6a-990d-37e918cbb7df.jpg
+2023-09-19 11:52:14.420 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9906708002090454. Saved to images/frames/eccb4299-d610-4e6a-990d-37e918cbb7df.jpg.
+2023-09-19 11:52:14.557 | INFO     | __main__:save_image:104 - Saved image to images/frames/5fdb99d0-61fc-4fe9-b66a-9202456a967b.jpg
+2023-09-19 11:52:14.559 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9912135004997253. Saved to images/frames/5fdb99d0-61fc-4fe9-b66a-9202456a967b.jpg.
+2023-09-19 11:52:14.691 | INFO     | __main__:save_image:104 - Saved image to images/frames/dd5794cb-5629-4db7-8847-30622a52d4d4.jpg
+2023-09-19 11:52:14.694 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9906935095787048. Saved to images/frames/dd5794cb-5629-4db7-8847-30622a52d4d4.jpg.
+2023-09-19 11:52:14.829 | INFO     | __main__:save_image:104 - Saved image to images/frames/41a1b4ca-e232-494d-8dc4-be632394a3c3.jpg
+2023-09-19 11:52:14.832 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9669125080108643. Saved to images/frames/41a1b4ca-e232-494d-8dc4-be632394a3c3.jpg.
+2023-09-19 11:52:15.131 | INFO     | __main__:save_image:104 - Saved image to images/frames/a1f50921-fb1f-4033-b8b0-31c860b6726d.jpg
+2023-09-19 11:52:15.136 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9780229926109314. Saved to images/frames/a1f50921-fb1f-4033-b8b0-31c860b6726d.jpg.
+2023-09-19 11:52:15.320 | INFO     | __main__:save_image:104 - Saved image to images/frames/a0296f21-eedd-4821-8ea7-3acd8d001d81.jpg
+2023-09-19 11:52:15.323 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9847419261932373. Saved to images/frames/a0296f21-eedd-4821-8ea7-3acd8d001d81.jpg.
+2023-09-19 11:52:15.494 | INFO     | __main__:save_image:104 - Saved image to images/frames/f0041f2c-6a12-454d-ad21-4ceea5fd3f88.jpg
+2023-09-19 11:52:15.498 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9878153800964355. Saved to images/frames/f0041f2c-6a12-454d-ad21-4ceea5fd3f88.jpg.
+2023-09-19 11:52:15.693 | INFO     | __main__:save_image:104 - Saved image to images/frames/aab336c4-154c-443c-9f0f-8d4041715ab2.jpg
+2023-09-19 11:52:15.697 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9850897789001465. Saved to images/frames/aab336c4-154c-443c-9f0f-8d4041715ab2.jpg.
+2023-09-19 11:52:15.943 | INFO     | __main__:save_image:104 - Saved image to images/frames/42126670-7df1-4e8f-8cc9-637eebc502c2.jpg
+2023-09-19 11:52:15.948 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9873398542404175. Saved to images/frames/42126670-7df1-4e8f-8cc9-637eebc502c2.jpg.
+2023-09-19 11:52:16.190 | INFO     | __main__:save_image:104 - Saved image to images/frames/78c8083b-dc2c-4a08-9fba-14b02e245168.jpg
+2023-09-19 11:52:16.197 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9897734522819519. Saved to images/frames/78c8083b-dc2c-4a08-9fba-14b02e245168.jpg.
+2023-09-19 11:52:16.520 | INFO     | __main__:save_image:104 - Saved image to images/frames/08cf1ebc-0386-4e1d-bdcd-3f722afdc6b8.jpg
+2023-09-19 11:52:16.525 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.992480993270874. Saved to images/frames/08cf1ebc-0386-4e1d-bdcd-3f722afdc6b8.jpg.
+2023-09-19 11:52:16.916 | INFO     | __main__:save_image:104 - Saved image to images/frames/63af71ff-9d41-4a37-80b0-8234ad3b370e.jpg
+2023-09-19 11:52:16.920 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9913862943649292. Saved to images/frames/63af71ff-9d41-4a37-80b0-8234ad3b370e.jpg.
+2023-09-19 11:52:17.137 | INFO     | __main__:save_image:104 - Saved image to images/frames/7d9c50e1-667b-4121-80c9-1d7c7d2fb738.jpg
+2023-09-19 11:52:17.140 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9935057163238525. Saved to images/frames/7d9c50e1-667b-4121-80c9-1d7c7d2fb738.jpg.
+2023-09-19 11:52:17.367 | INFO     | __main__:save_image:104 - Saved image to images/frames/f56d4d02-de08-4d5e-a1e8-7f2375f3912d.jpg
+2023-09-19 11:52:17.373 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9958998560905457. Saved to images/frames/f56d4d02-de08-4d5e-a1e8-7f2375f3912d.jpg.
+2023-09-19 11:52:17.573 | INFO     | __main__:save_image:104 - Saved image to images/frames/80ef6314-c647-4a68-8c2f-68db24ba6453.jpg
+2023-09-19 11:52:17.576 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9384716749191284. Saved to images/frames/80ef6314-c647-4a68-8c2f-68db24ba6453.jpg.
+2023-09-19 11:52:17.806 | INFO     | __main__:save_image:104 - Saved image to images/frames/6f9b19a2-b05d-4a81-9a0f-d6391fe6213a.jpg
+2023-09-19 11:52:17.808 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9939967393875122. Saved to images/frames/6f9b19a2-b05d-4a81-9a0f-d6391fe6213a.jpg.
+2023-09-19 11:52:17.987 | INFO     | __main__:save_image:104 - Saved image to images/frames/4eed3743-728c-41bd-a3f8-525b996f1051.jpg
+2023-09-19 11:52:17.990 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9927343130111694. Saved to images/frames/4eed3743-728c-41bd-a3f8-525b996f1051.jpg.
+2023-09-19 11:52:18.145 | INFO     | __main__:save_image:104 - Saved image to images/frames/0de1c1a7-193d-449f-9b7b-907808309d3e.jpg
+2023-09-19 11:52:18.148 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9711227416992188. Saved to images/frames/0de1c1a7-193d-449f-9b7b-907808309d3e.jpg.
+2023-09-19 11:52:18.319 | INFO     | __main__:save_image:104 - Saved image to images/frames/a4424ef4-10ea-4c58-b508-8640b0adf202.jpg
+2023-09-19 11:52:18.322 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9934418201446533. Saved to images/frames/a4424ef4-10ea-4c58-b508-8640b0adf202.jpg.
+2023-09-19 11:52:18.479 | INFO     | __main__:save_image:104 - Saved image to images/frames/8ef8ac93-86b8-4728-9a70-dd27475e08de.jpg
+2023-09-19 11:52:18.482 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9863535165786743. Saved to images/frames/8ef8ac93-86b8-4728-9a70-dd27475e08de.jpg.
+2023-09-19 11:52:18.620 | INFO     | __main__:save_image:104 - Saved image to images/frames/8ba7817c-67c8-425a-9494-9e2e1620da3b.jpg
+2023-09-19 11:52:18.622 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.973661482334137. Saved to images/frames/8ba7817c-67c8-425a-9494-9e2e1620da3b.jpg.
+2023-09-19 11:52:18.890 | INFO     | __main__:save_image:104 - Saved image to images/frames/27b870a8-a610-49ac-9b99-fe2087c389a4.jpg
+2023-09-19 11:52:18.892 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.970143735408783. Saved to images/frames/27b870a8-a610-49ac-9b99-fe2087c389a4.jpg.
+2023-09-19 11:52:19.026 | INFO     | __main__:save_image:104 - Saved image to images/frames/9a45944a-6037-46b5-9c98-c3c3a0e69a2c.jpg
+2023-09-19 11:52:19.028 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9518812894821167. Saved to images/frames/9a45944a-6037-46b5-9c98-c3c3a0e69a2c.jpg.
+2023-09-19 11:52:19.253 | INFO     | __main__:save_image:104 - Saved image to images/frames/8f66d312-f3c6-46b2-b1f7-1d615c771e8e.jpg
+2023-09-19 11:52:19.256 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9636924266815186. Saved to images/frames/8f66d312-f3c6-46b2-b1f7-1d615c771e8e.jpg.
+2023-09-19 12:00:04.766 | INFO     | __main__:main:136 - Connected to the camera.
+2023-09-19 12:00:16.525 | INFO     | __main__:save_image:104 - Saved image to images/frames/16b9d0f5-3052-4a45-9652-2e6c365620b8.jpg
+2023-09-19 12:00:16.527 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9447786211967468. Saved to images/frames/16b9d0f5-3052-4a45-9652-2e6c365620b8.jpg.
+2023-09-19 12:00:16.737 | INFO     | __main__:save_image:104 - Saved image to images/frames/4524ca2e-f73b-4c22-8790-b5f4288cb0c7.jpg
+2023-09-19 12:00:16.739 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9378617405891418. Saved to images/frames/4524ca2e-f73b-4c22-8790-b5f4288cb0c7.jpg.
+2023-09-19 12:00:16.938 | INFO     | __main__:save_image:104 - Saved image to images/frames/a0302162-cb60-4206-a6e1-7664b6e523aa.jpg
+2023-09-19 12:00:16.941 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9728124141693115. Saved to images/frames/a0302162-cb60-4206-a6e1-7664b6e523aa.jpg.
+2023-09-19 12:00:17.067 | INFO     | __main__:save_image:104 - Saved image to images/frames/3d314a12-c131-4c5f-aefb-d80b96de92f6.jpg
+2023-09-19 12:00:17.069 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.923193097114563. Saved to images/frames/3d314a12-c131-4c5f-aefb-d80b96de92f6.jpg.
+2023-09-19 12:00:17.204 | INFO     | __main__:save_image:104 - Saved image to images/frames/c2a6ea1d-c21e-421c-8aca-7633bdd0bb8f.jpg
+2023-09-19 12:00:17.207 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9743490815162659. Saved to images/frames/c2a6ea1d-c21e-421c-8aca-7633bdd0bb8f.jpg.
+2023-09-19 12:00:17.426 | INFO     | __main__:save_image:104 - Saved image to images/frames/0bc8f955-873d-4964-b245-94f31d96558b.jpg
+2023-09-19 12:00:17.429 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9684447050094604. Saved to images/frames/0bc8f955-873d-4964-b245-94f31d96558b.jpg.
+2023-09-19 12:00:17.585 | INFO     | __main__:save_image:104 - Saved image to images/frames/20732583-0469-4056-9d7d-1da847671864.jpg
+2023-09-19 12:00:17.588 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9803411960601807. Saved to images/frames/20732583-0469-4056-9d7d-1da847671864.jpg.
+2023-09-19 12:00:17.750 | INFO     | __main__:save_image:104 - Saved image to images/frames/44999022-658d-47c3-b3e0-33841b2dbdc8.jpg
+2023-09-19 12:00:17.752 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.963329553604126. Saved to images/frames/44999022-658d-47c3-b3e0-33841b2dbdc8.jpg.
+2023-09-19 12:00:17.888 | INFO     | __main__:save_image:104 - Saved image to images/frames/c7b58cc1-4ced-4f1d-aade-6ccfdef225ae.jpg
+2023-09-19 12:00:17.891 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9895776510238647. Saved to images/frames/c7b58cc1-4ced-4f1d-aade-6ccfdef225ae.jpg.
+2023-09-19 12:00:18.072 | INFO     | __main__:save_image:104 - Saved image to images/frames/b7889653-7a64-4962-a61e-7d7fcf486d14.jpg
+2023-09-19 12:00:18.074 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.996181845664978. Saved to images/frames/b7889653-7a64-4962-a61e-7d7fcf486d14.jpg.
+2023-09-19 12:00:18.215 | INFO     | __main__:save_image:104 - Saved image to images/frames/2212456b-b409-436a-8395-6116342a28d2.jpg
+2023-09-19 12:00:18.218 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9929174184799194. Saved to images/frames/2212456b-b409-436a-8395-6116342a28d2.jpg.
+2023-09-19 12:00:18.379 | INFO     | __main__:save_image:104 - Saved image to images/frames/d2307e97-f4bf-403d-9fdb-048b40de6b69.jpg
+2023-09-19 12:00:18.382 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.987244188785553. Saved to images/frames/d2307e97-f4bf-403d-9fdb-048b40de6b69.jpg.
+2023-09-19 12:00:18.520 | INFO     | __main__:save_image:104 - Saved image to images/frames/9be44fc1-6870-46a4-9911-80cbda66a115.jpg
+2023-09-19 12:00:18.523 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9882334470748901. Saved to images/frames/9be44fc1-6870-46a4-9911-80cbda66a115.jpg.
+2023-09-19 12:00:18.673 | INFO     | __main__:save_image:104 - Saved image to images/frames/7c863fec-68ff-4558-a334-936ddb1e2bf8.jpg
+2023-09-19 12:00:18.675 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9921512603759766. Saved to images/frames/7c863fec-68ff-4558-a334-936ddb1e2bf8.jpg.
+2023-09-19 12:00:18.811 | INFO     | __main__:save_image:104 - Saved image to images/frames/8d7092e5-9179-4c0e-b769-5233fd407807.jpg
+2023-09-19 12:00:18.813 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9948705434799194. Saved to images/frames/8d7092e5-9179-4c0e-b769-5233fd407807.jpg.
+2023-09-19 12:00:18.987 | INFO     | __main__:save_image:104 - Saved image to images/frames/9660dc84-c5f7-4ab5-8aa6-e78f44c9f80b.jpg
+2023-09-19 12:00:18.991 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.995303750038147. Saved to images/frames/9660dc84-c5f7-4ab5-8aa6-e78f44c9f80b.jpg.
+2023-09-19 12:00:19.155 | INFO     | __main__:save_image:104 - Saved image to images/frames/da0b22b6-3242-41bb-9813-613abdcaa07a.jpg
+2023-09-19 12:00:19.157 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9957719445228577. Saved to images/frames/da0b22b6-3242-41bb-9813-613abdcaa07a.jpg.
+2023-09-19 12:00:19.323 | INFO     | __main__:save_image:104 - Saved image to images/frames/108eef1b-6e6b-44bc-a0d7-6db00911a121.jpg
+2023-09-19 12:00:19.325 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9468932747840881. Saved to images/frames/108eef1b-6e6b-44bc-a0d7-6db00911a121.jpg.
+2023-09-19 12:00:19.454 | INFO     | __main__:save_image:104 - Saved image to images/frames/5cefe457-f2e2-4f66-8cfc-81e09d5be903.jpg
+2023-09-19 12:00:19.457 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9353147745132446. Saved to images/frames/5cefe457-f2e2-4f66-8cfc-81e09d5be903.jpg.
+2023-09-19 12:00:19.601 | INFO     | __main__:save_image:104 - Saved image to images/frames/70f85564-cc9d-4c09-8ed0-2058dc9e9c69.jpg
+2023-09-19 12:00:19.604 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.99469393491745. Saved to images/frames/70f85564-cc9d-4c09-8ed0-2058dc9e9c69.jpg.
+2023-09-19 12:00:19.747 | INFO     | __main__:save_image:104 - Saved image to images/frames/59ecba79-21a5-4f35-a08b-3330e6b30174.jpg
+2023-09-19 12:00:19.750 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9939852356910706. Saved to images/frames/59ecba79-21a5-4f35-a08b-3330e6b30174.jpg.
+2023-09-19 12:00:19.912 | INFO     | __main__:save_image:104 - Saved image to images/frames/2500c201-ff44-4266-8c36-70dcf81b0ec2.jpg
+2023-09-19 12:00:19.915 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9855756759643555. Saved to images/frames/2500c201-ff44-4266-8c36-70dcf81b0ec2.jpg.
+2023-09-19 12:00:20.044 | INFO     | __main__:save_image:104 - Saved image to images/frames/9e342cde-2708-4046-952e-ae41c57f8fff.jpg
+2023-09-19 12:00:20.047 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9250508546829224. Saved to images/frames/9e342cde-2708-4046-952e-ae41c57f8fff.jpg.
+2023-09-19 12:00:20.187 | INFO     | __main__:save_image:104 - Saved image to images/frames/378d11d4-eb78-471c-9870-c76f66be2df8.jpg
+2023-09-19 12:00:20.190 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9939876794815063. Saved to images/frames/378d11d4-eb78-471c-9870-c76f66be2df8.jpg.
+2023-09-19 12:00:20.327 | INFO     | __main__:save_image:104 - Saved image to images/frames/59b09844-5243-4f7e-bc9b-295147de9866.jpg
+2023-09-19 12:00:20.329 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9941518902778625. Saved to images/frames/59b09844-5243-4f7e-bc9b-295147de9866.jpg.
+2023-09-19 12:00:20.492 | INFO     | __main__:save_image:104 - Saved image to images/frames/7e085dcb-0656-4897-9346-d6a7b91aebf3.jpg
+2023-09-19 12:00:20.496 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9920443296432495. Saved to images/frames/7e085dcb-0656-4897-9346-d6a7b91aebf3.jpg.
+2023-09-19 12:00:20.628 | INFO     | __main__:save_image:104 - Saved image to images/frames/6bfbbef8-f8f2-4437-a908-e63865710487.jpg
+2023-09-19 12:00:20.631 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9718733429908752. Saved to images/frames/6bfbbef8-f8f2-4437-a908-e63865710487.jpg.
+2023-09-19 12:00:20.870 | INFO     | __main__:save_image:104 - Saved image to images/frames/37eb4e84-ffb6-4ae6-80b6-4718766f9603.jpg
+2023-09-19 12:00:20.872 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9022946357727051. Saved to images/frames/37eb4e84-ffb6-4ae6-80b6-4718766f9603.jpg.
+2023-09-19 12:00:21.003 | INFO     | __main__:save_image:104 - Saved image to images/frames/0013e317-7f36-4563-af69-afc91b4f0edc.jpg
+2023-09-19 12:00:21.005 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9736200571060181. Saved to images/frames/0013e317-7f36-4563-af69-afc91b4f0edc.jpg.
+2023-09-19 12:00:21.147 | INFO     | __main__:save_image:104 - Saved image to images/frames/9a557228-95d1-400b-bd5a-8edef0603574.jpg
+2023-09-19 12:00:21.150 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9935185313224792. Saved to images/frames/9a557228-95d1-400b-bd5a-8edef0603574.jpg.
+2023-09-19 12:00:21.294 | INFO     | __main__:save_image:104 - Saved image to images/frames/c4642770-32b6-4ce8-b212-5e4303dcf424.jpg
+2023-09-19 12:00:21.296 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9903513789176941. Saved to images/frames/c4642770-32b6-4ce8-b212-5e4303dcf424.jpg.
+2023-09-19 12:00:21.461 | INFO     | __main__:save_image:104 - Saved image to images/frames/e62f41ba-cc98-4033-b7fb-1013ae60b061.jpg
+2023-09-19 12:00:21.464 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.980562150478363. Saved to images/frames/e62f41ba-cc98-4033-b7fb-1013ae60b061.jpg.
+2023-09-19 12:00:21.597 | INFO     | __main__:save_image:104 - Saved image to images/frames/6b070267-c366-4dc2-8e10-efa32a228c6c.jpg
+2023-09-19 12:00:21.599 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9643803238868713. Saved to images/frames/6b070267-c366-4dc2-8e10-efa32a228c6c.jpg.
+2023-09-19 12:00:21.749 | INFO     | __main__:save_image:104 - Saved image to images/frames/2ae875cb-aee8-4c14-8627-6f058fe670a3.jpg
+2023-09-19 12:00:21.751 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9612967371940613. Saved to images/frames/2ae875cb-aee8-4c14-8627-6f058fe670a3.jpg.
+2023-09-19 12:00:21.889 | INFO     | __main__:save_image:104 - Saved image to images/frames/bef2a9a0-8b27-4db2-ab4d-fcf9d73d6245.jpg
+2023-09-19 12:00:21.891 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9737011790275574. Saved to images/frames/bef2a9a0-8b27-4db2-ab4d-fcf9d73d6245.jpg.
+2023-09-19 12:00:22.046 | INFO     | __main__:save_image:104 - Saved image to images/frames/69418539-a4dc-4c5c-a2c7-6cee8664d614.jpg
+2023-09-19 12:00:22.049 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9489650130271912. Saved to images/frames/69418539-a4dc-4c5c-a2c7-6cee8664d614.jpg.
+2023-09-19 12:00:25.899 | INFO     | __main__:save_image:104 - Saved image to images/frames/2b7af92a-18a0-482f-8b8d-234fc5ad514e.jpg
+2023-09-19 12:00:25.902 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9329710602760315. Saved to images/frames/2b7af92a-18a0-482f-8b8d-234fc5ad514e.jpg.
+2023-09-19 12:00:26.021 | INFO     | __main__:save_image:104 - Saved image to images/frames/89c9955b-48df-46cc-bae6-a6f4dc8b66d7.jpg
+2023-09-19 12:00:26.023 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9262518286705017. Saved to images/frames/89c9955b-48df-46cc-bae6-a6f4dc8b66d7.jpg.
+2023-09-19 12:00:26.152 | INFO     | __main__:save_image:104 - Saved image to images/frames/b8642c55-38c0-41dc-bc2d-eb7bb3377ecf.jpg
+2023-09-19 12:00:26.155 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9730937480926514. Saved to images/frames/b8642c55-38c0-41dc-bc2d-eb7bb3377ecf.jpg.
+2023-09-19 12:00:26.289 | INFO     | __main__:save_image:104 - Saved image to images/frames/09876803-75fe-4072-bf9c-14db9c821108.jpg
+2023-09-19 12:00:26.291 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.965957522392273. Saved to images/frames/09876803-75fe-4072-bf9c-14db9c821108.jpg.
+2023-09-19 12:00:26.547 | INFO     | __main__:save_image:104 - Saved image to images/frames/2397584f-5756-4720-9aa0-3bcc38323c16.jpg
+2023-09-19 12:00:26.550 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9881971478462219. Saved to images/frames/2397584f-5756-4720-9aa0-3bcc38323c16.jpg.
+2023-09-19 12:00:26.676 | INFO     | __main__:save_image:104 - Saved image to images/frames/7958280e-47dc-4d16-928b-9b658b8214d7.jpg
+2023-09-19 12:00:26.678 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9582031965255737. Saved to images/frames/7958280e-47dc-4d16-928b-9b658b8214d7.jpg.
+2023-09-19 12:00:26.822 | INFO     | __main__:save_image:104 - Saved image to images/frames/d5c104e9-7b55-4626-ad67-829cfb17faa8.jpg
+2023-09-19 12:00:26.825 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9725754261016846. Saved to images/frames/d5c104e9-7b55-4626-ad67-829cfb17faa8.jpg.
+2023-09-19 12:00:26.944 | INFO     | __main__:save_image:104 - Saved image to images/frames/5e7299a8-b2f6-463b-8319-117ebeea568e.jpg
+2023-09-19 12:00:26.947 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9650638103485107. Saved to images/frames/5e7299a8-b2f6-463b-8319-117ebeea568e.jpg.
+2023-09-19 12:02:57.879 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 12:02:57.881 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 12:03:51.400 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 12:03:51.401 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 12:04:23.060 | INFO     | __main__:save_image:104 - Saved image to images/frames/f548470e-7463-4535-8a4d-e3591fc157b1.jpg
+2023-09-19 12:04:23.062 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9336385726928711. Saved to images/frames/f548470e-7463-4535-8a4d-e3591fc157b1.jpg.
+2023-09-19 12:04:23.728 | INFO     | __main__:save_image:104 - Saved image to images/frames/b96ef90e-4b0f-438c-bf7a-508ca3537ca9.jpg
+2023-09-19 12:04:23.731 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9584333300590515. Saved to images/frames/b96ef90e-4b0f-438c-bf7a-508ca3537ca9.jpg.
+2023-09-19 12:04:23.920 | INFO     | __main__:save_image:104 - Saved image to images/frames/c143b63e-99fe-47f3-a3f9-ea924bf24282.jpg
+2023-09-19 12:04:23.923 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9028509855270386. Saved to images/frames/c143b63e-99fe-47f3-a3f9-ea924bf24282.jpg.
+2023-09-19 12:05:09.404 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 12:20:49.541 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 12:20:49.542 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 12:24:51.544 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 12:24:51.545 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 12:24:51.546 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 12:24:51.546 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 12:24:51.546 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 12:24:51.547 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 12:24:51.547 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 12:24:51.548 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 12:24:51.548 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 12:24:51.548 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 12:24:51.549 | ERROR    | __main__:main:167 - Read frame failures reached 10. Restarting the camera...
+2023-09-19 12:24:57.944 | INFO     | __main__:main:136 - Connected to the camera.
+2023-09-19 12:24:59.760 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 12:24:59.761 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 12:24:59.761 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 12:24:59.761 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 12:24:59.761 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 12:24:59.761 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 12:24:59.762 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 12:24:59.762 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 12:24:59.762 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 12:24:59.762 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 12:24:59.762 | ERROR    | __main__:main:167 - Read frame failures reached 10. Restarting the camera...
+2023-09-19 12:25:05.528 | ERROR    | __main__:main:132 - Failed to connect to the camera.
+2023-09-19 12:25:07.990 | ERROR    | __main__:main:132 - Failed to connect to the camera.
+2023-09-19 12:25:10.334 | ERROR    | __main__:main:132 - Failed to connect to the camera.
+2023-09-19 12:25:12.688 | ERROR    | __main__:main:132 - Failed to connect to the camera.
+2023-09-19 12:25:15.044 | ERROR    | __main__:main:132 - Failed to connect to the camera.
+2023-09-19 12:25:17.605 | ERROR    | __main__:main:132 - Failed to connect to the camera.
+2023-09-19 12:25:21.188 | ERROR    | __main__:main:132 - Failed to connect to the camera.
+2023-09-19 12:25:23.851 | ERROR    | __main__:main:132 - Failed to connect to the camera.
+2023-09-19 12:25:26.206 | ERROR    | __main__:main:132 - Failed to connect to the camera.
+2023-09-19 12:25:28.665 | ERROR    | __main__:main:132 - Failed to connect to the camera.
+2023-09-19 12:25:28.667 | ERROR    | __main__:main:170 - Capture open failures reached 10. Exiting the program...
+2023-09-19 13:33:57.612 | INFO     | __main__:main:136 - Connected to the camera.
+2023-09-19 13:34:13.305 | INFO     | __main__:save_image:104 - Saved image to images/frames/e73292be-774f-46d3-b4a1-086802bb1713.jpg
+2023-09-19 13:34:13.307 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9262803792953491. Saved to images/frames/e73292be-774f-46d3-b4a1-086802bb1713.jpg.
+2023-09-19 13:34:13.603 | INFO     | __main__:save_image:104 - Saved image to images/frames/3b38d0b9-3a32-4681-a8ce-7eef5858392b.jpg
+2023-09-19 13:34:13.606 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.934360921382904. Saved to images/frames/3b38d0b9-3a32-4681-a8ce-7eef5858392b.jpg.
+2023-09-19 13:34:13.732 | INFO     | __main__:save_image:104 - Saved image to images/frames/68372dfa-79f3-48a7-a053-aead1e80c028.jpg
+2023-09-19 13:34:13.735 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9554393291473389. Saved to images/frames/68372dfa-79f3-48a7-a053-aead1e80c028.jpg.
+2023-09-19 13:34:13.884 | INFO     | __main__:save_image:104 - Saved image to images/frames/2f7b772b-ae88-4290-8e2b-9ecac14f74ce.jpg
+2023-09-19 13:34:13.888 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9762311577796936. Saved to images/frames/2f7b772b-ae88-4290-8e2b-9ecac14f74ce.jpg.
+2023-09-19 13:34:14.012 | INFO     | __main__:save_image:104 - Saved image to images/frames/4f958e65-b04b-4cbd-803c-b7d82f7fd9c8.jpg
+2023-09-19 13:34:14.014 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9735134840011597. Saved to images/frames/4f958e65-b04b-4cbd-803c-b7d82f7fd9c8.jpg.
+2023-09-19 13:34:14.189 | INFO     | __main__:save_image:104 - Saved image to images/frames/967e537e-c7f4-4cdf-960d-bbfc303498ff.jpg
+2023-09-19 13:34:14.192 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.970732569694519. Saved to images/frames/967e537e-c7f4-4cdf-960d-bbfc303498ff.jpg.
+2023-09-19 13:34:14.320 | INFO     | __main__:save_image:104 - Saved image to images/frames/747e4052-a558-4ca6-a2c5-5fa3f705ff12.jpg
+2023-09-19 13:34:14.323 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9768051505088806. Saved to images/frames/747e4052-a558-4ca6-a2c5-5fa3f705ff12.jpg.
+2023-09-19 13:34:14.473 | INFO     | __main__:save_image:104 - Saved image to images/frames/e1a59ce1-8577-4440-aaf3-ef8ef88a6a54.jpg
+2023-09-19 13:34:14.475 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9720914959907532. Saved to images/frames/e1a59ce1-8577-4440-aaf3-ef8ef88a6a54.jpg.
+2023-09-19 13:34:14.618 | INFO     | __main__:save_image:104 - Saved image to images/frames/088d19a1-8bce-4e27-9e15-5901bd1c1f13.jpg
+2023-09-19 13:34:14.621 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9778857231140137. Saved to images/frames/088d19a1-8bce-4e27-9e15-5901bd1c1f13.jpg.
+2023-09-19 13:34:14.773 | INFO     | __main__:save_image:104 - Saved image to images/frames/8c3b337c-590d-4675-95e1-80d4b05194c9.jpg
+2023-09-19 13:34:14.776 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9374831914901733. Saved to images/frames/8c3b337c-590d-4675-95e1-80d4b05194c9.jpg.
+2023-09-19 13:34:14.931 | INFO     | __main__:save_image:104 - Saved image to images/frames/bc8a417e-0304-4d99-bdbc-9c14e52c0768.jpg
+2023-09-19 13:34:14.933 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9485743045806885. Saved to images/frames/bc8a417e-0304-4d99-bdbc-9c14e52c0768.jpg.
+2023-09-19 13:34:15.126 | INFO     | __main__:save_image:104 - Saved image to images/frames/f8fdee15-fa42-4a38-8744-71a01dd9fa94.jpg
+2023-09-19 13:34:15.129 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9406323432922363. Saved to images/frames/f8fdee15-fa42-4a38-8744-71a01dd9fa94.jpg.
+2023-09-19 13:34:15.351 | INFO     | __main__:save_image:104 - Saved image to images/frames/0eed587d-0041-4b6e-970d-6192de05107a.jpg
+2023-09-19 13:34:15.355 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.935075581073761. Saved to images/frames/0eed587d-0041-4b6e-970d-6192de05107a.jpg.
+2023-09-19 13:34:15.502 | INFO     | __main__:save_image:104 - Saved image to images/frames/66e98259-a603-4dae-9a9a-e69e791d159b.jpg
+2023-09-19 13:34:15.505 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9344757199287415. Saved to images/frames/66e98259-a603-4dae-9a9a-e69e791d159b.jpg.
+2023-09-19 13:34:15.670 | INFO     | __main__:save_image:104 - Saved image to images/frames/f87c3a33-6c16-46d6-b47f-d207e7e80231.jpg
+2023-09-19 13:34:15.672 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9473745822906494. Saved to images/frames/f87c3a33-6c16-46d6-b47f-d207e7e80231.jpg.
+2023-09-19 13:34:15.806 | INFO     | __main__:save_image:104 - Saved image to images/frames/d7a5cff7-b6b3-4be8-8925-1b1703fcb219.jpg
+2023-09-19 13:34:15.808 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9638793468475342. Saved to images/frames/d7a5cff7-b6b3-4be8-8925-1b1703fcb219.jpg.
+2023-09-19 13:34:15.995 | INFO     | __main__:save_image:104 - Saved image to images/frames/0e3ac76e-81e5-4cc8-b50f-f35d49f509da.jpg
+2023-09-19 13:34:15.997 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9782100319862366. Saved to images/frames/0e3ac76e-81e5-4cc8-b50f-f35d49f509da.jpg.
+2023-09-19 13:34:16.138 | INFO     | __main__:save_image:104 - Saved image to images/frames/72ed54cf-b894-469d-a007-0149753795ad.jpg
+2023-09-19 13:34:16.140 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.964378297328949. Saved to images/frames/72ed54cf-b894-469d-a007-0149753795ad.jpg.
+2023-09-19 13:34:16.295 | INFO     | __main__:save_image:104 - Saved image to images/frames/95c04961-42d6-4ec9-9749-3aecfaf6815f.jpg
+2023-09-19 13:34:16.298 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.990317702293396. Saved to images/frames/95c04961-42d6-4ec9-9749-3aecfaf6815f.jpg.
+2023-09-19 13:34:16.451 | INFO     | __main__:save_image:104 - Saved image to images/frames/2412927d-285f-4a04-819b-74d06f7b245b.jpg
+2023-09-19 13:34:16.453 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9928058981895447. Saved to images/frames/2412927d-285f-4a04-819b-74d06f7b245b.jpg.
+2023-09-19 13:34:16.630 | INFO     | __main__:save_image:104 - Saved image to images/frames/be6da4a2-e16f-45f8-b38f-fb7a7d0c8a95.jpg
+2023-09-19 13:34:16.632 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9912021160125732. Saved to images/frames/be6da4a2-e16f-45f8-b38f-fb7a7d0c8a95.jpg.
+2023-09-19 13:34:16.761 | INFO     | __main__:save_image:104 - Saved image to images/frames/fbcba5bc-a9d1-4cca-9403-e7d0bd08c3a9.jpg
+2023-09-19 13:34:16.763 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9957013726234436. Saved to images/frames/fbcba5bc-a9d1-4cca-9403-e7d0bd08c3a9.jpg.
+2023-09-19 13:34:16.931 | INFO     | __main__:save_image:104 - Saved image to images/frames/8a03c888-d1f1-4d49-9e30-8f9cffcdb8b0.jpg
+2023-09-19 13:34:16.934 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9941838383674622. Saved to images/frames/8a03c888-d1f1-4d49-9e30-8f9cffcdb8b0.jpg.
+2023-09-19 13:34:17.069 | INFO     | __main__:save_image:104 - Saved image to images/frames/600eaa07-e115-401a-8298-ca641110676e.jpg
+2023-09-19 13:34:17.071 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9577139616012573. Saved to images/frames/600eaa07-e115-401a-8298-ca641110676e.jpg.
+2023-09-19 13:34:17.232 | INFO     | __main__:save_image:104 - Saved image to images/frames/3a0d1e60-1f09-4ce3-aeff-4666b4259402.jpg
+2023-09-19 13:34:17.234 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9837274551391602. Saved to images/frames/3a0d1e60-1f09-4ce3-aeff-4666b4259402.jpg.
+2023-09-19 13:34:17.370 | INFO     | __main__:save_image:104 - Saved image to images/frames/19abb11b-0bd5-47e8-89bf-e58aea3923b5.jpg
+2023-09-19 13:34:17.373 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9936513304710388. Saved to images/frames/19abb11b-0bd5-47e8-89bf-e58aea3923b5.jpg.
+2023-09-19 13:34:17.554 | INFO     | __main__:save_image:104 - Saved image to images/frames/dd8842b7-92cc-45d7-9558-da0f902ed7be.jpg
+2023-09-19 13:34:17.556 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9900291562080383. Saved to images/frames/dd8842b7-92cc-45d7-9558-da0f902ed7be.jpg.
+2023-09-19 13:34:17.803 | INFO     | __main__:save_image:104 - Saved image to images/frames/2d6ad836-f733-43b5-bdaa-445129a719d4.jpg
+2023-09-19 13:34:17.806 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9799606204032898. Saved to images/frames/2d6ad836-f733-43b5-bdaa-445129a719d4.jpg.
+2023-09-19 13:34:17.965 | INFO     | __main__:save_image:104 - Saved image to images/frames/41e3fff1-a286-47b7-a0ab-bc5789563b5d.jpg
+2023-09-19 13:34:17.967 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9911735653877258. Saved to images/frames/41e3fff1-a286-47b7-a0ab-bc5789563b5d.jpg.
+2023-09-19 13:34:18.143 | INFO     | __main__:save_image:104 - Saved image to images/frames/37b271eb-82b6-47b8-8fef-3ddacaf43fc7.jpg
+2023-09-19 13:34:18.145 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9828510284423828. Saved to images/frames/37b271eb-82b6-47b8-8fef-3ddacaf43fc7.jpg.
+2023-09-19 13:34:18.280 | INFO     | __main__:save_image:104 - Saved image to images/frames/52f81956-1322-468e-8f4d-97a399e9761b.jpg
+2023-09-19 13:34:18.283 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9337626695632935. Saved to images/frames/52f81956-1322-468e-8f4d-97a399e9761b.jpg.
+2023-09-19 13:34:18.440 | INFO     | __main__:save_image:104 - Saved image to images/frames/ecbd9fd2-11ea-4686-83dc-7a2b1f845f8c.jpg
+2023-09-19 13:34:18.443 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9920050501823425. Saved to images/frames/ecbd9fd2-11ea-4686-83dc-7a2b1f845f8c.jpg.
+2023-09-19 13:34:18.575 | INFO     | __main__:save_image:104 - Saved image to images/frames/9d8c1997-8416-4c67-9ea0-ed62eab41e50.jpg
+2023-09-19 13:34:18.577 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9919740557670593. Saved to images/frames/9d8c1997-8416-4c67-9ea0-ed62eab41e50.jpg.
+2023-09-19 13:34:18.738 | INFO     | __main__:save_image:104 - Saved image to images/frames/39464bf4-b508-4cc2-a8b0-e4a7cbbbca8d.jpg
+2023-09-19 13:34:18.741 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9865536093711853. Saved to images/frames/39464bf4-b508-4cc2-a8b0-e4a7cbbbca8d.jpg.
+2023-09-19 13:34:18.879 | INFO     | __main__:save_image:104 - Saved image to images/frames/97bc4e19-07e7-4101-9bba-5fa2296f2371.jpg
+2023-09-19 13:34:18.882 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9686050415039062. Saved to images/frames/97bc4e19-07e7-4101-9bba-5fa2296f2371.jpg.
+2023-09-19 13:34:19.219 | INFO     | __main__:save_image:104 - Saved image to images/frames/da749797-bdaa-4d3a-a05f-da841cef24bc.jpg
+2023-09-19 13:34:19.221 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9166615605354309. Saved to images/frames/da749797-bdaa-4d3a-a05f-da841cef24bc.jpg.
+2023-09-19 13:34:19.352 | INFO     | __main__:save_image:104 - Saved image to images/frames/05319aa0-c4a5-427f-8a3a-77b513db4be3.jpg
+2023-09-19 13:34:19.356 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9224216938018799. Saved to images/frames/05319aa0-c4a5-427f-8a3a-77b513db4be3.jpg.
+2023-09-19 13:34:19.512 | INFO     | __main__:save_image:104 - Saved image to images/frames/834313ff-79b1-46d8-96c2-3637eead4c31.jpg
+2023-09-19 13:34:19.514 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9287697076797485. Saved to images/frames/834313ff-79b1-46d8-96c2-3637eead4c31.jpg.
+2023-09-19 13:34:19.650 | INFO     | __main__:save_image:104 - Saved image to images/frames/590823ab-f3a9-4029-8931-6d1e34df5df4.jpg
+2023-09-19 13:34:19.653 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9448177814483643. Saved to images/frames/590823ab-f3a9-4029-8931-6d1e34df5df4.jpg.
+2023-09-19 13:35:46.894 | INFO     | __main__:save_image:104 - Saved image to images/frames/edec2a45-13d0-492c-8e43-05f335b14326.jpg
+2023-09-19 13:35:46.899 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9782826900482178. Saved to images/frames/edec2a45-13d0-492c-8e43-05f335b14326.jpg.
+2023-09-19 13:35:47.257 | INFO     | __main__:save_image:104 - Saved image to images/frames/a26b779a-7b2e-4080-8954-09c30d38ba22.jpg
+2023-09-19 13:35:47.260 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9562926888465881. Saved to images/frames/a26b779a-7b2e-4080-8954-09c30d38ba22.jpg.
+2023-09-19 13:35:47.426 | INFO     | __main__:save_image:104 - Saved image to images/frames/038b2b26-9a3d-414c-bd9a-6edf0552dfaf.jpg
+2023-09-19 13:35:47.430 | INFO     | __main__:detect_faces:83 - Face detected with confidence 0.9616537690162659. Saved to images/frames/038b2b26-9a3d-414c-bd9a-6edf0552dfaf.jpg.
+2023-09-19 13:36:49.074 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 13:36:49.074 | ERROR    | __main__:main:144 - Failed to capture frame.
+2023-09-19 15:59:41.583 | INFO     | __main__:main:171 - Connected to the camera.
+2023-09-19 16:00:03.320 | INFO     | __main__:save_image:139 - Saved image to images/frames/8015355f-fd81-4322-99d2-680cfc8b4742.jpg
+2023-09-19 16:15:00.964 | INFO     | __main__:main:171 - Connected to the camera.
+2023-09-19 16:15:02.369 | INFO     | __main__:save_image:139 - Saved image to images/frames/097d1a9c-f5a4-4a8e-a500-51799cfe96c2.jpg
+2023-09-19 16:19:35.034 | INFO     | __main__:main:171 - Connected to the camera.
+2023-09-19 16:19:39.524 | INFO     | __main__:save_image:139 - Saved image to images/frames/a7a32cfc-edf3-4746-a9e5-110dfee4d2fb.jpg
+2023-09-19 16:23:51.842 | INFO     | __main__:main:171 - Connected to the camera.
+2023-09-19 16:24:03.139 | INFO     | __main__:save_image:139 - Saved image to images/frames/195c0691-3196-4ee7-933d-7a01631cfbd4.jpg
+2023-09-19 16:26:35.146 | INFO     | __main__:main:173 - Connected to the camera.
+2023-09-19 16:27:01.050 | INFO     | __main__:save_image:141 - Saved image to images/frames/78ef914e-5a65-4227-9727-fcf1bab0a72a.jpg
+2023-09-19 16:27:19.439 | INFO     | __main__:detect_faces:121 - Face detected with confidence 0.9500382542610168. Saved to images/frames/78ef914e-5a65-4227-9727-fcf1bab0a72a.jpg.
+2023-09-19 16:27:19.722 | INFO     | __main__:save_image:141 - Saved image to images/frames/d7377eaa-6931-4da8-aa25-828849e850ef.jpg
+2023-09-19 16:27:35.100 | INFO     | __main__:detect_faces:121 - Face detected with confidence 0.9209105968475342. Saved to images/frames/d7377eaa-6931-4da8-aa25-828849e850ef.jpg.
+2023-09-19 16:27:35.231 | INFO     | __main__:save_image:141 - Saved image to images/frames/bb96cfff-5247-422a-b41a-98576cedf7a1.jpg
+2023-09-19 16:27:50.791 | INFO     | __main__:detect_faces:121 - Face detected with confidence 0.9449100494384766. Saved to images/frames/bb96cfff-5247-422a-b41a-98576cedf7a1.jpg.
+2023-09-19 16:27:50.918 | INFO     | __main__:save_image:141 - Saved image to images/frames/d145ab9b-686b-457f-92da-6755c6e671f5.jpg
+2023-09-19 16:28:07.312 | INFO     | __main__:detect_faces:121 - Face detected with confidence 0.9730397462844849. Saved to images/frames/d145ab9b-686b-457f-92da-6755c6e671f5.jpg.
+2023-09-19 16:28:07.452 | INFO     | __main__:save_image:141 - Saved image to images/frames/beb22a69-e52b-470c-b451-0420b8bcfe7c.jpg
+2023-09-19 16:28:24.936 | INFO     | __main__:detect_faces:121 - Face detected with confidence 0.9700311422348022. Saved to images/frames/beb22a69-e52b-470c-b451-0420b8bcfe7c.jpg.
+2023-09-19 16:28:25.161 | INFO     | __main__:save_image:141 - Saved image to images/frames/f6b88996-6e27-4529-aeeb-d1061997097c.jpg
+2023-09-19 16:28:49.090 | INFO     | __main__:detect_faces:121 - Face detected with confidence 0.9598531723022461. Saved to images/frames/f6b88996-6e27-4529-aeeb-d1061997097c.jpg.
+2023-09-19 16:28:49.467 | INFO     | __main__:save_image:141 - Saved image to images/frames/962664be-3cf2-4d05-804d-439c257bcd8f.jpg
+2023-09-19 16:29:06.277 | INFO     | __main__:detect_faces:121 - Face detected with confidence 0.9679856300354004. Saved to images/frames/962664be-3cf2-4d05-804d-439c257bcd8f.jpg.
+2023-09-19 16:29:06.442 | INFO     | __main__:save_image:141 - Saved image to images/frames/558901ad-4b08-42a4-803b-f68581576e81.jpg
+2023-09-19 16:29:38.607 | INFO     | __main__:main:173 - Connected to the camera.
+2023-09-19 16:33:30.924 | INFO     | __main__:save_image:141 - Saved image to images/frames/397edbac-ecfc-481b-9fac-c4cb4f99c8c1.jpg
+2023-09-19 16:34:55.024 | INFO     | __main__:detect_faces:121 - Face detected with confidence 0.9199320077896118. Saved to images/frames/397edbac-ecfc-481b-9fac-c4cb4f99c8c1.jpg.
+2023-09-19 16:35:09.007 | ERROR    | __main__:main:182 - Failed to capture frame.
+2023-09-19 16:37:25.835 | ERROR    | __main__:main:182 - Failed to capture frame.
+2023-09-19 16:37:30.347 | ERROR    | __main__:main:182 - Failed to capture frame.
+2023-09-20 10:40:15.038 | INFO     | __main__:main:173 - Connected to the camera.
+2023-09-20 10:40:17.298 | INFO     | __main__:save_image:141 - Saved image to images/frames/3bdad495-e913-42f6-a862-a5f1f6fa498e.jpg
+2023-09-20 10:41:20.340 | INFO     | __main__:detect_faces:121 - Face detected with confidence 0.9367908835411072. Saved to images/frames/3bdad495-e913-42f6-a862-a5f1f6fa498e.jpg.
+2023-09-20 10:41:20.492 | INFO     | __main__:save_image:141 - Saved image to images/frames/56849c50-e3d3-49ff-b4be-41d234ca1e98.jpg
+2023-09-20 10:42:09.906 | INFO     | __main__:detect_faces:121 - Face detected with confidence 0.9435931444168091. Saved to images/frames/56849c50-e3d3-49ff-b4be-41d234ca1e98.jpg.
+2023-09-20 10:42:10.048 | INFO     | __main__:save_image:141 - Saved image to images/frames/e4b6e695-702d-4220-8832-6fd0e5665b77.jpg
+2023-09-20 10:43:03.859 | INFO     | __main__:detect_faces:121 - Face detected with confidence 0.9308717250823975. Saved to images/frames/e4b6e695-702d-4220-8832-6fd0e5665b77.jpg.
+2023-09-20 10:43:04.216 | INFO     | __main__:save_image:141 - Saved image to images/frames/5ea6fc57-a754-44f8-84d7-6e8a123b2820.jpg
+2023-09-20 10:55:28.835 | INFO     | __main__:main:171 - Connected to the camera.
+2023-09-20 10:55:33.602 | INFO     | __main__:save_image:139 - Saved image to images/frames/1637a2cd-a669-4543-b50c-0eab6cdb1cec.jpg
+2023-09-20 10:56:23.503 | INFO     | __main__:detect_faces:120 - Face detected with confidence 0.9113710522651672. Saved to images/frames/1637a2cd-a669-4543-b50c-0eab6cdb1cec.jpg.
+2023-09-20 10:56:23.621 | INFO     | __main__:save_image:139 - Saved image to images/frames/bd64fc2c-14b6-4b28-b565-2a7d7fd307db.jpg
+2023-09-20 10:57:17.382 | INFO     | __main__:detect_faces:120 - Face detected with confidence 0.9273680448532104. Saved to images/frames/bd64fc2c-14b6-4b28-b565-2a7d7fd307db.jpg.
+2023-09-20 10:57:17.620 | INFO     | __main__:save_image:139 - Saved image to images/frames/1f8bbe32-b4d4-46b2-89f2-30753db47066.jpg
+2023-09-20 11:02:55.041 | INFO     | __main__:main:171 - Connected to the camera.
+2023-09-20 11:03:52.709 | INFO     | __main__:save_image:139 - Saved image to images/frames/2f1434b9-e47f-4645-8776-4cfb50d53dad.jpg
+2023-09-20 11:04:49.533 | INFO     | __main__:main:171 - Connected to the camera.
+2023-09-20 11:05:33.487 | INFO     | __main__:save_image:139 - Saved image to images/frames/32db2cd0-8c8e-4fe6-b3e3-db9c7c563434.jpg
+2023-09-20 11:06:20.872 | INFO     | __main__:detect_faces:120 - Face detected with confidence 0.9071184992790222. Saved to images/frames/32db2cd0-8c8e-4fe6-b3e3-db9c7c563434.jpg.
+2023-09-20 11:06:21.070 | INFO     | __main__:save_image:139 - Saved image to images/frames/7337c7a5-5a92-4737-b76a-a23992f31132.jpg
+2023-09-20 11:07:54.441 | INFO     | __main__:main:173 - Connected to the camera.
+2023-09-20 11:08:10.058 | INFO     | __main__:save_image:141 - Saved image to images/frames/f718a5d7-7f8f-4922-81b9-573f1c8f301b.jpg
+2023-09-20 11:09:16.789 | INFO     | __main__:detect_faces:122 - Face detected with confidence 0.946550726890564. Saved to images/frames/f718a5d7-7f8f-4922-81b9-573f1c8f301b.jpg.
+2023-09-20 11:09:16.948 | INFO     | __main__:save_image:141 - Saved image to images/frames/32563db2-3b38-4779-a07d-29f202c05e80.jpg
+2023-09-20 11:13:00.360 | INFO     | __main__:main:173 - Connected to the camera.
+2023-09-20 11:14:15.833 | INFO     | __main__:main:173 - Connected to the camera.
+2023-09-20 11:50:55.653 | INFO     | __main__:main:174 - Connected to the camera.
+2023-09-20 11:51:26.819 | INFO     | __main__:save_image:142 - Saved image to images/frames/4a86ea9b-4986-4c31-ae18-9b1bbc114f3b.jpg
+2023-09-20 11:54:30.638 | INFO     | __main__:main:174 - Connected to the camera.
+2023-09-20 11:55:00.444 | ERROR    | __main__:main:183 - Failed to capture frame.
+2023-09-20 11:55:00.474 | ERROR    | __main__:main:183 - Failed to capture frame.
+2023-09-20 11:55:58.237 | INFO     | __main__:save_image:142 - Saved image to images/frames/bbb625a7-be80-4da3-b053-168e2152d309.jpg
+2023-09-20 11:56:31.609 | INFO     | __main__:detect_faces:123 - Face detected with confidence 0.9632100462913513. Saved to images/frames/bbb625a7-be80-4da3-b053-168e2152d309.jpg.
+2023-09-20 11:56:31.891 | INFO     | __main__:save_image:142 - Saved image to images/frames/eae27133-d208-4260-9f61-a89584bcbf92.jpg
+2023-09-20 11:57:29.338 | INFO     | __main__:detect_faces:123 - Face detected with confidence 0.9300132393836975. Saved to images/frames/eae27133-d208-4260-9f61-a89584bcbf92.jpg.
+2023-09-20 11:57:29.499 | INFO     | __main__:save_image:142 - Saved image to images/frames/b2811b06-a529-4d9e-84af-b3c0c840d7f1.jpg
+2023-09-20 11:58:34.409 | INFO     | __main__:detect_faces:123 - Face detected with confidence 0.9931648373603821. Saved to images/frames/b2811b06-a529-4d9e-84af-b3c0c840d7f1.jpg.
+2023-09-20 11:58:34.545 | INFO     | __main__:save_image:142 - Saved image to images/frames/20a898fa-7de1-4a08-997e-6ba644903d19.jpg
+2023-09-20 11:59:59.395 | INFO     | __main__:detect_faces:123 - Face detected with confidence 0.9851309657096863. Saved to images/frames/20a898fa-7de1-4a08-997e-6ba644903d19.jpg.
+2023-09-20 12:00:02.945 | INFO     | __main__:save_image:142 - Saved image to images/frames/a1b40136-dd42-46f3-8942-fb9d3b5809c4.jpg
+2023-09-20 12:01:36.878 | INFO     | __main__:detect_faces:123 - Face detected with confidence 0.9753035306930542. Saved to images/frames/a1b40136-dd42-46f3-8942-fb9d3b5809c4.jpg.
+2023-09-20 12:01:37.275 | INFO     | __main__:save_image:142 - Saved image to images/frames/e1a19e92-ed60-41ac-8c84-9a9a6df558f7.jpg
+2023-09-20 12:04:57.736 | INFO     | __main__:detect_faces:123 - Face detected with confidence 0.993037760257721. Saved to images/frames/e1a19e92-ed60-41ac-8c84-9a9a6df558f7.jpg.
+2023-09-20 12:04:58.118 | INFO     | __main__:save_image:142 - Saved image to images/frames/32a5859f-4efa-48a7-aa6d-fc0f30eb15e7.jpg

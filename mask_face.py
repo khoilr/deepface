@@ -31,9 +31,15 @@ def main():
 
         # Save the cropped face to 'images/faces' directory with name as GUID
         cropped_face = frame[
-            extended_bbox[1] : extended_bbox[1] + extended_bbox[3],
-            extended_bbox[0] : extended_bbox[0] + extended_bbox[2],
-        ]
+                       extended_bbox[1]: extended_bbox[1] + extended_bbox[3],
+                       extended_bbox[0]: extended_bbox[0] + extended_bbox[2]]
+
+
+def cropFace(frame, x=0, y=0, w=0, h=0):
+    extended_bbox = calculate_extended_bbox(x, y, w, h, frame.shape)
+    return frame[
+           extended_bbox[1]: extended_bbox[1] + extended_bbox[3],
+           extended_bbox[0]: extended_bbox[0] + extended_bbox[2]]
 
 
 if __name__ == "__main__":
