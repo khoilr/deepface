@@ -41,7 +41,7 @@ def verify_image_pair(pair):
         img2_path=os.path.join(IMAGES_PATH, image_2),
         align=True,
         enforce_detection=False,
-        detector_backend="retinaface",
+        detector_backend="ssd",
         distance_metric="euclidean_l2",
         model_name="ArcFace",
     )
@@ -158,8 +158,10 @@ def draw_and_save_images(image_1_name, image_2_name, result_data, distance):
         image_2 (str): Filename of the second image.
         distance (float): Similarity distance.
     """
-    # # Create a directory for the distance if it doesn't exist
+    # Round the distance to 2 decimal place
     distance = round(result_data["distance"], 2)
+
+    # # Create a directory for the distance if it doesn't exist
     # os.makedirs(f"images/distances/f{distance}", exist_ok=True)
 
     # # Get bbox
@@ -167,8 +169,8 @@ def draw_and_save_images(image_1_name, image_2_name, result_data, distance):
     # image_2_bbox = result_data["facial_areas"]["img2"]
 
     # Read images
-    image_1 = cv2.imread(os.path.join("images/faces", image_1_name))
-    image_2 = cv2.imread(os.path.join("images/faces", image_2_name))
+    image_1 = cv2.imread(os.path.join(IMAGES_PATH, image_1_name))
+    image_2 = cv2.imread(os.path.join(IMAGES_PATH, image_2_name))
 
     # Get images' shape
     height_1, width_1, _ = image_1.shape
@@ -203,7 +205,7 @@ def draw_and_save_images(image_1_name, image_2_name, result_data, distance):
     cv2.putText(image, str(distance), (int(image.shape[1] / 2), 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
 
     # Save image
-    cv2.imwrite(os.path.join("images/distances", f"{image_1_name}_{image_2_name}.jpg"), image)
+    cv2.imwrite(os.path.join(SAVE_IMAGE_PAIR_PATH, f"{image_1_name}_{image_2_name}.jpg"), image)
 
 
 def main():
@@ -225,7 +227,7 @@ def main():
     # Verify image pairs using ThreadPoolExecutor
     results = verify_image_pairs(image_pairs)
 
-    # Save results as JSON
+    # Sar results as JSON
     save_results_as_json(results)
 
     # Create a similarity table and save it as a CSV file

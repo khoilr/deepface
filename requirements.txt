@@ -1,2 +1,9 @@
-deepface
+deepface~=0.0.79
 # tensorflow
+opencv-python~=4.8.0.76
+pandas~=2.1.0
+tqdm~=4.66.1
+numpy~=1.24.3
+tensorflow~=2.13.0
+gdown~=4.7.1
+loguru~=0.7.2

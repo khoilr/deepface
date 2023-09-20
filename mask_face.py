@@ -1,7 +1,5 @@
 import cv2
 import pandas as pd
-import os
-import uuid
 
 
 # Calculate an extended bounding box around the detected face
@@ -15,32 +13,34 @@ def calculate_extended_bbox(x, y, w, h, frame_shape, extend_by=20):
 
 
 def main():
-    # Create "images/faces" directory if it doesn't exist
-    os.makedirs("images/faces", exist_ok=True)
-
     # Read data from the CSV file
-    df = pd.read_csv("new_data.csv")
+    df = pd.read_csv("data.csv")
 
     for index, row in df.iterrows():
         # Read image in "Frame File Path" column
-        frame = cv2.imread(row["Frame File Path"])
+        frame = cv2.imread(row["Frame File Name"])
 
-        x = row["X"]
-        y = row["Y"]
-        w = row["Width"]
-        h = row["Height"]
+        # Read "Facial Area" column
+        facial_area = row["Facial Area"]
+        x = facial_area["x"]
+        y = facial_area["y"]
+        w = facial_area["w"]
+        h = facial_area["h"]
 
         extended_bbox = calculate_extended_bbox(x, y, w, h, frame.shape)
 
         # Save the cropped face to 'images/faces' directory with name as GUID
         cropped_face = frame[
-            extended_bbox[1] : extended_bbox[1] + extended_bbox[3],
-            extended_bbox[0] : extended_bbox[0] + extended_bbox[2],
-        ]
-        _uuid = uuid.uuid4()
-        uuid_str = str(_uuid)
-        cv2.imwrite(f"images/faces/{uuid_str}.jpg", cropped_face)
+                       extended_bbox[1]: extended_bbox[1] + extended_bbox[3],
+                       extended_bbox[0]: extended_bbox[0] + extended_bbox[2]]
+
+
+def cropFace(frame, x=0, y=0, w=0, h=0):
+    extended_bbox = calculate_extended_bbox(x, y, w, h, frame.shape)
+    return frame[
+           extended_bbox[1]: extended_bbox[1] + extended_bbox[3],
+           extended_bbox[0]: extended_bbox[0] + extended_bbox[2]]
 
 
 if __name__ == "__main__":
-    main()
+    print("hello")
