@@ -1,10 +1,10 @@
 [
     {
         "image_1": "23a6ea32-8b6e-4cc3-8723-8d655d5e92ad.jpg",
-        "image_2": "770d5996-77b6-4696-b55d-3b2b8addc59a.jpg",
+        "image_2": "fc59a993-6eed-4bcd-9a7e-61a073facbb6.jpg",
         "result": {
             "verified": false,
-            "distance": 1.2521500108850014,
+            "distance": 1.2710604985138696,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
@@ -17,40 +17,13 @@
                     "h": 91
                 },
                 "img2": {
-                    "x": 31,
-                    "y": 17,
-                    "w": 67,
-                    "h": 92
+                    "x": 23,
+                    "y": 22,
+                    "w": 72,
+                    "h": 98
                 }
             },
-            "time": 82.16
-        }
-    },
-    {
-        "image_1": "23a6ea32-8b6e-4cc3-8723-8d655d5e92ad.jpg",
-        "image_2": "f335f6fe-c472-4723-808c-127c61a35aeb.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.3546205472047148,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 29,
-                    "y": 20,
-                    "w": 63,
-                    "h": 91
-                },
-                "img2": {
-                    "x": 30,
-                    "y": 15,
-                    "w": 62,
-                    "h": 87
-                }
-            },
-            "time": 82.44
+            "time": 69.8
         }
     },
     {
@@ -77,88 +50,7 @@
                     "h": 102
                 }
             },
-            "time": 82.72
-        }
-    },
-    {
-        "image_1": "23a6ea32-8b6e-4cc3-8723-8d655d5e92ad.jpg",
-        "image_2": "8a9a8fee-d4eb-4b93-92c3-c9ea3dae6d45.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.16607666129887025,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 29,
-                    "y": 20,
-                    "w": 63,
-                    "h": 91
-                },
-                "img2": {
-                    "x": 16,
-                    "y": 23,
-                    "w": 70,
-                    "h": 91
-                }
-            },
-            "time": 83.1
-        }
-    },
-    {
-        "image_1": "23a6ea32-8b6e-4cc3-8723-8d655d5e92ad.jpg",
-        "image_2": "36f6c095-d5a2-4d4c-b15b-9cbe3ad3b23b.jpg",
-        "result": {
-            "verified": true,
-            "distance": 1.116750651516841,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 29,
-                    "y": 20,
-                    "w": 63,
-                    "h": 91
-                },
-                "img2": {
-                    "x": 20,
-                    "y": 26,
-                    "w": 80,
-                    "h": 112
-                }
-            },
-            "time": 83.38
-        }
-    },
-    {
-        "image_1": "23a6ea32-8b6e-4cc3-8723-8d655d5e92ad.jpg",
-        "image_2": "6a4b2292-a315-438c-89f2-ce933a4baa54.jpg",
-        "result": {
-            "verified": false,
-            "distance": 1.316071072753327,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 29,
-                    "y": 20,
-                    "w": 63,
-                    "h": 91
-                },
-                "img2": {
-                    "x": 28,
-                    "y": 23,
-                    "w": 71,
-                    "h": 95
-                }
-            },
-            "time": 83.53
+            "time": 69.86
         }
     },
     {
@@ -185,7 +77,7 @@
                     "h": 85
                 }
             },
-            "time": 83.57
+            "time": 70.02
         }
     },
     {
@@ -212,15 +104,15 @@
                     "h": 101
                 }
             },
-            "time": 83.64
+            "time": 70.64
         }
     },
     {
         "image_1": "23a6ea32-8b6e-4cc3-8723-8d655d5e92ad.jpg",
-        "image_2": "40be510e-3ee2-43d4-b548-8b41cc312455.jpg",
+        "image_2": "36f6c095-d5a2-4d4c-b15b-9cbe3ad3b23b.jpg",
         "result": {
             "verified": true,
-            "distance": 0.9700673534157753,
+            "distance": 1.116750651516841,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
@@ -233,94 +125,13 @@
                     "h": 91
                 },
                 "img2": {
-                    "x": 19,
+                    "x": 20,
                     "y": 26,
-                    "w": 78,
-                    "h": 106
+                    "w": 80,
+                    "h": 112
                 }
             },
-            "time": 83.85
-        }
-    },
-    {
-        "image_1": "23a6ea32-8b6e-4cc3-8723-8d655d5e92ad.jpg",
-        "image_2": "016d2874-6823-43c8-b409-89fecf86b73e.jpg",
-        "result": {
-            "verified": true,
-            "distance": 1.015125760202855,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 29,
-                    "y": 20,
-                    "w": 63,
-                    "h": 91
-                },
-                "img2": {
-                    "x": 23,
-                    "y": 25,
-                    "w": 79,
-                    "h": 108
-                }
-            },
-            "time": 84.37
-        }
-    },
-    {
-        "image_1": "23a6ea32-8b6e-4cc3-8723-8d655d5e92ad.jpg",
-        "image_2": "5517a7c2-e65a-4697-8dd3-e393165b17ee.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.3231164281701211,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 29,
-                    "y": 20,
-                    "w": 63,
-                    "h": 91
-                },
-                "img2": {
-                    "x": 21,
-                    "y": 17,
-                    "w": 60,
-                    "h": 86
-                }
-            },
-            "time": 84.41
-        }
-    },
-    {
-        "image_1": "23a6ea32-8b6e-4cc3-8723-8d655d5e92ad.jpg",
-        "image_2": "fc59a993-6eed-4bcd-9a7e-61a073facbb6.jpg",
-        "result": {
-            "verified": false,
-            "distance": 1.2710604985138696,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 29,
-                    "y": 20,
-                    "w": 63,
-                    "h": 91
-                },
-                "img2": {
-                    "x": 23,
-                    "y": 22,
-                    "w": 72,
-                    "h": 98
-                }
-            },
-            "time": 84.39
+            "time": 70.58
         }
     },
     {
@@ -347,7 +158,7 @@
                     "h": 88
                 }
             },
-            "time": 84.42
+            "time": 71.07
         }
     },
     {
@@ -374,15 +185,15 @@
                     "h": 98
                 }
             },
-            "time": 84.67
+            "time": 71.37
         }
     },
     {
         "image_1": "23a6ea32-8b6e-4cc3-8723-8d655d5e92ad.jpg",
-        "image_2": "de9cb689-5a04-417e-8c95-7118b79ef1be.jpg",
+        "image_2": "016d2874-6823-43c8-b409-89fecf86b73e.jpg",
         "result": {
             "verified": true,
-            "distance": 0.06124896069223005,
+            "distance": 1.015125760202855,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
@@ -395,13 +206,94 @@
                     "h": 91
                 },
                 "img2": {
-                    "x": 32,
-                    "y": 24,
-                    "w": 62,
-                    "h": 90
+                    "x": 23,
+                    "y": 25,
+                    "w": 79,
+                    "h": 108
                 }
             },
-            "time": 84.7
+            "time": 71.48
+        }
+    },
+    {
+        "image_1": "23a6ea32-8b6e-4cc3-8723-8d655d5e92ad.jpg",
+        "image_2": "770d5996-77b6-4696-b55d-3b2b8addc59a.jpg",
+        "result": {
+            "verified": false,
+            "distance": 1.2521500108850014,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 29,
+                    "y": 20,
+                    "w": 63,
+                    "h": 91
+                },
+                "img2": {
+                    "x": 31,
+                    "y": 17,
+                    "w": 67,
+                    "h": 92
+                }
+            },
+            "time": 72.23
+        }
+    },
+    {
+        "image_1": "23a6ea32-8b6e-4cc3-8723-8d655d5e92ad.jpg",
+        "image_2": "40be510e-3ee2-43d4-b548-8b41cc312455.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.9700673534157753,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 29,
+                    "y": 20,
+                    "w": 63,
+                    "h": 91
+                },
+                "img2": {
+                    "x": 19,
+                    "y": 26,
+                    "w": 78,
+                    "h": 106
+                }
+            },
+            "time": 72.36
+        }
+    },
+    {
+        "image_1": "23a6ea32-8b6e-4cc3-8723-8d655d5e92ad.jpg",
+        "image_2": "5517a7c2-e65a-4697-8dd3-e393165b17ee.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.3231164281701211,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 29,
+                    "y": 20,
+                    "w": 63,
+                    "h": 91
+                },
+                "img2": {
+                    "x": 21,
+                    "y": 17,
+                    "w": 60,
+                    "h": 86
+                }
+            },
+            "time": 73.07
         }
     },
     {
@@ -428,15 +320,15 @@
                     "h": 88
                 }
             },
-            "time": 84.73
+            "time": 73.26
         }
     },
     {
         "image_1": "23a6ea32-8b6e-4cc3-8723-8d655d5e92ad.jpg",
-        "image_2": "f329db36-f4ac-4cfa-911c-53f818dcba7a.jpg",
+        "image_2": "f335f6fe-c472-4723-808c-127c61a35aeb.jpg",
         "result": {
-            "verified": false,
-            "distance": 1.2789117265788628,
+            "verified": true,
+            "distance": 0.3546205472047148,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
@@ -449,13 +341,67 @@
                     "h": 91
                 },
                 "img2": {
-                    "x": 29,
-                    "y": 20,
-                    "w": 77,
-                    "h": 106
+                    "x": 30,
+                    "y": 15,
+                    "w": 62,
+                    "h": 87
                 }
             },
-            "time": 66.63
+            "time": 73.46
+        }
+    },
+    {
+        "image_1": "23a6ea32-8b6e-4cc3-8723-8d655d5e92ad.jpg",
+        "image_2": "de9cb689-5a04-417e-8c95-7118b79ef1be.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.06124896069223005,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 29,
+                    "y": 20,
+                    "w": 63,
+                    "h": 91
+                },
+                "img2": {
+                    "x": 32,
+                    "y": 24,
+                    "w": 62,
+                    "h": 90
+                }
+            },
+            "time": 73.46
+        }
+    },
+    {
+        "image_1": "23a6ea32-8b6e-4cc3-8723-8d655d5e92ad.jpg",
+        "image_2": "6a4b2292-a315-438c-89f2-ce933a4baa54.jpg",
+        "result": {
+            "verified": false,
+            "distance": 1.316071072753327,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 29,
+                    "y": 20,
+                    "w": 63,
+                    "h": 91
+                },
+                "img2": {
+                    "x": 28,
+                    "y": 23,
+                    "w": 71,
+                    "h": 95
+                }
+            },
+            "time": 74.11
         }
     },
     {
@@ -482,196 +428,7 @@
                     "h": 102
                 }
             },
-            "time": 67.49
-        }
-    },
-    {
-        "image_1": "23a6ea32-8b6e-4cc3-8723-8d655d5e92ad.jpg",
-        "image_2": "160c0b01-85e3-4115-b70a-2fa1bdc189de.jpg",
-        "result": {
-            "verified": false,
-            "distance": 1.227690072289847,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 29,
-                    "y": 20,
-                    "w": 63,
-                    "h": 91
-                },
-                "img2": {
-                    "x": 21,
-                    "y": 26,
-                    "w": 72,
-                    "h": 98
-                }
-            },
-            "time": 66.36
-        }
-    },
-    {
-        "image_1": "23a6ea32-8b6e-4cc3-8723-8d655d5e92ad.jpg",
-        "image_2": "3d485e36-d9c0-4968-a5ed-68b4a9bc3d10.jpg",
-        "result": {
-            "verified": false,
-            "distance": 1.245380372118877,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 29,
-                    "y": 20,
-                    "w": 63,
-                    "h": 91
-                },
-                "img2": {
-                    "x": 25,
-                    "y": 22,
-                    "w": 76,
-                    "h": 104
-                }
-            },
-            "time": 66.68
-        }
-    },
-    {
-        "image_1": "1ecc1c96-c2f7-41ba-987a-818a42ffc3c3.jpg",
-        "image_2": "016d2874-6823-43c8-b409-89fecf86b73e.jpg",
-        "result": {
-            "verified": true,
-            "distance": 1.0283517538060938,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 34,
-                    "y": 26,
-                    "w": 57,
-                    "h": 88
-                },
-                "img2": {
-                    "x": 23,
-                    "y": 25,
-                    "w": 79,
-                    "h": 108
-                }
-            },
-            "time": 70.13
-        }
-    },
-    {
-        "image_1": "1ecc1c96-c2f7-41ba-987a-818a42ffc3c3.jpg",
-        "image_2": "5517a7c2-e65a-4697-8dd3-e393165b17ee.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.3631622573325183,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 34,
-                    "y": 26,
-                    "w": 57,
-                    "h": 88
-                },
-                "img2": {
-                    "x": 21,
-                    "y": 17,
-                    "w": 60,
-                    "h": 86
-                }
-            },
-            "time": 71.14
-        }
-    },
-    {
-        "image_1": "23a6ea32-8b6e-4cc3-8723-8d655d5e92ad.jpg",
-        "image_2": "166a12d8-6d5a-498c-97f4-d372f5487947.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.8144469680716092,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 29,
-                    "y": 20,
-                    "w": 63,
-                    "h": 91
-                },
-                "img2": {
-                    "x": 27,
-                    "y": 21,
-                    "w": 67,
-                    "h": 95
-                }
-            },
-            "time": 72.04
-        }
-    },
-    {
-        "image_1": "1ecc1c96-c2f7-41ba-987a-818a42ffc3c3.jpg",
-        "image_2": "de9cb689-5a04-417e-8c95-7118b79ef1be.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.2332620836669563,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 34,
-                    "y": 26,
-                    "w": 57,
-                    "h": 88
-                },
-                "img2": {
-                    "x": 32,
-                    "y": 24,
-                    "w": 62,
-                    "h": 90
-                }
-            },
-            "time": 70.8
-        }
-    },
-    {
-        "image_1": "1ecc1c96-c2f7-41ba-987a-818a42ffc3c3.jpg",
-        "image_2": "17e10f26-ef72-404c-b6ff-194d57e568e7.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.42835350381125104,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 34,
-                    "y": 26,
-                    "w": 57,
-                    "h": 88
-                },
-                "img2": {
-                    "x": 23,
-                    "y": 23,
-                    "w": 60,
-                    "h": 88
-                }
-            },
-            "time": 71.89
+            "time": 21.29
         }
     },
     {
@@ -698,123 +455,123 @@
                     "h": 100
                 }
             },
-            "time": 76.25
+            "time": 49.0
         }
     },
     {
-        "image_1": "1ecc1c96-c2f7-41ba-987a-818a42ffc3c3.jpg",
-        "image_2": "661d4f36-bc4e-4422-acb7-da1ef2a63708.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.9356372047999643,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 34,
-                    "y": 26,
-                    "w": 57,
-                    "h": 88
-                },
-                "img2": {
-                    "x": 26,
-                    "y": 19,
-                    "w": 62,
-                    "h": 85
-                }
-            },
-            "time": 74.13
-        }
-    },
-    {
-        "image_1": "1ecc1c96-c2f7-41ba-987a-818a42ffc3c3.jpg",
-        "image_2": "70f30b74-af86-45f8-a90a-d405e40e2cba.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.9638597188250665,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 34,
-                    "y": 26,
-                    "w": 57,
-                    "h": 88
-                },
-                "img2": {
-                    "x": 16,
-                    "y": 26,
-                    "w": 76,
-                    "h": 101
-                }
-            },
-            "time": 79.18
-        }
-    },
-    {
-        "image_1": "1ecc1c96-c2f7-41ba-987a-818a42ffc3c3.jpg",
-        "image_2": "fc59a993-6eed-4bcd-9a7e-61a073facbb6.jpg",
+        "image_1": "23a6ea32-8b6e-4cc3-8723-8d655d5e92ad.jpg",
+        "image_2": "f329db36-f4ac-4cfa-911c-53f818dcba7a.jpg",
         "result": {
             "verified": false,
-            "distance": 1.280837018453296,
+            "distance": 1.2789117265788628,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
             "similarity_metric": "euclidean_l2",
             "facial_areas": {
                 "img1": {
-                    "x": 34,
-                    "y": 26,
-                    "w": 57,
-                    "h": 88
+                    "x": 29,
+                    "y": 20,
+                    "w": 63,
+                    "h": 91
                 },
                 "img2": {
-                    "x": 23,
+                    "x": 29,
+                    "y": 20,
+                    "w": 77,
+                    "h": 106
+                }
+            },
+            "time": 50.17
+        }
+    },
+    {
+        "image_1": "23a6ea32-8b6e-4cc3-8723-8d655d5e92ad.jpg",
+        "image_2": "3d485e36-d9c0-4968-a5ed-68b4a9bc3d10.jpg",
+        "result": {
+            "verified": false,
+            "distance": 1.245380372118877,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 29,
+                    "y": 20,
+                    "w": 63,
+                    "h": 91
+                },
+                "img2": {
+                    "x": 25,
                     "y": 22,
+                    "w": 76,
+                    "h": 104
+                }
+            },
+            "time": 50.35
+        }
+    },
+    {
+        "image_1": "23a6ea32-8b6e-4cc3-8723-8d655d5e92ad.jpg",
+        "image_2": "160c0b01-85e3-4115-b70a-2fa1bdc189de.jpg",
+        "result": {
+            "verified": false,
+            "distance": 1.227690072289847,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 29,
+                    "y": 20,
+                    "w": 63,
+                    "h": 91
+                },
+                "img2": {
+                    "x": 21,
+                    "y": 26,
                     "w": 72,
                     "h": 98
                 }
             },
-            "time": 79.45
+            "time": 51.96
         }
     },
     {
-        "image_1": "1ecc1c96-c2f7-41ba-987a-818a42ffc3c3.jpg",
-        "image_2": "6a4b2292-a315-438c-89f2-ce933a4baa54.jpg",
+        "image_1": "23a6ea32-8b6e-4cc3-8723-8d655d5e92ad.jpg",
+        "image_2": "166a12d8-6d5a-498c-97f4-d372f5487947.jpg",
         "result": {
-            "verified": false,
-            "distance": 1.320853576529351,
+            "verified": true,
+            "distance": 0.8144469680716092,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
             "similarity_metric": "euclidean_l2",
             "facial_areas": {
                 "img1": {
-                    "x": 34,
-                    "y": 26,
-                    "w": 57,
-                    "h": 88
+                    "x": 29,
+                    "y": 20,
+                    "w": 63,
+                    "h": 91
                 },
                 "img2": {
-                    "x": 28,
-                    "y": 23,
-                    "w": 71,
+                    "x": 27,
+                    "y": 21,
+                    "w": 67,
                     "h": 95
                 }
             },
-            "time": 79.46
+            "time": 53.31
         }
     },
     {
         "image_1": "1ecc1c96-c2f7-41ba-987a-818a42ffc3c3.jpg",
-        "image_2": "770d5996-77b6-4696-b55d-3b2b8addc59a.jpg",
+        "image_2": "de9cb689-5a04-417e-8c95-7118b79ef1be.jpg",
         "result": {
-            "verified": false,
-            "distance": 1.2098303084303983,
+            "verified": true,
+            "distance": 0.2332620836669563,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
@@ -827,13 +584,40 @@
                     "h": 88
                 },
                 "img2": {
-                    "x": 31,
-                    "y": 17,
-                    "w": 67,
-                    "h": 92
+                    "x": 32,
+                    "y": 24,
+                    "w": 62,
+                    "h": 90
                 }
             },
-            "time": 79.31
+            "time": 51.33
+        }
+    },
+    {
+        "image_1": "1ecc1c96-c2f7-41ba-987a-818a42ffc3c3.jpg",
+        "image_2": "5517a7c2-e65a-4697-8dd3-e393165b17ee.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.3631622573325183,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 34,
+                    "y": 26,
+                    "w": 57,
+                    "h": 88
+                },
+                "img2": {
+                    "x": 21,
+                    "y": 17,
+                    "w": 60,
+                    "h": 86
+                }
+            },
+            "time": 52.96
         }
     },
     {
@@ -860,15 +644,15 @@
                     "h": 87
                 }
             },
-            "time": 80.75
+            "time": 53.42
         }
     },
     {
         "image_1": "1ecc1c96-c2f7-41ba-987a-818a42ffc3c3.jpg",
-        "image_2": "8a9a8fee-d4eb-4b93-92c3-c9ea3dae6d45.jpg",
+        "image_2": "70f30b74-af86-45f8-a90a-d405e40e2cba.jpg",
         "result": {
             "verified": true,
-            "distance": 0.198857287643504,
+            "distance": 0.9638597188250665,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
@@ -882,20 +666,20 @@
                 },
                 "img2": {
                     "x": 16,
-                    "y": 23,
-                    "w": 70,
-                    "h": 91
+                    "y": 26,
+                    "w": 76,
+                    "h": 101
                 }
             },
-            "time": 66.22
+            "time": 53.72
         }
     },
     {
         "image_1": "1ecc1c96-c2f7-41ba-987a-818a42ffc3c3.jpg",
-        "image_2": "36f6c095-d5a2-4d4c-b15b-9cbe3ad3b23b.jpg",
+        "image_2": "6a4b2292-a315-438c-89f2-ce933a4baa54.jpg",
         "result": {
             "verified": false,
-            "distance": 1.1322403095205804,
+            "distance": 1.320853576529351,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
@@ -908,13 +692,148 @@
                     "h": 88
                 },
                 "img2": {
-                    "x": 20,
-                    "y": 26,
-                    "w": 80,
-                    "h": 112
+                    "x": 28,
+                    "y": 23,
+                    "w": 71,
+                    "h": 95
                 }
             },
-            "time": 67.16
+            "time": 58.35
+        }
+    },
+    {
+        "image_1": "1ecc1c96-c2f7-41ba-987a-818a42ffc3c3.jpg",
+        "image_2": "17e10f26-ef72-404c-b6ff-194d57e568e7.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.42835350381125104,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 34,
+                    "y": 26,
+                    "w": 57,
+                    "h": 88
+                },
+                "img2": {
+                    "x": 23,
+                    "y": 23,
+                    "w": 60,
+                    "h": 88
+                }
+            },
+            "time": 60.5
+        }
+    },
+    {
+        "image_1": "1ecc1c96-c2f7-41ba-987a-818a42ffc3c3.jpg",
+        "image_2": "016d2874-6823-43c8-b409-89fecf86b73e.jpg",
+        "result": {
+            "verified": true,
+            "distance": 1.0283517538060938,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 34,
+                    "y": 26,
+                    "w": 57,
+                    "h": 88
+                },
+                "img2": {
+                    "x": 23,
+                    "y": 25,
+                    "w": 79,
+                    "h": 108
+                }
+            },
+            "time": 59.53
+        }
+    },
+    {
+        "image_1": "1ecc1c96-c2f7-41ba-987a-818a42ffc3c3.jpg",
+        "image_2": "770d5996-77b6-4696-b55d-3b2b8addc59a.jpg",
+        "result": {
+            "verified": false,
+            "distance": 1.2098303084303983,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 34,
+                    "y": 26,
+                    "w": 57,
+                    "h": 88
+                },
+                "img2": {
+                    "x": 31,
+                    "y": 17,
+                    "w": 67,
+                    "h": 92
+                }
+            },
+            "time": 61.78
+        }
+    },
+    {
+        "image_1": "1ecc1c96-c2f7-41ba-987a-818a42ffc3c3.jpg",
+        "image_2": "661d4f36-bc4e-4422-acb7-da1ef2a63708.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.9356372047999643,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 34,
+                    "y": 26,
+                    "w": 57,
+                    "h": 88
+                },
+                "img2": {
+                    "x": 26,
+                    "y": 19,
+                    "w": 62,
+                    "h": 85
+                }
+            },
+            "time": 62.49
+        }
+    },
+    {
+        "image_1": "1ecc1c96-c2f7-41ba-987a-818a42ffc3c3.jpg",
+        "image_2": "fc59a993-6eed-4bcd-9a7e-61a073facbb6.jpg",
+        "result": {
+            "verified": false,
+            "distance": 1.280837018453296,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 34,
+                    "y": 26,
+                    "w": 57,
+                    "h": 88
+                },
+                "img2": {
+                    "x": 23,
+                    "y": 22,
+                    "w": 72,
+                    "h": 98
+                }
+            },
+            "time": 63.85
         }
     },
     {
@@ -941,7 +860,7 @@
                     "h": 106
                 }
             },
-            "time": 68.19
+            "time": 53.84
         }
     },
     {
@@ -968,15 +887,42 @@
                     "h": 98
                 }
             },
-            "time": 68.88
+            "time": 42.01
         }
     },
     {
         "image_1": "1ecc1c96-c2f7-41ba-987a-818a42ffc3c3.jpg",
-        "image_2": "f329db36-f4ac-4cfa-911c-53f818dcba7a.jpg",
+        "image_2": "8a9a8fee-d4eb-4b93-92c3-c9ea3dae6d45.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.198857287643504,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 34,
+                    "y": 26,
+                    "w": 57,
+                    "h": 88
+                },
+                "img2": {
+                    "x": 16,
+                    "y": 23,
+                    "w": 70,
+                    "h": 91
+                }
+            },
+            "time": 43.45
+        }
+    },
+    {
+        "image_1": "1ecc1c96-c2f7-41ba-987a-818a42ffc3c3.jpg",
+        "image_2": "36f6c095-d5a2-4d4c-b15b-9cbe3ad3b23b.jpg",
         "result": {
             "verified": false,
-            "distance": 1.2790804569383518,
+            "distance": 1.1322403095205804,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
@@ -989,94 +935,13 @@
                     "h": 88
                 },
                 "img2": {
-                    "x": 29,
-                    "y": 20,
-                    "w": 77,
-                    "h": 106
-                }
-            },
-            "time": 70.67
-        }
-    },
-    {
-        "image_1": "1ecc1c96-c2f7-41ba-987a-818a42ffc3c3.jpg",
-        "image_2": "eb0f6f71-32fd-445b-b616-42742ab0488b.jpg",
-        "result": {
-            "verified": true,
-            "distance": 1.0429134519178214,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 34,
+                    "x": 20,
                     "y": 26,
-                    "w": 57,
-                    "h": 88
-                },
-                "img2": {
-                    "x": 22,
-                    "y": 24,
-                    "w": 73,
-                    "h": 100
+                    "w": 80,
+                    "h": 112
                 }
             },
-            "time": 70.69
-        }
-    },
-    {
-        "image_1": "1ecc1c96-c2f7-41ba-987a-818a42ffc3c3.jpg",
-        "image_2": "1e681c92-81a2-4262-af14-77f96e35c051.jpg",
-        "result": {
-            "verified": true,
-            "distance": 1.0711371205993516,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 34,
-                    "y": 26,
-                    "w": 57,
-                    "h": 88
-                },
-                "img2": {
-                    "x": 24,
-                    "y": 31,
-                    "w": 76,
-                    "h": 102
-                }
-            },
-            "time": 71.05
-        }
-    },
-    {
-        "image_1": "17e10f26-ef72-404c-b6ff-194d57e568e7.jpg",
-        "image_2": "5517a7c2-e65a-4697-8dd3-e393165b17ee.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.5228040447184552,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 23,
-                    "y": 23,
-                    "w": 60,
-                    "h": 88
-                },
-                "img2": {
-                    "x": 21,
-                    "y": 17,
-                    "w": 60,
-                    "h": 86
-                }
-            },
-            "time": 62.17
+            "time": 46.11
         }
     },
     {
@@ -1103,15 +968,15 @@
                     "h": 102
                 }
             },
-            "time": 71.17
+            "time": 49.43
         }
     },
     {
         "image_1": "1ecc1c96-c2f7-41ba-987a-818a42ffc3c3.jpg",
-        "image_2": "3d485e36-d9c0-4968-a5ed-68b4a9bc3d10.jpg",
+        "image_2": "f329db36-f4ac-4cfa-911c-53f818dcba7a.jpg",
         "result": {
             "verified": false,
-            "distance": 1.261361471216219,
+            "distance": 1.2790804569383518,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
@@ -1124,21 +989,21 @@
                     "h": 88
                 },
                 "img2": {
-                    "x": 25,
-                    "y": 22,
-                    "w": 76,
-                    "h": 104
+                    "x": 29,
+                    "y": 20,
+                    "w": 77,
+                    "h": 106
                 }
             },
-            "time": 67.37
+            "time": 49.23
         }
     },
     {
         "image_1": "1ecc1c96-c2f7-41ba-987a-818a42ffc3c3.jpg",
-        "image_2": "160c0b01-85e3-4115-b70a-2fa1bdc189de.jpg",
+        "image_2": "eb0f6f71-32fd-445b-b616-42742ab0488b.jpg",
         "result": {
-            "verified": false,
-            "distance": 1.2417288897227765,
+            "verified": true,
+            "distance": 1.0429134519178214,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
@@ -1151,94 +1016,40 @@
                     "h": 88
                 },
                 "img2": {
-                    "x": 21,
-                    "y": 26,
-                    "w": 72,
-                    "h": 98
+                    "x": 22,
+                    "y": 24,
+                    "w": 73,
+                    "h": 100
                 }
             },
-            "time": 69.78
+            "time": 49.52
         }
     },
     {
-        "image_1": "17e10f26-ef72-404c-b6ff-194d57e568e7.jpg",
-        "image_2": "fc59a993-6eed-4bcd-9a7e-61a073facbb6.jpg",
-        "result": {
-            "verified": false,
-            "distance": 1.264507492703059,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 23,
-                    "y": 23,
-                    "w": 60,
-                    "h": 88
-                },
-                "img2": {
-                    "x": 23,
-                    "y": 22,
-                    "w": 72,
-                    "h": 98
-                }
-            },
-            "time": 68.27
-        }
-    },
-    {
-        "image_1": "17e10f26-ef72-404c-b6ff-194d57e568e7.jpg",
-        "image_2": "f335f6fe-c472-4723-808c-127c61a35aeb.jpg",
+        "image_1": "1ecc1c96-c2f7-41ba-987a-818a42ffc3c3.jpg",
+        "image_2": "1e681c92-81a2-4262-af14-77f96e35c051.jpg",
         "result": {
             "verified": true,
-            "distance": 0.30775379118890345,
+            "distance": 1.0711371205993516,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
             "similarity_metric": "euclidean_l2",
             "facial_areas": {
                 "img1": {
-                    "x": 23,
-                    "y": 23,
-                    "w": 60,
-                    "h": 88
-                },
-                "img2": {
-                    "x": 30,
-                    "y": 15,
-                    "w": 62,
-                    "h": 87
-                }
-            },
-            "time": 69.59
-        }
-    },
-    {
-        "image_1": "17e10f26-ef72-404c-b6ff-194d57e568e7.jpg",
-        "image_2": "70f30b74-af86-45f8-a90a-d405e40e2cba.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.9523353583309238,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 23,
-                    "y": 23,
-                    "w": 60,
-                    "h": 88
-                },
-                "img2": {
-                    "x": 16,
+                    "x": 34,
                     "y": 26,
+                    "w": 57,
+                    "h": 88
+                },
+                "img2": {
+                    "x": 24,
+                    "y": 31,
                     "w": 76,
-                    "h": 101
+                    "h": 102
                 }
             },
-            "time": 69.54
+            "time": 51.88
         }
     },
     {
@@ -1265,15 +1076,42 @@
                     "h": 95
                 }
             },
-            "time": 78.3
+            "time": 50.44
+        }
+    },
+    {
+        "image_1": "1ecc1c96-c2f7-41ba-987a-818a42ffc3c3.jpg",
+        "image_2": "3d485e36-d9c0-4968-a5ed-68b4a9bc3d10.jpg",
+        "result": {
+            "verified": false,
+            "distance": 1.261361471216219,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 34,
+                    "y": 26,
+                    "w": 57,
+                    "h": 88
+                },
+                "img2": {
+                    "x": 25,
+                    "y": 22,
+                    "w": 76,
+                    "h": 104
+                }
+            },
+            "time": 53.49
         }
     },
     {
         "image_1": "17e10f26-ef72-404c-b6ff-194d57e568e7.jpg",
-        "image_2": "6a4b2292-a315-438c-89f2-ce933a4baa54.jpg",
+        "image_2": "f335f6fe-c472-4723-808c-127c61a35aeb.jpg",
         "result": {
-            "verified": false,
-            "distance": 1.281089124732073,
+            "verified": true,
+            "distance": 0.30775379118890345,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
@@ -1286,13 +1124,94 @@
                     "h": 88
                 },
                 "img2": {
-                    "x": 28,
-                    "y": 23,
-                    "w": 71,
-                    "h": 95
+                    "x": 30,
+                    "y": 15,
+                    "w": 62,
+                    "h": 87
                 }
             },
-            "time": 69.65
+            "time": 49.57
+        }
+    },
+    {
+        "image_1": "17e10f26-ef72-404c-b6ff-194d57e568e7.jpg",
+        "image_2": "5517a7c2-e65a-4697-8dd3-e393165b17ee.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.5228040447184552,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 23,
+                    "y": 23,
+                    "w": 60,
+                    "h": 88
+                },
+                "img2": {
+                    "x": 21,
+                    "y": 17,
+                    "w": 60,
+                    "h": 86
+                }
+            },
+            "time": 50.2
+        }
+    },
+    {
+        "image_1": "1ecc1c96-c2f7-41ba-987a-818a42ffc3c3.jpg",
+        "image_2": "160c0b01-85e3-4115-b70a-2fa1bdc189de.jpg",
+        "result": {
+            "verified": false,
+            "distance": 1.2417288897227765,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 34,
+                    "y": 26,
+                    "w": 57,
+                    "h": 88
+                },
+                "img2": {
+                    "x": 21,
+                    "y": 26,
+                    "w": 72,
+                    "h": 98
+                }
+            },
+            "time": 53.6
+        }
+    },
+    {
+        "image_1": "17e10f26-ef72-404c-b6ff-194d57e568e7.jpg",
+        "image_2": "70f30b74-af86-45f8-a90a-d405e40e2cba.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.9523353583309238,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 23,
+                    "y": 23,
+                    "w": 60,
+                    "h": 88
+                },
+                "img2": {
+                    "x": 16,
+                    "y": 26,
+                    "w": 76,
+                    "h": 101
+                }
+            },
+            "time": 50.67
         }
     },
     {
@@ -1319,7 +1238,61 @@
                     "h": 90
                 }
             },
-            "time": 60.35
+            "time": 51.78
+        }
+    },
+    {
+        "image_1": "17e10f26-ef72-404c-b6ff-194d57e568e7.jpg",
+        "image_2": "fc59a993-6eed-4bcd-9a7e-61a073facbb6.jpg",
+        "result": {
+            "verified": false,
+            "distance": 1.264507492703059,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 23,
+                    "y": 23,
+                    "w": 60,
+                    "h": 88
+                },
+                "img2": {
+                    "x": 23,
+                    "y": 22,
+                    "w": 72,
+                    "h": 98
+                }
+            },
+            "time": 52.5
+        }
+    },
+    {
+        "image_1": "17e10f26-ef72-404c-b6ff-194d57e568e7.jpg",
+        "image_2": "6a4b2292-a315-438c-89f2-ce933a4baa54.jpg",
+        "result": {
+            "verified": false,
+            "distance": 1.281089124732073,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 23,
+                    "y": 23,
+                    "w": 60,
+                    "h": 88
+                },
+                "img2": {
+                    "x": 28,
+                    "y": 23,
+                    "w": 71,
+                    "h": 95
+                }
+            },
+            "time": 52.77
         }
     },
     {
@@ -1346,7 +1319,7 @@
                     "h": 92
                 }
             },
-            "time": 59.15
+            "time": 45.61
         }
     },
     {
@@ -1373,7 +1346,7 @@
                     "h": 85
                 }
             },
-            "time": 60.28
+            "time": 49.71
         }
     },
     {
@@ -1400,142 +1373,7 @@
                     "h": 108
                 }
             },
-            "time": 59.69
-        }
-    },
-    {
-        "image_1": "17e10f26-ef72-404c-b6ff-194d57e568e7.jpg",
-        "image_2": "1e681c92-81a2-4262-af14-77f96e35c051.jpg",
-        "result": {
-            "verified": true,
-            "distance": 1.0209564870349357,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 23,
-                    "y": 23,
-                    "w": 60,
-                    "h": 88
-                },
-                "img2": {
-                    "x": 24,
-                    "y": 31,
-                    "w": 76,
-                    "h": 102
-                }
-            },
-            "time": 61.74
-        }
-    },
-    {
-        "image_1": "17e10f26-ef72-404c-b6ff-194d57e568e7.jpg",
-        "image_2": "bdb2cd58-f70a-4153-895a-477b90d458d3.jpg",
-        "result": {
-            "verified": true,
-            "distance": 1.0392802960540706,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 23,
-                    "y": 23,
-                    "w": 60,
-                    "h": 88
-                },
-                "img2": {
-                    "x": 23,
-                    "y": 23,
-                    "w": 74,
-                    "h": 98
-                }
-            },
-            "time": 63.31
-        }
-    },
-    {
-        "image_1": "17e10f26-ef72-404c-b6ff-194d57e568e7.jpg",
-        "image_2": "36f6c095-d5a2-4d4c-b15b-9cbe3ad3b23b.jpg",
-        "result": {
-            "verified": true,
-            "distance": 1.0631498555566719,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 23,
-                    "y": 23,
-                    "w": 60,
-                    "h": 88
-                },
-                "img2": {
-                    "x": 20,
-                    "y": 26,
-                    "w": 80,
-                    "h": 112
-                }
-            },
-            "time": 63.21
-        }
-    },
-    {
-        "image_1": "17e10f26-ef72-404c-b6ff-194d57e568e7.jpg",
-        "image_2": "a0263fa8-7c65-424b-bdfe-7fad677ad21f.jpg",
-        "result": {
-            "verified": false,
-            "distance": 1.2777640242121775,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 23,
-                    "y": 23,
-                    "w": 60,
-                    "h": 88
-                },
-                "img2": {
-                    "x": 29,
-                    "y": 18,
-                    "w": 74,
-                    "h": 102
-                }
-            },
-            "time": 63.66
-        }
-    },
-    {
-        "image_1": "17e10f26-ef72-404c-b6ff-194d57e568e7.jpg",
-        "image_2": "f329db36-f4ac-4cfa-911c-53f818dcba7a.jpg",
-        "result": {
-            "verified": false,
-            "distance": 1.239607857470067,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 23,
-                    "y": 23,
-                    "w": 60,
-                    "h": 88
-                },
-                "img2": {
-                    "x": 29,
-                    "y": 20,
-                    "w": 77,
-                    "h": 106
-                }
-            },
-            "time": 58.52
+            "time": 47.69
         }
     },
     {
@@ -1562,88 +1400,7 @@
                     "h": 106
                 }
             },
-            "time": 65.1
-        }
-    },
-    {
-        "image_1": "17e10f26-ef72-404c-b6ff-194d57e568e7.jpg",
-        "image_2": "eb0f6f71-32fd-445b-b616-42742ab0488b.jpg",
-        "result": {
-            "verified": true,
-            "distance": 1.0269971031838419,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 23,
-                    "y": 23,
-                    "w": 60,
-                    "h": 88
-                },
-                "img2": {
-                    "x": 22,
-                    "y": 24,
-                    "w": 73,
-                    "h": 100
-                }
-            },
-            "time": 62.54
-        }
-    },
-    {
-        "image_1": "f335f6fe-c472-4723-808c-127c61a35aeb.jpg",
-        "image_2": "5517a7c2-e65a-4697-8dd3-e393165b17ee.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.41433914285777157,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 30,
-                    "y": 15,
-                    "w": 62,
-                    "h": 87
-                },
-                "img2": {
-                    "x": 21,
-                    "y": 17,
-                    "w": 60,
-                    "h": 86
-                }
-            },
-            "time": 58.35
-        }
-    },
-    {
-        "image_1": "17e10f26-ef72-404c-b6ff-194d57e568e7.jpg",
-        "image_2": "3d485e36-d9c0-4968-a5ed-68b4a9bc3d10.jpg",
-        "result": {
-            "verified": false,
-            "distance": 1.2247075663884042,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 23,
-                    "y": 23,
-                    "w": 60,
-                    "h": 88
-                },
-                "img2": {
-                    "x": 25,
-                    "y": 22,
-                    "w": 76,
-                    "h": 104
-                }
-            },
-            "time": 60.12
+            "time": 46.89
         }
     },
     {
@@ -1670,15 +1427,15 @@
                     "h": 91
                 }
             },
-            "time": 70.37
+            "time": 46.09
         }
     },
     {
         "image_1": "17e10f26-ef72-404c-b6ff-194d57e568e7.jpg",
-        "image_2": "160c0b01-85e3-4115-b70a-2fa1bdc189de.jpg",
+        "image_2": "bdb2cd58-f70a-4153-895a-477b90d458d3.jpg",
         "result": {
-            "verified": false,
-            "distance": 1.2052912406160028,
+            "verified": true,
+            "distance": 1.0392802960540706,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
@@ -1691,13 +1448,202 @@
                     "h": 88
                 },
                 "img2": {
-                    "x": 21,
-                    "y": 26,
-                    "w": 72,
+                    "x": 23,
+                    "y": 23,
+                    "w": 74,
                     "h": 98
                 }
             },
-            "time": 67.84
+            "time": 47.13
+        }
+    },
+    {
+        "image_1": "17e10f26-ef72-404c-b6ff-194d57e568e7.jpg",
+        "image_2": "36f6c095-d5a2-4d4c-b15b-9cbe3ad3b23b.jpg",
+        "result": {
+            "verified": true,
+            "distance": 1.0631498555566719,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 23,
+                    "y": 23,
+                    "w": 60,
+                    "h": 88
+                },
+                "img2": {
+                    "x": 20,
+                    "y": 26,
+                    "w": 80,
+                    "h": 112
+                }
+            },
+            "time": 48.01
+        }
+    },
+    {
+        "image_1": "17e10f26-ef72-404c-b6ff-194d57e568e7.jpg",
+        "image_2": "a0263fa8-7c65-424b-bdfe-7fad677ad21f.jpg",
+        "result": {
+            "verified": false,
+            "distance": 1.2777640242121775,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 23,
+                    "y": 23,
+                    "w": 60,
+                    "h": 88
+                },
+                "img2": {
+                    "x": 29,
+                    "y": 18,
+                    "w": 74,
+                    "h": 102
+                }
+            },
+            "time": 48.25
+        }
+    },
+    {
+        "image_1": "17e10f26-ef72-404c-b6ff-194d57e568e7.jpg",
+        "image_2": "1e681c92-81a2-4262-af14-77f96e35c051.jpg",
+        "result": {
+            "verified": true,
+            "distance": 1.0209564870349357,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 23,
+                    "y": 23,
+                    "w": 60,
+                    "h": 88
+                },
+                "img2": {
+                    "x": 24,
+                    "y": 31,
+                    "w": 76,
+                    "h": 102
+                }
+            },
+            "time": 48.94
+        }
+    },
+    {
+        "image_1": "17e10f26-ef72-404c-b6ff-194d57e568e7.jpg",
+        "image_2": "eb0f6f71-32fd-445b-b616-42742ab0488b.jpg",
+        "result": {
+            "verified": true,
+            "distance": 1.0269971031838419,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 23,
+                    "y": 23,
+                    "w": 60,
+                    "h": 88
+                },
+                "img2": {
+                    "x": 22,
+                    "y": 24,
+                    "w": 73,
+                    "h": 100
+                }
+            },
+            "time": 48.09
+        }
+    },
+    {
+        "image_1": "17e10f26-ef72-404c-b6ff-194d57e568e7.jpg",
+        "image_2": "f329db36-f4ac-4cfa-911c-53f818dcba7a.jpg",
+        "result": {
+            "verified": false,
+            "distance": 1.239607857470067,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 23,
+                    "y": 23,
+                    "w": 60,
+                    "h": 88
+                },
+                "img2": {
+                    "x": 29,
+                    "y": 20,
+                    "w": 77,
+                    "h": 106
+                }
+            },
+            "time": 45.35
+        }
+    },
+    {
+        "image_1": "f335f6fe-c472-4723-808c-127c61a35aeb.jpg",
+        "image_2": "5517a7c2-e65a-4697-8dd3-e393165b17ee.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.41433914285777157,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 30,
+                    "y": 15,
+                    "w": 62,
+                    "h": 87
+                },
+                "img2": {
+                    "x": 21,
+                    "y": 17,
+                    "w": 60,
+                    "h": 86
+                }
+            },
+            "time": 45.22
+        }
+    },
+    {
+        "image_1": "17e10f26-ef72-404c-b6ff-194d57e568e7.jpg",
+        "image_2": "3d485e36-d9c0-4968-a5ed-68b4a9bc3d10.jpg",
+        "result": {
+            "verified": false,
+            "distance": 1.2247075663884042,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 23,
+                    "y": 23,
+                    "w": 60,
+                    "h": 88
+                },
+                "img2": {
+                    "x": 25,
+                    "y": 22,
+                    "w": 76,
+                    "h": 104
+                }
+            },
+            "time": 48.23
         }
     },
     {
@@ -1724,7 +1670,7 @@
                     "h": 95
                 }
             },
-            "time": 68.98
+            "time": 50.58
         }
     },
     {
@@ -1751,7 +1697,34 @@
                     "h": 101
                 }
             },
-            "time": 58.12
+            "time": 48.25
+        }
+    },
+    {
+        "image_1": "17e10f26-ef72-404c-b6ff-194d57e568e7.jpg",
+        "image_2": "160c0b01-85e3-4115-b70a-2fa1bdc189de.jpg",
+        "result": {
+            "verified": false,
+            "distance": 1.2052912406160028,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 23,
+                    "y": 23,
+                    "w": 60,
+                    "h": 88
+                },
+                "img2": {
+                    "x": 21,
+                    "y": 26,
+                    "w": 72,
+                    "h": 98
+                }
+            },
+            "time": 49.71
         }
     },
     {
@@ -1778,34 +1751,7 @@
                     "h": 98
                 }
             },
-            "time": 58.13
-        }
-    },
-    {
-        "image_1": "f335f6fe-c472-4723-808c-127c61a35aeb.jpg",
-        "image_2": "de9cb689-5a04-417e-8c95-7118b79ef1be.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.3533793268557861,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 30,
-                    "y": 15,
-                    "w": 62,
-                    "h": 87
-                },
-                "img2": {
-                    "x": 32,
-                    "y": 24,
-                    "w": 62,
-                    "h": 90
-                }
-            },
-            "time": 56.74
+            "time": 45.23
         }
     },
     {
@@ -1832,15 +1778,15 @@
                     "h": 95
                 }
             },
-            "time": 57.49
+            "time": 49.45
         }
     },
     {
         "image_1": "f335f6fe-c472-4723-808c-127c61a35aeb.jpg",
-        "image_2": "8a9a8fee-d4eb-4b93-92c3-c9ea3dae6d45.jpg",
+        "image_2": "de9cb689-5a04-417e-8c95-7118b79ef1be.jpg",
         "result": {
             "verified": true,
-            "distance": 0.34080753786852386,
+            "distance": 0.3533793268557861,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
@@ -1853,13 +1799,13 @@
                     "h": 87
                 },
                 "img2": {
-                    "x": 16,
-                    "y": 23,
-                    "w": 70,
-                    "h": 91
+                    "x": 32,
+                    "y": 24,
+                    "w": 62,
+                    "h": 90
                 }
             },
-            "time": 57.19
+            "time": 47.64
         }
     },
     {
@@ -1886,34 +1832,7 @@
                     "h": 85
                 }
             },
-            "time": 60.69
-        }
-    },
-    {
-        "image_1": "f335f6fe-c472-4723-808c-127c61a35aeb.jpg",
-        "image_2": "016d2874-6823-43c8-b409-89fecf86b73e.jpg",
-        "result": {
-            "verified": true,
-            "distance": 1.00657181923956,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 30,
-                    "y": 15,
-                    "w": 62,
-                    "h": 87
-                },
-                "img2": {
-                    "x": 23,
-                    "y": 25,
-                    "w": 79,
-                    "h": 108
-                }
-            },
-            "time": 59.35
+            "time": 46.27
         }
     },
     {
@@ -1940,7 +1859,7 @@
                     "h": 106
                 }
             },
-            "time": 59.4
+            "time": 44.96
         }
     },
     {
@@ -1967,7 +1886,34 @@
                     "h": 92
                 }
             },
-            "time": 60.24
+            "time": 48.33
+        }
+    },
+    {
+        "image_1": "f335f6fe-c472-4723-808c-127c61a35aeb.jpg",
+        "image_2": "016d2874-6823-43c8-b409-89fecf86b73e.jpg",
+        "result": {
+            "verified": true,
+            "distance": 1.00657181923956,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 30,
+                    "y": 15,
+                    "w": 62,
+                    "h": 87
+                },
+                "img2": {
+                    "x": 23,
+                    "y": 25,
+                    "w": 79,
+                    "h": 108
+                }
+            },
+            "time": 47.93
         }
     },
     {
@@ -1994,7 +1940,34 @@
                     "h": 98
                 }
             },
-            "time": 59.04
+            "time": 45.53
+        }
+    },
+    {
+        "image_1": "f335f6fe-c472-4723-808c-127c61a35aeb.jpg",
+        "image_2": "8a9a8fee-d4eb-4b93-92c3-c9ea3dae6d45.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.34080753786852386,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 30,
+                    "y": 15,
+                    "w": 62,
+                    "h": 87
+                },
+                "img2": {
+                    "x": 16,
+                    "y": 23,
+                    "w": 70,
+                    "h": 91
+                }
+            },
+            "time": 44.47
         }
     },
     {
@@ -2021,34 +1994,7 @@
                     "h": 102
                 }
             },
-            "time": 58.77
-        }
-    },
-    {
-        "image_1": "f335f6fe-c472-4723-808c-127c61a35aeb.jpg",
-        "image_2": "1e681c92-81a2-4262-af14-77f96e35c051.jpg",
-        "result": {
-            "verified": true,
-            "distance": 1.0469145584531363,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 30,
-                    "y": 15,
-                    "w": 62,
-                    "h": 87
-                },
-                "img2": {
-                    "x": 24,
-                    "y": 31,
-                    "w": 76,
-                    "h": 102
-                }
-            },
-            "time": 58.93
+            "time": 44.28
         }
     },
     {
@@ -2075,7 +2021,7 @@
                     "h": 112
                 }
             },
-            "time": 61.32
+            "time": 47.68
         }
     },
     {
@@ -2102,7 +2048,34 @@
                     "h": 100
                 }
             },
-            "time": 63.82
+            "time": 46.33
+        }
+    },
+    {
+        "image_1": "f335f6fe-c472-4723-808c-127c61a35aeb.jpg",
+        "image_2": "1e681c92-81a2-4262-af14-77f96e35c051.jpg",
+        "result": {
+            "verified": true,
+            "distance": 1.0469145584531363,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 30,
+                    "y": 15,
+                    "w": 62,
+                    "h": 87
+                },
+                "img2": {
+                    "x": 24,
+                    "y": 31,
+                    "w": 76,
+                    "h": 102
+                }
+            },
+            "time": 47.06
         }
     },
     {
@@ -2129,34 +2102,7 @@
                     "h": 106
                 }
             },
-            "time": 59.52
-        }
-    },
-    {
-        "image_1": "f335f6fe-c472-4723-808c-127c61a35aeb.jpg",
-        "image_2": "166a12d8-6d5a-498c-97f4-d372f5487947.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.6758675955921633,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 30,
-                    "y": 15,
-                    "w": 62,
-                    "h": 87
-                },
-                "img2": {
-                    "x": 27,
-                    "y": 21,
-                    "w": 67,
-                    "h": 95
-                }
-            },
-            "time": 60.87
+            "time": 45.72
         }
     },
     {
@@ -2183,61 +2129,34 @@
                     "h": 104
                 }
             },
-            "time": 54.87
+            "time": 45.43
         }
     },
     {
-        "image_1": "5517a7c2-e65a-4697-8dd3-e393165b17ee.jpg",
-        "image_2": "70f30b74-af86-45f8-a90a-d405e40e2cba.jpg",
+        "image_1": "f335f6fe-c472-4723-808c-127c61a35aeb.jpg",
+        "image_2": "166a12d8-6d5a-498c-97f4-d372f5487947.jpg",
         "result": {
             "verified": true,
-            "distance": 0.9407071161506201,
+            "distance": 0.6758675955921633,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
             "similarity_metric": "euclidean_l2",
             "facial_areas": {
                 "img1": {
-                    "x": 21,
-                    "y": 17,
-                    "w": 60,
-                    "h": 86
+                    "x": 30,
+                    "y": 15,
+                    "w": 62,
+                    "h": 87
                 },
                 "img2": {
-                    "x": 16,
-                    "y": 26,
-                    "w": 76,
-                    "h": 101
+                    "x": 27,
+                    "y": 21,
+                    "w": 67,
+                    "h": 95
                 }
             },
-            "time": 54.94
-        }
-    },
-    {
-        "image_1": "5517a7c2-e65a-4697-8dd3-e393165b17ee.jpg",
-        "image_2": "fc59a993-6eed-4bcd-9a7e-61a073facbb6.jpg",
-        "result": {
-            "verified": false,
-            "distance": 1.2290258639793807,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 21,
-                    "y": 17,
-                    "w": 60,
-                    "h": 86
-                },
-                "img2": {
-                    "x": 23,
-                    "y": 22,
-                    "w": 72,
-                    "h": 98
-                }
-            },
-            "time": 55.2
+            "time": 47.11
         }
     },
     {
@@ -2264,7 +2183,61 @@
                     "h": 98
                 }
             },
-            "time": 55.4
+            "time": 47.31
+        }
+    },
+    {
+        "image_1": "5517a7c2-e65a-4697-8dd3-e393165b17ee.jpg",
+        "image_2": "70f30b74-af86-45f8-a90a-d405e40e2cba.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.9407071161506201,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 21,
+                    "y": 17,
+                    "w": 60,
+                    "h": 86
+                },
+                "img2": {
+                    "x": 16,
+                    "y": 26,
+                    "w": 76,
+                    "h": 101
+                }
+            },
+            "time": 45.24
+        }
+    },
+    {
+        "image_1": "5517a7c2-e65a-4697-8dd3-e393165b17ee.jpg",
+        "image_2": "fc59a993-6eed-4bcd-9a7e-61a073facbb6.jpg",
+        "result": {
+            "verified": false,
+            "distance": 1.2290258639793807,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 21,
+                    "y": 17,
+                    "w": 60,
+                    "h": 86
+                },
+                "img2": {
+                    "x": 23,
+                    "y": 22,
+                    "w": 72,
+                    "h": 98
+                }
+            },
+            "time": 45.01
         }
     },
     {
@@ -2291,7 +2264,7 @@
                     "h": 95
                 }
             },
-            "time": 57.1
+            "time": 44.8
         }
     },
     {
@@ -2318,115 +2291,7 @@
                     "h": 90
                 }
             },
-            "time": 56.9
-        }
-    },
-    {
-        "image_1": "5517a7c2-e65a-4697-8dd3-e393165b17ee.jpg",
-        "image_2": "661d4f36-bc4e-4422-acb7-da1ef2a63708.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.9910764574493369,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 21,
-                    "y": 17,
-                    "w": 60,
-                    "h": 86
-                },
-                "img2": {
-                    "x": 26,
-                    "y": 19,
-                    "w": 62,
-                    "h": 85
-                }
-            },
-            "time": 57.28
-        }
-    },
-    {
-        "image_1": "5517a7c2-e65a-4697-8dd3-e393165b17ee.jpg",
-        "image_2": "770d5996-77b6-4696-b55d-3b2b8addc59a.jpg",
-        "result": {
-            "verified": false,
-            "distance": 1.2168889401464498,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 21,
-                    "y": 17,
-                    "w": 60,
-                    "h": 86
-                },
-                "img2": {
-                    "x": 31,
-                    "y": 17,
-                    "w": 67,
-                    "h": 92
-                }
-            },
-            "time": 60.69
-        }
-    },
-    {
-        "image_1": "5517a7c2-e65a-4697-8dd3-e393165b17ee.jpg",
-        "image_2": "40be510e-3ee2-43d4-b548-8b41cc312455.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.962460540683596,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 21,
-                    "y": 17,
-                    "w": 60,
-                    "h": 86
-                },
-                "img2": {
-                    "x": 19,
-                    "y": 26,
-                    "w": 78,
-                    "h": 106
-                }
-            },
-            "time": 61.72
-        }
-    },
-    {
-        "image_1": "5517a7c2-e65a-4697-8dd3-e393165b17ee.jpg",
-        "image_2": "bdb2cd58-f70a-4153-895a-477b90d458d3.jpg",
-        "result": {
-            "verified": true,
-            "distance": 1.0257677206609945,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 21,
-                    "y": 17,
-                    "w": 60,
-                    "h": 86
-                },
-                "img2": {
-                    "x": 23,
-                    "y": 23,
-                    "w": 74,
-                    "h": 98
-                }
-            },
-            "time": 60.93
+            "time": 42.95
         }
     },
     {
@@ -2453,7 +2318,115 @@
                     "h": 108
                 }
             },
-            "time": 63.37
+            "time": 44.36
+        }
+    },
+    {
+        "image_1": "5517a7c2-e65a-4697-8dd3-e393165b17ee.jpg",
+        "image_2": "661d4f36-bc4e-4422-acb7-da1ef2a63708.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.9910764574493369,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 21,
+                    "y": 17,
+                    "w": 60,
+                    "h": 86
+                },
+                "img2": {
+                    "x": 26,
+                    "y": 19,
+                    "w": 62,
+                    "h": 85
+                }
+            },
+            "time": 45.21
+        }
+    },
+    {
+        "image_1": "5517a7c2-e65a-4697-8dd3-e393165b17ee.jpg",
+        "image_2": "770d5996-77b6-4696-b55d-3b2b8addc59a.jpg",
+        "result": {
+            "verified": false,
+            "distance": 1.2168889401464498,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 21,
+                    "y": 17,
+                    "w": 60,
+                    "h": 86
+                },
+                "img2": {
+                    "x": 31,
+                    "y": 17,
+                    "w": 67,
+                    "h": 92
+                }
+            },
+            "time": 45.39
+        }
+    },
+    {
+        "image_1": "5517a7c2-e65a-4697-8dd3-e393165b17ee.jpg",
+        "image_2": "40be510e-3ee2-43d4-b548-8b41cc312455.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.962460540683596,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 21,
+                    "y": 17,
+                    "w": 60,
+                    "h": 86
+                },
+                "img2": {
+                    "x": 19,
+                    "y": 26,
+                    "w": 78,
+                    "h": 106
+                }
+            },
+            "time": 44.71
+        }
+    },
+    {
+        "image_1": "5517a7c2-e65a-4697-8dd3-e393165b17ee.jpg",
+        "image_2": "bdb2cd58-f70a-4153-895a-477b90d458d3.jpg",
+        "result": {
+            "verified": true,
+            "distance": 1.0257677206609945,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 21,
+                    "y": 17,
+                    "w": 60,
+                    "h": 86
+                },
+                "img2": {
+                    "x": 23,
+                    "y": 23,
+                    "w": 74,
+                    "h": 98
+                }
+            },
+            "time": 44.55
         }
     },
     {
@@ -2480,34 +2453,7 @@
                     "h": 91
                 }
             },
-            "time": 60.42
-        }
-    },
-    {
-        "image_1": "5517a7c2-e65a-4697-8dd3-e393165b17ee.jpg",
-        "image_2": "36f6c095-d5a2-4d4c-b15b-9cbe3ad3b23b.jpg",
-        "result": {
-            "verified": true,
-            "distance": 1.1015126426912272,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 21,
-                    "y": 17,
-                    "w": 60,
-                    "h": 86
-                },
-                "img2": {
-                    "x": 20,
-                    "y": 26,
-                    "w": 80,
-                    "h": 112
-                }
-            },
-            "time": 61.46
+            "time": 43.44
         }
     },
     {
@@ -2534,7 +2480,34 @@
                     "h": 102
                 }
             },
-            "time": 60.38
+            "time": 45.68
+        }
+    },
+    {
+        "image_1": "5517a7c2-e65a-4697-8dd3-e393165b17ee.jpg",
+        "image_2": "36f6c095-d5a2-4d4c-b15b-9cbe3ad3b23b.jpg",
+        "result": {
+            "verified": true,
+            "distance": 1.1015126426912272,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 21,
+                    "y": 17,
+                    "w": 60,
+                    "h": 86
+                },
+                "img2": {
+                    "x": 20,
+                    "y": 26,
+                    "w": 80,
+                    "h": 112
+                }
+            },
+            "time": 46.49
         }
     },
     {
@@ -2561,7 +2534,7 @@
                     "h": 102
                 }
             },
-            "time": 59.58
+            "time": 47.18
         }
     },
     {
@@ -2588,7 +2561,7 @@
                     "h": 100
                 }
             },
-            "time": 58.53
+            "time": 45.32
         }
     },
     {
@@ -2615,7 +2588,7 @@
                     "h": 106
                 }
             },
-            "time": 60.98
+            "time": 45.2
         }
     },
     {
@@ -2642,34 +2615,7 @@
                     "h": 104
                 }
             },
-            "time": 61.42
-        }
-    },
-    {
-        "image_1": "5517a7c2-e65a-4697-8dd3-e393165b17ee.jpg",
-        "image_2": "160c0b01-85e3-4115-b70a-2fa1bdc189de.jpg",
-        "result": {
-            "verified": false,
-            "distance": 1.1992533203320679,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 21,
-                    "y": 17,
-                    "w": 60,
-                    "h": 86
-                },
-                "img2": {
-                    "x": 21,
-                    "y": 26,
-                    "w": 72,
-                    "h": 98
-                }
-            },
-            "time": 62.57
+            "time": 44.86
         }
     },
     {
@@ -2696,61 +2642,34 @@
                     "h": 95
                 }
             },
-            "time": 64.18
+            "time": 49.1
         }
     },
     {
-        "image_1": "70f30b74-af86-45f8-a90a-d405e40e2cba.jpg",
-        "image_2": "de9cb689-5a04-417e-8c95-7118b79ef1be.jpg",
+        "image_1": "5517a7c2-e65a-4697-8dd3-e393165b17ee.jpg",
+        "image_2": "160c0b01-85e3-4115-b70a-2fa1bdc189de.jpg",
         "result": {
-            "verified": true,
-            "distance": 0.958693291943611,
+            "verified": false,
+            "distance": 1.1992533203320679,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
             "similarity_metric": "euclidean_l2",
             "facial_areas": {
                 "img1": {
-                    "x": 16,
-                    "y": 26,
-                    "w": 76,
-                    "h": 101
+                    "x": 21,
+                    "y": 17,
+                    "w": 60,
+                    "h": 86
                 },
                 "img2": {
-                    "x": 32,
-                    "y": 24,
-                    "w": 62,
-                    "h": 90
-                }
-            },
-            "time": 60.93
-        }
-    },
-    {
-        "image_1": "70f30b74-af86-45f8-a90a-d405e40e2cba.jpg",
-        "image_2": "6a4b2292-a315-438c-89f2-ce933a4baa54.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.830312785958042,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 16,
+                    "x": 21,
                     "y": 26,
-                    "w": 76,
-                    "h": 101
-                },
-                "img2": {
-                    "x": 28,
-                    "y": 23,
-                    "w": 71,
-                    "h": 95
+                    "w": 72,
+                    "h": 98
                 }
             },
-            "time": 62.47
+            "time": 48.09
         }
     },
     {
@@ -2777,15 +2696,15 @@
                     "h": 98
                 }
             },
-            "time": 63.15
+            "time": 48.36
         }
     },
     {
         "image_1": "70f30b74-af86-45f8-a90a-d405e40e2cba.jpg",
-        "image_2": "40be510e-3ee2-43d4-b548-8b41cc312455.jpg",
+        "image_2": "6a4b2292-a315-438c-89f2-ce933a4baa54.jpg",
         "result": {
             "verified": true,
-            "distance": 0.4897086969107664,
+            "distance": 0.830312785958042,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
@@ -2798,21 +2717,21 @@
                     "h": 101
                 },
                 "img2": {
-                    "x": 19,
-                    "y": 26,
-                    "w": 78,
-                    "h": 106
+                    "x": 28,
+                    "y": 23,
+                    "w": 71,
+                    "h": 95
                 }
             },
-            "time": 61.65
+            "time": 47.49
         }
     },
     {
         "image_1": "70f30b74-af86-45f8-a90a-d405e40e2cba.jpg",
-        "image_2": "770d5996-77b6-4696-b55d-3b2b8addc59a.jpg",
+        "image_2": "de9cb689-5a04-417e-8c95-7118b79ef1be.jpg",
         "result": {
-            "verified": false,
-            "distance": 1.2083976773627816,
+            "verified": true,
+            "distance": 0.958693291943611,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
@@ -2825,13 +2744,13 @@
                     "h": 101
                 },
                 "img2": {
-                    "x": 31,
-                    "y": 17,
-                    "w": 67,
-                    "h": 92
+                    "x": 32,
+                    "y": 24,
+                    "w": 62,
+                    "h": 90
                 }
             },
-            "time": 62.96
+            "time": 46.18
         }
     },
     {
@@ -2858,7 +2777,61 @@
                     "h": 85
                 }
             },
-            "time": 65.93
+            "time": 46.43
+        }
+    },
+    {
+        "image_1": "70f30b74-af86-45f8-a90a-d405e40e2cba.jpg",
+        "image_2": "770d5996-77b6-4696-b55d-3b2b8addc59a.jpg",
+        "result": {
+            "verified": false,
+            "distance": 1.2083976773627816,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 16,
+                    "y": 26,
+                    "w": 76,
+                    "h": 101
+                },
+                "img2": {
+                    "x": 31,
+                    "y": 17,
+                    "w": 67,
+                    "h": 92
+                }
+            },
+            "time": 47.02
+        }
+    },
+    {
+        "image_1": "70f30b74-af86-45f8-a90a-d405e40e2cba.jpg",
+        "image_2": "40be510e-3ee2-43d4-b548-8b41cc312455.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.4897086969107664,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 16,
+                    "y": 26,
+                    "w": 76,
+                    "h": 101
+                },
+                "img2": {
+                    "x": 19,
+                    "y": 26,
+                    "w": 78,
+                    "h": 106
+                }
+            },
+            "time": 45.66
         }
     },
     {
@@ -2885,34 +2858,7 @@
                     "h": 108
                 }
             },
-            "time": 64.27
-        }
-    },
-    {
-        "image_1": "70f30b74-af86-45f8-a90a-d405e40e2cba.jpg",
-        "image_2": "8a9a8fee-d4eb-4b93-92c3-c9ea3dae6d45.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.967566988967482,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 16,
-                    "y": 26,
-                    "w": 76,
-                    "h": 101
-                },
-                "img2": {
-                    "x": 16,
-                    "y": 23,
-                    "w": 70,
-                    "h": 91
-                }
-            },
-            "time": 63.17
+            "time": 48.43
         }
     },
     {
@@ -2939,15 +2885,15 @@
                     "h": 98
                 }
             },
-            "time": 67.64
+            "time": 47.47
         }
     },
     {
         "image_1": "70f30b74-af86-45f8-a90a-d405e40e2cba.jpg",
-        "image_2": "36f6c095-d5a2-4d4c-b15b-9cbe3ad3b23b.jpg",
+        "image_2": "8a9a8fee-d4eb-4b93-92c3-c9ea3dae6d45.jpg",
         "result": {
             "verified": true,
-            "distance": 0.6137051206902219,
+            "distance": 0.967566988967482,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
@@ -2960,13 +2906,13 @@
                     "h": 101
                 },
                 "img2": {
-                    "x": 20,
-                    "y": 26,
-                    "w": 80,
-                    "h": 112
+                    "x": 16,
+                    "y": 23,
+                    "w": 70,
+                    "h": 91
                 }
             },
-            "time": 62.71
+            "time": 43.68
         }
     },
     {
@@ -2993,15 +2939,15 @@
                     "h": 102
                 }
             },
-            "time": 63.09
+            "time": 43.76
         }
     },
     {
         "image_1": "70f30b74-af86-45f8-a90a-d405e40e2cba.jpg",
-        "image_2": "1e681c92-81a2-4262-af14-77f96e35c051.jpg",
+        "image_2": "36f6c095-d5a2-4d4c-b15b-9cbe3ad3b23b.jpg",
         "result": {
             "verified": true,
-            "distance": 0.4840874051440766,
+            "distance": 0.6137051206902219,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
@@ -3014,13 +2960,13 @@
                     "h": 101
                 },
                 "img2": {
-                    "x": 24,
-                    "y": 31,
-                    "w": 76,
-                    "h": 102
+                    "x": 20,
+                    "y": 26,
+                    "w": 80,
+                    "h": 112
                 }
             },
-            "time": 65.47
+            "time": 45.39
         }
     },
     {
@@ -3047,7 +2993,34 @@
                     "h": 100
                 }
             },
-            "time": 63.41
+            "time": 46.68
+        }
+    },
+    {
+        "image_1": "70f30b74-af86-45f8-a90a-d405e40e2cba.jpg",
+        "image_2": "1e681c92-81a2-4262-af14-77f96e35c051.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.4840874051440766,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 16,
+                    "y": 26,
+                    "w": 76,
+                    "h": 101
+                },
+                "img2": {
+                    "x": 24,
+                    "y": 31,
+                    "w": 76,
+                    "h": 102
+                }
+            },
+            "time": 48.06
         }
     },
     {
@@ -3074,34 +3047,7 @@
                     "h": 106
                 }
             },
-            "time": 62.61
-        }
-    },
-    {
-        "image_1": "70f30b74-af86-45f8-a90a-d405e40e2cba.jpg",
-        "image_2": "3d485e36-d9c0-4968-a5ed-68b4a9bc3d10.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.7521361785017869,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 16,
-                    "y": 26,
-                    "w": 76,
-                    "h": 101
-                },
-                "img2": {
-                    "x": 25,
-                    "y": 22,
-                    "w": 76,
-                    "h": 104
-                }
-            },
-            "time": 61.96
+            "time": 42.99
         }
     },
     {
@@ -3128,42 +3074,15 @@
                     "h": 95
                 }
             },
-            "time": 65.97
-        }
-    },
-    {
-        "image_1": "fc59a993-6eed-4bcd-9a7e-61a073facbb6.jpg",
-        "image_2": "de9cb689-5a04-417e-8c95-7118b79ef1be.jpg",
-        "result": {
-            "verified": false,
-            "distance": 1.269689413028924,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 23,
-                    "y": 22,
-                    "w": 72,
-                    "h": 98
-                },
-                "img2": {
-                    "x": 32,
-                    "y": 24,
-                    "w": 62,
-                    "h": 90
-                }
-            },
-            "time": 58.69
+            "time": 48.41
         }
     },
     {
         "image_1": "70f30b74-af86-45f8-a90a-d405e40e2cba.jpg",
-        "image_2": "160c0b01-85e3-4115-b70a-2fa1bdc189de.jpg",
+        "image_2": "3d485e36-d9c0-4968-a5ed-68b4a9bc3d10.jpg",
         "result": {
             "verified": true,
-            "distance": 0.6635642593388305,
+            "distance": 0.7521361785017869,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
@@ -3176,13 +3095,13 @@
                     "h": 101
                 },
                 "img2": {
-                    "x": 21,
-                    "y": 26,
-                    "w": 72,
-                    "h": 98
+                    "x": 25,
+                    "y": 22,
+                    "w": 76,
+                    "h": 104
                 }
             },
-            "time": 61.22
+            "time": 44.02
         }
     },
     {
@@ -3209,7 +3128,61 @@
                     "h": 95
                 }
             },
-            "time": 60.34
+            "time": 45.61
+        }
+    },
+    {
+        "image_1": "fc59a993-6eed-4bcd-9a7e-61a073facbb6.jpg",
+        "image_2": "de9cb689-5a04-417e-8c95-7118b79ef1be.jpg",
+        "result": {
+            "verified": false,
+            "distance": 1.269689413028924,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 23,
+                    "y": 22,
+                    "w": 72,
+                    "h": 98
+                },
+                "img2": {
+                    "x": 32,
+                    "y": 24,
+                    "w": 62,
+                    "h": 90
+                }
+            },
+            "time": 46.06
+        }
+    },
+    {
+        "image_1": "70f30b74-af86-45f8-a90a-d405e40e2cba.jpg",
+        "image_2": "160c0b01-85e3-4115-b70a-2fa1bdc189de.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.6635642593388305,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 16,
+                    "y": 26,
+                    "w": 76,
+                    "h": 101
+                },
+                "img2": {
+                    "x": 21,
+                    "y": 26,
+                    "w": 72,
+                    "h": 98
+                }
+            },
+            "time": 48.24
         }
     },
     {
@@ -3236,7 +3209,7 @@
                     "h": 85
                 }
             },
-            "time": 60.17
+            "time": 46.71
         }
     },
     {
@@ -3263,34 +3236,7 @@
                     "h": 92
                 }
             },
-            "time": 61.3
-        }
-    },
-    {
-        "image_1": "fc59a993-6eed-4bcd-9a7e-61a073facbb6.jpg",
-        "image_2": "40be510e-3ee2-43d4-b548-8b41cc312455.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.8445695796768056,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 23,
-                    "y": 22,
-                    "w": 72,
-                    "h": 98
-                },
-                "img2": {
-                    "x": 19,
-                    "y": 26,
-                    "w": 78,
-                    "h": 106
-                }
-            },
-            "time": 61.19
+            "time": 45.82
         }
     },
     {
@@ -3317,15 +3263,15 @@
                     "h": 108
                 }
             },
-            "time": 64.01
+            "time": 45.38
         }
     },
     {
         "image_1": "fc59a993-6eed-4bcd-9a7e-61a073facbb6.jpg",
-        "image_2": "bdb2cd58-f70a-4153-895a-477b90d458d3.jpg",
+        "image_2": "40be510e-3ee2-43d4-b548-8b41cc312455.jpg",
         "result": {
             "verified": true,
-            "distance": 0.7772939449503022,
+            "distance": 0.8445695796768056,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
@@ -3338,13 +3284,13 @@
                     "h": 98
                 },
                 "img2": {
-                    "x": 23,
-                    "y": 23,
-                    "w": 74,
-                    "h": 98
+                    "x": 19,
+                    "y": 26,
+                    "w": 78,
+                    "h": 106
                 }
             },
-            "time": 63.31
+            "time": 45.9
         }
     },
     {
@@ -3371,7 +3317,34 @@
                     "h": 91
                 }
             },
-            "time": 62.1
+            "time": 45.23
+        }
+    },
+    {
+        "image_1": "fc59a993-6eed-4bcd-9a7e-61a073facbb6.jpg",
+        "image_2": "bdb2cd58-f70a-4153-895a-477b90d458d3.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.7772939449503022,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 23,
+                    "y": 22,
+                    "w": 72,
+                    "h": 98
+                },
+                "img2": {
+                    "x": 23,
+                    "y": 23,
+                    "w": 74,
+                    "h": 98
+                }
+            },
+            "time": 47.64
         }
     },
     {
@@ -3398,7 +3371,7 @@
                     "h": 102
                 }
             },
-            "time": 59.87
+            "time": 44.42
         }
     },
     {
@@ -3425,61 +3398,7 @@
                     "h": 112
                 }
             },
-            "time": 62.03
-        }
-    },
-    {
-        "image_1": "fc59a993-6eed-4bcd-9a7e-61a073facbb6.jpg",
-        "image_2": "1e681c92-81a2-4262-af14-77f96e35c051.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.7841681532165624,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 23,
-                    "y": 22,
-                    "w": 72,
-                    "h": 98
-                },
-                "img2": {
-                    "x": 24,
-                    "y": 31,
-                    "w": 76,
-                    "h": 102
-                }
-            },
-            "time": 60.83
-        }
-    },
-    {
-        "image_1": "fc59a993-6eed-4bcd-9a7e-61a073facbb6.jpg",
-        "image_2": "f329db36-f4ac-4cfa-911c-53f818dcba7a.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.7271363809559429,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 23,
-                    "y": 22,
-                    "w": 72,
-                    "h": 98
-                },
-                "img2": {
-                    "x": 29,
-                    "y": 20,
-                    "w": 77,
-                    "h": 106
-                }
-            },
-            "time": 57.42
+            "time": 46.02
         }
     },
     {
@@ -3506,7 +3425,61 @@
                     "h": 100
                 }
             },
-            "time": 58.59
+            "time": 46.14
+        }
+    },
+    {
+        "image_1": "fc59a993-6eed-4bcd-9a7e-61a073facbb6.jpg",
+        "image_2": "1e681c92-81a2-4262-af14-77f96e35c051.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.7841681532165624,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 23,
+                    "y": 22,
+                    "w": 72,
+                    "h": 98
+                },
+                "img2": {
+                    "x": 24,
+                    "y": 31,
+                    "w": 76,
+                    "h": 102
+                }
+            },
+            "time": 47.33
+        }
+    },
+    {
+        "image_1": "fc59a993-6eed-4bcd-9a7e-61a073facbb6.jpg",
+        "image_2": "f329db36-f4ac-4cfa-911c-53f818dcba7a.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.7271363809559429,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 23,
+                    "y": 22,
+                    "w": 72,
+                    "h": 98
+                },
+                "img2": {
+                    "x": 29,
+                    "y": 20,
+                    "w": 77,
+                    "h": 106
+                }
+            },
+            "time": 45.94
         }
     },
     {
@@ -3533,7 +3506,7 @@
                     "h": 104
                 }
             },
-            "time": 58.25
+            "time": 44.9
         }
     },
     {
@@ -3560,34 +3533,7 @@
                     "h": 95
                 }
             },
-            "time": 62.91
-        }
-    },
-    {
-        "image_1": "6a4b2292-a315-438c-89f2-ce933a4baa54.jpg",
-        "image_2": "de9cb689-5a04-417e-8c95-7118b79ef1be.jpg",
-        "result": {
-            "verified": false,
-            "distance": 1.3150007920400273,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 28,
-                    "y": 23,
-                    "w": 71,
-                    "h": 95
-                },
-                "img2": {
-                    "x": 32,
-                    "y": 24,
-                    "w": 62,
-                    "h": 90
-                }
-            },
-            "time": 58.08
+            "time": 49.44
         }
     },
     {
@@ -3614,15 +3560,15 @@
                     "h": 98
                 }
             },
-            "time": 59.85
+            "time": 48.26
         }
     },
     {
         "image_1": "6a4b2292-a315-438c-89f2-ce933a4baa54.jpg",
-        "image_2": "661d4f36-bc4e-4422-acb7-da1ef2a63708.jpg",
+        "image_2": "de9cb689-5a04-417e-8c95-7118b79ef1be.jpg",
         "result": {
             "verified": false,
-            "distance": 1.2679457390279065,
+            "distance": 1.3150007920400273,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
@@ -3635,13 +3581,13 @@
                     "h": 95
                 },
                 "img2": {
-                    "x": 26,
-                    "y": 19,
+                    "x": 32,
+                    "y": 24,
                     "w": 62,
-                    "h": 85
+                    "h": 90
                 }
             },
-            "time": 59.48
+            "time": 46.84
         }
     },
     {
@@ -3668,34 +3614,7 @@
                     "h": 108
                 }
             },
-            "time": 56.56
-        }
-    },
-    {
-        "image_1": "6a4b2292-a315-438c-89f2-ce933a4baa54.jpg",
-        "image_2": "40be510e-3ee2-43d4-b548-8b41cc312455.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.9163627902192703,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 28,
-                    "y": 23,
-                    "w": 71,
-                    "h": 95
-                },
-                "img2": {
-                    "x": 19,
-                    "y": 26,
-                    "w": 78,
-                    "h": 106
-                }
-            },
-            "time": 57.74
+            "time": 45.98
         }
     },
     {
@@ -3722,15 +3641,15 @@
                     "h": 92
                 }
             },
-            "time": 60.62
+            "time": 46.48
         }
     },
     {
         "image_1": "6a4b2292-a315-438c-89f2-ce933a4baa54.jpg",
-        "image_2": "8a9a8fee-d4eb-4b93-92c3-c9ea3dae6d45.jpg",
+        "image_2": "40be510e-3ee2-43d4-b548-8b41cc312455.jpg",
         "result": {
-            "verified": false,
-            "distance": 1.3270060569874218,
+            "verified": true,
+            "distance": 0.9163627902192703,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
@@ -3743,13 +3662,40 @@
                     "h": 95
                 },
                 "img2": {
-                    "x": 16,
-                    "y": 23,
-                    "w": 70,
-                    "h": 91
+                    "x": 19,
+                    "y": 26,
+                    "w": 78,
+                    "h": 106
                 }
             },
-            "time": 54.93
+            "time": 45.31
+        }
+    },
+    {
+        "image_1": "6a4b2292-a315-438c-89f2-ce933a4baa54.jpg",
+        "image_2": "661d4f36-bc4e-4422-acb7-da1ef2a63708.jpg",
+        "result": {
+            "verified": false,
+            "distance": 1.2679457390279065,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 28,
+                    "y": 23,
+                    "w": 71,
+                    "h": 95
+                },
+                "img2": {
+                    "x": 26,
+                    "y": 19,
+                    "w": 62,
+                    "h": 85
+                }
+            },
+            "time": 48.4
         }
     },
     {
@@ -3776,15 +3722,15 @@
                     "h": 98
                 }
             },
-            "time": 56.78
+            "time": 46.26
         }
     },
     {
         "image_1": "6a4b2292-a315-438c-89f2-ce933a4baa54.jpg",
-        "image_2": "a0263fa8-7c65-424b-bdfe-7fad677ad21f.jpg",
+        "image_2": "8a9a8fee-d4eb-4b93-92c3-c9ea3dae6d45.jpg",
         "result": {
-            "verified": true,
-            "distance": 0.6900940271383761,
+            "verified": false,
+            "distance": 1.3270060569874218,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
@@ -3797,13 +3743,13 @@
                     "h": 95
                 },
                 "img2": {
-                    "x": 29,
-                    "y": 18,
-                    "w": 74,
-                    "h": 102
+                    "x": 16,
+                    "y": 23,
+                    "w": 70,
+                    "h": 91
                 }
             },
-            "time": 55.92
+            "time": 46.31
         }
     },
     {
@@ -3830,7 +3776,34 @@
                     "h": 112
                 }
             },
-            "time": 58.94
+            "time": 46.29
+        }
+    },
+    {
+        "image_1": "6a4b2292-a315-438c-89f2-ce933a4baa54.jpg",
+        "image_2": "a0263fa8-7c65-424b-bdfe-7fad677ad21f.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.6900940271383761,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 28,
+                    "y": 23,
+                    "w": 71,
+                    "h": 95
+                },
+                "img2": {
+                    "x": 29,
+                    "y": 18,
+                    "w": 74,
+                    "h": 102
+                }
+            },
+            "time": 45.88
         }
     },
     {
@@ -3857,7 +3830,7 @@
                     "h": 102
                 }
             },
-            "time": 59.37
+            "time": 48.31
         }
     },
     {
@@ -3884,7 +3857,7 @@
                     "h": 100
                 }
             },
-            "time": 59.83
+            "time": 44.47
         }
     },
     {
@@ -3911,34 +3884,7 @@
                     "h": 106
                 }
             },
-            "time": 63.83
-        }
-    },
-    {
-        "image_1": "6a4b2292-a315-438c-89f2-ce933a4baa54.jpg",
-        "image_2": "3d485e36-d9c0-4968-a5ed-68b4a9bc3d10.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.8339474564174124,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 28,
-                    "y": 23,
-                    "w": 71,
-                    "h": 95
-                },
-                "img2": {
-                    "x": 25,
-                    "y": 22,
-                    "w": 76,
-                    "h": 104
-                }
-            },
-            "time": 59.64
+            "time": 44.98
         }
     },
     {
@@ -3965,7 +3911,34 @@
                     "h": 95
                 }
             },
-            "time": 65.04
+            "time": 46.93
+        }
+    },
+    {
+        "image_1": "6a4b2292-a315-438c-89f2-ce933a4baa54.jpg",
+        "image_2": "3d485e36-d9c0-4968-a5ed-68b4a9bc3d10.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.8339474564174124,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 28,
+                    "y": 23,
+                    "w": 71,
+                    "h": 95
+                },
+                "img2": {
+                    "x": 25,
+                    "y": 22,
+                    "w": 76,
+                    "h": 104
+                }
+            },
+            "time": 46.49
         }
     },
     {
@@ -3992,88 +3965,7 @@
                     "h": 98
                 }
             },
-            "time": 59.14
-        }
-    },
-    {
-        "image_1": "de9cb689-5a04-417e-8c95-7118b79ef1be.jpg",
-        "image_2": "770d5996-77b6-4696-b55d-3b2b8addc59a.jpg",
-        "result": {
-            "verified": false,
-            "distance": 1.2487032970123895,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 32,
-                    "y": 24,
-                    "w": 62,
-                    "h": 90
-                },
-                "img2": {
-                    "x": 31,
-                    "y": 17,
-                    "w": 67,
-                    "h": 92
-                }
-            },
-            "time": 56.16
-        }
-    },
-    {
-        "image_1": "de9cb689-5a04-417e-8c95-7118b79ef1be.jpg",
-        "image_2": "016d2874-6823-43c8-b409-89fecf86b73e.jpg",
-        "result": {
-            "verified": true,
-            "distance": 1.0165684380734898,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 32,
-                    "y": 24,
-                    "w": 62,
-                    "h": 90
-                },
-                "img2": {
-                    "x": 23,
-                    "y": 25,
-                    "w": 79,
-                    "h": 108
-                }
-            },
-            "time": 57.43
-        }
-    },
-    {
-        "image_1": "de9cb689-5a04-417e-8c95-7118b79ef1be.jpg",
-        "image_2": "661d4f36-bc4e-4422-acb7-da1ef2a63708.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.998730047250524,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 32,
-                    "y": 24,
-                    "w": 62,
-                    "h": 90
-                },
-                "img2": {
-                    "x": 26,
-                    "y": 19,
-                    "w": 62,
-                    "h": 85
-                }
-            },
-            "time": 59.55
+            "time": 45.8
         }
     },
     {
@@ -4100,96 +3992,15 @@
                     "h": 106
                 }
             },
-            "time": 59.46
+            "time": 43.25
         }
     },
     {
         "image_1": "de9cb689-5a04-417e-8c95-7118b79ef1be.jpg",
-        "image_2": "36f6c095-d5a2-4d4c-b15b-9cbe3ad3b23b.jpg",
-        "result": {
-            "verified": true,
-            "distance": 1.1196689296715678,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 32,
-                    "y": 24,
-                    "w": 62,
-                    "h": 90
-                },
-                "img2": {
-                    "x": 20,
-                    "y": 26,
-                    "w": 80,
-                    "h": 112
-                }
-            },
-            "time": 59.53
-        }
-    },
-    {
-        "image_1": "de9cb689-5a04-417e-8c95-7118b79ef1be.jpg",
-        "image_2": "8a9a8fee-d4eb-4b93-92c3-c9ea3dae6d45.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.16563200431420763,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 32,
-                    "y": 24,
-                    "w": 62,
-                    "h": 90
-                },
-                "img2": {
-                    "x": 16,
-                    "y": 23,
-                    "w": 70,
-                    "h": 91
-                }
-            },
-            "time": 62.74
-        }
-    },
-    {
-        "image_1": "de9cb689-5a04-417e-8c95-7118b79ef1be.jpg",
-        "image_2": "1e681c92-81a2-4262-af14-77f96e35c051.jpg",
-        "result": {
-            "verified": true,
-            "distance": 1.0641090029874674,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 32,
-                    "y": 24,
-                    "w": 62,
-                    "h": 90
-                },
-                "img2": {
-                    "x": 24,
-                    "y": 31,
-                    "w": 76,
-                    "h": 102
-                }
-            },
-            "time": 59.84
-        }
-    },
-    {
-        "image_1": "de9cb689-5a04-417e-8c95-7118b79ef1be.jpg",
-        "image_2": "a0263fa8-7c65-424b-bdfe-7fad677ad21f.jpg",
+        "image_2": "770d5996-77b6-4696-b55d-3b2b8addc59a.jpg",
         "result": {
             "verified": false,
-            "distance": 1.303935144268531,
+            "distance": 1.2487032970123895,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
@@ -4202,13 +4013,40 @@
                     "h": 90
                 },
                 "img2": {
-                    "x": 29,
-                    "y": 18,
-                    "w": 74,
-                    "h": 102
+                    "x": 31,
+                    "y": 17,
+                    "w": 67,
+                    "h": 92
                 }
             },
-            "time": 62.92
+            "time": 43.93
+        }
+    },
+    {
+        "image_1": "de9cb689-5a04-417e-8c95-7118b79ef1be.jpg",
+        "image_2": "661d4f36-bc4e-4422-acb7-da1ef2a63708.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.998730047250524,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 32,
+                    "y": 24,
+                    "w": 62,
+                    "h": 90
+                },
+                "img2": {
+                    "x": 26,
+                    "y": 19,
+                    "w": 62,
+                    "h": 85
+                }
+            },
+            "time": 44.51
         }
     },
     {
@@ -4235,7 +4073,142 @@
                     "h": 98
                 }
             },
-            "time": 64.53
+            "time": 44.28
+        }
+    },
+    {
+        "image_1": "de9cb689-5a04-417e-8c95-7118b79ef1be.jpg",
+        "image_2": "016d2874-6823-43c8-b409-89fecf86b73e.jpg",
+        "result": {
+            "verified": true,
+            "distance": 1.0165684380734898,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 32,
+                    "y": 24,
+                    "w": 62,
+                    "h": 90
+                },
+                "img2": {
+                    "x": 23,
+                    "y": 25,
+                    "w": 79,
+                    "h": 108
+                }
+            },
+            "time": 45.9
+        }
+    },
+    {
+        "image_1": "de9cb689-5a04-417e-8c95-7118b79ef1be.jpg",
+        "image_2": "8a9a8fee-d4eb-4b93-92c3-c9ea3dae6d45.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.16563200431420763,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 32,
+                    "y": 24,
+                    "w": 62,
+                    "h": 90
+                },
+                "img2": {
+                    "x": 16,
+                    "y": 23,
+                    "w": 70,
+                    "h": 91
+                }
+            },
+            "time": 45.29
+        }
+    },
+    {
+        "image_1": "de9cb689-5a04-417e-8c95-7118b79ef1be.jpg",
+        "image_2": "36f6c095-d5a2-4d4c-b15b-9cbe3ad3b23b.jpg",
+        "result": {
+            "verified": true,
+            "distance": 1.1196689296715678,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 32,
+                    "y": 24,
+                    "w": 62,
+                    "h": 90
+                },
+                "img2": {
+                    "x": 20,
+                    "y": 26,
+                    "w": 80,
+                    "h": 112
+                }
+            },
+            "time": 43.03
+        }
+    },
+    {
+        "image_1": "de9cb689-5a04-417e-8c95-7118b79ef1be.jpg",
+        "image_2": "a0263fa8-7c65-424b-bdfe-7fad677ad21f.jpg",
+        "result": {
+            "verified": false,
+            "distance": 1.303935144268531,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 32,
+                    "y": 24,
+                    "w": 62,
+                    "h": 90
+                },
+                "img2": {
+                    "x": 29,
+                    "y": 18,
+                    "w": 74,
+                    "h": 102
+                }
+            },
+            "time": 44.71
+        }
+    },
+    {
+        "image_1": "de9cb689-5a04-417e-8c95-7118b79ef1be.jpg",
+        "image_2": "1e681c92-81a2-4262-af14-77f96e35c051.jpg",
+        "result": {
+            "verified": true,
+            "distance": 1.0641090029874674,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 32,
+                    "y": 24,
+                    "w": 62,
+                    "h": 90
+                },
+                "img2": {
+                    "x": 24,
+                    "y": 31,
+                    "w": 76,
+                    "h": 102
+                }
+            },
+            "time": 45.65
         }
     },
     {
@@ -4262,7 +4235,7 @@
                     "h": 100
                 }
             },
-            "time": 58.29
+            "time": 45.31
         }
     },
     {
@@ -4289,34 +4262,7 @@
                     "h": 106
                 }
             },
-            "time": 62.59
-        }
-    },
-    {
-        "image_1": "de9cb689-5a04-417e-8c95-7118b79ef1be.jpg",
-        "image_2": "166a12d8-6d5a-498c-97f4-d372f5487947.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.8077881760228867,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 32,
-                    "y": 24,
-                    "w": 62,
-                    "h": 90
-                },
-                "img2": {
-                    "x": 27,
-                    "y": 21,
-                    "w": 67,
-                    "h": 95
-                }
-            },
-            "time": 66.58
+            "time": 43.99
         }
     },
     {
@@ -4343,7 +4289,34 @@
                     "h": 104
                 }
             },
-            "time": 60.78
+            "time": 44.52
+        }
+    },
+    {
+        "image_1": "de9cb689-5a04-417e-8c95-7118b79ef1be.jpg",
+        "image_2": "166a12d8-6d5a-498c-97f4-d372f5487947.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.8077881760228867,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 32,
+                    "y": 24,
+                    "w": 62,
+                    "h": 90
+                },
+                "img2": {
+                    "x": 27,
+                    "y": 21,
+                    "w": 67,
+                    "h": 95
+                }
+            },
+            "time": 47.03
         }
     },
     {
@@ -4370,7 +4343,7 @@
                     "h": 98
                 }
             },
-            "time": 61.01
+            "time": 46.38
         }
     },
     {
@@ -4397,7 +4370,7 @@
                     "h": 92
                 }
             },
-            "time": 61.97
+            "time": 48.01
         }
     },
     {
@@ -4424,61 +4397,7 @@
                     "h": 108
                 }
             },
-            "time": 63.22
-        }
-    },
-    {
-        "image_1": "661d4f36-bc4e-4422-acb7-da1ef2a63708.jpg",
-        "image_2": "40be510e-3ee2-43d4-b548-8b41cc312455.jpg",
-        "result": {
-            "verified": true,
-            "distance": 1.0699675589812754,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 26,
-                    "y": 19,
-                    "w": 62,
-                    "h": 85
-                },
-                "img2": {
-                    "x": 19,
-                    "y": 26,
-                    "w": 78,
-                    "h": 106
-                }
-            },
-            "time": 62.7
-        }
-    },
-    {
-        "image_1": "661d4f36-bc4e-4422-acb7-da1ef2a63708.jpg",
-        "image_2": "8a9a8fee-d4eb-4b93-92c3-c9ea3dae6d45.jpg",
-        "result": {
-            "verified": true,
-            "distance": 1.0028547181977674,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 26,
-                    "y": 19,
-                    "w": 62,
-                    "h": 85
-                },
-                "img2": {
-                    "x": 16,
-                    "y": 23,
-                    "w": 70,
-                    "h": 91
-                }
-            },
-            "time": 61.07
+            "time": 48.69
         }
     },
     {
@@ -4505,7 +4424,34 @@
                     "h": 98
                 }
             },
-            "time": 67.64
+            "time": 47.43
+        }
+    },
+    {
+        "image_1": "661d4f36-bc4e-4422-acb7-da1ef2a63708.jpg",
+        "image_2": "8a9a8fee-d4eb-4b93-92c3-c9ea3dae6d45.jpg",
+        "result": {
+            "verified": true,
+            "distance": 1.0028547181977674,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 26,
+                    "y": 19,
+                    "w": 62,
+                    "h": 85
+                },
+                "img2": {
+                    "x": 16,
+                    "y": 23,
+                    "w": 70,
+                    "h": 91
+                }
+            },
+            "time": 47.36
         }
     },
     {
@@ -4532,7 +4478,7 @@
                     "h": 112
                 }
             },
-            "time": 62.05
+            "time": 46.48
         }
     },
     {
@@ -4559,15 +4505,15 @@
                     "h": 102
                 }
             },
-            "time": 60.96
+            "time": 48.04
         }
     },
     {
         "image_1": "661d4f36-bc4e-4422-acb7-da1ef2a63708.jpg",
-        "image_2": "1e681c92-81a2-4262-af14-77f96e35c051.jpg",
+        "image_2": "40be510e-3ee2-43d4-b548-8b41cc312455.jpg",
         "result": {
             "verified": true,
-            "distance": 1.0691896330816841,
+            "distance": 1.0699675589812754,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
@@ -4580,67 +4526,13 @@
                     "h": 85
                 },
                 "img2": {
-                    "x": 24,
-                    "y": 31,
-                    "w": 76,
-                    "h": 102
-                }
-            },
-            "time": 62.71
-        }
-    },
-    {
-        "image_1": "661d4f36-bc4e-4422-acb7-da1ef2a63708.jpg",
-        "image_2": "3d485e36-d9c0-4968-a5ed-68b4a9bc3d10.jpg",
-        "result": {
-            "verified": false,
-            "distance": 1.2390080113711406,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 26,
-                    "y": 19,
-                    "w": 62,
-                    "h": 85
-                },
-                "img2": {
-                    "x": 25,
-                    "y": 22,
-                    "w": 76,
-                    "h": 104
-                }
-            },
-            "time": 63.02
-        }
-    },
-    {
-        "image_1": "661d4f36-bc4e-4422-acb7-da1ef2a63708.jpg",
-        "image_2": "f329db36-f4ac-4cfa-911c-53f818dcba7a.jpg",
-        "result": {
-            "verified": false,
-            "distance": 1.2336196935475154,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 26,
-                    "y": 19,
-                    "w": 62,
-                    "h": 85
-                },
-                "img2": {
-                    "x": 29,
-                    "y": 20,
-                    "w": 77,
+                    "x": 19,
+                    "y": 26,
+                    "w": 78,
                     "h": 106
                 }
             },
-            "time": 64.21
+            "time": 51.59
         }
     },
     {
@@ -4667,7 +4559,61 @@
                     "h": 100
                 }
             },
-            "time": 64.81
+            "time": 47.77
+        }
+    },
+    {
+        "image_1": "661d4f36-bc4e-4422-acb7-da1ef2a63708.jpg",
+        "image_2": "1e681c92-81a2-4262-af14-77f96e35c051.jpg",
+        "result": {
+            "verified": true,
+            "distance": 1.0691896330816841,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 26,
+                    "y": 19,
+                    "w": 62,
+                    "h": 85
+                },
+                "img2": {
+                    "x": 24,
+                    "y": 31,
+                    "w": 76,
+                    "h": 102
+                }
+            },
+            "time": 51.46
+        }
+    },
+    {
+        "image_1": "661d4f36-bc4e-4422-acb7-da1ef2a63708.jpg",
+        "image_2": "f329db36-f4ac-4cfa-911c-53f818dcba7a.jpg",
+        "result": {
+            "verified": false,
+            "distance": 1.2336196935475154,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 26,
+                    "y": 19,
+                    "w": 62,
+                    "h": 85
+                },
+                "img2": {
+                    "x": 29,
+                    "y": 20,
+                    "w": 77,
+                    "h": 106
+                }
+            },
+            "time": 46.94
         }
     },
     {
@@ -4694,7 +4640,7 @@
                     "h": 95
                 }
             },
-            "time": 64.45
+            "time": 46.6
         }
     },
     {
@@ -4721,88 +4667,34 @@
                     "h": 98
                 }
             },
-            "time": 63.78
+            "time": 46.1
         }
     },
     {
-        "image_1": "770d5996-77b6-4696-b55d-3b2b8addc59a.jpg",
-        "image_2": "016d2874-6823-43c8-b409-89fecf86b73e.jpg",
+        "image_1": "661d4f36-bc4e-4422-acb7-da1ef2a63708.jpg",
+        "image_2": "3d485e36-d9c0-4968-a5ed-68b4a9bc3d10.jpg",
         "result": {
             "verified": false,
-            "distance": 1.2230786101284088,
+            "distance": 1.2390080113711406,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
             "similarity_metric": "euclidean_l2",
             "facial_areas": {
                 "img1": {
-                    "x": 31,
-                    "y": 17,
-                    "w": 67,
-                    "h": 92
+                    "x": 26,
+                    "y": 19,
+                    "w": 62,
+                    "h": 85
                 },
                 "img2": {
-                    "x": 23,
-                    "y": 25,
-                    "w": 79,
-                    "h": 108
+                    "x": 25,
+                    "y": 22,
+                    "w": 76,
+                    "h": 104
                 }
             },
-            "time": 59.76
-        }
-    },
-    {
-        "image_1": "770d5996-77b6-4696-b55d-3b2b8addc59a.jpg",
-        "image_2": "8a9a8fee-d4eb-4b93-92c3-c9ea3dae6d45.jpg",
-        "result": {
-            "verified": false,
-            "distance": 1.2503898466820327,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 31,
-                    "y": 17,
-                    "w": 67,
-                    "h": 92
-                },
-                "img2": {
-                    "x": 16,
-                    "y": 23,
-                    "w": 70,
-                    "h": 91
-                }
-            },
-            "time": 61.26
-        }
-    },
-    {
-        "image_1": "770d5996-77b6-4696-b55d-3b2b8addc59a.jpg",
-        "image_2": "bdb2cd58-f70a-4153-895a-477b90d458d3.jpg",
-        "result": {
-            "verified": false,
-            "distance": 1.2118933625543737,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 31,
-                    "y": 17,
-                    "w": 67,
-                    "h": 92
-                },
-                "img2": {
-                    "x": 23,
-                    "y": 23,
-                    "w": 74,
-                    "h": 98
-                }
-            },
-            "time": 63.45
+            "time": 50.1
         }
     },
     {
@@ -4829,7 +4721,88 @@
                     "h": 106
                 }
             },
-            "time": 65.56
+            "time": 44.09
+        }
+    },
+    {
+        "image_1": "770d5996-77b6-4696-b55d-3b2b8addc59a.jpg",
+        "image_2": "016d2874-6823-43c8-b409-89fecf86b73e.jpg",
+        "result": {
+            "verified": false,
+            "distance": 1.2230786101284088,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 31,
+                    "y": 17,
+                    "w": 67,
+                    "h": 92
+                },
+                "img2": {
+                    "x": 23,
+                    "y": 25,
+                    "w": 79,
+                    "h": 108
+                }
+            },
+            "time": 47.21
+        }
+    },
+    {
+        "image_1": "770d5996-77b6-4696-b55d-3b2b8addc59a.jpg",
+        "image_2": "bdb2cd58-f70a-4153-895a-477b90d458d3.jpg",
+        "result": {
+            "verified": false,
+            "distance": 1.2118933625543737,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 31,
+                    "y": 17,
+                    "w": 67,
+                    "h": 92
+                },
+                "img2": {
+                    "x": 23,
+                    "y": 23,
+                    "w": 74,
+                    "h": 98
+                }
+            },
+            "time": 44.74
+        }
+    },
+    {
+        "image_1": "770d5996-77b6-4696-b55d-3b2b8addc59a.jpg",
+        "image_2": "8a9a8fee-d4eb-4b93-92c3-c9ea3dae6d45.jpg",
+        "result": {
+            "verified": false,
+            "distance": 1.2503898466820327,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 31,
+                    "y": 17,
+                    "w": 67,
+                    "h": 92
+                },
+                "img2": {
+                    "x": 16,
+                    "y": 23,
+                    "w": 70,
+                    "h": 91
+                }
+            },
+            "time": 42.38
         }
     },
     {
@@ -4856,7 +4829,7 @@
                     "h": 112
                 }
             },
-            "time": 66.03
+            "time": 46.34
         }
     },
     {
@@ -4883,34 +4856,7 @@
                     "h": 102
                 }
             },
-            "time": 63.0
-        }
-    },
-    {
-        "image_1": "770d5996-77b6-4696-b55d-3b2b8addc59a.jpg",
-        "image_2": "1e681c92-81a2-4262-af14-77f96e35c051.jpg",
-        "result": {
-            "verified": false,
-            "distance": 1.1962464266809107,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 31,
-                    "y": 17,
-                    "w": 67,
-                    "h": 92
-                },
-                "img2": {
-                    "x": 24,
-                    "y": 31,
-                    "w": 76,
-                    "h": 102
-                }
-            },
-            "time": 62.38
+            "time": 47.35
         }
     },
     {
@@ -4937,7 +4883,34 @@
                     "h": 100
                 }
             },
-            "time": 61.25
+            "time": 46.41
+        }
+    },
+    {
+        "image_1": "770d5996-77b6-4696-b55d-3b2b8addc59a.jpg",
+        "image_2": "1e681c92-81a2-4262-af14-77f96e35c051.jpg",
+        "result": {
+            "verified": false,
+            "distance": 1.1962464266809107,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 31,
+                    "y": 17,
+                    "w": 67,
+                    "h": 92
+                },
+                "img2": {
+                    "x": 24,
+                    "y": 31,
+                    "w": 76,
+                    "h": 102
+                }
+            },
+            "time": 48.4
         }
     },
     {
@@ -4964,88 +4937,7 @@
                     "h": 106
                 }
             },
-            "time": 60.27
-        }
-    },
-    {
-        "image_1": "770d5996-77b6-4696-b55d-3b2b8addc59a.jpg",
-        "image_2": "166a12d8-6d5a-498c-97f4-d372f5487947.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.7921375779253214,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 31,
-                    "y": 17,
-                    "w": 67,
-                    "h": 92
-                },
-                "img2": {
-                    "x": 27,
-                    "y": 21,
-                    "w": 67,
-                    "h": 95
-                }
-            },
-            "time": 64.08
-        }
-    },
-    {
-        "image_1": "016d2874-6823-43c8-b409-89fecf86b73e.jpg",
-        "image_2": "40be510e-3ee2-43d4-b548-8b41cc312455.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.5529391455031339,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 23,
-                    "y": 25,
-                    "w": 79,
-                    "h": 108
-                },
-                "img2": {
-                    "x": 19,
-                    "y": 26,
-                    "w": 78,
-                    "h": 106
-                }
-            },
-            "time": 60.58
-        }
-    },
-    {
-        "image_1": "016d2874-6823-43c8-b409-89fecf86b73e.jpg",
-        "image_2": "8a9a8fee-d4eb-4b93-92c3-c9ea3dae6d45.jpg",
-        "result": {
-            "verified": true,
-            "distance": 1.036789510432633,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 23,
-                    "y": 25,
-                    "w": 79,
-                    "h": 108
-                },
-                "img2": {
-                    "x": 16,
-                    "y": 23,
-                    "w": 70,
-                    "h": 91
-                }
-            },
-            "time": 60.49
+            "time": 46.87
         }
     },
     {
@@ -5072,34 +4964,34 @@
                     "h": 104
                 }
             },
-            "time": 64.46
+            "time": 47.78
         }
     },
     {
-        "image_1": "016d2874-6823-43c8-b409-89fecf86b73e.jpg",
-        "image_2": "bdb2cd58-f70a-4153-895a-477b90d458d3.jpg",
+        "image_1": "770d5996-77b6-4696-b55d-3b2b8addc59a.jpg",
+        "image_2": "166a12d8-6d5a-498c-97f4-d372f5487947.jpg",
         "result": {
             "verified": true,
-            "distance": 0.49351261457043144,
+            "distance": 0.7921375779253214,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
             "similarity_metric": "euclidean_l2",
             "facial_areas": {
                 "img1": {
-                    "x": 23,
-                    "y": 25,
-                    "w": 79,
-                    "h": 108
+                    "x": 31,
+                    "y": 17,
+                    "w": 67,
+                    "h": 92
                 },
                 "img2": {
-                    "x": 23,
-                    "y": 23,
-                    "w": 74,
-                    "h": 98
+                    "x": 27,
+                    "y": 21,
+                    "w": 67,
+                    "h": 95
                 }
             },
-            "time": 61.17
+            "time": 49.09
         }
     },
     {
@@ -5126,15 +5018,15 @@
                     "h": 98
                 }
             },
-            "time": 68.7
+            "time": 46.07
         }
     },
     {
         "image_1": "016d2874-6823-43c8-b409-89fecf86b73e.jpg",
-        "image_2": "36f6c095-d5a2-4d4c-b15b-9cbe3ad3b23b.jpg",
+        "image_2": "bdb2cd58-f70a-4153-895a-477b90d458d3.jpg",
         "result": {
             "verified": true,
-            "distance": 0.6120497291733523,
+            "distance": 0.49351261457043144,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
@@ -5147,13 +5039,67 @@
                     "h": 108
                 },
                 "img2": {
-                    "x": 20,
-                    "y": 26,
-                    "w": 80,
-                    "h": 112
+                    "x": 23,
+                    "y": 23,
+                    "w": 74,
+                    "h": 98
                 }
             },
-            "time": 62.17
+            "time": 46.86
+        }
+    },
+    {
+        "image_1": "016d2874-6823-43c8-b409-89fecf86b73e.jpg",
+        "image_2": "40be510e-3ee2-43d4-b548-8b41cc312455.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.5529391455031339,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 23,
+                    "y": 25,
+                    "w": 79,
+                    "h": 108
+                },
+                "img2": {
+                    "x": 19,
+                    "y": 26,
+                    "w": 78,
+                    "h": 106
+                }
+            },
+            "time": 47.9
+        }
+    },
+    {
+        "image_1": "016d2874-6823-43c8-b409-89fecf86b73e.jpg",
+        "image_2": "8a9a8fee-d4eb-4b93-92c3-c9ea3dae6d45.jpg",
+        "result": {
+            "verified": true,
+            "distance": 1.036789510432633,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 23,
+                    "y": 25,
+                    "w": 79,
+                    "h": 108
+                },
+                "img2": {
+                    "x": 16,
+                    "y": 23,
+                    "w": 70,
+                    "h": 91
+                }
+            },
+            "time": 44.55
         }
     },
     {
@@ -5180,7 +5126,34 @@
                     "h": 102
                 }
             },
-            "time": 59.6
+            "time": 44.64
+        }
+    },
+    {
+        "image_1": "016d2874-6823-43c8-b409-89fecf86b73e.jpg",
+        "image_2": "36f6c095-d5a2-4d4c-b15b-9cbe3ad3b23b.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.6120497291733523,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 23,
+                    "y": 25,
+                    "w": 79,
+                    "h": 108
+                },
+                "img2": {
+                    "x": 20,
+                    "y": 26,
+                    "w": 80,
+                    "h": 112
+                }
+            },
+            "time": 46.67
         }
     },
     {
@@ -5207,34 +5180,7 @@
                     "h": 102
                 }
             },
-            "time": 60.7
-        }
-    },
-    {
-        "image_1": "016d2874-6823-43c8-b409-89fecf86b73e.jpg",
-        "image_2": "f329db36-f4ac-4cfa-911c-53f818dcba7a.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.5632743676485529,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 23,
-                    "y": 25,
-                    "w": 79,
-                    "h": 108
-                },
-                "img2": {
-                    "x": 29,
-                    "y": 20,
-                    "w": 77,
-                    "h": 106
-                }
-            },
-            "time": 59.67
+            "time": 48.09
         }
     },
     {
@@ -5261,7 +5207,34 @@
                     "h": 100
                 }
             },
-            "time": 63.86
+            "time": 47.48
+        }
+    },
+    {
+        "image_1": "016d2874-6823-43c8-b409-89fecf86b73e.jpg",
+        "image_2": "f329db36-f4ac-4cfa-911c-53f818dcba7a.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.5632743676485529,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 23,
+                    "y": 25,
+                    "w": 79,
+                    "h": 108
+                },
+                "img2": {
+                    "x": 29,
+                    "y": 20,
+                    "w": 77,
+                    "h": 106
+                }
+            },
+            "time": 44.96
         }
     },
     {
@@ -5288,88 +5261,7 @@
                     "h": 98
                 }
             },
-            "time": 58.14
-        }
-    },
-    {
-        "image_1": "016d2874-6823-43c8-b409-89fecf86b73e.jpg",
-        "image_2": "3d485e36-d9c0-4968-a5ed-68b4a9bc3d10.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.6672338736986009,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 23,
-                    "y": 25,
-                    "w": 79,
-                    "h": 108
-                },
-                "img2": {
-                    "x": 25,
-                    "y": 22,
-                    "w": 76,
-                    "h": 104
-                }
-            },
-            "time": 58.95
-        }
-    },
-    {
-        "image_1": "40be510e-3ee2-43d4-b548-8b41cc312455.jpg",
-        "image_2": "8a9a8fee-d4eb-4b93-92c3-c9ea3dae6d45.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.976303132428886,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 19,
-                    "y": 26,
-                    "w": 78,
-                    "h": 106
-                },
-                "img2": {
-                    "x": 16,
-                    "y": 23,
-                    "w": 70,
-                    "h": 91
-                }
-            },
-            "time": 54.93
-        }
-    },
-    {
-        "image_1": "40be510e-3ee2-43d4-b548-8b41cc312455.jpg",
-        "image_2": "bdb2cd58-f70a-4153-895a-477b90d458d3.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.6217442307717583,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 19,
-                    "y": 26,
-                    "w": 78,
-                    "h": 106
-                },
-                "img2": {
-                    "x": 23,
-                    "y": 23,
-                    "w": 74,
-                    "h": 98
-                }
-            },
-            "time": 55.8
+            "time": 44.85
         }
     },
     {
@@ -5396,15 +5288,15 @@
                     "h": 95
                 }
             },
-            "time": 62.99
+            "time": 49.52
         }
     },
     {
         "image_1": "40be510e-3ee2-43d4-b548-8b41cc312455.jpg",
-        "image_2": "36f6c095-d5a2-4d4c-b15b-9cbe3ad3b23b.jpg",
+        "image_2": "8a9a8fee-d4eb-4b93-92c3-c9ea3dae6d45.jpg",
         "result": {
             "verified": true,
-            "distance": 0.5073845327888906,
+            "distance": 0.976303132428886,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
@@ -5417,13 +5309,67 @@
                     "h": 106
                 },
                 "img2": {
-                    "x": 20,
-                    "y": 26,
-                    "w": 80,
-                    "h": 112
+                    "x": 16,
+                    "y": 23,
+                    "w": 70,
+                    "h": 91
                 }
             },
-            "time": 57.82
+            "time": 45.33
+        }
+    },
+    {
+        "image_1": "40be510e-3ee2-43d4-b548-8b41cc312455.jpg",
+        "image_2": "bdb2cd58-f70a-4153-895a-477b90d458d3.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.6217442307717583,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 19,
+                    "y": 26,
+                    "w": 78,
+                    "h": 106
+                },
+                "img2": {
+                    "x": 23,
+                    "y": 23,
+                    "w": 74,
+                    "h": 98
+                }
+            },
+            "time": 46.32
+        }
+    },
+    {
+        "image_1": "016d2874-6823-43c8-b409-89fecf86b73e.jpg",
+        "image_2": "3d485e36-d9c0-4968-a5ed-68b4a9bc3d10.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.6672338736986009,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 23,
+                    "y": 25,
+                    "w": 79,
+                    "h": 108
+                },
+                "img2": {
+                    "x": 25,
+                    "y": 22,
+                    "w": 76,
+                    "h": 104
+                }
+            },
+            "time": 47.92
         }
     },
     {
@@ -5450,7 +5396,34 @@
                     "h": 102
                 }
             },
-            "time": 61.72
+            "time": 43.09
+        }
+    },
+    {
+        "image_1": "40be510e-3ee2-43d4-b548-8b41cc312455.jpg",
+        "image_2": "36f6c095-d5a2-4d4c-b15b-9cbe3ad3b23b.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.5073845327888906,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 19,
+                    "y": 26,
+                    "w": 78,
+                    "h": 106
+                },
+                "img2": {
+                    "x": 20,
+                    "y": 26,
+                    "w": 80,
+                    "h": 112
+                }
+            },
+            "time": 46.94
         }
     },
     {
@@ -5477,7 +5450,7 @@
                     "h": 102
                 }
             },
-            "time": 61.31
+            "time": 49.47
         }
     },
     {
@@ -5504,7 +5477,7 @@
                     "h": 106
                 }
             },
-            "time": 60.97
+            "time": 46.28
         }
     },
     {
@@ -5531,61 +5504,7 @@
                     "h": 100
                 }
             },
-            "time": 62.58
-        }
-    },
-    {
-        "image_1": "40be510e-3ee2-43d4-b548-8b41cc312455.jpg",
-        "image_2": "3d485e36-d9c0-4968-a5ed-68b4a9bc3d10.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.7239669721313241,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 19,
-                    "y": 26,
-                    "w": 78,
-                    "h": 106
-                },
-                "img2": {
-                    "x": 25,
-                    "y": 22,
-                    "w": 76,
-                    "h": 104
-                }
-            },
-            "time": 60.71
-        }
-    },
-    {
-        "image_1": "40be510e-3ee2-43d4-b548-8b41cc312455.jpg",
-        "image_2": "166a12d8-6d5a-498c-97f4-d372f5487947.jpg",
-        "result": {
-            "verified": true,
-            "distance": 1.0160199142827808,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 19,
-                    "y": 26,
-                    "w": 78,
-                    "h": 106
-                },
-                "img2": {
-                    "x": 27,
-                    "y": 21,
-                    "w": 67,
-                    "h": 95
-                }
-            },
-            "time": 63.36
+            "time": 46.62
         }
     },
     {
@@ -5612,7 +5531,61 @@
                     "h": 98
                 }
             },
-            "time": 65.02
+            "time": 43.23
+        }
+    },
+    {
+        "image_1": "40be510e-3ee2-43d4-b548-8b41cc312455.jpg",
+        "image_2": "166a12d8-6d5a-498c-97f4-d372f5487947.jpg",
+        "result": {
+            "verified": true,
+            "distance": 1.0160199142827808,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 19,
+                    "y": 26,
+                    "w": 78,
+                    "h": 106
+                },
+                "img2": {
+                    "x": 27,
+                    "y": 21,
+                    "w": 67,
+                    "h": 95
+                }
+            },
+            "time": 47.63
+        }
+    },
+    {
+        "image_1": "40be510e-3ee2-43d4-b548-8b41cc312455.jpg",
+        "image_2": "3d485e36-d9c0-4968-a5ed-68b4a9bc3d10.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.7239669721313241,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 19,
+                    "y": 26,
+                    "w": 78,
+                    "h": 106
+                },
+                "img2": {
+                    "x": 25,
+                    "y": 22,
+                    "w": 76,
+                    "h": 104
+                }
+            },
+            "time": 45.67
         }
     },
     {
@@ -5639,7 +5612,7 @@
                     "h": 91
                 }
             },
-            "time": 60.95
+            "time": 45.01
         }
     },
     {
@@ -5666,7 +5639,7 @@
                     "h": 112
                 }
             },
-            "time": 63.35
+            "time": 43.65
         }
     },
     {
@@ -5693,34 +5666,7 @@
                     "h": 102
                 }
             },
-            "time": 62.21
-        }
-    },
-    {
-        "image_1": "bdb2cd58-f70a-4153-895a-477b90d458d3.jpg",
-        "image_2": "eb0f6f71-32fd-445b-b616-42742ab0488b.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.4138655004861732,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 23,
-                    "y": 23,
-                    "w": 74,
-                    "h": 98
-                },
-                "img2": {
-                    "x": 22,
-                    "y": 24,
-                    "w": 73,
-                    "h": 100
-                }
-            },
-            "time": 60.33
+            "time": 46.38
         }
     },
     {
@@ -5747,7 +5693,7 @@
                     "h": 102
                 }
             },
-            "time": 62.43
+            "time": 46.19
         }
     },
     {
@@ -5774,7 +5720,7 @@
                     "h": 106
                 }
             },
-            "time": 60.84
+            "time": 46.3
         }
     },
     {
@@ -5801,7 +5747,7 @@
                     "h": 104
                 }
             },
-            "time": 61.13
+            "time": 46.46
         }
     },
     {
@@ -5828,7 +5774,34 @@
                     "h": 95
                 }
             },
-            "time": 63.05
+            "time": 47.0
+        }
+    },
+    {
+        "image_1": "bdb2cd58-f70a-4153-895a-477b90d458d3.jpg",
+        "image_2": "eb0f6f71-32fd-445b-b616-42742ab0488b.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.4138655004861732,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 23,
+                    "y": 23,
+                    "w": 74,
+                    "h": 98
+                },
+                "img2": {
+                    "x": 22,
+                    "y": 24,
+                    "w": 73,
+                    "h": 100
+                }
+            },
+            "time": 47.51
         }
     },
     {
@@ -5855,7 +5828,7 @@
                     "h": 98
                 }
             },
-            "time": 59.79
+            "time": 48.66
         }
     },
     {
@@ -5882,34 +5855,7 @@
                     "h": 112
                 }
             },
-            "time": 59.99
-        }
-    },
-    {
-        "image_1": "8a9a8fee-d4eb-4b93-92c3-c9ea3dae6d45.jpg",
-        "image_2": "a0263fa8-7c65-424b-bdfe-7fad677ad21f.jpg",
-        "result": {
-            "verified": false,
-            "distance": 1.3212757231684318,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 16,
-                    "y": 23,
-                    "w": 70,
-                    "h": 91
-                },
-                "img2": {
-                    "x": 29,
-                    "y": 18,
-                    "w": 74,
-                    "h": 102
-                }
-            },
-            "time": 60.59
+            "time": 47.0
         }
     },
     {
@@ -5936,34 +5882,7 @@
                     "h": 100
                 }
             },
-            "time": 59.46
-        }
-    },
-    {
-        "image_1": "8a9a8fee-d4eb-4b93-92c3-c9ea3dae6d45.jpg",
-        "image_2": "1e681c92-81a2-4262-af14-77f96e35c051.jpg",
-        "result": {
-            "verified": true,
-            "distance": 1.075725880014706,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 16,
-                    "y": 23,
-                    "w": 70,
-                    "h": 91
-                },
-                "img2": {
-                    "x": 24,
-                    "y": 31,
-                    "w": 76,
-                    "h": 102
-                }
-            },
-            "time": 61.76
+            "time": 43.57
         }
     },
     {
@@ -5990,15 +5909,15 @@
                     "h": 106
                 }
             },
-            "time": 61.71
+            "time": 45.67
         }
     },
     {
         "image_1": "8a9a8fee-d4eb-4b93-92c3-c9ea3dae6d45.jpg",
-        "image_2": "3d485e36-d9c0-4968-a5ed-68b4a9bc3d10.jpg",
+        "image_2": "a0263fa8-7c65-424b-bdfe-7fad677ad21f.jpg",
         "result": {
             "verified": false,
-            "distance": 1.269824321709367,
+            "distance": 1.3212757231684318,
             "threshold": 1.13,
             "model": "ArcFace",
             "detector_backend": "retinaface",
@@ -6011,13 +5930,40 @@
                     "h": 91
                 },
                 "img2": {
-                    "x": 25,
-                    "y": 22,
-                    "w": 76,
-                    "h": 104
+                    "x": 29,
+                    "y": 18,
+                    "w": 74,
+                    "h": 102
                 }
             },
-            "time": 59.02
+            "time": 46.28
+        }
+    },
+    {
+        "image_1": "8a9a8fee-d4eb-4b93-92c3-c9ea3dae6d45.jpg",
+        "image_2": "1e681c92-81a2-4262-af14-77f96e35c051.jpg",
+        "result": {
+            "verified": true,
+            "distance": 1.075725880014706,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 16,
+                    "y": 23,
+                    "w": 70,
+                    "h": 91
+                },
+                "img2": {
+                    "x": 24,
+                    "y": 31,
+                    "w": 76,
+                    "h": 102
+                }
+            },
+            "time": 48.01
         }
     },
     {
@@ -6044,7 +5990,34 @@
                     "h": 95
                 }
             },
-            "time": 65.03
+            "time": 47.13
+        }
+    },
+    {
+        "image_1": "8a9a8fee-d4eb-4b93-92c3-c9ea3dae6d45.jpg",
+        "image_2": "3d485e36-d9c0-4968-a5ed-68b4a9bc3d10.jpg",
+        "result": {
+            "verified": false,
+            "distance": 1.269824321709367,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 16,
+                    "y": 23,
+                    "w": 70,
+                    "h": 91
+                },
+                "img2": {
+                    "x": 25,
+                    "y": 22,
+                    "w": 76,
+                    "h": 104
+                }
+            },
+            "time": 48.04
         }
     },
     {
@@ -6071,7 +6044,7 @@
                     "h": 98
                 }
             },
-            "time": 60.32
+            "time": 44.58
         }
     },
     {
@@ -6098,7 +6071,7 @@
                     "h": 102
                 }
             },
-            "time": 61.37
+            "time": 48.35
         }
     },
     {
@@ -6125,34 +6098,7 @@
                     "h": 102
                 }
             },
-            "time": 63.96
-        }
-    },
-    {
-        "image_1": "36f6c095-d5a2-4d4c-b15b-9cbe3ad3b23b.jpg",
-        "image_2": "f329db36-f4ac-4cfa-911c-53f818dcba7a.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.7490554668072307,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 20,
-                    "y": 26,
-                    "w": 80,
-                    "h": 112
-                },
-                "img2": {
-                    "x": 29,
-                    "y": 20,
-                    "w": 77,
-                    "h": 106
-                }
-            },
-            "time": 61.78
+            "time": 46.75
         }
     },
     {
@@ -6179,7 +6125,7 @@
                     "h": 100
                 }
             },
-            "time": 64.92
+            "time": 44.81
         }
     },
     {
@@ -6206,7 +6152,34 @@
                     "h": 95
                 }
             },
-            "time": 64.89
+            "time": 47.24
+        }
+    },
+    {
+        "image_1": "36f6c095-d5a2-4d4c-b15b-9cbe3ad3b23b.jpg",
+        "image_2": "f329db36-f4ac-4cfa-911c-53f818dcba7a.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.7490554668072307,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 20,
+                    "y": 26,
+                    "w": 80,
+                    "h": 112
+                },
+                "img2": {
+                    "x": 29,
+                    "y": 20,
+                    "w": 77,
+                    "h": 106
+                }
+            },
+            "time": 47.78
         }
     },
     {
@@ -6233,7 +6206,7 @@
                     "h": 98
                 }
             },
-            "time": 62.79
+            "time": 47.05
         }
     },
     {
@@ -6260,7 +6233,7 @@
                     "h": 104
                 }
             },
-            "time": 64.71
+            "time": 47.51
         }
     },
     {
@@ -6287,7 +6260,7 @@
                     "h": 102
                 }
             },
-            "time": 60.32
+            "time": 46.65
         }
     },
     {
@@ -6314,7 +6287,7 @@
                     "h": 106
                 }
             },
-            "time": 57.7
+            "time": 45.1
         }
     },
     {
@@ -6341,115 +6314,7 @@
                     "h": 104
                 }
             },
-            "time": 60.31
-        }
-    },
-    {
-        "image_1": "a0263fa8-7c65-424b-bdfe-7fad677ad21f.jpg",
-        "image_2": "eb0f6f71-32fd-445b-b616-42742ab0488b.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.689012668537564,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 29,
-                    "y": 18,
-                    "w": 74,
-                    "h": 102
-                },
-                "img2": {
-                    "x": 22,
-                    "y": 24,
-                    "w": 73,
-                    "h": 100
-                }
-            },
-            "time": 62.59
-        }
-    },
-    {
-        "image_1": "a0263fa8-7c65-424b-bdfe-7fad677ad21f.jpg",
-        "image_2": "166a12d8-6d5a-498c-97f4-d372f5487947.jpg",
-        "result": {
-            "verified": false,
-            "distance": 1.2747249267433474,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 29,
-                    "y": 18,
-                    "w": 74,
-                    "h": 102
-                },
-                "img2": {
-                    "x": 27,
-                    "y": 21,
-                    "w": 67,
-                    "h": 95
-                }
-            },
-            "time": 63.28
-        }
-    },
-    {
-        "image_1": "a0263fa8-7c65-424b-bdfe-7fad677ad21f.jpg",
-        "image_2": "160c0b01-85e3-4115-b70a-2fa1bdc189de.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.5155915792949018,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 29,
-                    "y": 18,
-                    "w": 74,
-                    "h": 102
-                },
-                "img2": {
-                    "x": 21,
-                    "y": 26,
-                    "w": 72,
-                    "h": 98
-                }
-            },
-            "time": 62.09
-        }
-    },
-    {
-        "image_1": "1e681c92-81a2-4262-af14-77f96e35c051.jpg",
-        "image_2": "eb0f6f71-32fd-445b-b616-42742ab0488b.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.49103621057369434,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 24,
-                    "y": 31,
-                    "w": 76,
-                    "h": 102
-                },
-                "img2": {
-                    "x": 22,
-                    "y": 24,
-                    "w": 73,
-                    "h": 100
-                }
-            },
-            "time": 61.06
+            "time": 47.83
         }
     },
     {
@@ -6476,7 +6341,88 @@
                     "h": 106
                 }
             },
-            "time": 61.82
+            "time": 47.2
+        }
+    },
+    {
+        "image_1": "a0263fa8-7c65-424b-bdfe-7fad677ad21f.jpg",
+        "image_2": "166a12d8-6d5a-498c-97f4-d372f5487947.jpg",
+        "result": {
+            "verified": false,
+            "distance": 1.2747249267433474,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 29,
+                    "y": 18,
+                    "w": 74,
+                    "h": 102
+                },
+                "img2": {
+                    "x": 27,
+                    "y": 21,
+                    "w": 67,
+                    "h": 95
+                }
+            },
+            "time": 50.81
+        }
+    },
+    {
+        "image_1": "a0263fa8-7c65-424b-bdfe-7fad677ad21f.jpg",
+        "image_2": "160c0b01-85e3-4115-b70a-2fa1bdc189de.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.5155915792949018,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 29,
+                    "y": 18,
+                    "w": 74,
+                    "h": 102
+                },
+                "img2": {
+                    "x": 21,
+                    "y": 26,
+                    "w": 72,
+                    "h": 98
+                }
+            },
+            "time": 49.42
+        }
+    },
+    {
+        "image_1": "1e681c92-81a2-4262-af14-77f96e35c051.jpg",
+        "image_2": "eb0f6f71-32fd-445b-b616-42742ab0488b.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.49103621057369434,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 24,
+                    "y": 31,
+                    "w": 76,
+                    "h": 102
+                },
+                "img2": {
+                    "x": 22,
+                    "y": 24,
+                    "w": 73,
+                    "h": 100
+                }
+            },
+            "time": 49.25
         }
     },
     {
@@ -6503,7 +6449,34 @@
                     "h": 95
                 }
             },
-            "time": 60.68
+            "time": 48.19
+        }
+    },
+    {
+        "image_1": "a0263fa8-7c65-424b-bdfe-7fad677ad21f.jpg",
+        "image_2": "eb0f6f71-32fd-445b-b616-42742ab0488b.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.689012668537564,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 29,
+                    "y": 18,
+                    "w": 74,
+                    "h": 102
+                },
+                "img2": {
+                    "x": 22,
+                    "y": 24,
+                    "w": 73,
+                    "h": 100
+                }
+            },
+            "time": 55.55
         }
     },
     {
@@ -6530,7 +6503,7 @@
                     "h": 104
                 }
             },
-            "time": 57.36
+            "time": 43.63
         }
     },
     {
@@ -6557,7 +6530,7 @@
                     "h": 98
                 }
             },
-            "time": 54.62
+            "time": 43.78
         }
     },
     {
@@ -6584,115 +6557,7 @@
                     "h": 106
                 }
             },
-            "time": 54.62
-        }
-    },
-    {
-        "image_1": "eb0f6f71-32fd-445b-b616-42742ab0488b.jpg",
-        "image_2": "3d485e36-d9c0-4968-a5ed-68b4a9bc3d10.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.6723874648605753,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 22,
-                    "y": 24,
-                    "w": 73,
-                    "h": 100
-                },
-                "img2": {
-                    "x": 25,
-                    "y": 22,
-                    "w": 76,
-                    "h": 104
-                }
-            },
-            "time": 51.78
-        }
-    },
-    {
-        "image_1": "eb0f6f71-32fd-445b-b616-42742ab0488b.jpg",
-        "image_2": "166a12d8-6d5a-498c-97f4-d372f5487947.jpg",
-        "result": {
-            "verified": true,
-            "distance": 1.0908944541855934,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 22,
-                    "y": 24,
-                    "w": 73,
-                    "h": 100
-                },
-                "img2": {
-                    "x": 27,
-                    "y": 21,
-                    "w": 67,
-                    "h": 95
-                }
-            },
-            "time": 54.8
-        }
-    },
-    {
-        "image_1": "f329db36-f4ac-4cfa-911c-53f818dcba7a.jpg",
-        "image_2": "3d485e36-d9c0-4968-a5ed-68b4a9bc3d10.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.5701867855752575,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 29,
-                    "y": 20,
-                    "w": 77,
-                    "h": 106
-                },
-                "img2": {
-                    "x": 25,
-                    "y": 22,
-                    "w": 76,
-                    "h": 104
-                }
-            },
-            "time": 50.22
-        }
-    },
-    {
-        "image_1": "f329db36-f4ac-4cfa-911c-53f818dcba7a.jpg",
-        "image_2": "166a12d8-6d5a-498c-97f4-d372f5487947.jpg",
-        "result": {
-            "verified": false,
-            "distance": 1.2463977122519285,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 29,
-                    "y": 20,
-                    "w": 77,
-                    "h": 106
-                },
-                "img2": {
-                    "x": 27,
-                    "y": 21,
-                    "w": 67,
-                    "h": 95
-                }
-            },
-            "time": 51.95
+            "time": 35.69
         }
     },
     {
@@ -6719,7 +6584,115 @@
                     "h": 98
                 }
             },
-            "time": 52.66
+            "time": 34.01
+        }
+    },
+    {
+        "image_1": "eb0f6f71-32fd-445b-b616-42742ab0488b.jpg",
+        "image_2": "3d485e36-d9c0-4968-a5ed-68b4a9bc3d10.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.6723874648605753,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 22,
+                    "y": 24,
+                    "w": 73,
+                    "h": 100
+                },
+                "img2": {
+                    "x": 25,
+                    "y": 22,
+                    "w": 76,
+                    "h": 104
+                }
+            },
+            "time": 35.63
+        }
+    },
+    {
+        "image_1": "f329db36-f4ac-4cfa-911c-53f818dcba7a.jpg",
+        "image_2": "166a12d8-6d5a-498c-97f4-d372f5487947.jpg",
+        "result": {
+            "verified": false,
+            "distance": 1.2463977122519285,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 29,
+                    "y": 20,
+                    "w": 77,
+                    "h": 106
+                },
+                "img2": {
+                    "x": 27,
+                    "y": 21,
+                    "w": 67,
+                    "h": 95
+                }
+            },
+            "time": 36.14
+        }
+    },
+    {
+        "image_1": "eb0f6f71-32fd-445b-b616-42742ab0488b.jpg",
+        "image_2": "166a12d8-6d5a-498c-97f4-d372f5487947.jpg",
+        "result": {
+            "verified": true,
+            "distance": 1.0908944541855934,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 22,
+                    "y": 24,
+                    "w": 73,
+                    "h": 100
+                },
+                "img2": {
+                    "x": 27,
+                    "y": 21,
+                    "w": 67,
+                    "h": 95
+                }
+            },
+            "time": 37.26
+        }
+    },
+    {
+        "image_1": "f329db36-f4ac-4cfa-911c-53f818dcba7a.jpg",
+        "image_2": "3d485e36-d9c0-4968-a5ed-68b4a9bc3d10.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.5701867855752575,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 29,
+                    "y": 20,
+                    "w": 77,
+                    "h": 106
+                },
+                "img2": {
+                    "x": 25,
+                    "y": 22,
+                    "w": 76,
+                    "h": 104
+                }
+            },
+            "time": 34.95
         }
     },
     {
@@ -6746,34 +6719,7 @@
                     "h": 98
                 }
             },
-            "time": 44.08
-        }
-    },
-    {
-        "image_1": "3d485e36-d9c0-4968-a5ed-68b4a9bc3d10.jpg",
-        "image_2": "160c0b01-85e3-4115-b70a-2fa1bdc189de.jpg",
-        "result": {
-            "verified": true,
-            "distance": 0.5858364116743607,
-            "threshold": 1.13,
-            "model": "ArcFace",
-            "detector_backend": "retinaface",
-            "similarity_metric": "euclidean_l2",
-            "facial_areas": {
-                "img1": {
-                    "x": 25,
-                    "y": 22,
-                    "w": 76,
-                    "h": 104
-                },
-                "img2": {
-                    "x": 21,
-                    "y": 26,
-                    "w": 72,
-                    "h": 98
-                }
-            },
-            "time": 38.4
+            "time": 34.79
         }
     },
     {
@@ -6800,7 +6746,34 @@
                     "h": 104
                 }
             },
-            "time": 40.63
+            "time": 29.5
+        }
+    },
+    {
+        "image_1": "3d485e36-d9c0-4968-a5ed-68b4a9bc3d10.jpg",
+        "image_2": "160c0b01-85e3-4115-b70a-2fa1bdc189de.jpg",
+        "result": {
+            "verified": true,
+            "distance": 0.5858364116743607,
+            "threshold": 1.13,
+            "model": "ArcFace",
+            "detector_backend": "retinaface",
+            "similarity_metric": "euclidean_l2",
+            "facial_areas": {
+                "img1": {
+                    "x": 25,
+                    "y": 22,
+                    "w": 76,
+                    "h": 104
+                },
+                "img2": {
+                    "x": 21,
+                    "y": 26,
+                    "w": 72,
+                    "h": 98
+                }
+            },
+            "time": 27.45
         }
     },
     {
@@ -6827,7 +6800,7 @@
                     "h": 98
                 }
             },
-            "time": 40.65
+            "time": 28.02
         }
     }
 ]

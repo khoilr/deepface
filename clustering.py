@@ -1,7 +1,9 @@
 import json
 import os
+import shutil
 import traceback
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from pathlib import Path
 
 import cv2
 import pandas as pd
@@ -118,13 +120,14 @@ def create_similarity_table(image_files, results):
     Returns:
         DataFrame: A DataFrame storing similarity values.
     """
+
+    # Delete 'images/distances' directory if it exists
+    dirpath = Path(SAVE_IMAGE_PAIR_PATH)
+    if dirpath.exists() and dirpath.is_dir():
+        shutil.rmtree(dirpath)
+
     # Make directory 'images/distances' if it doesn't exist
     os.makedirs(SAVE_IMAGE_PAIR_PATH, exist_ok=True)
-
-    # Clear 'images/distances' directory if it already exists
-    if os.path.exists(SAVE_IMAGE_PAIR_PATH):
-        for image in os.listdir(SAVE_IMAGE_PAIR_PATH):
-            os.remove(os.path.join(SAVE_IMAGE_PAIR_PATH, image))
 
     # Create a DataFrame to store similarity values
     df = pd.DataFrame(columns=image_files, index=image_files)
@@ -156,7 +159,7 @@ def draw_and_save_images(image_1_name, image_2_name, result_data, distance):
         distance (float): Similarity distance.
     """
     # # Create a directory for the distance if it doesn't exist
-    # distance = round(result_data["distance"], 1)
+    distance = round(result_data["distance"], 2)
     # os.makedirs(f"images/distances/f{distance}", exist_ok=True)
 
     # # Get bbox
@@ -166,6 +169,16 @@ def draw_and_save_images(image_1_name, image_2_name, result_data, distance):
     # Read images
     image_1 = cv2.imread(os.path.join("images/faces", image_1_name))
     image_2 = cv2.imread(os.path.join("images/faces", image_2_name))
+
+    # Get images' shape
+    height_1, width_1, _ = image_1.shape
+    height_2, width_2, _ = image_2.shape
+
+    # Resize images to the same height
+    if height_1 > height_2:
+        image_1 = cv2.resize(image_1, (int(width_1 * height_2 / height_1), height_2))
+    else:
+        image_2 = cv2.resize(image_2, (int(width_2 * height_1 / height_2), height_1))
 
     # # Draw bounding boxes
     # cv2.rectangle(
