@@ -39,6 +39,9 @@ def recognize_face(extended_face: str) -> int:
     # Extract distinct value of face ID
     distinct_face_id = df_faces["Face ID"].dropna().unique()
 
+    # Get max face ID or 0 if there is no face ID
+    max_id = max(distinct_face_id) if len(distinct_face_id) > 0 else 0
+
     # Iterate through distinct face ID
     for face_id in distinct_face_id:
         # Get image paths of this face ID
@@ -77,7 +80,7 @@ def recognize_face(extended_face: str) -> int:
                 break
 
     # no match faces
-    return 0
+    return max_id + 1
 
 
 # Process and save faces detected in a frame
@@ -191,7 +194,6 @@ def main():
             logger.info("Connected to the camera.")
             cap_open_counter = 0
             read_frame_failures_counter = 0
-            faces = []
 
             while read_frame_failures_counter < MAX_READ_FRAME_FAILURES:
                 ret, frame = cap.read()
@@ -202,6 +204,7 @@ def main():
                     continue
                 else:
                     read_frame_failures_counter = 0
+
                 frame_counter += 1
 
                 if frame_counter % FRAME_FREQUENCY == 0:
