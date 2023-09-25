@@ -1,43 +1,50 @@
 import concurrent.futures
 import os
-
-from typing import Union
 import uuid
+from pprint import pprint
+from typing import Union
+
 import cv2
+import numpy as np
 import pandas as pd
 from loguru import logger
+
 from deepface import DeepFace
-from mask_face import cropFace
-from clustering import verify_image_pairs
-from retinaface import RetinaFace
 
 # Constants
 LOG_FILE = "camera.log"
-CSV_FILE = "new_data.csv"
-URL = "rtsp://0.tcp.ap.ngrok.io:18505/user:1cinnovation;pwd:1cinnovation123"
+FACES_CSV_FILE = "faces.csv"
+PERSON_CSV_FILE = "persons.csv"
+URL = "rtsp://0.tcp.ap.ngrok.io:15592/user:1cinnovation;pwd:1cinnovation123"
 FRAME_PATH = "images/frames"
-MAX_WORKERS = 16
+MAX_WORKERS = 4
 MAX_CAP_OPEN_FAILURES = 10
 MAX_READ_FRAME_FAILURES = 10
-FRAME_FREQUENCY = 1
+FRAME_FREQUENCY = 5
 FACE_THRESHOLD = 5
-PACK_SIZE = 16
 
 
-# Init faces DataFrame
+# Init DataFrame
 df_faces: pd.DataFrame = (
-    pd.read_csv(CSV_FILE)
-    if os.path.exists(CSV_FILE)
+    pd.read_csv(FACES_CSV_FILE)
+    if os.path.exists(FACES_CSV_FILE)
     else pd.DataFrame(columns=["Datetime", "Frame File Path", "Confidence", "X", "Y", "Width", "Height", "Face ID"])
 )
+df_persons: pd.DataFrame = (
+    pd.read_csv(PERSON_CSV_FILE) if os.path.exists(PERSON_CSV_FILE) else pd.DataFrame(columns=["Face ID", "Name"])
+)
+
 
 # Configure logger
 logger.add(LOG_FILE, rotation="500 MB")
 
 
-def recognize_face(extended_face: str) -> int:
+def recognize_face(frame):
     # Extract distinct value of face ID
     distinct_face_id = df_faces["Face ID"].dropna().unique()
+
+    # Shuffle distinct face ID
+    np.random.shuffle(distinct_face_id)
 
     # Get max face ID or 0 if there is no face ID
     max_id = max(distinct_face_id) if len(distinct_face_id) > 0 else 0
@@ -48,7 +55,12 @@ def recognize_face(extended_face: str) -> int:
         paths = df_faces.loc[df_faces["Face ID"] == face_id]["Frame File Path"].values
 
         # threshold is the minimum of number of paths and FACE_THRESHOLD
-        threshold = min([len(paths), FACE_THRESHOLD])
+        if len(paths) < FACE_THRESHOLD:
+            threshold = len(paths)
+            threshold_distance = 0.5
+        else:
+            threshold = FACE_THRESHOLD
+            threshold_distance = None
 
         # count_true is the number of paths that are verified as the same person;
         count_true = 0
@@ -58,28 +70,45 @@ def recognize_face(extended_face: str) -> int:
         for path in paths:
             # Verify similarity between a pair of images using DeepFace library
             result = DeepFace.verify(
-                extended_face,
+                frame,
                 path,
                 model_name="ArcFace",
-                detector_backend="retinaface",
+                detector_backend="opencv",
                 enforce_detection=False,
             )
 
-            # Increase count_true or count_false
-            verified = result["verified"]
-            if verified:
-                count_true += 1
+            # When threshold distance is not None, then verify by distance. Otherwise, verify by verified
+            if threshold_distance is not None:
+                # If distance is less than threshold_distance, count_true += 1
+                # Else count_false += 1
+                if result["distance"] < threshold_distance:
+                    count_true += 1
+                else:
+                    count_false += 1
             else:
-                count_false += 1
+                # If verified is True, count_true += 1
+                # Else count_false += 1
+                if result["verified"]:
+                    count_true += 1
+                else:
+                    count_false += 1
 
             # If count_true is equal to threshold, return face_id
             # Else if count_false is equal to threshold, break
             if count_true == threshold:
+                logger.info(f"Face ID {face_id} is verified as the same person.")
                 return face_id
             elif count_false == threshold:
                 break
 
     # no match faces
+    logger.info(f"Face ID {max_id + 1} is verified as a new person.")
+
+    new_id = max_id + 1
+    new_row = {"Face ID": new_id, "Name": new_id}
+    df_persons.loc[len(df_persons)] = new_row
+    df_persons.to_csv(PERSON_CSV_FILE, index=False)
+
     return max_id + 1
 
 
@@ -88,24 +117,23 @@ def detect_faces(frame):
     # Use global variables
     global df_faces
 
-    # Init is_change, when is_change is True, save df_faces to CSV file
-    is_change = False
-
-    # Detect faces in frame
+    # Extract faces from frame
     face_objs = DeepFace.extract_faces(
         frame,
-        target_size=(512, 512),
-        detector_backend="ssd",
+        detector_backend="opencv",
         enforce_detection=False,
         align=True,
     )
 
-    # Create a thread pool to process faces in parallel
-    with concurrent.futures.ThreadPoolExecutor() as executor:
+    # Init is_change, when is_change is True, save df_faces to CSV file
+    is_change = False
+
+    with concurrent.futures.ProcessPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        futures = []
         # Iterate through faces
         for face in face_objs:
             # Skip if confidence is 0 or infinity
-            if face["confidence"] == 0 or face["confidence"] == float("inf"):
+            if face["confidence"] <= 0:
                 continue
 
             # Set is_change to True
@@ -114,38 +142,29 @@ def detect_faces(frame):
             # Save frame to file
             frame_path = save_image(frame=frame, dir=FRAME_PATH, logger=logger)
 
-            # Get face coordinates
-            x = face["facial_area"]["x"]
-            y = face["facial_area"]["y"]
-            w = face["facial_area"]["w"]
-            h = face["facial_area"]["h"]
-
             # Create row to add to df_faces
-            new_row = {
-                "Datetime": pd.Timestamp.now(),
+            new_face_row = {
+                "Datetime": str(pd.Timestamp.now()),
                 "Frame File Path": frame_path,
                 "Confidence": face["confidence"],
-                "X": x,
-                "Y": y,
-                "Width": w,
-                "Height": h,
+                "X": face["facial_area"]["x"],
+                "Y": face["facial_area"]["y"],
+                "Width": face["facial_area"]["w"],
+                "Height": face["facial_area"]["h"],
             }
 
-            # Regconize whose face is this
-            recognize_future = executor.submit(recognize_face, frame_path)
-            recognize_result = recognize_future.result()
+            # Submit the recognize_face function as a background task
+            future = executor.submit(recognize_face, frame)
+            futures.append((new_face_row, future))
 
-            # Add Face ID to new_row
-            new_row["Face ID"] = recognize_result
-
-            # Append new_row to df_faces
-            df_faces.loc[len(df_faces)] = new_row.values()
-
-            # Log
-            logger.info(f"Face detected with confidence {face['confidence']}. Saved to {frame_path}.")
+        # Wait for all background tasks to complete and process their results
+        for new_face_row, future in futures:
+            face_id = future.result()
+            new_face_row["Face ID"] = face_id
+            df_faces.loc[len(df_faces)] = new_face_row
 
         if is_change:
-            df_faces.to_csv(CSV_FILE, index=False)
+            df_faces.to_csv(FACES_CSV_FILE, index=False)
 
 
 # Save an image to a specified directory
@@ -190,32 +209,33 @@ def main():
             logger.error("Failed to connect to the camera.")
             cap_open_counter += 1
             continue
-        else:
-            logger.info("Connected to the camera.")
-            cap_open_counter = 0
-            read_frame_failures_counter = 0
 
-            while read_frame_failures_counter < MAX_READ_FRAME_FAILURES:
-                ret, frame = cap.read()
+        logger.info("Connected to the camera.")
+        cap_open_counter = 0
+        read_frame_failures_counter = 0
 
-                if not ret:
-                    logger.error("Failed to capture frame.")
-                    read_frame_failures_counter += 1
-                    continue
-                else:
-                    read_frame_failures_counter = 0
+        while read_frame_failures_counter < MAX_READ_FRAME_FAILURES:
+            ret, frame = cap.read()
 
-                frame_counter += 1
-
-                if frame_counter % FRAME_FREQUENCY == 0:
-                    cv2.imwrite(f"frame.jpg", frame)
-                    detect_faces(frame)  # Sequential
-
-                if cv2.waitKey(1) == ord("q"):
-                    break
-
+            if not ret:
+                logger.error("Failed to capture frame.")
+                read_frame_failures_counter += 1
+                continue
             else:
-                logger.error(f"Read frame failures reached {MAX_READ_FRAME_FAILURES}. Restarting the camera...")
+                read_frame_failures_counter = 0
+
+            frame_counter += 1
+
+            if frame_counter % FRAME_FREQUENCY == 0:
+                cv2.imwrite(f"frame.jpg", frame)
+                detect_faces(frame)  # Sequential
+                # executor.submit(detect_faces, frame)  # Parallel
+
+            if cv2.waitKey(1) == ord("q"):
+                break
+
+        else:
+            logger.error(f"Read frame failures reached {MAX_READ_FRAME_FAILURES}. Restarting the camera...")
 
     else:
         logger.error(f"Capture open failures reached {MAX_CAP_OPEN_FAILURES}. Exiting the program...")

@@ -15,12 +15,12 @@ from deepface.detectors import FaceDetector
 
 # Constants
 IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png")
-MAX_WORKERS = 16
+MAX_WORKERS = 2
 IMAGES_PATH = "images/faces"
 SAVE_IMAGE_PAIR_PATH = "images/distances"
 
 # Singletons
-face_detector = FaceDetector.build_model("retinaface")
+face_detector = FaceDetector.build_model("opencv")
 model = build_model("ArcFace")
 
 
@@ -41,7 +41,7 @@ def verify_image_pair(pair):
         img2_path=os.path.join(IMAGES_PATH, image_2),
         align=True,
         enforce_detection=False,
-        detector_backend="ssd",
+        detector_backend="opencv",
         distance_metric="euclidean_l2",
         model_name="ArcFace",
     )
@@ -161,8 +161,8 @@ def draw_and_save_images(image_1_name, image_2_name, result_data, distance):
     # Round the distance to 2 decimal place
     distance = round(result_data["distance"], 2)
 
-    # # Create a directory for the distance if it doesn't exist
-    # os.makedirs(f"images/distances/f{distance}", exist_ok=True)
+    # Create a directory for the distance if it doesn't exist
+    os.makedirs(f"{SAVE_IMAGE_PAIR_PATH}/f{distance}", exist_ok=True)
 
     # # Get bbox
     # image_1_bbox = result_data["facial_areas"]["img1"]
@@ -205,7 +205,7 @@ def draw_and_save_images(image_1_name, image_2_name, result_data, distance):
     cv2.putText(image, str(distance), (int(image.shape[1] / 2), 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
 
     # Save image
-    cv2.imwrite(os.path.join(SAVE_IMAGE_PAIR_PATH, f"{image_1_name}_{image_2_name}.jpg"), image)
+    cv2.imwrite(os.path.join(f"{SAVE_IMAGE_PAIR_PATH}/f{distance}", f"{image_1_name}_{image_2_name}.jpg"), image)
 
 
 def main():

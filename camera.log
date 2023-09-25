@@ -1,0 +1,771 @@
+2023-09-21 07:59:24.560 | INFO     | __main__:main:206 - Connected to the camera.
+2023-09-21 07:59:46.030 | ERROR    | __main__:main:214 - Failed to capture frame.
+2023-09-21 07:59:53.908 | INFO     | __main__:save_image:175 - Saved image to images/frames/6a74a311-3ab7-417a-81d6-b1fdc6c30114.jpg
+2023-09-21 07:59:54.067 | INFO     | __main__:recognize_face:101 - Face ID 1 is verified as a new person.
+2023-09-21 07:59:54.390 | INFO     | __main__:save_image:175 - Saved image to images/frames/777f0572-1d1d-4f9f-a0a6-5b5080397773.jpg
+2023-09-21 08:00:04.306 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:00:04.734 | INFO     | __main__:save_image:175 - Saved image to images/frames/279562f6-fa35-4ee6-8962-45527e0280b7.jpg
+2023-09-21 08:00:16.838 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:00:17.245 | INFO     | __main__:save_image:175 - Saved image to images/frames/b864a40f-fb70-416b-ab8b-dc126edf9582.jpg
+2023-09-21 08:00:30.943 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:00:31.374 | INFO     | __main__:save_image:175 - Saved image to images/frames/ea8b8730-03c0-49d1-89e9-43288221689d.jpg
+2023-09-21 08:00:47.140 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:00:47.538 | INFO     | __main__:save_image:175 - Saved image to images/frames/fe63db0d-b51b-43e4-8efd-1c676120a9d0.jpg
+2023-09-21 08:01:05.250 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:01:05.652 | INFO     | __main__:save_image:175 - Saved image to images/frames/53a90972-db30-4b75-83a3-71aa24b825c1.jpg
+2023-09-21 08:01:22.673 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:01:23.067 | INFO     | __main__:save_image:175 - Saved image to images/frames/33c73ae9-fd74-4abe-99f6-7944086c636a.jpg
+2023-09-21 08:01:40.055 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:01:40.439 | INFO     | __main__:save_image:175 - Saved image to images/frames/47571e49-5bec-4406-bd47-1827044a26b0.jpg
+2023-09-21 08:01:57.628 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:01:58.003 | INFO     | __main__:save_image:175 - Saved image to images/frames/e898bff6-0a41-45f7-8523-845fd164996a.jpg
+2023-09-21 08:02:14.998 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:02:15.390 | INFO     | __main__:save_image:175 - Saved image to images/frames/0bace278-e013-4343-bcfa-6fb0d8a1a970.jpg
+2023-09-21 08:02:34.434 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:02:34.812 | INFO     | __main__:save_image:175 - Saved image to images/frames/f7d903a1-5d80-4e25-bcab-2c1384d1e4fa.jpg
+2023-09-21 08:02:52.220 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:02:53.573 | INFO     | __main__:save_image:175 - Saved image to images/frames/e503d8e5-cccf-4655-9c26-22dcf6acbc4f.jpg
+2023-09-21 08:03:10.887 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:03:11.282 | INFO     | __main__:save_image:175 - Saved image to images/frames/aeace2ab-6b39-4503-aa62-374d4aa009b6.jpg
+2023-09-21 08:03:28.260 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:03:28.677 | INFO     | __main__:save_image:175 - Saved image to images/frames/ad8c066e-88ed-4d60-905a-873d8490a691.jpg
+2023-09-21 08:03:46.108 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:03:49.997 | INFO     | __main__:save_image:175 - Saved image to images/frames/4ea967e9-601d-41a1-b947-464ad388ef53.jpg
+2023-09-21 08:04:07.193 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:04:08.924 | INFO     | __main__:save_image:175 - Saved image to images/frames/89b2def3-6db9-4a61-9d21-c5437520c452.jpg
+2023-09-21 08:04:26.099 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:04:26.492 | INFO     | __main__:save_image:175 - Saved image to images/frames/de2f2590-009c-451a-942e-6e9ef085a8c8.jpg
+2023-09-21 08:04:43.462 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:04:44.984 | INFO     | __main__:save_image:175 - Saved image to images/frames/28c015d8-4798-402d-8e01-cbb87f701386.jpg
+2023-09-21 08:05:02.113 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:05:02.511 | INFO     | __main__:save_image:175 - Saved image to images/frames/6430c6bd-08ad-4b2b-b7ca-4d32dfde383f.jpg
+2023-09-21 08:05:19.884 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:05:20.272 | INFO     | __main__:save_image:175 - Saved image to images/frames/83d1d5f5-8526-40d9-8055-799351fc1309.jpg
+2023-09-21 08:05:37.420 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:05:38.756 | INFO     | __main__:save_image:175 - Saved image to images/frames/2de4cbac-ca51-4abf-86bc-784e6342df89.jpg
+2023-09-21 08:05:55.774 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:05:56.169 | INFO     | __main__:save_image:175 - Saved image to images/frames/8291a274-a251-4b6f-bb5a-8197e702640a.jpg
+2023-09-21 08:06:13.568 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:06:13.953 | INFO     | __main__:save_image:175 - Saved image to images/frames/bb81b43d-b46e-4624-8a29-6f5b2d03417f.jpg
+2023-09-21 08:06:31.170 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:06:31.553 | INFO     | __main__:save_image:175 - Saved image to images/frames/b3cd0900-744c-4f75-a606-459ca131b5a3.jpg
+2023-09-21 08:06:48.967 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:06:49.388 | INFO     | __main__:save_image:175 - Saved image to images/frames/16f0e31e-b3b8-4426-9ea6-c50e4fa40146.jpg
+2023-09-21 08:07:06.466 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:07:06.911 | INFO     | __main__:save_image:175 - Saved image to images/frames/f61b6cb8-b41a-4fd9-8c88-ce74ed424288.jpg
+2023-09-21 08:07:23.854 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:07:24.255 | INFO     | __main__:save_image:175 - Saved image to images/frames/ad0c99ff-1acd-4cf3-b4fd-f1fd28e65a31.jpg
+2023-09-21 08:07:41.569 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:07:41.983 | INFO     | __main__:save_image:175 - Saved image to images/frames/618d3b41-6f3a-434c-8da2-ad4f0172564a.jpg
+2023-09-21 08:07:59.144 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:07:59.548 | INFO     | __main__:save_image:175 - Saved image to images/frames/4b77050a-b615-4365-ad74-52162da585eb.jpg
+2023-09-21 08:08:16.750 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:08:17.139 | INFO     | __main__:save_image:175 - Saved image to images/frames/7bd509f8-783d-4eb6-a377-875c1813685e.jpg
+2023-09-21 08:08:34.497 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:08:34.935 | INFO     | __main__:save_image:175 - Saved image to images/frames/6c190ea3-bce8-4d83-99e2-a8db3963059c.jpg
+2023-09-21 08:08:52.093 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:08:52.496 | INFO     | __main__:save_image:175 - Saved image to images/frames/f59eef0d-136f-4833-a6c7-aec6ae2e01cf.jpg
+2023-09-21 08:09:09.989 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:09:10.381 | INFO     | __main__:save_image:175 - Saved image to images/frames/0ce6cead-5d0c-4a95-af75-2f5172f3c7b6.jpg
+2023-09-21 08:09:27.636 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:09:28.025 | INFO     | __main__:save_image:175 - Saved image to images/frames/788996c0-bea9-45f6-8199-bb705aecdbc7.jpg
+2023-09-21 08:09:45.582 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:09:45.972 | INFO     | __main__:save_image:175 - Saved image to images/frames/b25cdff9-54df-40a6-85f3-462f8d220000.jpg
+2023-09-21 08:10:03.440 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:10:03.851 | INFO     | __main__:save_image:175 - Saved image to images/frames/26761e54-381d-464a-b768-053191d63712.jpg
+2023-09-21 08:10:21.149 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:10:21.563 | INFO     | __main__:save_image:175 - Saved image to images/frames/7cd8716b-1029-4788-a828-07e252da789d.jpg
+2023-09-21 08:10:38.500 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:10:38.898 | INFO     | __main__:save_image:175 - Saved image to images/frames/92bcee70-21f1-4479-bde8-316dc33014e3.jpg
+2023-09-21 08:10:56.193 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:10:56.585 | INFO     | __main__:save_image:175 - Saved image to images/frames/c9e9a1b0-8e3c-4a88-ac8c-6cc4e969920b.jpg
+2023-09-21 08:11:13.763 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:11:14.186 | INFO     | __main__:save_image:175 - Saved image to images/frames/fba70371-ac8b-4a93-bf2f-72de831bc954.jpg
+2023-09-21 08:11:31.735 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:11:32.147 | INFO     | __main__:save_image:175 - Saved image to images/frames/741a7e2c-0db5-4e1d-bee5-1141133e4859.jpg
+2023-09-21 08:11:49.337 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:11:49.737 | INFO     | __main__:save_image:175 - Saved image to images/frames/f8081458-0f7c-4d81-8ba4-c8b90ed87259.jpg
+2023-09-21 08:12:06.952 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:12:07.390 | INFO     | __main__:save_image:175 - Saved image to images/frames/b8ee38db-acac-48e6-a077-4ff0e6a9a802.jpg
+2023-09-21 08:12:24.620 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:12:25.140 | INFO     | __main__:save_image:175 - Saved image to images/frames/03207f17-f476-4296-a14a-0e24650dd90a.jpg
+2023-09-21 08:12:42.597 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:12:43.027 | INFO     | __main__:save_image:175 - Saved image to images/frames/96e5f7fb-c415-4093-9834-c5f00633bdde.jpg
+2023-09-21 08:13:00.892 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:13:01.326 | INFO     | __main__:save_image:175 - Saved image to images/frames/4addb113-3d85-4635-892b-6d64bf2e0f49.jpg
+2023-09-21 08:13:19.236 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:13:19.702 | INFO     | __main__:save_image:175 - Saved image to images/frames/d132ca33-1ad9-428d-8748-fe6837c93541.jpg
+2023-09-21 08:13:37.366 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:13:37.780 | INFO     | __main__:save_image:175 - Saved image to images/frames/ae4fd7da-267c-4c03-b0d1-a6f611c19696.jpg
+2023-09-21 08:13:55.339 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:13:55.750 | INFO     | __main__:save_image:175 - Saved image to images/frames/26ecdc09-0cab-4a7c-b7a0-7e5d3b6349f3.jpg
+2023-09-21 08:14:13.013 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:14:13.467 | INFO     | __main__:save_image:175 - Saved image to images/frames/dcd38a4f-16da-469a-a810-850cc7a94ebd.jpg
+2023-09-21 08:14:30.613 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:14:31.021 | INFO     | __main__:save_image:175 - Saved image to images/frames/0c5c9858-0dc9-4b75-8843-f9eaeb692ff2.jpg
+2023-09-21 08:14:47.881 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:14:48.270 | INFO     | __main__:save_image:175 - Saved image to images/frames/f4d4136d-0174-4c1d-9bc5-b99a5f55441a.jpg
+2023-09-21 08:15:05.201 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:15:05.611 | INFO     | __main__:save_image:175 - Saved image to images/frames/7aa7a78d-a088-4b48-a72d-4c14e1bb5375.jpg
+2023-09-21 08:15:22.793 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:15:23.199 | INFO     | __main__:save_image:175 - Saved image to images/frames/0de551a5-0dcb-4769-a6e6-a9abca42553e.jpg
+2023-09-21 08:15:40.077 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:15:40.515 | INFO     | __main__:save_image:175 - Saved image to images/frames/f27a1fca-533e-4819-accd-f5c2f70a4a42.jpg
+2023-09-21 08:15:57.701 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:15:58.147 | INFO     | __main__:save_image:175 - Saved image to images/frames/6a70211e-842f-4d25-94d8-d50a4628c224.jpg
+2023-09-21 08:16:15.124 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:16:15.535 | INFO     | __main__:save_image:175 - Saved image to images/frames/b17487b3-af8a-4fd9-8177-d4dd31f3f02d.jpg
+2023-09-21 08:16:32.298 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:16:32.706 | INFO     | __main__:save_image:175 - Saved image to images/frames/f7742d10-0bf7-411f-8ecf-133246eb5a65.jpg
+2023-09-21 08:16:49.549 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:16:49.950 | INFO     | __main__:save_image:175 - Saved image to images/frames/3d488f98-64d5-46a5-bfbc-b77c0aa3be8e.jpg
+2023-09-21 08:17:07.570 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:17:08.047 | INFO     | __main__:save_image:175 - Saved image to images/frames/768aa9fd-7cb0-43e7-9284-3826eabe4805.jpg
+2023-09-21 08:17:25.010 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:17:25.446 | INFO     | __main__:save_image:175 - Saved image to images/frames/ffe2c05c-2e29-4181-b649-7c38311ce9ec.jpg
+2023-09-21 08:17:42.221 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:17:42.660 | INFO     | __main__:save_image:175 - Saved image to images/frames/dd79f541-9f9f-4389-8e2b-0b857cf3cb7b.jpg
+2023-09-21 08:18:00.175 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:18:00.598 | INFO     | __main__:save_image:175 - Saved image to images/frames/6dcac7c0-f29d-45ce-8cf8-2f0737eb0c7f.jpg
+2023-09-21 08:18:17.900 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:18:18.296 | INFO     | __main__:save_image:175 - Saved image to images/frames/ba4a9961-5bdb-41c3-9ee8-35dbab3fe4b6.jpg
+2023-09-21 08:18:35.447 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:18:35.855 | INFO     | __main__:save_image:175 - Saved image to images/frames/b955e477-1402-450f-b8f8-3502dbf89169.jpg
+2023-09-21 08:18:52.908 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:18:53.326 | INFO     | __main__:save_image:175 - Saved image to images/frames/6cd609bf-efaf-496c-8784-7def89438ce2.jpg
+2023-09-21 08:19:10.953 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:19:11.371 | INFO     | __main__:save_image:175 - Saved image to images/frames/036c562c-49c4-4ec4-937b-6842d0b0f8a7.jpg
+2023-09-21 08:19:28.797 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:19:29.206 | INFO     | __main__:save_image:175 - Saved image to images/frames/d8864b74-d933-43af-b617-017d8a3912e2.jpg
+2023-09-21 08:19:46.927 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:19:47.345 | INFO     | __main__:save_image:175 - Saved image to images/frames/8b1a9a5b-4b77-4cee-a00a-437cae306aa0.jpg
+2023-09-21 08:20:05.530 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:20:05.986 | INFO     | __main__:save_image:175 - Saved image to images/frames/e7a37cf7-938c-4ce2-a2e2-b7c9e5ea017f.jpg
+2023-09-21 08:20:24.058 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:20:24.457 | INFO     | __main__:save_image:175 - Saved image to images/frames/f2034c8c-2ea5-479e-b40a-79a9f239fb10.jpg
+2023-09-21 08:20:41.649 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:20:42.074 | INFO     | __main__:save_image:175 - Saved image to images/frames/b335ab8b-17d2-4369-906d-42b5997f860c.jpg
+2023-09-21 08:20:59.430 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:20:59.872 | INFO     | __main__:save_image:175 - Saved image to images/frames/aee64c0a-d856-4384-a09f-d7343980722e.jpg
+2023-09-21 08:21:17.069 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:21:17.474 | INFO     | __main__:save_image:175 - Saved image to images/frames/2ba1ce03-10af-4534-bdda-2cea89e77caa.jpg
+2023-09-21 08:21:35.582 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:21:36.011 | INFO     | __main__:save_image:175 - Saved image to images/frames/220dd6b4-89f2-47de-9fea-a09d59b6ce39.jpg
+2023-09-21 08:21:53.135 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:21:53.546 | INFO     | __main__:save_image:175 - Saved image to images/frames/0b989d84-018a-4b4e-a68d-f9dc445f01b0.jpg
+2023-09-21 08:22:11.032 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:22:11.452 | INFO     | __main__:save_image:175 - Saved image to images/frames/cfb1912b-6147-4ef8-b2a1-be73f0ebf37e.jpg
+2023-09-21 08:22:28.663 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:22:29.085 | INFO     | __main__:save_image:175 - Saved image to images/frames/4f9f7afc-d675-496e-b5c4-d7e9a7381c19.jpg
+2023-09-21 08:22:46.621 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:22:47.118 | INFO     | __main__:save_image:175 - Saved image to images/frames/4bb5109c-d6af-4ea7-918a-cb69a23246a0.jpg
+2023-09-21 08:23:05.234 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:23:05.675 | INFO     | __main__:save_image:175 - Saved image to images/frames/e58750a7-c556-4878-9cb0-67236dca6f6c.jpg
+2023-09-21 08:23:23.293 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:23:23.700 | INFO     | __main__:save_image:175 - Saved image to images/frames/0889217d-170d-4568-9642-34bee5c25e13.jpg
+2023-09-21 08:23:40.919 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:23:41.321 | INFO     | __main__:save_image:175 - Saved image to images/frames/ce6dd35a-8330-46ea-a0e3-456fc410c948.jpg
+2023-09-21 08:23:58.503 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:23:58.933 | INFO     | __main__:save_image:175 - Saved image to images/frames/45e54743-b372-485f-bd9f-98c098a76689.jpg
+2023-09-21 08:24:16.516 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:24:16.936 | INFO     | __main__:save_image:175 - Saved image to images/frames/b589a19e-dc86-4155-8246-2e49c1d9bb1f.jpg
+2023-09-21 08:24:34.670 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:24:35.094 | INFO     | __main__:save_image:175 - Saved image to images/frames/ddd88c37-9998-4b9a-a9fd-41f2a733c133.jpg
+2023-09-21 08:24:52.473 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:24:54.116 | INFO     | __main__:save_image:175 - Saved image to images/frames/678f8701-efbb-4d5f-bdcf-b187fd52dcf3.jpg
+2023-09-21 08:25:11.554 | INFO     | __main__:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-21 08:25:11.958 | INFO     | __main__:save_image:175 - Saved image to images/frames/d734f66d-f9fa-4341-aa1f-e3dfd758228a.jpg
+2023-09-21 08:26:05.518 | ERROR    | __main__:main:198 - Failed to connect to the camera.
+2023-09-21 08:26:35.598 | ERROR    | __main__:main:198 - Failed to connect to the camera.
+2023-09-21 08:26:37.319 | INFO     | __main__:main:202 - Connected to the camera.
+2023-09-21 08:27:54.348 | INFO     | __main__:save_image:171 - Saved image to images/frames/77c383db-7f53-452e-a8cb-d8d69a98d0e1.jpg
+2023-09-21 08:28:11.854 | INFO     | __main__:recognize_face:100 - Face ID 2 is verified as a new person.
+2023-09-21 08:30:40.552 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:30:40.562 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:33:14.098 | INFO     | __main__:save_image:171 - Saved image to images/frames/b767ff50-48cc-4ca4-ad70-e2152a6e827f.jpg
+2023-09-21 08:33:23.699 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 08:33:24.094 | INFO     | __main__:save_image:171 - Saved image to images/frames/4e6c1379-b8b3-44e3-8002-d9677ace4696.jpg
+2023-09-21 08:33:35.880 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 08:33:36.839 | INFO     | __main__:save_image:171 - Saved image to images/frames/bfcde03e-e86e-429b-9b76-0b57ab30fd70.jpg
+2023-09-21 08:34:01.284 | INFO     | __main__:recognize_face:100 - Face ID 3 is verified as a new person.
+2023-09-21 08:34:01.731 | INFO     | __main__:save_image:171 - Saved image to images/frames/b92fa577-65c7-41a2-96a3-1b1559277003.jpg
+2023-09-21 08:34:11.501 | INFO     | __main__:recognize_face:94 - Face ID 3 is verified as the same person.
+2023-09-21 08:34:11.918 | INFO     | __main__:save_image:171 - Saved image to images/frames/e48f40aa-d56e-464b-a50a-545b313ae070.jpg
+2023-09-21 08:34:24.106 | INFO     | __main__:recognize_face:94 - Face ID 3 is verified as the same person.
+2023-09-21 08:34:24.910 | INFO     | __main__:save_image:171 - Saved image to images/frames/c38a5885-f34b-4ed9-babc-85398cd26041.jpg
+2023-09-21 08:34:45.517 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 08:34:49.844 | INFO     | __main__:save_image:171 - Saved image to images/frames/05765157-8d81-49c4-8b0a-39905e09d480.jpg
+2023-09-21 08:35:17.701 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 08:35:18.280 | INFO     | __main__:save_image:171 - Saved image to images/frames/41687499-23d9-4ffd-91a4-b9fb265357d2.jpg
+2023-09-21 08:35:43.252 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 08:36:29.953 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:36:29.955 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:38:48.574 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:38:48.575 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:40:09.319 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:40:27.798 | INFO     | __main__:save_image:171 - Saved image to images/frames/56039fba-9e5b-49f4-8e91-cc33c8f7773c.jpg
+2023-09-21 08:40:53.189 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 08:43:02.652 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:43:02.662 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:46:18.705 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:47:06.957 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:47:06.960 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:48:42.026 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:48:42.087 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:49:01.531 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:49:01.533 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:52:08.160 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:54:34.121 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:54:48.695 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:54:48.696 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:54:48.696 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:54:48.697 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:54:48.697 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:54:48.698 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:54:48.698 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:54:48.699 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:54:48.699 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:54:48.700 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:54:48.700 | ERROR    | __main__:main:227 - Read frame failures reached 10. Restarting the camera...
+2023-09-21 08:55:18.789 | ERROR    | __main__:main:198 - Failed to connect to the camera.
+2023-09-21 08:55:48.871 | ERROR    | __main__:main:198 - Failed to connect to the camera.
+2023-09-21 08:56:04.087 | ERROR    | __main__:main:198 - Failed to connect to the camera.
+2023-09-21 08:56:06.365 | ERROR    | __main__:main:198 - Failed to connect to the camera.
+2023-09-21 08:56:08.757 | ERROR    | __main__:main:198 - Failed to connect to the camera.
+2023-09-21 08:56:11.008 | ERROR    | __main__:main:198 - Failed to connect to the camera.
+2023-09-21 08:56:13.273 | ERROR    | __main__:main:198 - Failed to connect to the camera.
+2023-09-21 08:56:15.527 | ERROR    | __main__:main:198 - Failed to connect to the camera.
+2023-09-21 08:56:17.784 | ERROR    | __main__:main:198 - Failed to connect to the camera.
+2023-09-21 08:56:20.443 | INFO     | __main__:main:202 - Connected to the camera.
+2023-09-21 08:56:24.783 | INFO     | __main__:save_image:171 - Saved image to images/frames/63e2dc03-b8a2-46ec-b325-e5e10b8841a6.jpg
+2023-09-21 08:56:56.807 | INFO     | __main__:recognize_face:100 - Face ID 4 is verified as a new person.
+2023-09-21 08:57:04.269 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 08:58:25.254 | INFO     | __main__:save_image:171 - Saved image to images/frames/15ef2a2f-e02d-4ea9-919e-4fe438cc3450.jpg
+2023-09-21 08:58:52.160 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 08:58:52.910 | INFO     | __main__:save_image:171 - Saved image to images/frames/1f031cef-d743-464a-a666-80b845c2b8c8.jpg
+2023-09-21 08:59:19.631 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 08:59:20.044 | INFO     | __main__:save_image:171 - Saved image to images/frames/5f1f0ac1-aea1-4ff0-83b5-43040ab44cc7.jpg
+2023-09-21 08:59:46.745 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 08:59:47.183 | INFO     | __main__:save_image:171 - Saved image to images/frames/5a4323da-4d72-48f4-9c0b-9929fd8bb954.jpg
+2023-09-21 09:00:22.303 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:00:22.719 | INFO     | __main__:save_image:171 - Saved image to images/frames/03bc7bed-de4f-498f-934c-bcd27ff4a917.jpg
+2023-09-21 09:01:01.991 | INFO     | __main__:recognize_face:100 - Face ID 5 is verified as a new person.
+2023-09-21 09:01:02.416 | INFO     | __main__:save_image:171 - Saved image to images/frames/f24a4e16-d425-412f-886b-200baea57876.jpg
+2023-09-21 09:01:29.700 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:01:34.835 | INFO     | __main__:save_image:171 - Saved image to images/frames/b6145c95-7c09-45a0-8c06-be729a93f9ae.jpg
+2023-09-21 09:02:02.875 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:02:03.503 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 09:02:03.504 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 09:02:21.663 | INFO     | __main__:save_image:171 - Saved image to images/frames/82e43141-b609-4761-acb7-26758d74c89e.jpg
+2023-09-21 09:02:47.770 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:02:48.895 | INFO     | __main__:save_image:171 - Saved image to images/frames/f622bc62-97f7-4bd2-8696-97d80bd46670.jpg
+2023-09-21 09:03:15.922 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:03:16.707 | INFO     | __main__:save_image:171 - Saved image to images/frames/ad449451-58e1-47c5-887e-ad9e1be00d5f.jpg
+2023-09-21 09:03:42.500 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:03:43.975 | INFO     | __main__:save_image:171 - Saved image to images/frames/984625e3-7f5e-42fd-a4ca-9649974e389c.jpg
+2023-09-21 09:04:23.614 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:04:26.475 | INFO     | __main__:save_image:171 - Saved image to images/frames/5d802377-b991-4dd5-a82e-e1fdaa5e5ff5.jpg
+2023-09-21 09:04:52.306 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:05:09.227 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 09:05:09.460 | INFO     | __main__:save_image:171 - Saved image to images/frames/ee5a42f9-aa43-4c9a-a1ce-440b453028c2.jpg
+2023-09-21 09:05:35.932 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:05:36.369 | INFO     | __main__:save_image:171 - Saved image to images/frames/f24aeca1-689e-4f7d-8f38-95c47c8b822e.jpg
+2023-09-21 09:06:02.891 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:06:03.311 | INFO     | __main__:save_image:171 - Saved image to images/frames/1a025ab2-b933-4b87-a009-5edd7630dcec.jpg
+2023-09-21 09:06:29.222 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:06:29.639 | INFO     | __main__:save_image:171 - Saved image to images/frames/c20f2094-de2f-43f7-85d6-1afa7188226f.jpg
+2023-09-21 09:06:55.358 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:06:55.766 | INFO     | __main__:save_image:171 - Saved image to images/frames/5332fbbe-adcc-4d1e-815e-9563e5457033.jpg
+2023-09-21 09:07:32.570 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:07:32.984 | INFO     | __main__:save_image:171 - Saved image to images/frames/02baf297-bf98-42d4-aed6-07922b3a148e.jpg
+2023-09-21 09:08:10.078 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:08:10.501 | INFO     | __main__:save_image:171 - Saved image to images/frames/cfe67a67-5b06-4555-9973-f81a75fa42a0.jpg
+2023-09-21 09:08:47.673 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:08:48.202 | INFO     | __main__:save_image:171 - Saved image to images/frames/23b4cd0e-7bc6-4ce2-a955-3ffbcd283958.jpg
+2023-09-21 09:09:25.541 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:09:25.961 | INFO     | __main__:save_image:171 - Saved image to images/frames/2cf7995b-abb0-4b78-9b93-ce404c63edc9.jpg
+2023-09-21 09:10:03.495 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:10:03.909 | INFO     | __main__:save_image:171 - Saved image to images/frames/e3d6d497-2d48-46ed-8a0a-6d896d1fb221.jpg
+2023-09-21 09:10:04.046 | INFO     | __main__:save_image:171 - Saved image to images/frames/76064206-244b-4491-8eea-a7ab6b6f07a8.jpg
+2023-09-21 09:10:36.597 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:10:36.939 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:10:37.363 | INFO     | __main__:save_image:171 - Saved image to images/frames/03658304-27df-4b20-8c83-bab157bbb499.jpg
+2023-09-21 09:11:16.823 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:11:17.087 | INFO     | __main__:save_image:171 - Saved image to images/frames/3b8684af-0e1c-4a05-8727-d6b94596e29d.jpg
+2023-09-21 09:11:40.205 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:11:41.336 | INFO     | __main__:save_image:171 - Saved image to images/frames/a044631e-7ced-4a3d-bd10-197da1e7a8d8.jpg
+2023-09-21 09:12:18.618 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:12:19.061 | INFO     | __main__:save_image:171 - Saved image to images/frames/846fadca-bd95-4228-a0f2-b4cde95139f5.jpg
+2023-09-21 09:12:56.718 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:12:57.149 | INFO     | __main__:save_image:171 - Saved image to images/frames/049178e8-c576-4a02-82b6-504668f7f95b.jpg
+2023-09-21 09:13:34.933 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:13:35.343 | INFO     | __main__:save_image:171 - Saved image to images/frames/f0dc6e1c-ccda-441a-abbc-cff3ba43a4a1.jpg
+2023-09-21 09:14:13.414 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:14:13.850 | INFO     | __main__:save_image:171 - Saved image to images/frames/fc8e5c6b-af9b-4862-93e2-54e494c99d8d.jpg
+2023-09-21 09:14:51.767 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:14:53.146 | INFO     | __main__:save_image:171 - Saved image to images/frames/e484d6e9-a225-46f4-8ba3-0eb64a962ddc.jpg
+2023-09-21 09:15:20.447 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:15:29.090 | INFO     | __main__:save_image:171 - Saved image to images/frames/e1dfa597-46f3-443f-8084-7679ae3715fb.jpg
+2023-09-21 09:15:55.319 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:15:55.743 | INFO     | __main__:save_image:171 - Saved image to images/frames/b5f2c162-03b4-4d80-bc9a-08be2957a5cd.jpg
+2023-09-21 09:16:21.752 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:16:22.169 | INFO     | __main__:save_image:171 - Saved image to images/frames/148908d3-7e7e-45f2-b2a6-352bb6b80a3b.jpg
+2023-09-21 09:16:47.907 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:16:48.338 | INFO     | __main__:save_image:171 - Saved image to images/frames/a991445e-2c81-4c7a-9936-1144f20a5de3.jpg
+2023-09-21 09:17:14.486 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:19:53.179 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 09:19:53.182 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 09:19:53.335 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 09:19:53.335 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 09:19:53.336 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 09:19:53.336 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 09:19:53.337 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 09:19:53.337 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 09:19:53.338 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 09:19:53.338 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 09:19:53.339 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 09:19:53.339 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 09:19:53.339 | ERROR    | __main__:main:227 - Read frame failures reached 10. Restarting the camera...
+2023-09-21 09:19:55.604 | ERROR    | __main__:main:198 - Failed to connect to the camera.
+2023-09-21 09:19:57.873 | ERROR    | __main__:main:198 - Failed to connect to the camera.
+2023-09-21 09:20:00.696 | ERROR    | __main__:main:198 - Failed to connect to the camera.
+2023-09-21 09:20:30.776 | ERROR    | __main__:main:198 - Failed to connect to the camera.
+2023-09-21 09:21:00.852 | ERROR    | __main__:main:198 - Failed to connect to the camera.
+2023-09-21 09:21:03.240 | ERROR    | __main__:main:198 - Failed to connect to the camera.
+2023-09-21 09:21:06.775 | INFO     | __main__:main:202 - Connected to the camera.
+2023-09-21 09:22:40.563 | INFO     | __main__:save_image:171 - Saved image to images/frames/c55c82fb-ab7f-4548-bb5f-28150951917d.jpg
+2023-09-21 09:23:06.693 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:23:07.091 | INFO     | __main__:save_image:171 - Saved image to images/frames/e6b3523b-94bf-496d-803b-c80fdc083bb9.jpg
+2023-09-21 09:23:33.126 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:23:33.551 | INFO     | __main__:save_image:171 - Saved image to images/frames/b562c6b9-c427-4708-a687-87c96dbc5975.jpg
+2023-09-21 09:23:59.957 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:24:00.384 | INFO     | __main__:save_image:171 - Saved image to images/frames/56b8c0d8-48f6-4553-974d-c8859708d5e2.jpg
+2023-09-21 09:24:26.738 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:24:27.144 | INFO     | __main__:save_image:171 - Saved image to images/frames/a4bc0384-3b68-4df2-886e-ff30f2e03226.jpg
+2023-09-21 09:24:53.402 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:24:53.818 | INFO     | __main__:save_image:171 - Saved image to images/frames/e9c5c085-749b-4684-8e6d-326f401d1492.jpg
+2023-09-21 09:25:20.046 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:25:20.439 | INFO     | __main__:save_image:171 - Saved image to images/frames/30913424-f71f-4033-97e2-af837155e414.jpg
+2023-09-21 09:25:46.135 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:25:46.699 | INFO     | __main__:save_image:171 - Saved image to images/frames/898462d4-fcd9-44de-b772-1f33f34b665c.jpg
+2023-09-21 09:26:12.752 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:26:13.138 | INFO     | __main__:save_image:171 - Saved image to images/frames/38a71725-490c-450e-b5f4-72b251ea0373.jpg
+2023-09-21 09:26:38.719 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:26:39.139 | INFO     | __main__:save_image:171 - Saved image to images/frames/80c92a34-5ea7-41df-96fe-8b54387c3fb2.jpg
+2023-09-21 09:27:05.383 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:27:05.804 | INFO     | __main__:save_image:171 - Saved image to images/frames/286cf49f-2d45-49a7-9387-95bffa037e49.jpg
+2023-09-21 09:27:31.983 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:27:32.382 | INFO     | __main__:save_image:171 - Saved image to images/frames/ca1f3b85-0718-4ffd-be09-03feadd80a14.jpg
+2023-09-21 09:28:13.825 | INFO     | __main__:recognize_face:100 - Face ID 6 is verified as a new person.
+2023-09-21 09:28:14.243 | INFO     | __main__:save_image:171 - Saved image to images/frames/5369683c-672d-4745-8de4-328b9aa0ebf3.jpg
+2023-09-21 09:28:23.861 | INFO     | __main__:recognize_face:94 - Face ID 6 is verified as the same person.
+2023-09-21 09:28:25.106 | INFO     | __main__:save_image:171 - Saved image to images/frames/e0ca81a3-dc02-4d67-a177-753c76519e60.jpg
+2023-09-21 09:28:36.504 | INFO     | __main__:recognize_face:94 - Face ID 6 is verified as the same person.
+2023-09-21 09:28:36.868 | INFO     | __main__:save_image:171 - Saved image to images/frames/46e9dabd-6f22-458e-8c43-f7a7e9678999.jpg
+2023-09-21 09:29:06.857 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:29:07.683 | INFO     | __main__:save_image:171 - Saved image to images/frames/88115a1a-ca4c-4544-b2bf-d20771f603f6.jpg
+2023-09-21 09:29:37.431 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:29:38.800 | INFO     | __main__:save_image:171 - Saved image to images/frames/ae867115-baaf-452d-b37c-48eb80a38c27.jpg
+2023-09-21 09:30:08.480 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:30:08.890 | INFO     | __main__:save_image:171 - Saved image to images/frames/dc3e146c-2d96-45b9-af54-21704e533765.jpg
+2023-09-21 09:30:37.889 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:30:38.906 | INFO     | __main__:save_image:171 - Saved image to images/frames/590fb8ad-c0c8-46bf-9028-4e3b1b4506fc.jpg
+2023-09-21 09:31:21.121 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:31:21.543 | INFO     | __main__:save_image:171 - Saved image to images/frames/e7a9f0ef-4fb3-4b26-b601-ed8a85061917.jpg
+2023-09-21 09:32:03.432 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:32:03.887 | INFO     | __main__:save_image:171 - Saved image to images/frames/558410dc-63bc-49d0-affb-3d921ac4614d.jpg
+2023-09-21 09:32:45.992 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:32:46.840 | INFO     | __main__:save_image:171 - Saved image to images/frames/b49d0c24-a51f-4232-89fe-5b7d6cc18762.jpg
+2023-09-21 09:33:29.303 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:33:29.738 | INFO     | __main__:save_image:171 - Saved image to images/frames/f9df8ff0-5bb6-4ff8-9b3b-ad57cbb8a873.jpg
+2023-09-21 09:34:11.741 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:34:12.173 | INFO     | __main__:save_image:171 - Saved image to images/frames/640a6b62-98bd-4b6a-80a8-be147fdcda04.jpg
+2023-09-21 09:34:54.774 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:34:56.434 | INFO     | __main__:save_image:171 - Saved image to images/frames/f1c7afbc-41d1-4d40-9b61-22776b6e0e3a.jpg
+2023-09-21 09:35:38.598 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:35:39.010 | INFO     | __main__:save_image:171 - Saved image to images/frames/8edcb4b4-8103-4a5c-b416-c990da7f57fb.jpg
+2023-09-21 09:36:21.166 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:36:29.961 | INFO     | __main__:save_image:171 - Saved image to images/frames/93251020-c1e3-446d-a0a2-8938502ff419.jpg
+2023-09-21 09:37:12.600 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:37:13.044 | INFO     | __main__:save_image:171 - Saved image to images/frames/ec7abfee-f544-4cbc-9cd3-56feab0bc324.jpg
+2023-09-21 09:37:55.137 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:37:55.579 | INFO     | __main__:save_image:171 - Saved image to images/frames/f69b637b-f83d-4c07-a92e-2e4a22477e6e.jpg
+2023-09-21 09:38:39.690 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:38:40.111 | INFO     | __main__:save_image:171 - Saved image to images/frames/3e9d484c-a881-4816-823d-6d26508e4103.jpg
+2023-09-21 09:39:26.448 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:39:26.873 | INFO     | __main__:save_image:171 - Saved image to images/frames/22a677e1-8a66-492c-b5b3-3d298524e3b3.jpg
+2023-09-21 09:39:56.637 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:39:57.898 | INFO     | __main__:save_image:171 - Saved image to images/frames/9273d074-856f-41ed-8210-111f230567b5.jpg
+2023-09-21 09:40:27.726 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:40:58.192 | INFO     | __main__:save_image:171 - Saved image to images/frames/10739e09-4b75-455b-8a30-8b612cd0d9fc.jpg
+2023-09-21 09:41:27.760 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:41:56.946 | INFO     | __main__:save_image:171 - Saved image to images/frames/ed1543d0-2058-485f-b816-89dc5fa816da.jpg
+2023-09-21 09:42:26.368 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:42:26.537 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 09:42:26.545 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 09:42:26.831 | INFO     | __main__:save_image:171 - Saved image to images/frames/5862e33d-0956-445a-bfde-81ff6de5f80d.jpg
+2023-09-21 09:42:56.568 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:42:57.587 | INFO     | __main__:save_image:171 - Saved image to images/frames/a7bfc9e9-de6d-42a7-9014-b2f7454dd85e.jpg
+2023-09-21 09:43:27.590 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:43:28.017 | INFO     | __main__:save_image:171 - Saved image to images/frames/0a2c15b3-9bec-4e7b-b381-a4b02fa47dfa.jpg
+2023-09-21 09:43:57.552 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:44:01.532 | INFO     | __main__:save_image:171 - Saved image to images/frames/725b7b52-afe5-403b-b4a6-bddbf13cb71b.jpg
+2023-09-21 09:44:30.867 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 09:44:31.063 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 09:44:31.066 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 09:44:31.068 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 09:44:31.070 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 09:44:31.072 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 09:44:31.074 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 09:44:45.129 | INFO     | __main__:save_image:171 - Saved image to images/frames/95df540c-6bfa-46ee-af91-60273b7e7fca.jpg
+2023-09-21 09:45:29.217 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:45:29.624 | INFO     | __main__:save_image:171 - Saved image to images/frames/987426b8-7ee0-49fd-ba27-d3f897261e5d.jpg
+2023-09-21 09:46:11.598 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:46:12.165 | INFO     | __main__:save_image:171 - Saved image to images/frames/422b64a7-ec62-45ff-a5ec-4b5666f538f3.jpg
+2023-09-21 09:46:55.671 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:46:57.193 | INFO     | __main__:save_image:171 - Saved image to images/frames/ae6beae3-32f3-414f-952b-4866a9fe068e.jpg
+2023-09-21 09:47:41.241 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:47:42.739 | INFO     | __main__:save_image:171 - Saved image to images/frames/80cfa46a-c0cc-4a69-a644-9c76b06c9fed.jpg
+2023-09-21 09:48:25.243 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:48:25.681 | INFO     | __main__:save_image:171 - Saved image to images/frames/1ddedb9c-070e-4e60-bb2d-97045a48bab9.jpg
+2023-09-21 09:49:07.345 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:49:09.150 | INFO     | __main__:save_image:171 - Saved image to images/frames/5d21c7b6-0ccf-4ac4-b03f-c18854d26a83.jpg
+2023-09-21 09:49:50.515 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:49:50.953 | INFO     | __main__:save_image:171 - Saved image to images/frames/da4fb8e0-9b7c-430d-a4e0-5e4ac937a868.jpg
+2023-09-21 09:50:34.057 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:51:10.706 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 09:51:21.280 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 09:51:21.282 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 09:51:39.942 | INFO     | __main__:save_image:171 - Saved image to images/frames/566eafc2-3f8d-4177-b95c-d0c167bb06a6.jpg
+2023-09-21 09:52:24.625 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:52:25.071 | INFO     | __main__:save_image:171 - Saved image to images/frames/c2b5b31e-9e55-4304-bd12-80ab68da3e32.jpg
+2023-09-21 09:53:09.280 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:53:09.705 | INFO     | __main__:save_image:171 - Saved image to images/frames/a9b86388-d7b1-4348-ba45-ed0ee6fd87cf.jpg
+2023-09-21 09:53:51.608 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:53:52.037 | INFO     | __main__:save_image:171 - Saved image to images/frames/017435e5-c700-43c7-8f9f-b3809045f14e.jpg
+2023-09-21 09:54:33.843 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:54:34.644 | INFO     | __main__:save_image:171 - Saved image to images/frames/05b42f22-9f6b-45f8-8ee1-b44f3b78288d.jpg
+2023-09-21 09:55:17.739 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:55:18.154 | INFO     | __main__:save_image:171 - Saved image to images/frames/31846f43-56f2-4f3d-ab83-97a534d3bcba.jpg
+2023-09-21 09:55:59.986 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:56:00.414 | INFO     | __main__:save_image:171 - Saved image to images/frames/837207ce-fd4d-4c11-af12-327c32042657.jpg
+2023-09-21 09:56:42.714 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:56:43.181 | INFO     | __main__:save_image:171 - Saved image to images/frames/5a6a6d28-3ae8-43ca-af03-d7fcaaa39a32.jpg
+2023-09-21 09:57:27.813 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:57:28.240 | INFO     | __main__:save_image:171 - Saved image to images/frames/60266ef3-c8d0-4a5f-9e08-1086df61ccf3.jpg
+2023-09-21 09:58:12.113 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:58:13.684 | INFO     | __main__:save_image:171 - Saved image to images/frames/809b732b-f778-4163-9382-bd72e2d9dbba.jpg
+2023-09-21 09:58:57.887 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:58:58.335 | INFO     | __main__:save_image:171 - Saved image to images/frames/ca3e0357-8613-4db0-8661-ac556fe63820.jpg
+2023-09-21 09:59:41.156 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 09:59:41.572 | INFO     | __main__:save_image:171 - Saved image to images/frames/4e962081-72e7-4fd9-90fc-63adc7435838.jpg
+2023-09-21 10:00:23.868 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:00:25.365 | INFO     | __main__:save_image:171 - Saved image to images/frames/8c8818dc-c33b-472c-8b69-3dd2b7ff29c4.jpg
+2023-09-21 10:01:07.582 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:01:08.245 | INFO     | __main__:save_image:171 - Saved image to images/frames/869dbd0e-573e-47b1-ac12-6c5ee9041f0d.jpg
+2023-09-21 10:01:50.296 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:01:50.741 | INFO     | __main__:save_image:171 - Saved image to images/frames/ed871620-ea97-4c9c-ae25-091ce6f419df.jpg
+2023-09-21 10:02:35.637 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:02:36.659 | INFO     | __main__:save_image:171 - Saved image to images/frames/c4cb4d0e-7c64-45e5-bdb4-326f994b30ee.jpg
+2023-09-21 10:03:21.096 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:03:21.549 | INFO     | __main__:save_image:171 - Saved image to images/frames/f18d6678-2031-4b5d-80d9-960f284f75a4.jpg
+2023-09-21 10:04:04.344 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:04:04.840 | INFO     | __main__:save_image:171 - Saved image to images/frames/a75c97d7-3e9d-4424-811e-11ae126ea79e.jpg
+2023-09-21 10:04:47.007 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:04:47.475 | INFO     | __main__:save_image:171 - Saved image to images/frames/dd7f22d9-03ce-4e8e-87bd-61e9e8bd3516.jpg
+2023-09-21 10:05:28.167 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:05:35.637 | INFO     | __main__:save_image:171 - Saved image to images/frames/a479be56-2e3a-49ca-9b77-bfc6586a749e.jpg
+2023-09-21 10:06:19.911 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:06:20.331 | INFO     | __main__:save_image:171 - Saved image to images/frames/6f24051c-4bd4-4863-9a83-e7aaa470e160.jpg
+2023-09-21 10:07:04.890 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:07:09.221 | INFO     | __main__:save_image:171 - Saved image to images/frames/e4e9ff24-83d8-4142-873d-81763763fdd1.jpg
+2023-09-21 10:07:51.059 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:07:51.870 | INFO     | __main__:save_image:171 - Saved image to images/frames/7cd6a27e-f554-4be5-9359-e43622a49ced.jpg
+2023-09-21 10:08:34.541 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:09:23.821 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 10:09:24.134 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 10:10:55.574 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 10:10:55.609 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 10:12:15.412 | INFO     | __main__:save_image:171 - Saved image to images/frames/78350814-e8ae-4ae7-8910-da0873a6e66e.jpg
+2023-09-21 10:12:45.463 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 10:12:55.933 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 10:16:01.488 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 10:16:50.186 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 10:16:54.981 | INFO     | __main__:save_image:171 - Saved image to images/frames/c02a4575-b8a5-4654-b0d6-90f1777074b6.jpg
+2023-09-21 10:17:25.155 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 10:19:48.466 | INFO     | __main__:save_image:171 - Saved image to images/frames/fe2d2f48-4ed3-42e8-89d1-053a177639b6.jpg
+2023-09-21 10:20:34.011 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:20:34.894 | INFO     | __main__:save_image:171 - Saved image to images/frames/c90dc42a-c29a-4640-beae-2f0b4fffa692.jpg
+2023-09-21 10:21:20.351 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:21:20.796 | INFO     | __main__:save_image:171 - Saved image to images/frames/643526cb-c7c8-400d-8832-0a303e73b743.jpg
+2023-09-21 10:22:06.264 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:22:06.995 | INFO     | __main__:save_image:171 - Saved image to images/frames/44b8d75b-b42f-4550-89b3-0b98998efec1.jpg
+2023-09-21 10:22:49.941 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:22:50.393 | INFO     | __main__:save_image:171 - Saved image to images/frames/238bcb75-66a0-4530-89a4-3f7201b08b7f.jpg
+2023-09-21 10:23:33.606 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:23:34.072 | INFO     | __main__:save_image:171 - Saved image to images/frames/a13d6fdb-924b-4b95-9984-5e7e873490a6.jpg
+2023-09-21 10:24:17.379 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:24:17.840 | INFO     | __main__:save_image:171 - Saved image to images/frames/2c740c4f-f3ac-432e-82fc-9e6be3c3f9be.jpg
+2023-09-21 10:25:02.743 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:25:03.409 | INFO     | __main__:save_image:171 - Saved image to images/frames/85da6cfe-65f6-43fc-b107-621be69db038.jpg
+2023-09-21 10:25:46.570 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:25:46.990 | INFO     | __main__:save_image:171 - Saved image to images/frames/37335ba5-56e9-4917-bd99-19a073e8392e.jpg
+2023-09-21 10:26:32.557 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:26:32.996 | INFO     | __main__:save_image:171 - Saved image to images/frames/276a470b-403c-4b7c-adcf-e4c63d77aa14.jpg
+2023-09-21 10:27:18.671 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:27:19.112 | INFO     | __main__:save_image:171 - Saved image to images/frames/91a0092d-2136-4041-a7c9-f96187c3508b.jpg
+2023-09-21 10:28:04.499 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:28:04.973 | INFO     | __main__:save_image:171 - Saved image to images/frames/84ca53c0-afd6-4f41-baf2-751f595d67f1.jpg
+2023-09-21 10:28:50.158 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:28:50.624 | INFO     | __main__:save_image:171 - Saved image to images/frames/eefcefcb-1c5e-4f11-800c-54a66002f0f7.jpg
+2023-09-21 10:29:36.306 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:29:36.729 | INFO     | __main__:save_image:171 - Saved image to images/frames/b4da342b-e93b-4a99-a7df-c6a8693ed3cc.jpg
+2023-09-21 10:30:28.034 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:30:29.259 | INFO     | __main__:save_image:171 - Saved image to images/frames/16f84553-5934-41a5-a4ff-af45d2221cc9.jpg
+2023-09-21 10:31:19.708 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:31:20.267 | INFO     | __main__:save_image:171 - Saved image to images/frames/89c1020e-500c-437a-a98c-aa192d72e727.jpg
+2023-09-21 10:32:12.682 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:32:13.117 | INFO     | __main__:save_image:171 - Saved image to images/frames/097ee812-02bc-409f-ab35-5239455e44d5.jpg
+2023-09-21 10:33:04.558 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:33:05.059 | INFO     | __main__:save_image:171 - Saved image to images/frames/d8888767-7b11-4c77-93ac-0ded89a1accf.jpg
+2023-09-21 10:33:50.613 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:33:51.050 | INFO     | __main__:save_image:171 - Saved image to images/frames/62036469-e4dd-46c3-9a9b-4fe1480c1021.jpg
+2023-09-21 10:34:36.492 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:34:36.924 | INFO     | __main__:save_image:171 - Saved image to images/frames/32d7cac3-97cc-43a0-b748-af599aa7aebc.jpg
+2023-09-21 10:35:23.224 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:35:23.699 | INFO     | __main__:save_image:171 - Saved image to images/frames/380627d2-6394-4ce1-89a4-34fd3401510b.jpg
+2023-09-21 10:36:09.315 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:36:09.757 | INFO     | __main__:save_image:171 - Saved image to images/frames/de2047e7-dd56-4cad-aae1-db4880923f75.jpg
+2023-09-21 10:36:54.717 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:36:55.962 | INFO     | __main__:save_image:171 - Saved image to images/frames/ebe963ee-13d3-4017-b994-e8c29570e963.jpg
+2023-09-21 10:37:40.268 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:37:40.708 | INFO     | __main__:save_image:171 - Saved image to images/frames/443b7bb6-9754-44b2-b128-bee1f1d7982e.jpg
+2023-09-21 10:38:25.934 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:38:26.388 | INFO     | __main__:save_image:171 - Saved image to images/frames/7d9f6b8c-7dbb-4a70-aaee-4cbff37f4e3c.jpg
+2023-09-21 10:39:14.037 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:39:14.467 | INFO     | __main__:save_image:171 - Saved image to images/frames/08ec679f-52f6-4ca5-9f59-3991a9965afd.jpg
+2023-09-21 10:39:58.435 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:39:58.954 | INFO     | __main__:save_image:171 - Saved image to images/frames/8cb21f72-71b5-4fbf-81e2-2d940d000f5b.jpg
+2023-09-21 10:40:42.472 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:40:48.608 | INFO     | __main__:save_image:171 - Saved image to images/frames/01384dc2-a889-4b34-854f-cc8e9f9d2438.jpg
+2023-09-21 10:41:35.840 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:41:36.335 | INFO     | __main__:save_image:171 - Saved image to images/frames/533ad3de-08e4-4599-bab5-6ef049f9d0f4.jpg
+2023-09-21 10:42:24.103 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:42:24.562 | INFO     | __main__:save_image:171 - Saved image to images/frames/dafbe49b-961f-471f-8d85-1888551a1c6e.jpg
+2023-09-21 10:43:08.224 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:43:08.688 | INFO     | __main__:save_image:171 - Saved image to images/frames/fc5153c2-5a6a-4b9d-8c6b-5da83058f182.jpg
+2023-09-21 10:43:57.275 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 10:44:00.941 | INFO     | __main__:save_image:171 - Saved image to images/frames/ea1c9647-08c8-4a43-9d75-292056f93d0a.jpg
+2023-09-21 10:44:31.508 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 10:44:31.935 | INFO     | __main__:save_image:171 - Saved image to images/frames/5a03a216-6c58-45ed-81ff-da973303ffc3.jpg
+2023-09-21 10:45:01.689 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 10:45:02.141 | INFO     | __main__:save_image:171 - Saved image to images/frames/0b7e9e1e-1a4c-477f-a234-0e363e9fdc88.jpg
+2023-09-21 10:45:32.070 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 10:45:35.615 | INFO     | __main__:save_image:171 - Saved image to images/frames/413ae8e6-27aa-4a03-a930-210b8437250e.jpg
+2023-09-21 10:46:05.523 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 10:46:06.214 | INFO     | __main__:save_image:171 - Saved image to images/frames/417de2e9-fb81-4ef3-8f0e-0a40245bd17b.jpg
+2023-09-21 10:46:37.692 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 10:47:21.312 | INFO     | __main__:save_image:171 - Saved image to images/frames/660f29f0-2d80-49e8-8865-b55357b10450.jpg
+2023-09-21 10:47:52.354 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 10:48:13.920 | INFO     | __main__:save_image:171 - Saved image to images/frames/b4ce6448-dfdc-4717-85b8-b8ea470a8c7c.jpg
+2023-09-21 10:48:43.412 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 10:49:37.103 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 10:49:37.105 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 10:50:29.696 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 10:53:00.294 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 10:54:17.117 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 10:55:03.907 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 10:57:15.285 | INFO     | __main__:save_image:171 - Saved image to images/frames/b6d38a78-b814-4f94-b27e-d9b6ec7b5a09.jpg
+2023-09-21 10:57:42.384 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 10:57:42.920 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 10:59:53.432 | INFO     | __main__:save_image:171 - Saved image to images/frames/9121f102-2ce9-48fa-a35e-579ba1b79c76.jpg
+2023-09-21 11:00:36.576 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 11:00:37.008 | INFO     | __main__:save_image:171 - Saved image to images/frames/f92da954-0950-41ad-95b9-6a51c9a6f586.jpg
+2023-09-21 11:01:19.988 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 11:01:20.419 | INFO     | __main__:save_image:171 - Saved image to images/frames/a890bc06-1b1d-4813-8f79-a27eca3674ff.jpg
+2023-09-21 11:02:03.513 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 11:02:03.993 | INFO     | __main__:save_image:171 - Saved image to images/frames/2b376bd6-1782-4399-967c-d8228900d0d0.jpg
+2023-09-21 11:02:48.740 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 11:02:49.391 | INFO     | __main__:save_image:171 - Saved image to images/frames/22a423f1-77a6-4545-bf41-9f1b264b0a09.jpg
+2023-09-21 11:03:32.175 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 11:03:32.602 | INFO     | __main__:save_image:171 - Saved image to images/frames/1608878f-89f0-402b-ab8b-5508c3b67442.jpg
+2023-09-21 11:04:14.820 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 11:04:15.269 | INFO     | __main__:save_image:171 - Saved image to images/frames/b259b013-d22c-452a-b557-676a679efa45.jpg
+2023-09-21 11:04:57.459 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 11:04:58.065 | INFO     | __main__:save_image:171 - Saved image to images/frames/88fc2b15-1d22-4fee-954e-345c2cb34e76.jpg
+2023-09-21 11:05:27.704 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 11:05:28.703 | INFO     | __main__:save_image:171 - Saved image to images/frames/8efb7a01-8545-462e-b01d-96b641ac84c6.jpg
+2023-09-21 11:06:16.707 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 11:06:18.627 | INFO     | __main__:save_image:171 - Saved image to images/frames/260eabd7-02c2-406d-b0bd-3d49d4b9386e.jpg
+2023-09-21 11:07:03.105 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 11:07:03.774 | INFO     | __main__:save_image:171 - Saved image to images/frames/3af78c03-1164-48fb-a54d-7eff16bebe08.jpg
+2023-09-21 11:07:47.710 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 11:07:48.137 | INFO     | __main__:save_image:171 - Saved image to images/frames/3d218097-bd22-45dc-890e-d650633b0162.jpg
+2023-09-21 11:08:31.173 | INFO     | __main__:recognize_face:94 - Face ID 1 is verified as the same person.
+2023-09-21 11:08:34.302 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:08:34.304 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:08:51.548 | INFO     | __main__:save_image:171 - Saved image to images/frames/f1fa1386-a823-4dec-9f49-d869472f7013.jpg
+2023-09-21 11:09:22.204 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 11:09:22.641 | INFO     | __main__:save_image:171 - Saved image to images/frames/c069f27c-988c-4ba9-9cef-b51543321c52.jpg
+2023-09-21 11:10:06.765 | INFO     | __main__:recognize_face:100 - Face ID 7 is verified as a new person.
+2023-09-21 11:10:07.207 | INFO     | __main__:save_image:171 - Saved image to images/frames/22eeca4e-610e-4bc9-9ae5-a403cb509dc5.jpg
+2023-09-21 11:10:22.991 | INFO     | __main__:recognize_face:94 - Face ID 7 is verified as the same person.
+2023-09-21 11:10:23.433 | INFO     | __main__:save_image:171 - Saved image to images/frames/e4af7f64-0181-4147-816f-8d34e49b8a11.jpg
+2023-09-21 11:10:41.541 | INFO     | __main__:recognize_face:94 - Face ID 7 is verified as the same person.
+2023-09-21 11:10:42.194 | INFO     | __main__:save_image:171 - Saved image to images/frames/46e61357-cf77-4ef5-86e8-1730c581c42f.jpg
+2023-09-21 11:11:02.088 | INFO     | __main__:recognize_face:94 - Face ID 7 is verified as the same person.
+2023-09-21 11:11:02.528 | INFO     | __main__:save_image:171 - Saved image to images/frames/44554e6a-2b40-4cea-b7d5-34e0ed99dd5f.jpg
+2023-09-21 11:11:24.443 | INFO     | __main__:recognize_face:94 - Face ID 7 is verified as the same person.
+2023-09-21 11:11:25.252 | INFO     | __main__:save_image:171 - Saved image to images/frames/83332ce6-e84c-4176-b5e4-62f6a7d7e763.jpg
+2023-09-21 11:11:48.757 | INFO     | __main__:recognize_face:94 - Face ID 7 is verified as the same person.
+2023-09-21 11:11:51.683 | INFO     | __main__:save_image:171 - Saved image to images/frames/4f3727e3-85b6-46c7-a3b5-385f601db755.jpg
+2023-09-21 11:12:15.321 | INFO     | __main__:recognize_face:94 - Face ID 7 is verified as the same person.
+2023-09-21 11:12:15.731 | INFO     | __main__:save_image:171 - Saved image to images/frames/7df161ec-9fe8-4640-8fd2-523fb934bd2c.jpg
+2023-09-21 11:12:39.507 | INFO     | __main__:recognize_face:94 - Face ID 7 is verified as the same person.
+2023-09-21 11:12:39.920 | INFO     | __main__:save_image:171 - Saved image to images/frames/f6763567-bf1b-4869-9254-47a67b858074.jpg
+2023-09-21 11:13:03.398 | INFO     | __main__:recognize_face:94 - Face ID 7 is verified as the same person.
+2023-09-21 11:13:03.999 | INFO     | __main__:save_image:171 - Saved image to images/frames/7c2ce93f-0a82-4ff0-b81b-2a05a5414b52.jpg
+2023-09-21 11:13:27.963 | INFO     | __main__:recognize_face:94 - Face ID 7 is verified as the same person.
+2023-09-21 11:13:30.934 | INFO     | __main__:save_image:171 - Saved image to images/frames/6b54c299-a879-4b6d-9237-f04bc4be12ad.jpg
+2023-09-21 11:13:54.301 | INFO     | __main__:recognize_face:94 - Face ID 7 is verified as the same person.
+2023-09-21 11:13:54.720 | INFO     | __main__:save_image:171 - Saved image to images/frames/4cc98ab4-c5aa-46b6-a674-3462252e071d.jpg
+2023-09-21 11:14:17.991 | INFO     | __main__:recognize_face:94 - Face ID 7 is verified as the same person.
+2023-09-21 11:14:18.423 | INFO     | __main__:save_image:171 - Saved image to images/frames/0a5661b1-2fdf-46b8-a595-4d936c70b19e.jpg
+2023-09-21 11:14:41.626 | INFO     | __main__:recognize_face:94 - Face ID 7 is verified as the same person.
+2023-09-21 11:14:42.277 | INFO     | __main__:save_image:171 - Saved image to images/frames/8bf80052-5dd0-4790-9133-79670acabc55.jpg
+2023-09-21 11:15:06.034 | INFO     | __main__:recognize_face:94 - Face ID 7 is verified as the same person.
+2023-09-21 11:15:44.159 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:15:47.399 | INFO     | __main__:save_image:171 - Saved image to images/frames/113e6097-65f7-44f7-9da6-d468e18bfdc9.jpg
+2023-09-21 11:16:18.308 | INFO     | __main__:recognize_face:94 - Face ID 7 is verified as the same person.
+2023-09-21 11:16:18.738 | INFO     | __main__:save_image:171 - Saved image to images/frames/a2674501-ee73-4f21-90f1-117240b03e7f.jpg
+2023-09-21 11:16:44.320 | INFO     | __main__:recognize_face:94 - Face ID 7 is verified as the same person.
+2023-09-21 11:16:45.272 | INFO     | __main__:save_image:171 - Saved image to images/frames/83bbc613-df9c-45dd-ad4b-77df4389160f.jpg
+2023-09-21 11:17:14.451 | INFO     | __main__:recognize_face:94 - Face ID 7 is verified as the same person.
+2023-09-21 11:17:15.401 | INFO     | __main__:save_image:171 - Saved image to images/frames/09682ef9-c643-4ed4-be9f-5133dced3476.jpg
+2023-09-21 11:17:46.338 | INFO     | __main__:recognize_face:94 - Face ID 7 is verified as the same person.
+2023-09-21 11:18:00.761 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:18:00.762 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:18:02.801 | INFO     | __main__:save_image:171 - Saved image to images/frames/322faf68-2fce-4acc-a8f0-63d7131efb08.jpg
+2023-09-21 11:18:47.780 | INFO     | __main__:recognize_face:94 - Face ID 2 is verified as the same person.
+2023-09-21 11:18:51.480 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:18:51.481 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:18:51.482 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:18:51.482 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:18:51.483 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:18:51.484 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:18:51.485 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:18:51.486 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:18:51.486 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:18:51.487 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:18:51.487 | ERROR    | __main__:main:227 - Read frame failures reached 10. Restarting the camera...
+2023-09-21 11:19:21.574 | ERROR    | __main__:main:198 - Failed to connect to the camera.
+2023-09-21 11:19:22.863 | INFO     | __main__:main:202 - Connected to the camera.
+2023-09-21 11:20:02.025 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:22:03.758 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:22:03.760 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:22:03.760 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:22:03.761 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:22:03.762 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:22:03.762 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:22:03.765 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:22:03.766 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:22:03.767 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:22:03.767 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:22:03.768 | ERROR    | __main__:main:227 - Read frame failures reached 10. Restarting the camera...
+2023-09-21 11:22:17.644 | INFO     | __main__:main:202 - Connected to the camera.
+2023-09-21 11:22:43.513 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:22:43.515 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:23:29.048 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:28:52.040 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:28:52.391 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:31:25.524 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:31:25.526 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:31:25.528 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:31:25.528 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:31:25.529 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:31:25.530 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:31:25.531 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:31:25.532 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:31:25.533 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:31:25.534 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:31:25.535 | ERROR    | __main__:main:227 - Read frame failures reached 10. Restarting the camera...
+2023-09-21 11:31:55.619 | ERROR    | __main__:main:198 - Failed to connect to the camera.
+2023-09-21 11:32:25.700 | ERROR    | __main__:main:198 - Failed to connect to the camera.
+2023-09-21 11:32:55.786 | ERROR    | __main__:main:198 - Failed to connect to the camera.
+2023-09-21 11:33:25.865 | ERROR    | __main__:main:198 - Failed to connect to the camera.
+2023-09-21 11:33:27.597 | INFO     | __main__:main:202 - Connected to the camera.
+2023-09-21 11:33:59.653 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:33:59.703 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:37:00.808 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:38:59.539 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:38:59.542 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:39:44.758 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:39:44.760 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:47:18.150 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:48:24.780 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:56:04.508 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:56:04.511 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 11:59:49.221 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:05:30.846 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:05:30.913 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:10:25.792 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:10:25.846 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:10:59.778 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:10:59.780 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:10:59.792 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:10:59.843 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:18:45.014 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:18:45.043 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:23:46.296 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:27:07.588 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:27:40.489 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:27:40.512 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:28:19.135 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:28:19.158 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:31:05.509 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:31:17.992 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:35:19.614 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:37:51.163 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:39:35.183 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:39:35.258 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:40:44.025 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:40:44.084 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:44:48.718 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:48:50.825 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:48:50.827 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:49:19.791 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:49:19.799 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-21 12:55:01.470 | ERROR    | __main__:main:210 - Failed to capture frame.
+2023-09-25 02:44:01.186 | INFO     | __main__:main:213 - Connected to the camera.
+2023-09-25 02:44:28.751 | INFO     | __main__:save_image:182 - Saved image to images/frames/f49fa0db-9b86-40ca-928f-a3391b8f5afa.jpg
+2023-09-25 02:44:28.869 | INFO     | __main__:recognize_face:105 - Face ID 1 is verified as a new person.
+2023-09-25 02:47:20.837 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 02:49:22.782 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 02:50:07.919 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 02:50:07.921 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 02:52:47.921 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 02:52:47.922 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 02:54:54.897 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 02:54:54.898 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 02:55:05.009 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 02:55:05.041 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 02:55:05.053 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 02:55:05.109 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 02:55:05.165 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 02:55:05.203 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 02:55:05.233 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 02:55:05.263 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 02:55:05.333 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 02:55:05.360 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 02:55:05.362 | ERROR    | __main__:main:238 - Read frame failures reached 10. Restarting the camera...
+2023-09-25 02:55:06.955 | INFO     | __main__:main:213 - Connected to the camera.
+2023-09-25 02:55:46.240 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 02:55:46.241 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 02:59:51.146 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 02:59:51.148 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 03:00:06.594 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 03:00:48.845 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 03:00:48.847 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 03:02:31.305 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 03:03:36.658 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 03:04:18.921 | ERROR    | __main__:main:221 - Failed to capture frame.

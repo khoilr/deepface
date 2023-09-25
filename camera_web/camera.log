@@ -1,0 +1,274 @@
+2023-09-22 10:08:00.462 | INFO     | imagelive.management.commands.camera_recognize_background:background_process:202 - Connected to the camera.
+2023-09-22 10:08:07.406 | INFO     | imagelive.management.commands.camera_recognize_background:background_process:202 - Connected to the camera.
+2023-09-22 10:08:36.640 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:08:51.444 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:08:51.448 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:09:11.822 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/5ea79e57-2838-4215-adee-5945f5f103a5.jpg
+2023-09-22 10:09:12.010 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:101 - Face ID 1 is verified as a new person.
+2023-09-22 10:09:12.028 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/66c818fe-5edf-4bd0-8ae5-a991fedd860a.jpg
+2023-09-22 10:09:12.155 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:101 - Face ID 1 is verified as a new person.
+2023-09-22 10:09:12.498 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/4d8c35b9-5524-4c9a-a427-c9badf9a3742.jpg
+2023-09-22 10:09:12.529 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/d34afdf3-1d3d-424d-8a5b-1acb88549775.jpg
+2023-09-22 10:09:21.253 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:101 - Face ID 2 is verified as a new person.
+2023-09-22 10:09:21.701 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/06b7809d-015e-4f63-9cbb-a5e034778f2f.jpg
+2023-09-22 10:09:22.375 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:09:22.799 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/7bb6c254-972f-42f2-9aa1-13f2443437d7.jpg
+2023-09-22 10:09:30.692 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:09:31.069 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/3885838f-7c4f-488c-8d02-cc9d098f2858.jpg
+2023-09-22 10:09:34.434 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:101 - Face ID 2 is verified as a new person.
+2023-09-22 10:09:34.853 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/074f956f-0897-4176-8455-a8c4f625230e.jpg
+2023-09-22 10:09:42.586 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:09:42.986 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/98222788-5b4b-497b-9abb-ec0b1ede3136.jpg
+2023-09-22 10:09:45.417 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 2 is verified as the same person.
+2023-09-22 10:09:45.829 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/1a0f019d-09ce-4f1b-87eb-cbf31339093e.jpg
+2023-09-22 10:09:58.427 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 2 is verified as the same person.
+2023-09-22 10:09:59.964 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 2 is verified as the same person.
+2023-09-22 10:10:29.868 | INFO     | imagelive.management.commands.camera_recognize_background:background_process:202 - Connected to the camera.
+2023-09-22 10:10:36.914 | INFO     | imagelive.management.commands.camera_recognize_background:background_process:202 - Connected to the camera.
+2023-09-22 10:11:08.236 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/cd5d1676-d102-4cc9-bab5-375727d9c8f2.jpg
+2023-09-22 10:11:24.027 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:11:24.438 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/9778aa8a-0aa6-4ec3-8a3c-311b44727202.jpg
+2023-09-22 10:11:42.231 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:11:42.698 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/3ed93ecf-e9f6-4d10-921e-9200b5a927a3.jpg
+2023-09-22 10:12:02.523 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:12:02.993 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/b9d3645c-5017-44a9-aa2b-7637505da731.jpg
+2023-09-22 10:12:03.080 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/dac02ae5-0178-4603-b2d3-bc338e5a87d5.jpg
+2023-09-22 10:12:18.519 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:12:24.409 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/1e1966c2-c6bf-47d2-8c5c-2d9002a21952.jpg
+2023-09-22 10:12:28.154 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:12:28.235 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:12:28.723 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/ab7c11b8-987b-432d-98ff-6d248c66aaa0.jpg
+2023-09-22 10:12:38.806 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:12:39.239 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/6a388756-5c87-421c-af57-21271743d029.jpg
+2023-09-22 10:12:39.335 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/1716f93b-b73c-4b31-8c50-956b942d2b90.jpg
+2023-09-22 10:12:49.418 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:12:49.869 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/2827b549-6b83-4ff1-9c57-728c0b3ddea4.jpg
+2023-09-22 10:13:00.307 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:13:00.373 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:13:12.086 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:13:12.577 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/00abbc88-ef29-40e3-ae7f-dc164c33ca7c.jpg
+2023-09-22 10:13:35.603 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:13:38.430 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/2b5bc589-2460-48f0-91e6-24d6ce94cc2c.jpg
+2023-09-22 10:13:53.628 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:13:59.183 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:13:59.638 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/d9fc1a5a-d9d2-45a8-90c6-f8173091f452.jpg
+2023-09-22 10:14:23.711 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:14:24.170 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/518e0b2b-afdb-4718-9186-f590ad9a2dc1.jpg
+2023-09-22 10:14:41.590 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:14:41.593 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:14:41.599 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:14:41.601 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:14:41.602 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:14:41.615 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:14:45.059 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:14:54.791 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:15:08.970 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:15:08.972 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:15:26.973 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:15:26.974 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:15:33.672 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/2ac7bc19-c187-4996-befc-f88d969842aa.jpg
+2023-09-22 10:15:52.940 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:16:07.018 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:16:30.483 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:17:18.654 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/2db0efd5-218e-4a46-8a07-0b1d71c7b663.jpg
+2023-09-22 10:17:38.387 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:17:44.240 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:18:04.010 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:18:04.014 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:20:19.049 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:20:19.138 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:21:35.767 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:22:58.586 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/2b4008dd-b0be-48ea-910f-dcc222fc7ba7.jpg
+2023-09-22 10:23:17.608 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:23:19.943 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:23:20.397 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/a834bcfd-3982-43ed-a4c4-bc485fb4a304.jpg
+2023-09-22 10:23:42.013 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:23:42.458 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/b6c37195-c0bd-4864-a777-0474145b43e3.jpg
+2023-09-22 10:24:01.924 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:24:03.357 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:24:03.795 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/88f7ac42-73e6-4715-b6e9-b655610dbb9f.jpg
+2023-09-22 10:24:24.986 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:24:25.429 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/fedf952d-0ef7-49e1-af17-b23224a2533b.jpg
+2023-09-22 10:24:46.781 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:24:47.210 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/6ccbb0b5-f8f0-42af-a095-9f75a41f3209.jpg
+2023-09-22 10:25:08.401 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:25:29.663 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:25:29.664 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:27:45.004 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/fae847aa-6df7-468b-9db0-09d303f57472.jpg
+2023-09-22 10:28:04.855 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:28:05.801 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/7e0ae78f-5011-40ce-93e8-392e618c12ca.jpg
+2023-09-22 10:28:26.136 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:28:30.940 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/6118e2e3-3c7b-4dfa-8fc7-33fed51ca4b6.jpg
+2023-09-22 10:28:51.033 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:29:50.737 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:30:09.730 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/16e4a76e-3d63-48b9-b1ff-837015dfcc82.jpg
+2023-09-22 10:30:29.333 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:32:22.261 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:32:22.267 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:32:36.452 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:32:36.453 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:32:48.517 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:32:48.519 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:32:50.851 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:32:50.853 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:32:50.853 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:32:50.854 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:32:50.855 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:32:50.856 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:32:50.856 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:32:50.857 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:32:50.857 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:227 - Read frame failures reached 10. Restarting the camera...
+2023-09-22 10:32:52.491 | INFO     | imagelive.management.commands.camera_recognize_background:background_process:202 - Connected to the camera.
+2023-09-22 10:34:02.698 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:35:14.162 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:35:58.761 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/4699fcdc-828e-4446-a6b2-a0ed2e8eb0e0.jpg
+2023-09-22 10:36:31.005 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:101 - Face ID 3 is verified as a new person.
+2023-09-22 10:36:31.412 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/906471f4-5657-424c-954b-330bdfc3d29e.jpg
+2023-09-22 10:36:53.241 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 3 is verified as the same person.
+2023-09-22 10:36:53.698 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/3eff4080-3f19-41ed-800a-ab32054ace12.jpg
+2023-09-22 10:37:19.960 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 3 is verified as the same person.
+2023-09-22 10:37:20.720 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/8128661c-795a-4ffd-bb0a-2db053c6cc7c.jpg
+2023-09-22 10:37:21.904 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:37:21.905 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:37:47.105 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 3 is verified as the same person.
+2023-09-22 10:37:47.511 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/28a7616e-cfb9-4592-8dae-633d9157727d.jpg
+2023-09-22 10:38:06.682 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:38:07.857 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/cc845da4-2392-4858-94b5-8b189a763268.jpg
+2023-09-22 10:38:27.388 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:38:56.328 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:38:56.330 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:39:10.188 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:40:02.192 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:44:54.545 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:45:40.469 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:45:40.471 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:45:57.420 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/26e2a089-8bb3-4cd8-a54b-3c16ad4eb737.jpg
+2023-09-22 10:46:16.765 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:47:30.131 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:48:17.002 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/b111b198-6074-4618-a9dc-fd9ee22c3beb.jpg
+2023-09-22 10:48:30.182 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:48:49.954 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:101 - Face ID 4 is verified as a new person.
+2023-09-22 10:48:50.390 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/7c1cfcf3-e2ca-489a-af4f-36948fa23777.jpg
+2023-09-22 10:49:04.898 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:49:04.900 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:49:04.929 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:49:21.403 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 4 is verified as the same person.
+2023-09-22 10:49:22.030 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/919d0234-f373-4133-a1e1-df43c843d08d.jpg
+2023-09-22 10:49:51.164 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:49:52.634 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/25e81b28-ff09-4cdb-8b3e-762f8cd9611d.jpg
+2023-09-22 10:50:21.884 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:50:24.242 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/7bad9564-9a5d-4e3e-ba28-71626939f96e.jpg
+2023-09-22 10:50:52.266 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:50:53.576 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/99d1bd80-bc19-4aa0-bbd6-cfa15795b521.jpg
+2023-09-22 10:51:21.810 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:55:08.054 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/2181592e-9264-48a7-b889-899ccf1dae3c.jpg
+2023-09-22 10:55:09.758 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/010c3ff5-a10e-470c-9a82-97510291c1f0.jpg
+2023-09-22 10:55:28.370 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:55:38.676 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:56:28.017 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:56:46.087 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/31ab55ba-e0c7-43e7-a2d4-6ff947a2a8c8.jpg
+2023-09-22 10:56:47.001 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/468a7acc-a1b8-478a-a930-d0668ac06342.jpg
+2023-09-22 10:57:07.263 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:57:08.072 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/c08e9b3c-6f3f-4ede-aff3-52ea8b3e1a65.jpg
+2023-09-22 10:57:13.285 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:57:14.103 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/be8403f8-d2dd-475a-b99e-9110dec85be8.jpg
+2023-09-22 10:57:28.395 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:57:28.808 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/93423069-1773-455e-8737-ad8b10739f4e.jpg
+2023-09-22 10:57:42.576 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:57:43.398 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/a5c440f8-6250-48bf-b1a7-a3f6cc6e6ec2.jpg
+2023-09-22 10:57:48.153 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:58:12.573 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:58:19.785 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/b52e776d-40dd-4259-9e56-a5830cf124c3.jpg
+2023-09-22 10:58:29.219 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:58:29.221 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:58:39.599 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 10:58:44.306 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:58:44.308 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 10:59:16.682 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/4cd0dbaa-a8b5-40e1-858f-2094aa7b9086.jpg
+2023-09-22 10:59:16.696 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/78c005e5-b26f-4dc6-9c4c-218e6a55e9d7.jpg
+2023-09-22 10:59:43.486 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:101 - Face ID 3 is verified as a new person.
+2023-09-22 10:59:44.432 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/2456cf30-da94-414c-8e35-1d6ecba0b27c.jpg
+2023-09-22 11:00:04.698 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:101 - Face ID 5 is verified as a new person.
+2023-09-22 11:00:05.144 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/ce7b5e85-0dfa-4da7-b882-35d78cf39ec7.jpg
+2023-09-22 11:00:16.008 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:101 - Face ID 4 is verified as a new person.
+2023-09-22 11:00:16.425 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/99c8e514-3456-409f-91f6-e42319144472.jpg
+2023-09-22 11:00:24.108 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 11:00:35.711 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 11:00:36.781 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/f2828bfa-cc21-45d1-ab48-cd871657efd5.jpg
+2023-09-22 11:00:47.722 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 11:00:56.346 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 11:00:56.791 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/516b132e-7bed-4fe5-9673-722e4d4ddc5c.jpg
+2023-09-22 11:01:17.289 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 11:01:29.786 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/338bbfef-e9cb-4bc8-ab4e-05ab0e113643.jpg
+2023-09-22 11:01:38.574 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/69cd8fcf-53ad-4b39-93f0-76c138f7dd3f.jpg
+2023-09-22 11:01:49.227 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 11:01:49.643 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/d7d4b6c6-1178-4e3f-a1cc-9f734c4183c4.jpg
+2023-09-22 11:01:58.878 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 11:01:59.341 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/7ba9d3a9-52f1-4967-b658-ccc6845fa956.jpg
+2023-09-22 11:02:09.493 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 11:02:26.216 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 11:02:26.712 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/0baafcfe-24a8-4752-a59d-375d835fc087.jpg
+2023-09-22 11:02:47.970 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 11:02:51.699 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 11:02:51.703 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 11:02:57.852 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/cd86c62a-5da4-443d-9028-e688a3f9911a.jpg
+2023-09-22 11:03:17.507 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 11:03:17.923 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/c980b825-76c9-431e-9ddc-5a6aa40c668f.jpg
+2023-09-22 11:03:57.702 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:101 - Face ID 6 is verified as a new person.
+2023-09-22 11:03:58.183 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/d017214e-f59c-4089-acb7-8fad9fde2142.jpg
+2023-09-22 11:04:03.232 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 11:04:10.433 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 6 is verified as the same person.
+2023-09-22 11:04:10.908 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/3ce0d6c7-9b70-4301-9717-94fc8fc17c69.jpg
+2023-09-22 11:04:25.308 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 6 is verified as the same person.
+2023-09-22 11:04:30.017 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/d7b32082-c230-4240-9fee-77bb2c1c8ee7.jpg
+2023-09-22 11:04:40.294 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 11:04:40.295 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 11:04:40.296 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 11:04:40.296 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 11:04:40.296 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 11:04:40.297 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 11:04:40.297 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 11:04:40.298 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 11:04:40.298 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 11:04:40.298 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 11:04:40.299 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:227 - Read frame failures reached 10. Restarting the camera...
+2023-09-22 11:04:40.383 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:198 - Failed to connect to the camera.
+2023-09-22 11:04:40.459 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:198 - Failed to connect to the camera.
+2023-09-22 11:04:40.541 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:198 - Failed to connect to the camera.
+2023-09-22 11:04:40.616 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:198 - Failed to connect to the camera.
+2023-09-22 11:04:40.694 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:198 - Failed to connect to the camera.
+2023-09-22 11:04:40.774 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:198 - Failed to connect to the camera.
+2023-09-22 11:04:40.852 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:198 - Failed to connect to the camera.
+2023-09-22 11:04:40.928 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:198 - Failed to connect to the camera.
+2023-09-22 11:04:41.007 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:198 - Failed to connect to the camera.
+2023-09-22 11:04:41.082 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:198 - Failed to connect to the camera.
+2023-09-22 11:04:41.083 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:230 - Capture open failures reached 10. Exiting the program...
+2023-09-22 11:05:08.513 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 11:05:09.154 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/d48d3390-4bad-400f-be99-c79af89c3b08.jpg
+2023-09-22 11:05:47.859 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 11:05:48.282 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/253cc27f-951e-466c-89ce-4328109e7f70.jpg
+2023-09-22 11:06:26.298 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 11:06:27.138 | INFO     | imagelive.management.commands.camera_recognize_background:save_image:172 - Saved image to images/frames/e48c272c-dbaa-4de9-a1dd-0b63e81b2efe.jpg
+2023-09-22 11:07:04.903 | INFO     | imagelive.management.commands.camera_recognize_background:recognize_face:95 - Face ID 1 is verified as the same person.
+2023-09-22 11:07:09.492 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 11:07:09.493 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 11:07:09.494 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 11:07:09.494 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 11:07:09.495 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 11:07:09.495 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 11:07:09.495 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 11:07:09.496 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 11:07:09.496 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 11:07:09.497 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:210 - Failed to capture frame.
+2023-09-22 11:07:09.497 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:227 - Read frame failures reached 10. Restarting the camera...
+2023-09-22 11:07:09.580 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:198 - Failed to connect to the camera.
+2023-09-22 11:07:09.657 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:198 - Failed to connect to the camera.
+2023-09-22 11:07:09.733 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:198 - Failed to connect to the camera.
+2023-09-22 11:07:09.812 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:198 - Failed to connect to the camera.
+2023-09-22 11:07:09.886 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:198 - Failed to connect to the camera.
+2023-09-22 11:07:09.964 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:198 - Failed to connect to the camera.
+2023-09-22 11:07:10.040 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:198 - Failed to connect to the camera.
+2023-09-22 11:07:10.115 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:198 - Failed to connect to the camera.
+2023-09-22 11:07:10.191 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:198 - Failed to connect to the camera.
+2023-09-22 11:07:10.266 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:198 - Failed to connect to the camera.
+2023-09-22 11:07:10.266 | ERROR    | imagelive.management.commands.camera_recognize_background:background_process:230 - Capture open failures reached 10. Exiting the program...

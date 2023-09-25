@@ -22,6 +22,8 @@ opencv-python = "^4.8.0.76"
 simple-websocket = "^0.10.1"
 loguru = "^0.7.1"
 uuid = "^1.30"
+mysqlclient = "^2.2.0"
+gunicorn = "^21.2.0"
 
 
 [tool.poetry.group.dev.dependencies]
