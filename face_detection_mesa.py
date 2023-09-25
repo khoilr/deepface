@@ -14,7 +14,7 @@ from deepface import DeepFace
 # Constants
 LOG_FILE = "camera.log"
 FACES_CSV_FILE = "faces.csv"
-PERSON_CSV_FILE = "persons.csv"
+PERSONS_CSV_FILE = "persons.csv"
 URL = "rtsp://0.tcp.ap.ngrok.io:15592/user:1cinnovation;pwd:1cinnovation123"
 FRAME_PATH = "images/frames"
 MAX_WORKERS = 4
@@ -31,7 +31,7 @@ df_faces: pd.DataFrame = (
     else pd.DataFrame(columns=["Datetime", "Frame File Path", "Confidence", "X", "Y", "Width", "Height", "Face ID"])
 )
 df_persons: pd.DataFrame = (
-    pd.read_csv(PERSON_CSV_FILE) if os.path.exists(PERSON_CSV_FILE) else pd.DataFrame(columns=["Face ID", "Name"])
+    pd.read_csv(PERSONS_CSV_FILE) if os.path.exists(PERSONS_CSV_FILE) else pd.DataFrame(columns=["Face ID", "Name"])
 )
 
 
@@ -107,9 +107,9 @@ def recognize_face(frame):
     new_id = max_id + 1
     new_row = {"Face ID": new_id, "Name": new_id}
     df_persons.loc[len(df_persons)] = new_row
-    df_persons.to_csv(PERSON_CSV_FILE, index=False)
+    df_persons.to_csv(PERSONS_CSV_FILE, index=False)
 
-    return max_id + 1
+    return new_id
 
 
 # Process and save faces detected in a frame
