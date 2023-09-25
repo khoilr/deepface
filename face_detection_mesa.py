@@ -16,7 +16,7 @@ LOG_FILE = "camera.log"
 FACES_CSV_FILE = "faces.csv"
 PERSONS_CSV_FILE = "persons.csv"
 URL = "rtsp://0.tcp.ap.ngrok.io:15592/user:1cinnovation;pwd:1cinnovation123"
-FRAME_PATH = "images/frames"
+FRAME_PATH = "camera_web/static/images/frames"
 MAX_WORKERS = 4
 MAX_CAP_OPEN_FAILURES = 10
 MAX_READ_FRAME_FAILURES = 10
@@ -28,10 +28,10 @@ FACE_THRESHOLD = 5
 df_faces: pd.DataFrame = (
     pd.read_csv(FACES_CSV_FILE)
     if os.path.exists(FACES_CSV_FILE)
-    else pd.DataFrame(columns=["Datetime", "Frame File Path", "Confidence", "X", "Y", "Width", "Height", "Face ID"])
+    else pd.DataFrame(columns=["DateTime", "FrameFilePath", "Confidence", "X", "Y", "Width", "Height", "FaceID"])
 )
 df_persons: pd.DataFrame = (
-    pd.read_csv(PERSONS_CSV_FILE) if os.path.exists(PERSONS_CSV_FILE) else pd.DataFrame(columns=["Face ID", "Name"])
+    pd.read_csv(PERSONS_CSV_FILE) if os.path.exists(PERSONS_CSV_FILE) else pd.DataFrame(columns=["FaceID", "Name"])
 )
 
 
@@ -41,7 +41,7 @@ logger.add(LOG_FILE, rotation="500 MB")
 
 def recognize_face(frame):
     # Extract distinct value of face ID
-    distinct_face_id = df_faces["Face ID"].dropna().unique()
+    distinct_face_id = df_faces["FaceID"].dropna().unique()
 
     # Shuffle distinct face ID
     np.random.shuffle(distinct_face_id)
@@ -52,7 +52,7 @@ def recognize_face(frame):
     # Iterate through distinct face ID
     for face_id in distinct_face_id:
         # Get image paths of this face ID
-        paths = df_faces.loc[df_faces["Face ID"] == face_id]["Frame File Path"].values
+        paths = df_faces.loc[df_faces["FaceID"] == face_id]["FrameFilePath"].values
 
         # threshold is the minimum of number of paths and FACE_THRESHOLD
         if len(paths) < FACE_THRESHOLD:
@@ -105,7 +105,7 @@ def recognize_face(frame):
     logger.info(f"Face ID {max_id + 1} is verified as a new person.")
 
     new_id = max_id + 1
-    new_row = {"Face ID": new_id, "Name": new_id}
+    new_row = {"FaceID": new_id, "Name": new_id}
     df_persons.loc[len(df_persons)] = new_row
     df_persons.to_csv(PERSONS_CSV_FILE, index=False)
 
@@ -145,7 +145,7 @@ def detect_faces(frame):
             # Create row to add to df_faces
             new_face_row = {
                 "Datetime": str(pd.Timestamp.now()),
-                "Frame File Path": frame_path,
+                "FrameFilePath": frame_path,
                 "Confidence": face["confidence"],
                 "X": face["facial_area"]["x"],
                 "Y": face["facial_area"]["y"],
@@ -160,7 +160,7 @@ def detect_faces(frame):
         # Wait for all background tasks to complete and process their results
         for new_face_row, future in futures:
             face_id = future.result()
-            new_face_row["Face ID"] = face_id
+            new_face_row["FaceID"] = face_id
             df_faces.loc[len(df_faces)] = new_face_row
 
         if is_change:
@@ -193,14 +193,14 @@ def main():
     read_frame_failures_counter = 0
     cap_open_counter = 0
 
-    # Clear 'images/processing' directory if it already exists
-    if os.path.exists("images/processing"):
-        for image in os.listdir("images/processing"):
-            os.remove(f"images/processing/{image}")
+    # # Clear 'images/processing' directory if it already exists
+    # if os.path.exists("images/processing"):
+    #     for image in os.listdir("images/processing"):
+    #         os.remove(f"images/processing/{image}")
 
     # Create directories for storing images
     os.makedirs(FRAME_PATH, exist_ok=True)
-    os.makedirs("images/processing", exist_ok=True)
+    # os.makedirs("images/processing", exist_ok=True)
 
     while cap_open_counter < MAX_CAP_OPEN_FAILURES:
         cap = cv2.VideoCapture(URL)
@@ -227,7 +227,7 @@ def main():
             frame_counter += 1
 
             if frame_counter % FRAME_FREQUENCY == 0:
-                cv2.imwrite(f"frame.jpg", frame)
+                # cv2.imwrite(f"frame.jpg", frame)
                 detect_faces(frame)  # Sequential
                 # executor.submit(detect_faces, frame)  # Parallel
 

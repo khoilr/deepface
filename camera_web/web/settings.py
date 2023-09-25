@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 from pathlib import Path
-from camera_web.web.config.config import *
+from web.config.config import *
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.

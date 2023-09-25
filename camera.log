@@ -1,248 +1,38 @@
-2023-09-25 03:45:22.604 | INFO     | __main__:main:213 - Connected to the camera.
-2023-09-25 03:47:32.413 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 03:47:32.415 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 03:48:17.347 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 03:49:25.891 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 03:49:25.892 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 03:54:43.041 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 03:54:43.073 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 03:56:04.926 | INFO     | __main__:save_image:182 - Saved image to images/frames/c7f7ebbe-f4db-4ffd-b5e8-31b31a817f80.jpg
-2023-09-25 03:56:05.057 | INFO     | __main__:recognize_face:105 - Face ID 1 is verified as a new person.
-2023-09-25 03:57:24.870 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 03:57:37.497 | INFO     | __main__:save_image:182 - Saved image to images/frames/4b3a2bb3-d400-452d-8ad0-b818a2af7324.jpg
-2023-09-25 03:57:47.583 | INFO     | __main__:recognize_face:99 - Face ID 1 is verified as the same person.
-2023-09-25 04:00:23.295 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:00:23.297 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:02:18.873 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:02:28.514 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:02:28.541 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:05:10.461 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:05:10.521 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:05:10.529 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:05:10.545 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:05:10.572 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:05:10.611 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:05:10.632 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:05:10.633 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:05:10.640 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:05:10.655 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:05:10.656 | ERROR    | __main__:main:238 - Read frame failures reached 10. Restarting the camera...
-2023-09-25 04:05:40.682 | ERROR    | __main__:main:209 - Failed to connect to the camera.
-2023-09-25 04:05:42.452 | INFO     | __main__:main:213 - Connected to the camera.
-2023-09-25 04:09:16.333 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:09:16.336 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:13:37.958 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:13:37.960 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:13:38.045 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:17:19.515 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:18:11.907 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:18:36.105 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:18:36.107 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:19:25.019 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:19:57.457 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:19:57.458 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:21:15.428 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:21:15.446 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:21:52.669 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:25:50.964 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:27:47.651 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:27:47.653 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:27:54.301 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:31:10.740 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:31:10.741 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:33:01.593 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:33:01.596 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:34:50.200 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:34:50.247 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:36:05.763 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:36:05.765 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:37:46.482 | INFO     | __main__:save_image:182 - Saved image to images/frames/0b9811ee-6e40-4aaf-8d6f-ecc4b1e905c8.jpg
-2023-09-25 04:37:58.627 | INFO     | __main__:recognize_face:105 - Face ID 2 is verified as a new person.
-2023-09-25 04:37:58.783 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:37:58.784 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:37:59.030 | INFO     | __main__:save_image:182 - Saved image to images/frames/b837b4df-84bf-4b10-8fd8-52fa39f26d6c.jpg
-2023-09-25 04:38:08.769 | INFO     | __main__:recognize_face:99 - Face ID 2 is verified as the same person.
-2023-09-25 04:42:34.297 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:42:34.299 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:45:48.588 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:46:12.711 | INFO     | __main__:save_image:182 - Saved image to images/frames/9c0932ca-bb7a-4bda-aba0-813ca85d260c.jpg
-2023-09-25 04:46:29.626 | INFO     | __main__:recognize_face:99 - Face ID 1 is verified as the same person.
-2023-09-25 04:46:52.577 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:46:52.582 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:47:31.367 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:47:31.369 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:47:31.370 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:47:31.371 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:47:31.373 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:47:31.412 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:47:31.414 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:47:31.415 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:47:31.416 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:47:31.446 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:47:31.447 | ERROR    | __main__:main:238 - Read frame failures reached 10. Restarting the camera...
-2023-09-25 04:48:01.532 | ERROR    | __main__:main:209 - Failed to connect to the camera.
-2023-09-25 04:48:31.614 | ERROR    | __main__:main:209 - Failed to connect to the camera.
-2023-09-25 04:49:01.695 | ERROR    | __main__:main:209 - Failed to connect to the camera.
-2023-09-25 04:49:31.773 | ERROR    | __main__:main:209 - Failed to connect to the camera.
-2023-09-25 04:50:01.855 | ERROR    | __main__:main:209 - Failed to connect to the camera.
-2023-09-25 04:50:31.932 | ERROR    | __main__:main:209 - Failed to connect to the camera.
-2023-09-25 04:50:42.215 | INFO     | __main__:main:213 - Connected to the camera.
-2023-09-25 04:51:33.855 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 04:51:33.857 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:01:37.869 | INFO     | __main__:save_image:182 - Saved image to images/frames/c48e860f-a487-4fae-999c-e43eedab85d4.jpg
-2023-09-25 05:01:55.295 | INFO     | __main__:recognize_face:99 - Face ID 1 is verified as the same person.
-2023-09-25 05:03:24.273 | INFO     | __main__:save_image:182 - Saved image to images/frames/979940e1-1cae-4bf0-9e4b-b48eba2fdad2.jpg
-2023-09-25 05:03:45.757 | INFO     | __main__:recognize_face:99 - Face ID 1 is verified as the same person.
-2023-09-25 05:06:52.689 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:06:52.691 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:08:49.886 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:08:49.887 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:16:51.944 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:16:51.945 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:18:38.188 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:18:38.193 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:21:19.507 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:21:31.678 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:21:31.680 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:21:58.806 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:21:58.980 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:22:21.713 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:22:21.714 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:24:11.807 | INFO     | __main__:save_image:182 - Saved image to images/frames/f79bd321-60f0-44e3-84bf-b844456ac419.jpg
-2023-09-25 05:24:36.496 | INFO     | __main__:recognize_face:99 - Face ID 1 is verified as the same person.
-2023-09-25 05:24:36.963 | INFO     | __main__:save_image:182 - Saved image to images/frames/66da772b-2329-4a2d-adde-a4f0cf35c75e.jpg
-2023-09-25 05:25:01.717 | INFO     | __main__:recognize_face:99 - Face ID 1 is verified as the same person.
-2023-09-25 05:25:02.178 | INFO     | __main__:save_image:182 - Saved image to images/frames/4e79f0f4-dff5-4d19-b431-ea226d9c7d04.jpg
-2023-09-25 05:25:26.976 | INFO     | __main__:recognize_face:99 - Face ID 1 is verified as the same person.
-2023-09-25 05:25:27.442 | INFO     | __main__:save_image:182 - Saved image to images/frames/3ffddb99-4a72-4f7e-a705-576e1a57f947.jpg
-2023-09-25 05:25:53.010 | INFO     | __main__:recognize_face:99 - Face ID 1 is verified as the same person.
-2023-09-25 05:25:53.494 | INFO     | __main__:save_image:182 - Saved image to images/frames/7d1bc311-134a-447f-94f3-9cb13529d877.jpg
-2023-09-25 05:26:18.214 | INFO     | __main__:recognize_face:99 - Face ID 1 is verified as the same person.
-2023-09-25 05:26:18.644 | INFO     | __main__:save_image:182 - Saved image to images/frames/82786edb-2311-4cc3-8b6a-e7478b5bc30c.jpg
-2023-09-25 05:26:43.194 | INFO     | __main__:recognize_face:99 - Face ID 1 is verified as the same person.
-2023-09-25 05:27:30.000 | INFO     | __main__:save_image:182 - Saved image to images/frames/cc3e6847-9265-44df-8e2b-790c7e3eab03.jpg
-2023-09-25 05:27:54.769 | INFO     | __main__:recognize_face:99 - Face ID 1 is verified as the same person.
-2023-09-25 05:27:55.266 | INFO     | __main__:save_image:182 - Saved image to images/frames/9174dd06-3497-47ff-987e-3af07e1ea527.jpg
-2023-09-25 05:28:19.374 | INFO     | __main__:recognize_face:99 - Face ID 1 is verified as the same person.
-2023-09-25 05:31:22.403 | INFO     | __main__:save_image:182 - Saved image to images/frames/e4479ba1-3574-4ff4-9aa9-01900986abc1.jpg
-2023-09-25 05:31:46.787 | INFO     | __main__:recognize_face:99 - Face ID 1 is verified as the same person.
-2023-09-25 05:32:14.991 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:37:55.681 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:37:55.683 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:38:48.465 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:38:48.476 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:38:52.926 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:38:52.929 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:40:04.612 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:41:00.428 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:41:10.135 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:41:10.136 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:41:45.203 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:45:09.769 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:45:09.776 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:51:38.306 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:51:38.307 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:53:02.267 | INFO     | __main__:save_image:182 - Saved image to images/frames/642fc88f-538f-4e61-a7c5-550ddd712316.jpg
-2023-09-25 05:53:27.007 | INFO     | __main__:recognize_face:99 - Face ID 1 is verified as the same person.
-2023-09-25 05:55:15.789 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:55:15.814 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:57:50.789 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 05:59:08.833 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:00:13.311 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:00:13.314 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:01:05.888 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:01:05.914 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:03:48.201 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:03:48.203 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:06:05.859 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:07:29.773 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:07:29.774 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:09:21.463 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:09:21.475 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:10:55.120 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:14:19.083 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:14:19.102 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:14:30.016 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:14:30.018 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:15:07.124 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:22:20.703 | INFO     | __main__:save_image:182 - Saved image to images/frames/4df7e10b-015b-40a8-82a0-6a50ce2d44dd.jpg
-2023-09-25 06:22:44.346 | INFO     | __main__:recognize_face:99 - Face ID 1 is verified as the same person.
-2023-09-25 06:23:58.996 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:29:16.308 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:31:12.049 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:31:12.050 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:35:11.727 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:35:11.730 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:37:55.982 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:39:33.037 | INFO     | __main__:save_image:182 - Saved image to images/frames/732cf446-64dd-4ca1-94b7-a4fcca2d2716.jpg
-2023-09-25 06:39:46.028 | INFO     | __main__:recognize_face:99 - Face ID 2 is verified as the same person.
-2023-09-25 06:40:43.282 | INFO     | __main__:save_image:182 - Saved image to images/frames/dc8e0b28-0567-4b7f-bdb2-bde5339a87dd.jpg
-2023-09-25 06:41:10.766 | INFO     | __main__:recognize_face:105 - Face ID 3 is verified as a new person.
-2023-09-25 06:41:11.209 | INFO     | __main__:save_image:182 - Saved image to images/frames/66c11af5-9f6d-496b-950f-1e3c43297a43.jpg
-2023-09-25 06:41:40.120 | INFO     | __main__:recognize_face:99 - Face ID 3 is verified as the same person.
-2023-09-25 06:41:40.932 | INFO     | __main__:save_image:182 - Saved image to images/frames/d6825656-647f-42aa-a85e-d18f90f351ab.jpg
-2023-09-25 06:42:12.731 | INFO     | __main__:recognize_face:99 - Face ID 3 is verified as the same person.
-2023-09-25 06:42:13.154 | INFO     | __main__:save_image:182 - Saved image to images/frames/3a16e9eb-8b6b-49f1-ba88-6d39436a22b0.jpg
-2023-09-25 06:42:28.042 | INFO     | __main__:recognize_face:99 - Face ID 2 is verified as the same person.
-2023-09-25 06:42:30.705 | INFO     | __main__:save_image:182 - Saved image to images/frames/cefa8aad-7f4e-4b19-9c68-2fa8d87df816.jpg
-2023-09-25 06:42:47.761 | INFO     | __main__:recognize_face:99 - Face ID 2 is verified as the same person.
-2023-09-25 06:42:48.167 | INFO     | __main__:save_image:182 - Saved image to images/frames/aa6a328d-0cf8-4699-92a2-be943f428a90.jpg
-2023-09-25 06:43:07.861 | INFO     | __main__:recognize_face:99 - Face ID 2 is verified as the same person.
-2023-09-25 06:47:00.496 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:52:25.778 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:55:08.135 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:55:59.953 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:56:12.747 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:56:12.748 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 06:57:11.543 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:02:02.676 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:12:16.269 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:12:16.271 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:15:56.694 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:15:56.696 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:18:13.375 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:18:13.376 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:18:13.377 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:18:13.378 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:18:13.378 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:18:13.379 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:18:13.380 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:18:13.380 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:18:13.381 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:18:13.382 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:18:13.382 | ERROR    | __main__:main:238 - Read frame failures reached 10. Restarting the camera...
-2023-09-25 07:18:28.521 | INFO     | __main__:main:213 - Connected to the camera.
-2023-09-25 07:25:45.112 | INFO     | __main__:save_image:182 - Saved image to images/frames/f1b4940a-3a12-4757-9589-beafb19b2d86.jpg
-2023-09-25 07:26:03.928 | INFO     | __main__:recognize_face:99 - Face ID 2 is verified as the same person.
-2023-09-25 07:26:04.341 | INFO     | __main__:save_image:182 - Saved image to images/frames/835ab81c-7d60-4369-b607-d852da14d981.jpg
-2023-09-25 07:26:24.396 | INFO     | __main__:recognize_face:99 - Face ID 2 is verified as the same person.
-2023-09-25 07:26:24.541 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:26:24.542 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:26:24.796 | INFO     | __main__:save_image:182 - Saved image to images/frames/93ac166e-0ba0-4e3e-8133-37f7a768cca3.jpg
-2023-09-25 07:26:44.627 | INFO     | __main__:recognize_face:99 - Face ID 2 is verified as the same person.
-2023-09-25 07:26:45.063 | INFO     | __main__:save_image:182 - Saved image to images/frames/17b3cef1-31cd-4e2c-8682-ba8ede5da013.jpg
-2023-09-25 07:27:05.528 | INFO     | __main__:recognize_face:99 - Face ID 2 is verified as the same person.
-2023-09-25 07:27:06.482 | INFO     | __main__:save_image:182 - Saved image to images/frames/28e5848f-8950-4334-96eb-3f39c4e9448f.jpg
-2023-09-25 07:27:26.098 | INFO     | __main__:recognize_face:99 - Face ID 2 is verified as the same person.
-2023-09-25 07:27:26.515 | INFO     | __main__:save_image:182 - Saved image to images/frames/ea1a4162-a727-4d41-82f6-ca52e03d3afc.jpg
-2023-09-25 07:27:45.944 | INFO     | __main__:recognize_face:99 - Face ID 2 is verified as the same person.
-2023-09-25 07:27:46.354 | INFO     | __main__:save_image:182 - Saved image to images/frames/6ae52317-bb87-4673-91bb-48affe15cee4.jpg
-2023-09-25 07:28:06.686 | INFO     | __main__:recognize_face:99 - Face ID 2 is verified as the same person.
-2023-09-25 07:28:12.755 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:29:28.112 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:29:28.114 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:29:57.706 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:30:35.104 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:30:35.105 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:36:12.137 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:36:29.412 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:37:25.714 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:37:38.795 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:37:38.798 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:38:35.117 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:41:49.599 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:41:49.600 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:44:17.050 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:44:17.052 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:45:35.448 | ERROR    | __main__:main:221 - Failed to capture frame.
-2023-09-25 07:45:35.450 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 08:21:54.525 | INFO     | __main__:main:213 - Connected to the camera.
+2023-09-25 08:24:57.445 | INFO     | __main__:save_image:182 - Saved image to camera_web/static/images/frames/52413eb6-9a8a-42ff-8845-e0f4a9b2727d.jpg
+2023-09-25 08:24:57.580 | INFO     | __main__:recognize_face:105 - Face ID 1 is verified as a new person.
+2023-09-25 08:24:57.923 | INFO     | __main__:save_image:182 - Saved image to camera_web/static/images/frames/ce95c99f-5ad1-4d48-a918-fb26c84d1b34.jpg
+2023-09-25 08:25:08.020 | INFO     | __main__:recognize_face:105 - Face ID 2 is verified as a new person.
+2023-09-25 08:25:08.391 | INFO     | __main__:save_image:182 - Saved image to camera_web/static/images/frames/af708609-2f12-43f1-9747-fd56e949e074.jpg
+2023-09-25 08:25:20.577 | INFO     | __main__:recognize_face:99 - Face ID 2 is verified as the same person.
+2023-09-25 08:25:20.941 | INFO     | __main__:save_image:182 - Saved image to camera_web/static/images/frames/bd4d0c7e-0583-4cb0-9bff-322a594aaa51.jpg
+2023-09-25 08:25:30.463 | INFO     | __main__:recognize_face:99 - Face ID 1 is verified as the same person.
+2023-09-25 08:25:30.839 | INFO     | __main__:save_image:182 - Saved image to camera_web/static/images/frames/f8db7231-7766-4b52-8424-b6efbd938c6c.jpg
+2023-09-25 08:25:47.439 | INFO     | __main__:recognize_face:105 - Face ID 3 is verified as a new person.
+2023-09-25 08:25:47.832 | INFO     | __main__:save_image:182 - Saved image to camera_web/static/images/frames/03dc9ea1-8eab-49e4-81c4-999ce88dced4.jpg
+2023-09-25 08:26:07.152 | INFO     | __main__:recognize_face:99 - Face ID 2 is verified as the same person.
+2023-09-25 08:26:07.588 | INFO     | __main__:save_image:182 - Saved image to camera_web/static/images/frames/c144d195-a7b5-41c0-ae46-9fb3d7483503.jpg
+2023-09-25 08:26:29.494 | INFO     | __main__:recognize_face:99 - Face ID 2 is verified as the same person.
+2023-09-25 08:26:29.910 | INFO     | __main__:save_image:182 - Saved image to camera_web/static/images/frames/47677ca4-42f7-4e82-b1da-2038ecda7da0.jpg
+2023-09-25 08:26:53.050 | INFO     | __main__:recognize_face:99 - Face ID 2 is verified as the same person.
+2023-09-25 08:26:53.443 | INFO     | __main__:save_image:182 - Saved image to camera_web/static/images/frames/c1f567e2-a6e1-4c4c-876c-73155aedd2a0.jpg
+2023-09-25 08:27:19.876 | INFO     | __main__:recognize_face:99 - Face ID 2 is verified as the same person.
+2023-09-25 08:28:23.333 | INFO     | __main__:save_image:182 - Saved image to camera_web/static/images/frames/63ccfa54-ff91-4f54-b827-a9947db88337.jpg
+2023-09-25 08:28:50.351 | INFO     | __main__:recognize_face:105 - Face ID 4 is verified as a new person.
+2023-09-25 08:28:50.773 | INFO     | __main__:save_image:182 - Saved image to camera_web/static/images/frames/7f2739f0-f246-429b-a818-a5423ea36dd6.jpg
+2023-09-25 08:29:21.533 | INFO     | __main__:recognize_face:105 - Face ID 5 is verified as a new person.
+2023-09-25 08:29:21.945 | INFO     | __main__:save_image:182 - Saved image to camera_web/static/images/frames/be459345-bd61-4390-af1b-a522706effe2.jpg
+2023-09-25 08:29:39.432 | INFO     | __main__:recognize_face:99 - Face ID 5 is verified as the same person.
+2023-09-25 08:29:41.702 | INFO     | __main__:save_image:182 - Saved image to camera_web/static/images/frames/2dc5a8c6-c87f-4f2f-84aa-2444ed664eff.jpg
+2023-09-25 08:30:01.733 | INFO     | __main__:recognize_face:99 - Face ID 5 is verified as the same person.
+2023-09-25 08:30:02.144 | INFO     | __main__:save_image:182 - Saved image to camera_web/static/images/frames/917c870d-eea8-459c-95d8-4cb662587de7.jpg
+2023-09-25 08:30:11.950 | INFO     | __main__:recognize_face:99 - Face ID 4 is verified as the same person.
+2023-09-25 08:30:12.318 | INFO     | __main__:save_image:182 - Saved image to camera_web/static/images/frames/6dbf8c6e-6dfd-4801-8453-ba5d9e9a2d0e.jpg
+2023-09-25 08:30:36.937 | INFO     | __main__:recognize_face:99 - Face ID 5 is verified as the same person.
+2023-09-25 08:31:57.846 | INFO     | __main__:save_image:182 - Saved image to camera_web/static/images/frames/3de2749a-284a-4592-82aa-e3690a8bbe4e.jpg
+2023-09-25 08:32:11.006 | INFO     | __main__:recognize_face:99 - Face ID 4 is verified as the same person.
+2023-09-25 08:35:04.183 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 08:35:40.172 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 08:35:40.174 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 08:35:44.486 | ERROR    | __main__:main:221 - Failed to capture frame.
+2023-09-25 08:36:44.431 | INFO     | __main__:save_image:182 - Saved image to camera_web/static/images/frames/859ff736-9b50-4cdd-bb8a-7aa27d083789.jpg
