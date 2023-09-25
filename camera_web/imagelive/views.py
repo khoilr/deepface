@@ -103,16 +103,6 @@ def mask_feed_video(request):
                                  content_type='multipart/x-mixed-replace; boundary=frame')
 
 
-def getImage(request,):
-    slug="0baafcfe-24a8-4752-a59d-375d835fc087.jpg"
-    print(slug)
-    cam_dir_parent = pathlib.Path.cwd().parent
-    image_path = cam_dir_parent.joinpath('images/frames')
-    img = open(image_path + str, 'rb')
-    respond = FileResponse(img)
-
-    return respond
-
 
 def test_video(request) -> HttpResponse:
     """
