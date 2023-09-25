@@ -1,15 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-  <div style = "text-align: center;">
-  <h1 >Camera Live Stream</h1>
-   <img  src="{% url 'mask_feed_video' %}">
-  </div>
+{% extends "base.html" %}
+{% block content %}
+<body class="px-2">
+<div style="text-align: center;">
+    <h1 class="text-lg font-semibold">Camera Live Stream</h1>
+    <div class="grid grid-cols-2 mt-4 space-x-2">
+        <img style="margin-left:50%;transform:translateX(-50%)" src="{% url 'mask_feed_video' %}">
+        <div class="flex flex-col">
+            <span class="mt-2 font-semibold">Detected People</span>
+            <!--Person Table Display-->
+            <table class="table-auto border-collapse border border-slate-400">
+                <thead>
+                <tr>
+                    <th class="border border-slate-300 bg-slate-500">Face ID</th>
+                    <th class="border border-slate-300 bg-slate-500">Name</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for person in persons %}
+                <tr>
+                    <td class="border border-slate-300">{{person.FaceID}}</td>
+                    <td class="border border-slate-300">{{person.Name}}</td>
+                </tr>
+
+                {% endfor %}
+                </tbody>
+            </table>
+            <span class="mt-2 font-semibold">Detected Face</span>
+            <!--Face Table Display-->
+            <table class="table-auto border-collapse border border-slate-400">
+                <thead>
+                <tr>
+                    <th class="border border-slate-300 bg-slate-50">DateTime</th>
+                    <th class="border border-slate-300 bg-slate-50">File Path</th>
+                    <th class="border border-slate-300 bg-slate-50">Confidence</th>
+                    <th class="border border-slate-300 bg-slate-50">ID</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                {% for face in faces %}
+                <tr>
+                    <td class="border border-slate-300">{{face.Datetime}}</td>
+                    <td class="border border-slate-300">
+                        <img src="/static/{{face.FrameFilePath}}">
+                    </td>
+                    <td class="border border-slate-300">{{face.Confidence}}</td>
+                    <td class="border border-slate-300">{{face.FaceID}}</td>
+                    <!--                    {{face}}-->
+
+                </tr>
+
+                {% endfor %}
+                </tbody>
+            </table>
+
+
+        </div>
+    </div>
+
+
+</div>
+<script>
+    const faces={{ faces | safe }};
+    const persons= {{persons | safe}};
+    console.log(faces);
+    console.log(persons);
+</script>
 </body>
-</html>
+{% endblock %}

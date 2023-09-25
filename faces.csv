@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Datetime,Frame File Path,Confidence,X,Y,Width,Height,Face ID
 2023-09-25 03:56:04.929837,images/frames/c7f7ebbe-f4db-4ffd-b5e8-31b31a817f80.jpg,6.017549937881995,488,562,55,55,1
 2023-09-25 03:57:37.498252,images/frames/4b3a2bb3-d400-452d-8ad0-b818a2af7324.jpg,4.404106018540915,502,555,55,55,1
@@ -31,3 +32,7 @@ Datetime,Frame File Path,Confidence,X,Y,Width,Height,Face ID
 2023-09-25 07:27:06.484127,images/frames/28e5848f-8950-4334-96eb-3f39c4e9448f.jpg,2.9019341621897183,270,162,105,105,2
 2023-09-25 07:27:26.516648,images/frames/ea1a4162-a727-4d41-82f6-ca52e03d3afc.jpg,3.0298711556824856,271,162,104,104,2
 2023-09-25 07:27:46.355374,images/frames/6ae52317-bb87-4673-91bb-48affe15cee4.jpg,2.9019341621897183,271,162,104,104,2
+=======
+Datetime,FrameFilePath,Confidence,X,Y,Width,Height,FaceID
+2023-09-25 02:44:28.752836,images/frames/f49fa0db-9b86-40ca-928f-a3391b8f5afa.jpg,1.1105650853714906,837,139,48,48,1
+>>>>>>> refs/remotes/origin/master
