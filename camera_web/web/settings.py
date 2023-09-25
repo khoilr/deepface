@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-nan2_xc6fs_23qwp%32l3)9ef60r_@v2%%_oac78_)d(3zmtgv'
 
-# SECURITY WARNING: don't run with debug turned on in production!
+# SECURITY WARNING: don't run with debug turned on in production
 DEBUG = True
 
 ALLOWED_HOSTS = []
@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # 'tailwind',
-    'imagelive'
+    'imagelive',
+    'images',
 ]
 
 

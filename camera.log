@@ -36,3 +36,5 @@
 2023-09-25 08:35:40.174 | ERROR    | __main__:main:221 - Failed to capture frame.
 2023-09-25 08:35:44.486 | ERROR    | __main__:main:221 - Failed to capture frame.
 2023-09-25 08:36:44.431 | INFO     | __main__:save_image:182 - Saved image to camera_web/static/images/frames/859ff736-9b50-4cdd-bb8a-7aa27d083789.jpg
+2023-09-25 08:37:18.520 | INFO     | __main__:recognize_face:99 - Face ID 3 is verified as the same person.
+2023-09-25 08:37:18.889 | INFO     | __main__:save_image:182 - Saved image to camera_web/static/images/frames/97f59640-b74c-44a3-919f-d930c0be0294.jpg
