@@ -5,11 +5,14 @@ from pprint import pprint
 from typing import Union
 
 import cv2
+import cvzone
+from cvzone.FaceMeshModule import FaceMeshDetector
 import numpy as np
 import pandas as pd
 from loguru import logger
 
 from deepface import DeepFace
+
 
 # Constants
 LOG_FILE = "camera.log"
@@ -112,6 +115,30 @@ def recognize_face(frame):
     return new_id
 
 
+def get_focel_length(URL: str) -> float:
+    cap = cv2.VideoCapture(URL)
+    sucess, img = cap.read()
+    if sucess:
+        cv2.imshow("Image", img)
+        cv2.waitKey(10)
+    W = float(input("Please input the distance between two eyes (cm): "))
+    d = float(input("Please input the distance to the camera (cm): "))
+    detector = FaceMeshDetector(maxFaces=1)
+    while True:
+        sucess, img = cap.read()
+        if sucess:
+            img, faces = detector.findFaceMesh(img=img, draw=False)
+            if faces:
+                face = faces[0]
+                point_left = face[145]
+                point_right = face[374]
+                w, _ = detector.findDistance(point_right,point_left)
+                focal_length = (w*d)/W     # calculate the focal length
+                print(f"{focal_length=}")
+                return focal_length, W
+                
+
+
 # Process and save faces detected in a frame
 def detect_faces(frame):
     # Use global variables
@@ -150,7 +177,7 @@ def detect_faces(frame):
                 "X": face["facial_area"]["x"],
                 "Y": face["facial_area"]["y"],
                 "Width": face["facial_area"]["w"],
-                "Height": face["facial_area"]["h"],
+                "Height": face["facial_area"]["h"]
             }
 
             # Submit the recognize_face function as a background task
@@ -189,6 +216,7 @@ def save_image(frame, dir: str = ".", name: str = None, logger=None) -> Union[st
 
 # Main function to capture frames, process faces, and save results
 def main():
+    focal_length, true_eyes_width = get_focel_length(0)
     frame_counter = 0
     read_frame_failures_counter = 0
     cap_open_counter = 0
@@ -203,8 +231,8 @@ def main():
     # os.makedirs("images/processing", exist_ok=True)
 
     while cap_open_counter < MAX_CAP_OPEN_FAILURES:
-        cap = cv2.VideoCapture(URL)
-
+        cap = cv2.VideoCapture(0) #URLURL
+        detector = FaceMeshDetector()
         if not cap.isOpened():
             logger.error("Failed to connect to the camera.")
             cap_open_counter += 1
@@ -227,8 +255,19 @@ def main():
             frame_counter += 1
 
             if frame_counter % FRAME_FREQUENCY == 0:
+                _, faces = detector.findFaceMesh(img=frame, draw=False)
+                distance = 0
+                if faces:
+                    face = faces[0]
+                    point_left = face[145]
+                    point_right = face[374]
+                    camera_eyes_width, _ = detector.findDistance(point_right,point_left)
+                    distance = round((true_eyes_width*focal_length)/camera_eyes_width,2)
+                    cvzone.putTextRect(frame, f"Distance: {distance}cm", (face[10][0]-75, face[10][1]-50), scale=2)
                 # cv2.imwrite(f"frame.jpg", frame)
-                detect_faces(frame)  # Sequential
+                # detect_faces(frame)  # Sequential
+                cv2.imshow("Image", frame)
+                cv2.waitKey(1)
                 # executor.submit(detect_faces, frame)  # Parallel
 
             if cv2.waitKey(1) == ord("q"):
