@@ -15,7 +15,7 @@ from deepface import DeepFace
 LOG_FILE = "camera.log"
 FACES_CSV_FILE = "faces.csv"
 PERSONS_CSV_FILE = "persons.csv"
-URL = "rtsp://0.tcp.ap.ngrok.io:15592/user:1cinnovation;pwd:1cinnovation123"
+URL = ""
 FRAME_PATH = "camera_web/images/frames"
 MAX_WORKERS = 4
 MAX_CAP_OPEN_FAILURES = 10

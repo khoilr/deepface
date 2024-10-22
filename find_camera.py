@@ -3,7 +3,7 @@ import cv2
 import json
 import multiprocessing
 
-url = "rtsp://admin:admin123122@95bachdang112021.dyndns.org/cam/realmonitor"
+url = ""
 
 manager = multiprocessing.Manager()
 work_cam = manager.list()
